@@ -1,0 +1,3 @@
+@SIG, @BPM, @TON : modifiers.
+If written in song structure, have effect on all following sections.
+If written in cycle, only have effect within the cycle.
