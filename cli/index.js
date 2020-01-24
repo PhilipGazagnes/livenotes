@@ -37,7 +37,7 @@ function trackToArr(sc) {
 
 
 function trackInstrToObj(sc) {
-  const str = sc.replace(/\s/g, '');
+  const str = removeBlanks(sc);
   const arr = str.split('@');
   if (!str.startsWith('@')) {
     const cycle = arr[0].split('*');
@@ -62,16 +62,59 @@ function trackInstrToObj(sc) {
   }
 }
 
-function bpmFromModifier(sc) {
-  return sc;
+
+function cyclesToObj(sc) { // typeof sc = array
+  const cyclesOutput = {
+    add(payload) {
+      this[payload.key] = payload.value;
+    }
+  };
+  for (let i = 0; i < sc.length; i += 1) {
+    cyclesOutput.add(cycle(sc[i]));
+  }
+  return cyclesOutput;
+
+
+  function cycle(sc) {
+    const arr = sc.split('\n');
+    if (!arr[0].startsWith('_')) throw 'cycle description must start with a "_"';
+    
+    const cycleOutput = {
+      key: arr[0].substr(1),
+    };
+
+    const phases = [{
+      chords: [],
+    }];
+    let phasesCount = 1;
+    for (let i = 1; i < arr.length; i += 1) {
+      if (arr[i].startsWith('/')) {
+        const spl = arr[i].split('*');
+        phases[phasesCount - 1].repeats = spl[1] ? spl[1] : 1;
+        phasesCount = phasesCount + 1;
+        if (i < arr.length - 1) {
+          phases.push({
+            chords: [],
+          });
+        }
+      } else {
+        const spl = arr[i].split(',');
+        phases[phasesCount - 1].chords.push({
+          chord: spl[0],
+          beats: spl[1],
+        });
+        if (i === arr.length - 1) {
+          phases[phasesCount - 1].repeats = 1;
+        } 
+      } 
+    }
+    
+    cycleOutput.value = phases;
+    return cycleOutput;
+  }
 }
 
-function cyclesToObj(sc) {
-  return sc;
-}
 
-function getBpm(str) {
-  return str
+function removeBlanks(str) {
+  return str.replace(/\s/g, '');
 }
-
-// build html
