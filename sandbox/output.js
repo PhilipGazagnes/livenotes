@@ -1,13 +1,27 @@
 const outpt = {
-  sections: [
+  track: [
     {
-      tag: 'R',
-      tempo: 192,
-      length: [
-        measures: 2,
-        beats: 2,
-      ],
-    }
+      cycle: 'R',
+      bpm: 105,
+      repeat: 4,
+      substract: 0,
+      toneVar: 0,
+    },
+    {
+      cycle: 'C',
+      bpm: 105,
+      repeat: 1,
+      substract: 0,
+      toneVar: 0,
+    },
+    {
+      cycle: 'SG',
+      bpm: 105,
+      repeat: 2,
+      substract: 0,
+      toneVar: 0,
+    },
+    ...
   ],
   cycles: {
     R: {
