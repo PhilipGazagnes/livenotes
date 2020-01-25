@@ -1,0 +1,10 @@
+{
+  "name": "livenotes",
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate"
+  },
+    "devDependencies": {
+    "nuxt": "^2.11.0"
+  }
+}
