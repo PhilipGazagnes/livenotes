@@ -4,12 +4,18 @@ const trackParams = {
 };
 
 
+let lyrics = {};
+
+
 function scToObj(sc) {
   const sections = sc.split('\n\n');
+  lyrics = lyricsToObj(sections.filter(
+    item => item.startsWith('$')
+  ));
   return {
     track: trackToArr(sections[0]),
     cycles: cyclesToObj(sections.filter(
-      item => sections.indexOf(item) !== 0
+      item => item.startsWith('_')
     )),
   };
 }
@@ -29,13 +35,14 @@ function trackToArr(sc) {
 }
 
 
-function trackInstrToObj(sc) {
-  const str = removeBlanks(sc);
-  const arr = str.split('@');
+function trackInstrToObj(scStr) {
+  const str = removeBlanks(scStr);
+  const split1 = str.split('$');
+  const arr = split1[0].split('@');
   if (!str.startsWith('@')) {
     const cycle = arr[0].split('*');
     const cycleParams = {}
-    const modifiers = arr.filter(item => arr.indexOf(item) !== 0);
+    const modifiers = arr.filter(item => arr.indexOf(item) > 0);
     for (let i = 0, len = modifiers.length; i < len; i += 1) {
       const values = modifiers[i].split(':');
       cycleParams[values[0]] = values[1];
@@ -46,6 +53,7 @@ function trackInstrToObj(sc) {
       BPM: cycleParams.BPM ? cycleParams.BPM : trackParams.BPM,
       TON: cycleParams.TON ? cycleParams.TON : trackParams.TON,
       LEN: cycleParams.LEN ? cycleParams.LEN : 0,
+      lyrics: split1[1] ? lyrics[split1[1]] : undefined,
     };
   } else {
     for (let i = 0, len = arr.length; i < len; i += 1) {
@@ -56,18 +64,18 @@ function trackInstrToObj(sc) {
 }
 
 
-function cyclesToObj(sc) { // typeof sc = array
+function cyclesToObj(scArr) {
   const cyclesOutput = {
     add(payload) {
       this[payload.key] = payload.value;
     }
   };
-  for (let i = 0; i < sc.length; i += 1) {
-    cyclesOutput.add(cycle(sc[i]));
+  for (let i = 0; i < scArr.length; i += 1) {
+    cyclesOutput.add(cycle(scArr[i]));
   }
   return cyclesOutput;
-  function cycle(sc) {
-    const arr = sc.split('\n');
+  function cycle(scStr) {
+    const arr = scStr.split('\n');
     if (!arr[0].startsWith('_'))
       throw 'cycle description must start with a "_"';
     const cycleOutput = {
@@ -101,6 +109,24 @@ function cyclesToObj(sc) { // typeof sc = array
     cycleOutput.value = phases;
     return cycleOutput;
   }
+}
+
+
+function lyricsToObj(scArr) {
+  const lyricsOutput = {
+    add(payload) {
+      this[payload.key] = payload.value;
+    }
+  }
+  for (let i = 0, len = scArr.length; i < len; i += 1) {
+    const str = scArr[i];
+    const arr = str.split('\n');
+    lyricsOutput.add({
+      key: arr[0].substr(1),
+      value: arr.filter(item => arr.indexOf(item) > 0),
+    })
+  }
+  return lyricsOutput;
 }
 
 

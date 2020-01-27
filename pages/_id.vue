@@ -1,18 +1,21 @@
 <template>
   <div>
     <nuxt-link to="/">back</nuxt-link>
-    <h1>TOTO</h1>
-    {{songData[0]}}
+    <!-- <h1>{{ meta }}</h1> -->
+    {{songData.track}}
+    {{songData.cycles}}
   </div>
 </template>
 
 <script>
-
 export default {
   async asyncData({params}) {
-    const json = await import(`./../data/sc/${params.id}.json`);
+    // const listJson = await import(`./../data/json/index.json`);
+    const songJson = await import(`./../data/json/${params.id}.json`);
     return {
-      songData: json,
+      // id: params.id,
+      // listData: listJson,
+      songData: songJson,
     }
   },
 }

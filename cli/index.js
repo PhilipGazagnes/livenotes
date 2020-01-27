@@ -1,11 +1,19 @@
 const scToObj = require('./scToObj');
-const buildSongPage = require('./buildSongPage');
 const fs = require('fs');
-const scDir = '../sc/';
+const scDir = '../data/sc/';
+const outputDir = '../data/json/';
 
-fs.readFile(`${scDir}0013.txt`, 'utf8', (err, sc) => {
+const songId = '0001';
+
+fs.readFile(`${scDir}${songId}.txt`, 'utf8', (err, sc) => {
   if (err) throw err;
-  buildSongPage.buildSongPage(
-    scToObj.scToObj(sc)
-  );
+  const obj = scToObj.scToObj(sc);
+  const json = JSON.stringify(obj);
+  fs.writeFile(`${outputDir}${songId}.json`, json, 'utf8', function (err) {
+    if (err) {
+        console.log(`Song ${songId}: An error occured while writing JSON Object to File.`);
+        return console.log(err);
+    }
+    console.log(`Song ${songId}: JSON file has been saved.`);
+  });
 });

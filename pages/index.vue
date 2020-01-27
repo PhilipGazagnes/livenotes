@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import songsJson from './../data/songs.json';
+import songsJson from './../data/json/index.json';
 
 export default {
   data() {
