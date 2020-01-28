@@ -4,6 +4,7 @@
     <ul>
       <li v-for="s in songs" :key="s.id">
         <a :href="`/${s.id}`">{{s.name}} ({{s.artist}})</a>
+        <a :href="s.reference" target="_blank">reference</a>
       </li>
     </ul>
   </div>

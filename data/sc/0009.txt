@@ -1,0 +1,59 @@
+@BPM:163
+I *4
+C *2    $1
+T *2
+C *2    $2
+P *2    $3
+C *2
+C *2    $4
+C *4 (solo)
+C *2
+C *2    $5
+T *2
+C *2    $6
+C *2
+
+_I
+NOTA1,8
+
+%NOTA1
+2,7 & & 3,7 3,9 4,7 4,9...
+
+_C
+E,8
+D,4
+G,D,E,4
+
+_T
+E,4
+C,2
+D,2
+E,8
+
+_P
+E,8
+D,8
+
+$1
+Finished with my woman 'cause she couldn't help me with my mind
+People think I'm insane because I am frowning all the time
+
+$2
+All day long I think of things but nothing seems to satisfy
+Think I'll lose my mind if I don't find something to pacify
+
+$3
+Can you help me, occupy my brain?
+Oh yeah
+
+$4
+I need someone to show me the things in life that I can't find
+I can't see the things that make true happiness, I must be blind
+
+$5
+Make a joke and I will sigh and you will laugh and I will cry
+Happiness I cannot feel and love to me is so unreal
+
+$6
+And so as you hear these words telling you now of my state
+I tell you to enjoy life I wish I could but it's too late

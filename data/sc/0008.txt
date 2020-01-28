@@ -1,0 +1,92 @@
+
+C *2
+C *2    $1
+R *2    $2
+C *2    $3
+R *2    $4
+P *2
+X
+C
+C *2    $5
+R *6    $6
+
+_C
+C,2
+B7,2
+Em,2
+G,2
+C,2
+B7,2
+Em,4
+
+_R
+C,2
+B7,2
+Em,2
+G7,2
+C,2
+B7,2
+
+
+_P
+NOTA1,32
+
+_X
+x,2
+
+%NOTA1
+5,13 5,11 4,13 4,10, même chose -1ton, encore même chose -1 ton, 4,10 5,9 6,11
+
+$1
+I see the crystal raindrops fall
+And the beauty of it all
+Is when the sun comes shining through
+To make those rainbows in my mind
+When I think of you sometime
+And I wanna spend some time with you
+
+$2
+Just the two of us
+We can make it if we try
+Just the two of us
+(Just the two of us)
+Just the two of us
+Building castles in the sky
+Just the two of us
+You and I
+
+$3
+We look for love, no time for tears
+Wasted water's all that is
+And it don't make no flowers grow
+Good things might come to those who wait
+Not for those who wait too late
+We gotta go for all we know
+
+$4
+Just the two of us
+We can make it if we try
+Just the two of us
+(Just the two of us)
+Just the two of us
+Building them castles in the sky
+Just the two of us
+You and I
+
+$5
+I hear the crystal raindrops fall
+On the window down the hall
+And it becomes the morning dew
+And darling when the morning comes
+And I see the morning sun
+I wanna be the one with you
+
+$6
+Just the two of us
+We can make it if we try
+Just the two of us, just
+(Just the two of us)
+Just the two of us
+Building big castles way up high
+Just the two of us
+You and I

@@ -1,0 +1,19 @@
+A cycle instruction can be blurry like this: ex 0001
+_TR
+D/A,G,16
+
+Handle X note (=> mute)
+
+Handle theoric lengths: ex 0001
+_O
+D/A,G,32?
+
+Handle comments (ex:0003)
+(
+le structure studio ...
+
+Handle @SKP modifier : skip = same effect as @LEN but for the beginning
+
+handle NOTAs (see 0008) for particular descriptions
+
+handle track instruction comments see 0009 & 0001

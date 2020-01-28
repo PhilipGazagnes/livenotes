@@ -1,0 +1,97 @@
+@BPM:141
+I
+T *2
+C           $1
+T *2        $2
+C           $3
+T *2        $4
+B *4        $5
+D
+P
+C @SKP:8    $6
+T *2        $7
+
+(
+fin écourtée
+
+_I
+A,16
+
+_T
+A,C,D,E,G,16
+
+_C
+A,8
+D,16
+A,16
+D,16
+A,4
+D,4
+A,4
+D,4
+A,G,E,D,4
+A,4
+
+_B
+x,8
+
+_D
+A,G,E,D,4
+
+_P
+F#m,4
+G#m,4
+Am,4
+C,4
+B,4
+
+$1
+I don't want to lose you, this good thing
+That I got 'cause if I do
+I will surely
+Surely lose a lot
+'Cause your love is better
+Than any love I know
+It's like thunder, lightning
+The way you love me is frightening
+You better knock, knock...
+
+$2
+...on wood, baby, ooohh
+baby, ooohh
+
+$3
+I'm not superstitious about ya
+But I can't take no chance
+You got me spinnin', baby
+You know I'm in a trance
+'Cause your love is better
+Than any love I know
+It's like thunder, lightning
+The way you love me is frightening
+You better knock, knock...
+
+$4
+...on wood, baby, ooohh
+baby, ooohh
+
+$5
+knock, knock on wood, baby you better
+knock, knock on wood, baby you better
+knock, knock on wood, baby you better
+knock, knock on wood, baby you better
+
+$6
+It's no secret about it
+'Cause we're this lovin' touch
+He sees to it
+That I get enough
+Fell his touch all over
+You know it means so much
+It's like thunder, lightning
+The way you love me is frightening
+You better knock, knock, knock...
+
+$7
+...on wood, baby, ooohh
+baby, ooohh

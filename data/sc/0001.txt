@@ -1,102 +1,97 @@
-@BPM: 105
-R   *2
-C                       $1
-SG  *2              
-C                       $2
-SG              
-C                       $3
-B   *5                  $4
-R   *4                  $5
-C                       $6
-R   *4                  $7
-SG  *2
-R   *4                  $8
-B   *4                  $9
-R   *4  @LEN:-2 @TON:1  $10
-O
+@BPM:118
 
-_R
-E,2
-D,2
-G,2
-C,2
+C *2
+C *4 @LEN:-4    $1
+PR
+R *4 @LEN:-4    $2
+AF
+C *4 @LEN:-4    $3
+PR
+R *4 @LEN:-4    $4
+TR
+R *4 (solo)
+R *4 @LEN:-4    $5
+CU
+R *4            $6
+O               $7
 
 _C
-E,2
-D,2
-G,2
-C,2
-/*3
-E,2
-D,2
-C,2
+A,3
+D/F#,1
+G,3
+D/F#,1
+G,1
+D/F#,1
+G,1
+D/F#,1
+A,4
 
-_SG
-E,2
-G,2
-D,2
-E,2
-D,2
-A,2
-B,2
+_PR
+E,8
 
-_B
-E,4
+_AF
+D/A,8
+
+_TR
+D/A,G,20
+
+_CU
+X,4
+
+_R
+A,4
+D/A,2
+G,1
+D/F#,1
 
 _O
-D,4
-C#m,4
-F#m,8
+D/A,G,32?
 
 $1
-Et ma télé est allumée, Emma t'es là
-Et dire que ma journée est à peine entamée
-Emma tu m'as déjà scotché au canapé
-Emma t'es vraiment 10 fois plus belle que Tara
+Living easy, living free
+Season ticket on a one-way ride
+Asking nothing, leave me be
+Taking everything in my stride
+Don't need reason, don't need rhyme
+Ain't nothing I would rather do
+Going down, party time
+My friends are gonna be there too
 
 $2
-Emma comment fais-tu pour être aussi sûre de toi
-Tes coups de pied m'ont quelque peu emasculé
-Emma je t'en prie rend moi ma virilité
-Emma t'es vraiment 100 fois plus belle que Tara
+I'm on the highway to hell
+On the highway to hell
+Highway to hell
+I'm on the highway to hell
 
 $3
-Emma t'es belle et ma copine elle t'aime pas
-Emma t'es bonne et ma pile va bientôt claquer
-Emma t'es froide comme le carrelage de mes W-see
-Emma t'es vraiment 1000 fois plus belle que Tara
+No stop signs, speed limit
+Nobody's gonna slow me down
+Like a wheel, gonna spin it
+Nobody's gonna mess me around
+Hey Satan, paid my dues
+Playing in a rocking band
+Hey mama, look at me
+I'm on my way to the promised land, whoo!
 
 $4
-Emma Emma Emma Emma
+I'm on the highway to hell
+Highway to hell
+I'm on the highway to hell
+Highway to hell
 
 $5
-Emma why-a why-a Emma why-a-é
-Emma why-a why-a Emma why-a-a
-Emma why-a why-a Emma why-a-é
-Emma why-a why-a Emma why-a-a
+I'm on the highway to hell
+On the highway to hell
+I'm on the highway to hell
+On the highway
 
 $6
-Et ma télé va exploser Emma tais-toi
-Et dire que pour toi j'aurais gâché ma santé
-Emma t'as même pas réussi à me soulager
-Emma t'es vraiment périmée rhabilles-toi
+Yeah, highway to hell
+I'm on the highway to hell
+Highway to hell
+Highway to hell
 
 $7
-Emma why-a why-a Emma why-a-é
-Emma why-a why-a Emma why-a-a
-Emma why-a why-a Emma why-a-é
-Emma why-a why-a Emma why-a-a
-
-$8
-Emma why-a why-a Emma why-a-é
-Emma why-a why-a Emma why-a-a
-
-$9
-Emma why-a why-a Emma why-a-é
-Emma why-a why-a Emma why-a-a
-
-$10
-Emma why-a why-a Emma why-a-é
-Emma why-a why-a Emma why-a-a
-Emma why-a why-a Emma why-a-é
-Emma why-a why-a Emma why-a-a
+And I'm going down
+All the way
+Whoa!
