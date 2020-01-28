@@ -16,4 +16,4 @@ Handle @SKP modifier : skip = same effect as @LEN but for the beginning
 
 handle NOTAs (see 0008) for particular descriptions
 
-handle track instruction comments see 0009 & 0001
+handle track instruction comments see 0009 & 0001 & 0013

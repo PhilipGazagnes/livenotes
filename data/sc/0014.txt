@@ -1,0 +1,78 @@
+@BPM:99
+I (guitar intro)
+R
+R $1
+C *8 $2
+R *2 $3
+C *8 $4
+C *4 $5
+R *2 $6
+
+_I
+G,2
+
+_R
+C,2
+G,2
+Am,2
+F,2
+C,2
+F,1
+G,1
+C,2
+G,2
+
+_C
+C,2
+G,2
+Am,2
+F,2
+
+$1
+No, woman, no cry
+No, woman, no cry
+No, woman, no cry
+No, woman, no cry
+
+$2
+I remember when a we used to sit
+In a government yard in Trenchtown
+Oba - obaserving the 'ypocrites - yeah!
+Mingle with the good people we meet, yeah!
+Good friends we have, oh, good friends we have lost
+Along the way, yeah!
+In this great future, you can't forget your past
+So dry your tears, I seh. Yeah!
+
+$3
+No, woman, no cry;
+No, woman, no cry. Eh, yeah!
+A little darlin', don't shed no tears:
+No, woman, no cry. Eh!
+
+$4
+Said - said - said I remember when we used to sit
+In the government yard in Trenchtown, yeah!
+And then Georgie would make the fire lights,
+I seh, logwood burnin' through the nights, yeah!
+Then we would cook cornmeal porridge, say,
+Of which I'll share with you, yeah!
+My feet is my only carriage
+And so I've got to push on through.
+Oh, while I'm gone,
+
+$5
+Everything's gonna be all right!
+Everything's gonna be all right!
+Everything's gonna be all right, yeah!
+Everything's gonna be all right!
+Everything's gonna be all right-a!
+Everything's gonna be all right!
+Everything's gonna be all right, yeah!
+Everything's gonna be all right!
+
+$6
+So no, woman, no cry;
+No, woman, no cry.
+I seh, O little - O little darlin', don't shed no tears;
+No, woman, no cry, eh.
