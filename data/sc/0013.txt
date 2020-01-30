@@ -1,9 +1,9 @@
 @BPM:126
 I
 C *2    $1
-CB      $2  (break)
+CB      $2  (break
 C       $3
-C *2        (solo)
+C *2        (solo
 CB      $4
 C       $5
 

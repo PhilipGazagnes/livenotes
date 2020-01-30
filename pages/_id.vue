@@ -1,22 +1,33 @@
 <template>
   <div>
     <nuxt-link to="/">back</nuxt-link>
-    <!-- <h1>{{ meta }}</h1> -->
-    {{songData.track}}
-    {{songData.cycles}}
+    <h1>{{ meta.name }} ({{ meta.artist }})</h1>
+    <a :href="meta.reference" target="_blank">Video</a>
+    <hr>
+    {{ data[id] }}
   </div>
 </template>
 
 <script>
+import dataJson from './../data/json/data.json';
+import indexJson from './../data/json/index.json';
+
 export default {
   async asyncData({params}) {
-    // const listJson = await import(`./../data/json/index.json`);
-    const songJson = await import(`./../data/json/${params.id}.json`);
     return {
-      // id: params.id,
-      // listData: listJson,
-      songData: songJson,
+      id: params.id,
     }
   },
+  data() {
+    return {
+      data: dataJson,
+      index: indexJson,
+    };
+  },
+  computed: {
+    meta() {
+      return this.index.filter(i => i.id === this.id)[0];
+    } 
+  }
 }
 </script>

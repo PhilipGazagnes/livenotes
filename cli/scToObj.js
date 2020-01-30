@@ -5,6 +5,7 @@ const trackParams = {
 
 
 let lyrics = {};
+let notas = {};
 
 
 function scToObj(sc) {
@@ -12,10 +13,16 @@ function scToObj(sc) {
   lyrics = lyricsToObj(sections.filter(
     item => item.startsWith('$')
   ));
+  notas = notasToObj(sections.filter(
+    item => item.startsWith('NOTA')
+  ));
   return {
     track: trackToArr(sections[0]),
     cycles: cyclesToObj(sections.filter(
       item => item.startsWith('_')
+    )),
+    comments: commentsToArr(sections.filter(
+      item => item.startsWith('(')
     )),
   };
 }
@@ -37,8 +44,11 @@ function trackToArr(sc) {
 
 function trackInstrToObj(scStr) {
   const str = removeBlanks(scStr);
-  const split1 = str.split('$');
-  const arr = split1[0].split('@');
+  const split1 = str.split('(');
+  const str1 = split1[0];
+  const comment = split1[1];
+  const split2 = str1.split('$');
+  const arr = split2[0].split('@');
   if (!str.startsWith('@')) {
     const cycle = arr[0].split('*');
     const cycleParams = {}
@@ -53,7 +63,9 @@ function trackInstrToObj(scStr) {
       BPM: cycleParams.BPM ? cycleParams.BPM : trackParams.BPM,
       TON: cycleParams.TON ? cycleParams.TON : trackParams.TON,
       LEN: cycleParams.LEN ? cycleParams.LEN : 0,
-      lyrics: split1[1] ? lyrics[split1[1]] : undefined,
+      SKP: cycleParams.SKP ? cycleParams.SKP : 0,
+      lyrics: split2[1] ? lyrics[split2[1]] : undefined,
+      comment: comment,
     };
   } else {
     for (let i = 0, len = arr.length; i < len; i += 1) {
@@ -97,9 +109,15 @@ function cyclesToObj(scArr) {
         }
       } else {
         const spl = arr[i].split(',');
+        for (let j = 0; j < spl.length - 1; j += 1) {
+          const val = spl[j];
+          if (val.startsWith('NOTA')) {
+            spl[j] = notas[val.substr(4)];
+          }
+        }
         phases[phasesCount - 1].chords.push({
-          chord: spl[0],
-          beats: spl[1],
+          chord: spl.filter(i => spl.indexOf(i) < spl.length - 1),
+          beats: spl[spl.length - 1],
         });
         if (i === arr.length - 1) {
           phases[phasesCount - 1].repeats = 1;
@@ -127,6 +145,30 @@ function lyricsToObj(scArr) {
     })
   }
   return lyricsOutput;
+}
+
+
+function commentsToArr(scArr) {
+  const output = [];
+  for (let i = 0, len = scArr.length; i < len; i += 1) {
+    const str = scArr[i];
+    const arr = str.split('\n');
+    output.push(arr.filter(c => arr.indexOf(c) > 0));
+  }
+  return output;
+}
+
+
+function notasToObj(scArr) {
+  const output = {}
+  for (let i = 0, len = scArr.length; i < len; i += 1) {
+    const str = scArr[i];
+    const arr = str.split('\n');
+    const name = arr[0].substr(4);
+    const value = arr.filter(n => arr.indexOf(n) > 0);
+    output[name] = value;
+  }
+  return output;
 }
 
 

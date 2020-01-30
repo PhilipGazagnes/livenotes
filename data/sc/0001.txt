@@ -1,5 +1,4 @@
 @BPM:118
-
 C *2
 C *4 @LEN:-4    $1
 PR
@@ -9,7 +8,7 @@ C *4 @LEN:-4    $3
 PR
 R *4 @LEN:-4    $4
 TR
-R *4 (solo)
+R *4                    (solo
 R *4 @LEN:-4    $5
 CU
 R *4            $6
@@ -45,7 +44,7 @@ G,1
 D/F#,1
 
 _O
-D/A,G,32?
+D/A,G,16
 
 $1
 Living easy, living free

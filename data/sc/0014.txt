@@ -1,5 +1,5 @@
 @BPM:99
-I (guitar intro)
+I       (guitar intro
 R
 R $1
 C *8 $2

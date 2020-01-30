@@ -7,27 +7,27 @@ C           $3
 R           $4
 T *2
 C           $5
-R (vocal)   $6
-T *4 (solo)
+R           $6  (vocal
+T *4            (solo
 
 _T
 Dm,2
 C,2
 A#,2
 F,2
-*2
+/*2
 
 _C
 Dm,2
 C,2 
-*8
+/*8
 
 _R
 Gm,2
 Dm,2
 A,2
 Dm,2
-*4
+/*4
 
 $1
 Je suis comme un grain de sable

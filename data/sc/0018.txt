@@ -12,17 +12,17 @@ _R
 Am,4
 D,2
 C,2
-*2
+/*2
 
 _C
 Am,4
 D,4
-*8
+/*8
 
 _S
 Am,8
 D,8
-*8
+/*8
 
 $1
 Aaahh freak out!

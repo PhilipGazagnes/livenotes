@@ -3,17 +3,37 @@ const fs = require('fs');
 const scDir = '../data/sc/';
 const outputDir = '../data/json/';
 
-const songId = '0001';
+fs.readdir(scDir, (err, files) => {
+  if (err) {
+    console.log(err);
+  }
 
-fs.readFile(`${scDir}${songId}.txt`, 'utf8', (err, sc) => {
-  if (err) throw err;
-  const obj = scToObj.scToObj(sc);
-  const json = JSON.stringify(obj);
-  fs.writeFile(`${outputDir}${songId}.json`, json, 'utf8', function (err) {
-    if (err) {
-        console.log(`Song ${songId}: An error occured while writing JSON Object to File.`);
-        return console.log(err);
-    }
-    console.log(`Song ${songId}: JSON file has been saved.`);
+  decodeSongs(files).then(val => {
+    const json = JSON.stringify(val);
+    fs.writeFile(`${outputDir}data.json`, json, 'utf8', function (err) {
+      if (err) {
+          console.log('Error.');
+          return console.log(err);
+      }
+      console.log('Success.');
+    });
   });
-});
+})
+
+function decodeSongs(files) {
+  const output = {};
+  return new Promise(res => {
+    for (let i = 0, len = files.length; i < len; i += 1) {
+      const id = files[i].split('.')[0];
+      fs.readFile(`${scDir}${id}.txt`, 'utf8', (err, sc) => {
+        if (err) throw err;
+        output[id] = scToObj.scToObj(sc);
+      });
+      if (i === len - 1) {
+        setTimeout(() => {
+          res(output);
+        }, 1000);
+      }
+    }
+  });
+}

@@ -27,14 +27,14 @@ G,8
 _I
 C,4
 F,4
-*8
+/*8
 
 _B
 x,16
 C,32
 
 _O
-C,16?
+C,16
 
 $1
 Everybody needs somebody

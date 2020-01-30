@@ -12,11 +12,11 @@ _C1
 Am,2
 Em,1
 G,1
-*3
+/*3
 Am,2
 Em,4
 Dm,4
-*1
+/
 Am,2
 Em,1
 G,1
@@ -27,7 +27,7 @@ Am,2
 Em,1
 G,1
 Am,4
-*2
+/*2
 Em,4
 Dm,4
 Am,2
@@ -39,15 +39,15 @@ _C3
 Am,2
 Em,1
 G,1
-*3
+/*3
 Em,4
 Dm,4
-*1
+/
 Am,2
 Em,1
 G,1
 Am,4
-*4
+/*4
 
 $1
 Ain't no sunshine when she's...
