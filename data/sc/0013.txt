@@ -13,7 +13,7 @@ fin abbrégée
 _I
 NOTA1,16
 
-%NOTA1
+NOTA1
 5,12 6,10 5,10 6,9 puis 3,9 5,9 etc
 
 _C
@@ -26,6 +26,9 @@ B,4
 A,4
 E,6
 B,2
+
+_CB
+E,16
 
 _B
 E,16

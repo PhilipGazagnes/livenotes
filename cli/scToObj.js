@@ -6,7 +6,8 @@ const trackParams = {
 
 let lyrics = {};
 let notas = {};
-
+let cycles = {};
+let track = [];
 
 function scToObj(sc) {
   const sections = sc.split('\n\n');
@@ -16,17 +17,29 @@ function scToObj(sc) {
   notas = notasToObj(sections.filter(
     item => item.startsWith('NOTA')
   ));
+  cycles = cyclesToObj(sections.filter(
+    item => item.startsWith('_')
+  ));
+  track = trackToArr(sections[0]);
   return {
-    track: trackToArr(sections[0]),
-    cycles: cyclesToObj(sections.filter(
-      item => item.startsWith('_')
-    )),
+    track: track,
+    cycles: cycles,
     comments: commentsToArr(sections.filter(
       item => item.startsWith('(')
     )),
+    duration: duration(),
   };
 }
 exports.scToObj = scToObj;
+
+
+function duration() {
+  let duration = 0;
+  for (let i = 0, len = track.length; i < len; i += 1) {
+    duration += track[i].duration;
+  }
+  return duration;
+}
 
 
 function trackToArr(sc) {
@@ -57,7 +70,7 @@ function trackInstrToObj(scStr) {
       const values = modifiers[i].split(':');
       cycleParams[values[0]] = values[1];
     }
-    return {
+    const output = {
       cycle: cycle[0],
       repeat: cycle[1] ? parseInt(cycle[1], 10) : 1,
       BPM: cycleParams.BPM ? cycleParams.BPM : trackParams.BPM,
@@ -67,6 +80,9 @@ function trackInstrToObj(scStr) {
       lyrics: split2[1] ? lyrics[split2[1]] : undefined,
       comment: comment,
     };
+    output.beats = cycles[output.cycle].beats * output.repeat - parseInt(output.SKP, 10) + parseInt(output.LEN, 10);
+    output.duration = output.beats / parseInt(output.BPM, 10);
+    return output;
   } else {
     for (let i = 0, len = arr.length; i < len; i += 1) {
       const values = arr[i].split(':');
@@ -92,19 +108,25 @@ function cyclesToObj(scArr) {
       throw 'cycle description must start with a "_"';
     const cycleOutput = {
       key: arr[0].substr(1),
+      value: {
+        beats: 0,
+        phases: [{
+          chords: [],
+          beats: 0,
+        }],
+      }
     };
-    const phases = [{
-      chords: [],
-    }];
     let phasesCount = 1;
     for (let i = 1; i < arr.length; i += 1) {
       if (arr[i].startsWith('/')) {
         const spl = arr[i].split('*');
-        phases[phasesCount - 1].repeats = spl[1] ? spl[1] : 1;
+        cycleOutput.value.phases[phasesCount - 1].repeats = spl[1] ? spl[1] : 1;
+        cycleOutput.value.phases[phasesCount - 1].beats = cycleOutput.value.phases[phasesCount - 1].beats * cycleOutput.value.phases[phasesCount - 1].repeats;
         phasesCount = phasesCount + 1;
         if (i < arr.length - 1) {
-          phases.push({
+          cycleOutput.value.phases.push({
             chords: [],
+            beats: 0,
           });
         }
       } else {
@@ -115,16 +137,19 @@ function cyclesToObj(scArr) {
             spl[j] = notas[val.substr(4)];
           }
         }
-        phases[phasesCount - 1].chords.push({
+        cycleOutput.value.phases[phasesCount - 1].chords.push({
           chord: spl.filter(i => spl.indexOf(i) < spl.length - 1),
-          beats: spl[spl.length - 1],
+          beats: parseInt(spl[spl.length - 1], 10),
         });
+        cycleOutput.value.phases[phasesCount - 1].beats += parseInt(spl[spl.length - 1], 10);
         if (i === arr.length - 1) {
-          phases[phasesCount - 1].repeats = 1;
-        } 
+          cycleOutput.value.phases[phasesCount - 1].repeats = 1;
+        }
       } 
     }
-    cycleOutput.value = phases;
+    for (let i = 0, len = cycleOutput.value.phases.length; i < len; i += 1) {
+      cycleOutput.value.beats += cycleOutput.value.phases[i].beats;
+    }
     return cycleOutput;
   }
 }
