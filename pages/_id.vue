@@ -53,7 +53,7 @@
             {{ l }}
           </div>
         </div>
-        <div v-else class="wait">wait {{s.duration}} min</div>
+        <div v-else class="wait">...wait {{(s.duration * 60).toFixed(0)}} sec</div>
       </div>
     </div>
   </div>
@@ -241,10 +241,6 @@ export default {
   white-space: nowrap;
 }
 
-.lyrics {
-  background:black;
-  color:white;
-}
 .lyrics > div {
   position:relative;
   padding:0 0 0 100px;
@@ -263,6 +259,7 @@ export default {
   font-weight:bold;
 }
 .lyrics > div > .wait {
-  color:yellow;
+  color:grey;
+  font-style:italic;
 }
 </style>

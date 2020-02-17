@@ -1,32 +1,26 @@
 @BPM:152
-C1
-C1 *8   $1
-C2 *4   $2
-R       $3
-C1 *6   $4
-C2 *4   $5
-R       $6
-R
-C1 *8   $7
-C2 *4   $8
-R       $9 
-R
+T *2        (guitare
+T *8   $1   (couplet
+T *4   $2   (refrain
+T      $3   (la la
+T *6   $4   (couplet
+T *4   $5   (refrain
+T      $6   (la la
+T           (solo
+T *8   $7   (couplet
+T *4   $8   (refrain
+T      $9   (la la
+T
 
-(
-fin abbrégée
+INTRO
+Guitare
 
-_C1
+FIN
+Appel batterie
+
+_T
 Em,4
-xx0100,4
-
-_C2
-Em,4
-xx0110,4
-
-_R
-Em,4
-xx0110,4
-/*4
+200200,4
 
 $1
 On the first part of the journey

@@ -1,18 +1,19 @@
 @BPM:118
-C *2
-C *4 @LEN:-4    $1
-PR
-R *4 @LEN:-4    $2
-AF
-C *4 @LEN:-4    $3
-PR
-R *4 @LEN:-4    $4
-TR
-R *4                    (solo
-R *4 @LEN:-4    $5
-CU
-R *4            $6
-O               $7
+I           (instru                
+C    $1     (couplet
+R    $2     (refrain
+C    $3     (couplet
+R    $4     (refrain
+B           (break
+R           (solo
+R    $6     (couplet
+O    $7     (fin
+
+INTRO
+Guitare
+
+FIN
+Comme chanson
 
 _C
 A,3
@@ -23,28 +24,28 @@ G,1
 D/F#,1
 G,1
 D/F#,1
+[*3
 A,4
-
-_PR
+[
 E,8
-
-_AF
-D/A,8
-
-_TR
-D/A,G,20
-
-_CU
-X,4
+]
+/*4
 
 _R
 A,4
+[*3
 D/A,2
 G,1
 D/F#,1
+[
+D/A,8
+]
+
+_B
+D/A,G,20
 
 _O
-D/A,G,16
+D/A,A,16
 
 $1
 Living easy, living free

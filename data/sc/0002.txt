@@ -1,18 +1,20 @@
 @BPM:129
-I
-C   *2
-C   *4  $1
-R       $2
-C   *4  $3 
-R       $4
-C   *4  $5
-R       $6
-C   *2
-C       $7
-C   *3
+C   *2        (instru
+C   *4  $1    (couplet
+R       $2    (refrain      
+C   *4  $3    (couplet
+R       $4    (refrain
+C   *4  $5    (couplet
+R       $6    (refrain
+C   *2        (solo
+C       $7    (mini couplet
+C   *2        (instru
 
-_I
-E,4
+INTRO
+Tous ensemble
+
+FIN
+Appel batterie
 
 _C
 E,8

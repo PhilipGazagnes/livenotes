@@ -1,16 +1,17 @@
 @BPM:110
-C *2
-C *4                $1
-R*4 @LEN:-8         $2
-C *4                $3
-R *4 @LEN:-8        $4
-C *4                $5
-R *4 @LEN:-8        $6
-O
+C *2    (instru
+C *4 $1 (couplet
+R *4 $2 (refrain
+C *4 $3 (couplet
+R *4 $4 (refrain
+C *4 $5 (couplet
+R *4 $6 (refrain
 
-(
-le structure studio est respectée jusqu'à la fin du 3ème refrain
-la chanson a des passages instru trop longs pour karaoké, donc abbrégée
+INTRO
+Guitare
+
+FIN
+Appel batterie
 
 _C
 Em,2
@@ -31,9 +32,6 @@ Em,2
 Am,2
 D,2
 B7,2
-
-_O
-Em,8
 
 $1
 Oh la la la vie en rose

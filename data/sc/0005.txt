@@ -1,49 +1,38 @@
 @BPM:141
-I
-T *2
-C           $1
-T *2        $2
-C           $3
-T *2        $4
-B *4        $5
-D
-P
-C @SKP:8    $6
-T *2        $7
+T       (instru
+C   $1  (couplet
+T   $2  (refrain
+C   $3  (couplet
+T   $4  (refrain
+P       (solo
+C   $5  (couplet
+T   $6  (refrain
 
-(
-fin écourtée
+INTRO
+Tous ensemble
 
-_I
-A,16
+FIN
+Appel batterie
 
 _T
-A,C,D,E,G,16
+E,G,A,B,D,16
 
 _C
-A,8
-D,16
 A,16
-D,16
+E,16
+A,16
+E,4
 A,4
-D,4
+E,4
 A,4
-D,4
-A,G,E,D,4
-A,4
-
-_B
-x,8
-
-_D
-A,G,E,D,4
+E,4
 
 _P
-F#m,4
-G#m,4
-Am,4
-C,4
-B,4
+C#m,4
+D#m,4
+E,4
+G,2
+F#,2
 
 $1
 I don't want to lose you, this good thing
@@ -76,12 +65,6 @@ $4
 baby, ooohh
 
 $5
-knock, knock on wood, baby you better
-knock, knock on wood, baby you better
-knock, knock on wood, baby you better
-knock, knock on wood, baby you better
-
-$6
 It's no secret about it
 'Cause we're this lovin' touch
 He sees to it
@@ -92,6 +75,6 @@ It's like thunder, lightning
 The way you love me is frightening
 You better knock, knock, knock...
 
-$7
+$6
 ...on wood, baby, ooohh
 baby, ooohh
