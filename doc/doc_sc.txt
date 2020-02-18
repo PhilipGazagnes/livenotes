@@ -1,0 +1,77 @@
+﻿Comment coder une chanson ?
+
+
+
+Une chanson est une succession de sections.
+
+Une section est une succession de mesures.
+
+Une mesure est une succession d'accords.
+
+Chaque section a ses paroles.
+
+
+
+Le code d'une chanson se compose des codes de chaque section séparés d'une ligne vide.
+
+Il est possible, en tête de fichier, d'écrire des constantes réutilisables dans les sections.
+
+
+
+Le code d'une section se compose comme ceci :
+
+
+Nom de la section
+
+Description des mesures
+
+Paroles (optionnel: une section peut être instrumentale)
+
+Commentaires (optionnel)
+
+
+
+Description des mesures :
+
+
+Une mesure vaut 4 temps (prévoir dans une verion ultérieure, si nécessaire, de gérer différentes signatures rythmiques)
+
+Les mesures sont séparées par des points virgules ou un saut de ligne
+
+Si une mesure contient 1 accord, l'accord vaut 4 temps
+
+Si une mesure contient 2 accords, les accords valent 2 temps
+
+Si une mesure contient 4 accords, les accords valent 1 temps
+
+Il est possible d'utiliser "%" pour répéter un accord
+
+Il est possible d'utiliser "_" pour un silence
+
+Une mesure contenant 3 accords produira une erreur.
+
+Si une mesure contient 3 accords, il faut placer soit un silence soit une répétition d'accord pour ariver à 4.
+
+
+
+Un accord s'écrit de la façon suivante :
+
+- Lettre correspondant à la note
+
+- 'm' si l'accord est mineur
+
+- le reste de la description de l'accord (septièmes, suspendus, etc)
+
+
+
+Paroles :
+
+
+Les paroles viennent une ligne en dessous des mesures, débutent par '--' et un saut de ligne
+
+
+
+Commentaires :
+
+
+Les commentaires viennent en dessous des mesures (avant ou après les paroles), débutent par '++' et un saut de ligne
