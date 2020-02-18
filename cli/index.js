@@ -7,7 +7,7 @@ fs.readdir(scDir, (err, files) => {
   if (err) {
     console.log(err);
   }
-
+  // decodeSongs(['0098.txt']).then(val => {
   decodeSongs(files).then(val => {
     const json = JSON.stringify(val);
     fs.writeFile(`${outputDir}data.json`, json, 'utf8', function (err) {
