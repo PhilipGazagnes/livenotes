@@ -31,6 +31,14 @@ function measuresScToArr(arr) {
         if (constantObj[0] > exportArr[0]) {
           exportArr[0] = constantObj[0];
         }
+      } else if (
+        j.startsWith('[') ||
+        j.startsWith(']') ||
+        j.startsWith(':') ||
+        j.startsWith('(') ||
+        j.startsWith(')')
+      ) {
+        exportArr.push(j);
       } else {
         const chordsArr = chordsScToArr(j);
         if (chordsArr[0] > exportArr[0]) {
@@ -65,7 +73,7 @@ function chordsScToArr(arr) {
     default:
       throw new Error('the following measure has an unauthorized amount of chords : ' + spl);
   }
-  return measure.filter(val => val !== '=');
+  return measure;
 }
 
 function scToSectionsArr(arr) {

@@ -1,61 +1,36 @@
 <template>
   <div>
-    <nuxt-link to="/">back</nuxt-link>
-    <h1>{{ meta.name }} ({{ meta.artist }})</h1>
-    <button @click="toggleMode">mode {{ mode }}</button>
-    <ul class="songcomments" v-if="songData.comments">
-      <li v-for="(c, index) in songData.comments" :key="index">
-        <span v-for="(l, index) in c" :key="index">{{l}}</span>
-      </li>
-    </ul>
-    <a :href="meta.reference" target="_blank">Video</a>
-    <hr>
-    <div v-if="mode === 'guitar'">
-      <div class="track">
-        <div 
-          v-for="s in songData.track"
-          :key="songData.track.indexOf(s)"
-          :style="{
-            width: `${s.duration * 100 / songData.duration}%`,
-            background: trackSectionBackground(s.cycle),
-          }"
-        >
-          <div class="repeat" v-if="s.repeat > 1">{{ s.repeat }}</div>
-          <div class="tonality" v-if="s.TON !== 0">{{ s.TON }}</div>
-          <div class="length" v-if="s.LEN">{{ s.LEN }}</div>
-          <div class="skip" v-if="s.SKP">{{ s.SKP }}</div>
-          <div class="comment" v-if="s.comment">{{s.comment}}</div>
-        </div>
-      </div>
-
-      <div class="cycles">
-        <div v-for="(c, index) in songData.cycles" :key="index">
-          <div :style="{background: trackSectionBackground(index)}" />
-          <div>
-            <div v-for="(p, index) in c.phases" :key="index">
-              <div v-for="(ch, index) in p.chords" :key="index">
-                <span>
-                  <span v-for="(cho, index) in ch.chord" :key="index">{{ index > 0 ? ', ' : '' }}{{ cho }}</span>
-                </span>
-                {{ ch.beats }}
-              </div>
-              <span v-if="p.repeats > 1">{{ p.repeats }}</span>
-            </div>  
+    <div class="title">
+      {{ meta.name }} ({{ meta.artist }})
+    </div>
+    <div :class="['sections', modeFull ? 'full' : 'light']">
+      <div v-for="(s, index) in songData" :key="index" class="section" :style="{marginBottom: sectionTitles && !lyrics && !modeFull ? '40px' : '0'}">
+        <h2 v-if="sectionTitles"><span>({{ alphabet[index] }})</span> {{s.name}}</h2>
+        <div class="measures" v-if="sectionTitles">
+          <div
+            v-for="(m, index) in s.measures.filter(i => s.measures.indexOf(i) > 0)"
+            :key="index"
+            :class="measureClass(m)">
+            <div v-if="typeof m === 'object'">
+              <span :class="beatClass(m[0])">{{m[0]}}</span>
+              <span :class="beatClass(m[1])">{{m[1]}}</span>
+              <span :class="beatClass(m[2])">{{m[2]}}</span>
+              <span :class="beatClass(m[3])">{{m[3]}}</span>
+            </div>
+            <div v-else-if="m !== '[' && m !== ':' && m !== '('">{{m.substring(1)}}</div>
           </div>
         </div>
-      </div>
-    </div>
-    <div v-else-if="mode === 'lyrics'" class="lyrics">
-      <div v-for="(s, index) in songData.track" :key="index">
-        <div :style="{background: trackSectionBackground(s.cycle)}" />
-        <div v-if="s.lyrics">
+        <div v-if="lyrics" class="lyrics">
           <div v-for="(l, index) in s.lyrics" :key="index">
-            {{ l }}
+            <span v-html="decodeLyric(l)" />
           </div>
         </div>
-        <div v-else class="wait">...wait {{(s.duration * 60).toFixed(0)}} sec</div>
       </div>
     </div>
+    <nuxt-link to="/">back</nuxt-link>
+    <button @click="toggleLyrics">Lyrics {{ lyrics ? 'on' : 'off' }}</button>
+    <button @click="toggleModeFull">Mode {{ modeFull ? 'full' : 'light' }}</button>
+    <button @click="toggleSectionTitles">Titles {{ sectionTitles ? 'on' : 'off' }}</button>
   </div>
 </template>
 
@@ -67,14 +42,16 @@ export default {
   async asyncData({params}) {
     return {
       id: params.id,
+      alphabet: 'abcdefghijklmnopqrstuvwxyz',
     }
   },
   data() {
     return {
       allSongsData: dataJson,
       index: indexJson,
-      colors: ['red', 'blue', 'green', 'purple', 'orange', 'black', 'brown', 'pink', 'yellow'],
-      mode: 'guitar',
+      lyrics: true,
+      modeFull: true,
+      sectionTitles: true,
     };
   },
   computed: {
@@ -83,183 +60,281 @@ export default {
     },
     songData() {
       return this.allSongsData[this.id];
-    }
+    },
   },
   methods: {
-    trackSectionBackground(c) {
-      const cyclePos = Object.keys(this.songData.cycles).indexOf(c);
-      return this.colors[cyclePos];
+    measureClass(m) {
+      if (typeof m === 'object') {
+        return ['measure', `show${this.showCount(m)}`];
+      } else if (m === '[') {
+        return ['repeatStart'];
+      } else if (m.startsWith(']')) {
+        return ['repeatEnd'];
+      } else if (m === '(') {
+        return ['echoStart'];
+      } else if (m.startsWith(')')) {
+        return ['echoEnd'];
+      } else if (m === ':') {
+        return ['blank'];
+      };
     },
-    toggleMode() {
-      this.mode = this.mode === 'guitar' ? 'lyrics' : 'guitar'; 
+    beatClass(str) {
+      if (str === '=') {
+        return 'empty';
+      }
+      if (str === '%') {
+        return 'repeat';
+      }
+      return undefined;
+    },
+    toggleLyrics() {
+      this.lyrics = !this.lyrics;
+    },
+    toggleModeFull() {
+      this.modeFull = !this.modeFull;
+    },
+    toggleSectionTitles() {
+      this.sectionTitles = !this.sectionTitles;
+    },
+    showCount(arr) {
+      let show = 1;
+      if (arr[2] !== '%') {
+        show = 2;
+      }
+      if (arr[1] !== '%' || arr[3] !== '%') {
+        show = 4;
+      }
+      return show;
+    },
+    decodeLyric(str) {
+      const spl = str.split('***');
+      let output = '';
+      spl.forEach(val => {
+        const index = spl.indexOf(val);
+        if (index * -1 < 0) {
+          spl[index] = `<strong>${val}</strong>`;
+        }
+        output += spl[index];
+      });
+      return output;
     },
   },
-  mounted() {
-    console.log(this.songData);
-  }
 }
 </script>
 
 <style>
-.songcomments {
-  background:lightyellow;
+body {
+  background:#eee;
+  margin:0;
+  padding:0;
 }
-.track::after {
-  content:'';
-  display:block;
-  clear:both;
-}
-.track > div {
-  float:left;
-  position:relative;
-  height:100px;
+.title {
+  background:#222;
+  padding:10px;
+  color:#fff;
+  font-size:.8em;
   text-align:center;
+}
+.sections {
+  max-width:600px;
+}
+.section {
+  
+}
+h2 {
+  background:#222;
   color:white;
+  display:inline-block;
+  padding:10px 15px;
 }
-.track > div > .repeat {
-  position:absolute;
-  top:0;
-  left:50%;
-  transform:translateX(-50%);
-  border:white 2px solid;
-  color:white;
-  padding:0 10px;
-  margin:10px 0 0 0;
-  font-size:1.5em;
-  font-weight:bold;
+h2 span {
+  font-size:.6em;
 }
-.track > div > .comment {
-  position:absolute;
-  bottom:5px;
-  left:23px;
-  font-size:1.2em;
-  font-weight:bold;
-  color:white;
-  transform-origin:0 100%;
-  transform:rotate(-90deg);
-  text-transform:uppercase;
+.full .measures .show1 {
+  width:25%;
 }
-.track > div > .skip {
-  position:absolute;
-  top:-20px;
-  left:0;
-  font-size:1.2em;
-  font-weight:bold;
-  background:inherit;
-  height:20px;
-  padding:0 5px;
+.full .measures .show1 span {
+  width:100%;
 }
-.track > div > .length {
-  position:absolute;
-  top:-20px;
-  right:0;
-  font-size:1.2em;
-  font-weight:bold;
-  background:inherit;
-  height:20px;
-  padding:0 5px;
+.full .measures .show2 {
+  width:50%;
 }
-.track > div > .tonality {
-  position:absolute;
-  bottom:10px;
-  left:50%;
-  transform:translateX(-50%);
-  background:white;
-  color:black;
-  padding:0 10px;
-  font-size:1.5em;
-  font-weight:bold;
+.full .measures .show2 span {
+  width:50%;
 }
-.track > div::before {
-  content:'';
-  position:absolute;
-  display:block;
-  width:1px;
-  height:100%;
-  top:0;
-  left:0;
-  background:white;
+.full .measures .show4 {
+  width:100%;
 }
-.track > div::after {
-  content:'';
-  position:absolute;
-  display:block;
-  width:1px;
-  height:100%;
-  top:0;
-  right:0;
-  background:white;
+.full .measures .show4 span {
+  width:25%;
 }
-
-.cycles {
-  margin-top:20px;
+.full .measures .show1 span:nth-child(2),
+.full .measures .show1 span:nth-child(3),
+.full .measures .show1 span:nth-child(4) {
+  display:none;
 }
-.cycles > div {
-  position:relative;
-  padding:0 0 0 50px;
-  min-height:50px;
-  margin-bottom:15px;
+.full .measures .show2 span:nth-child(2),
+.full .measures .show2 span:nth-child(4) {
+  display:none;
 }
-.cycles > div > div:first-child {
-  position:absolute;
-  top:0;
-  left:0;
-  width:50px;
-  height:50px;
-}
-.cycles > div > div:last-child::after {
+.full .measures::after {
   content: '';
   display:block;
   clear:both;
 }
-.cycles > div > div:last-child > div {
+.full .measures .measure {
   float:left;
-  border-right:2px black solid;
-  padding:0 0 0 20px;
 }
-.cycles > div > div:last-child > div > span {
-  display:inline-block;
-  width:30px;
-  height:30px;
-  border:2px solid black;
-  font-weight:bold;
-  text-align:center;
-  transform:translateY(-20px);
-  font-size:1.5em;
-  margin-right:20px;
-}
-.cycles > div > div:last-child > div > div {
-  display:inline-block;
-  margin:0 30px 0 0;
-  text-align:center;
-  font-weight:bold;
-  font-size:1.2em;
-}
-.cycles > div > div:last-child > div > div > span {
+.full .measures .measure span {
+  position:relative;
   display:block;
-  font-size:1.8em;
-  white-space: nowrap;
+  float:left;
+  text-align:center;
+}
+.full .measures .measure span:not(:first-child)::before{
+  content: '';
+  display:block;
+  position:absolute;
+  width:1px;
+  height:100%;
+  background:#222;
+  transform-origin: center center;
+  transform:rotate(10deg);
+}
+.full .measures .measure > div {
+  border:2px solid #222;
+  padding:5px;
+  margin:4px;
+  font-size:1.5em;
+  font-weight:bold;
+  background: white;
+}
+.full .repeatStart {
+  float:left;
+  margin:0;
+  padding:0;
+  background:black;
+  border:0;
+  width:8px;
+  height:42px;
+  margin:4px 12px 0 4px;
+  position:relative;
+}
+.full .repeatStart::before,
+.full .repeatStart::after {
+  content: '';
+  width:5px;
+  height:5px;
+  background:black;
+  display:block;
+  position:absolute;
+  right:-8px;
+  top:14px;
+  border-radius:100%;
+}
+.full .repeatStart::after {
+  top:24px;
+}
+.full .repeatEnd {
+  float:left;
+  margin:0;
+  padding:0;
+  border-left:black 8px solid;
+  height:42px;
+  margin:4px 8px 4px 12px;
+  position:relative;
+}
+.full .repeatEnd > div {
+  padding:3px 0 0 4px;
+  font-size:2em;
+  font-weight:bold;
+  font-style:italic;
+}
+.full .repeatEnd:before,
+.full .repeatEnd::after {
+  content: '';
+  width:5px;
+  height:5px;
+  background:black;
+  display:block;
+  position:absolute;
+  left:-16px;
+  top:14px;
+  border-radius:100%;
+}
+.full .repeatEnd::after {
+  top:24px;
+}
+.full .blank {
+  width:100%;
+  float:left;
+  height:20px;
+}
+.full .echoStart {
+  width:100%;
+  float:left;
+  border-top:2px dashed #888;
+  margin:10px 4px;
+}
+.full .echoEnd {
+  width:100%;
+  float:left;
+  margin:0 4px;
+  font-size:2em;
+  font-style:italic;
+  color:#666;
+}
+.full .echoEnd > div {
+  border-top:2px dashed #888;
+  margin-top:10px;
+  text-align:right;
+  padding:0 10px 0 0;
+}
+.full .echoEnd > div::before {
+  content: 'x ';
+}
+.full .measures .measure > div::after {
+  content: '';
+  display:block;
+  clear:both;
+}
+.full .measures .repeat {
+  color:#aaa;
+}
+.full .measures .empty {
+  background:#222;
 }
 
-.lyrics > div {
-  position:relative;
-  padding:0 0 0 100px;
-  margin-bottom:20px;
+.light h2 {
+  display:inline;
 }
-.lyrics > div > div:first-child {
-  width:50px;
-  height:100%;
-  position:absolute;
-  top:0;
-  left:0;
+.light .measures,
+.light .measures * {
+  display:inline;
 }
-.lyrics > div > div:last-child {
+.light .measures::after {
+  content:'...';
+}
+.light .measures .repeat,
+.light .measures .empty {
+  display:none;
+}
+.light .measure {
+  display:none;
+}
+.light .measure:nth-child(1) {
+  display:inline;
+}
+.lyrics {
+  padding:10px;
+  font-size:1.2em;
+}
+.lyrics span {
+  display:block;
+  margin:0 0 10px 0;
+}
+.lyrics strong {
   font-size:2em;
-  line-height:1.5em;
   font-weight:bold;
-}
-.lyrics > div > .wait {
-  color:grey;
-  font-style:italic;
 }
 </style>

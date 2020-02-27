@@ -55,6 +55,8 @@ Aux copains d'abord
 
 Solo
 $1
+--
+***Solo***
 
 Couplet
 $1

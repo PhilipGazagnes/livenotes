@@ -1,14 +1,14 @@
 Intro
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
 
 Couplet
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
 --
 Il met de la magie, mine de rien, dans tout ce qu'il fait
 Il a le sourire facile, même pour les imbéciles
@@ -26,10 +26,10 @@ Il est libre Max!
 Y en a même qui disent qu'ils l'ont vu voler
 
 Couplet
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
 --
 Il travaille un p'tit peu quand son corps est d'accord
 Pour lui faut pas s'en faire, il sait doser son effort
@@ -45,10 +45,10 @@ Il est libre Max!
 Y en a même qui disent qu'ils l'ont vu voler
 
 Couplet
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
 --
 Il r'garde autour de lui avec les yeux de l'amour
 Avant qu't'aies rien pu dire, il t'aime déjà au départ
@@ -63,17 +63,19 @@ Il est libre Max
 Il est libre Max!
 Y en a même qui disent qu'ils l'ont vu voler
 
-*Solo
+Solo
 G# C#; F# F A#m %
 G# C#; F# F A#m %
-D# A#m;	D# A#m
+D# A#m;  D# A#m
 F# F A#m %
+--
+***Solo***
 
 Couplet
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
 --
 Et bien sûr toutes les filles lui font leurs yeux de velours
 Lui, pour leur faire plaisir, il leur raconte des histoires
@@ -89,10 +91,10 @@ Il est libre Max!
 Y en a même qui disent qu'ils l'ont vu voler
 
 Couplet
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
-A#m	F# ; G#	A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
+A#m  F# ; G#  A#m
 --
 Comme il n'a pas d'argent pour faire le grand voyageur
 Il va parler souvent aux habitants de son cœur

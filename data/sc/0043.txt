@@ -81,9 +81,11 @@ Ooh, ooh, ooh, ooh, a-ah
 Illusion
 Ooh, ooh, ooh, ooh, a-ah
 
-*Solo
+Solo
 $1
 $1
+--
+***Solo***
 
 Ooh ooh ooh a-ah
 $2

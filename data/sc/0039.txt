@@ -39,8 +39,10 @@ I've got all my life to live
 And I've got all my love to give and I'll survive
 I will survive, hey, hey
 
-*Solo
+Solo
 $1
+--
+***Solo***
 
 Couplet
 $1
@@ -80,3 +82,5 @@ I will survive
 
 Solo
 $1
+--
+***Solo***

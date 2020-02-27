@@ -1,0 +1,125 @@
+$1
+Bm;G;Em;G
+Bm;G;Em;G
+E;D;F#;%
+
+$2
+[
+E A;B
+]3
+E A;F#;%
+
+$3
+[
+B;%;%;E A
+]2
+
+Intro
+(
+B % % A;B % % A
+B % % E;E % % A
+)2
+
+Couplet part 1
+$1
+--
+Prenez un enfant
+Et faites-en un roi
+Couvre-le d'or et de diamants
+Cachez-vous en attendant
+Vous n'attendrez pas longtemps
+Les vautours tournent autour
+De l'enfant
+
+Couplet part 2
+$2
+--
+Le blé a les dents acérées
+Et les hyènes vont le dévorer
+Le môme deviendra banquier
+Ou le môme sera lessive, lessive
+
+Refrain
+$3
+--
+Je dis, argent, trop cher
+Trop grand
+La vie n'a pas de prix
+
+Solo
+(
+B % % A;B % % A
+B % % E;E % % A
+)2
+
+Couplet part 1
+$1
+--
+Prends ton meilleur ami
+Fais-en un ennemi
+Je t'achète et je te vends
+Vautre dans le coma
+Do commun des mortels
+Mon pote, t'es comme un rat
+T'es commun, see'est mortel
+Les vautours tournent autour
+Toujours
+
+Couplet part 2
+$2
+--
+Criez NON a l'esclavage
+Et payez-leurs
+De nouvelles cages
+Faites installer des pièges
+La ou commence la rage
+La rage
+
+Refrain
+$3
+A;A;A
+--
+Et dis, argent, trop cher
+Trop grand
+La vie n'a pas de prix
+
+Solo
+[
+B A
+]8
+[
+G D;D
+]2
+[
+B A
+]4
+
+Couplet part 1
+E;D;F#;%
+--
+Les vautours tournent autour
+De nous maintenant
+
+Couplet part 2
+$2
+--
+Tu en as, tu n'en n'as pas
+Tu n'as pas vraiment le choix
+Un mur de briques devant toi
+Il est temps, dépense-toi
+Dépense-toi
+
+Refrain
+(
+$3
+)2
+--
+Je dis, argent, trop cher
+Trop grand
+La vie n'as pas de prix
+
+Outro
+[
+B % % A;B % % A
+B % % E;E % % A
+]4
