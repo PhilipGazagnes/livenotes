@@ -4,7 +4,11 @@
     "dev": "nuxt",
     "generate": "nuxt generate"
   },
-    "devDependencies": {
+  "devDependencies": {
     "nuxt": "^2.11.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
   }
 }

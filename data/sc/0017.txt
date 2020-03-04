@@ -1,0 +1,110 @@
+$1
+[
+Dm C 
+]8
+
+$2
+[
+Gm Dm;A Dm
+]4
+
+$3
+Dm C;A# F
+
+Intro
+[
+$3
+]2
+
+Couplet
+$1
+--
+Je suis comme un grain de sable
+Perdu dans l'océan
+J'ai perdu mon cartable
+J'ai perdu mes parents
+Je suis comme l'eau des courants
+Fatigué d'ignorer
+Si je coule dans le vent
+Si je fais que passer
+
+Refrain
+$2
+--
+Emmène-moi voir la mer
+Fais-moi boire l'océan
+Emmène-moi dans les airs
+Aime-moi dans le vent
+Emmène-moi voir la mer
+Fais-moi boire l'océan
+Emmène-moi dans les airs
+Aime-moi dans le vent
+
+Solo
+[
+$3
+]4
+--
+***Solo***
+
+Couplet
+$1
+--
+Je suis comme une poussière
+Si je m'envole un matin
+Je retourne à la terre
+Je m'en vais et je viens
+Je suis comme l'eau des fontaines
+Impuissant et lassé
+Poussé par ce système
+Qui poursuit sans cesser
+
+Refrain
+$2
+--
+Emmène-moi voir la mer
+Fais-moi boire l'océan
+Emmène-moi dans les airs
+Aime-moi dans le vent
+Emmène-moi voir la mer
+Fais-moi boire l'océan
+Emmène-moi dans les airs
+Aime-moi dans le vent
+
+Solo
+[
+$3
+]4
+--
+***Solo***
+
+Couplet
+$1
+--
+Je suis comme les autres en fait
+Je ne saurai jamais
+Si je poursuis la quête
+Si j'ai laissé tomber
+Je suis comme rempli d'espoir
+Ce matin je renais
+Emmène-moi près du phare
+Allons jusqu'aux rochers
+
+Refrain
+$2
+--
+Emmène-moi voir la mer
+Fais-moi boire l'océan
+Emmène-moi dans les airs
+Aime-moi dans le vent
+Emmène-moi voir la mer
+Fais-moi boire l'océan
+Emmène-moi dans les airs
+Aime-moi dans le vent
+
+Solo
+[
+$3
+]4
+--
+***Solo***

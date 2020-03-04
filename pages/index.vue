@@ -6,6 +6,7 @@
         <a :href="`/${s.id}`">
           <span>{{s.name}}</span>
           <span>({{s.artist}})</span>
+          <span v-if="s.nota" class="nota">({{s.nota}})</span>
         </a>
       </li>
     </ul>
@@ -41,12 +42,15 @@ li a {
   text-decoration:none;
   color:#333;
 }
-li a span:first-child {
+li a span:nth-child(1) {
   display:block;
   font-weight:bold;
   font-size:1.2em;
 }
-li a span:last-child {
+li a span:nth-child(2) {
   opacity:.5;
+}
+li a span.nota {
+  color:red;
 }
 </style>
