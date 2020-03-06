@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="song">
     <div class="bar">
       <nuxt-link to="/">&laquo;</nuxt-link>
       <span>
@@ -98,8 +98,8 @@ export default {
       } else if (typeof m === "object") {
         return [
           "measure",
-          `show${this.showCount(m)}`,
-          this.measureInRepeatCycle ? "inRepeatCycle" : ""
+          `show${this.showCount(m)}`
+          // this.measureInRepeatCycle ? "inRepeatCycle" : ""
         ];
       } else if (m === "[") {
         this.measureInRepeatCycle = true;
@@ -210,9 +210,13 @@ export default {
 
 <style lang="scss">
 body {
-  background: #eee;
-  margin: 0;
   padding: 0;
+  margin: 0;
+}
+.song {
+  background: #eee;
+  padding: 0;
+  margin: 0;
 }
 .bar {
   background: #222;
