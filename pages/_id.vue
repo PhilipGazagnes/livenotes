@@ -43,6 +43,8 @@
 import dataJson from "./../data/json/data.json";
 import indexJson from "./../data/json/index.json";
 
+let measureInRepeatCycle = false;
+
 export default {
   async asyncData({ params }) {
     return {
@@ -57,7 +59,6 @@ export default {
       showTitles: true,
       showMeasures: true,
       spcache: [],
-      measureInRepeatCycle: false,
       presentationMode: 1
     };
   },
@@ -98,8 +99,8 @@ export default {
       } else if (typeof m === "object") {
         return [
           "measure",
-          `show${this.showCount(m)}`
-          // this.measureInRepeatCycle ? "inRepeatCycle" : ""
+          `show${this.showCount(m)}`,
+          this.measureInRepeatCycle ? "inRepeatCycle" : ""
         ];
       } else if (m === "[") {
         this.measureInRepeatCycle = true;
@@ -128,20 +129,20 @@ export default {
       switch (this.presentationMode) {
         case 1:
           this.showTitles = true;
-          this.showLyrics = true;
+          this.showLyrics = false;
           this.showMeasures = true;
           this.presentationMode = 2;
           break;
         case 2:
-          this.showTitles = true;
-          this.showLyrics = false;
-          this.showMeasures = true;
-          this.presentationMode = 3;
-          break;
-        case 3:
           this.showTitles = false;
           this.showLyrics = true;
           this.showMeasures = false;
+          this.presentationMode = 3;
+          break;
+        case 3:
+          this.showTitles = true;
+          this.showLyrics = true;
+          this.showMeasures = true;
           this.presentationMode = 1;
           break;
         default:
@@ -234,6 +235,7 @@ body {
     text-decoration: none;
     text-align: center;
     line-height: 1.3em;
+    cursor: pointer;
   }
   & > span {
     display: block;
