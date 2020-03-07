@@ -32,7 +32,7 @@ function decodeSongs(files) {
       if (i === len - 1) {
         setTimeout(() => {
           res(output);
-        }, 1000);
+        }, 1500);
       }
     }
   });
