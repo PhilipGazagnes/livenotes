@@ -2,7 +2,7 @@
   <div class="index">
     <h1>Live notes ! Rock on !</h1>
     <ul>
-      <li v-for="s in songs.sort(compare)" :key="s.id">
+      <li v-for="s in songs" :key="s.id">
         <a :href="`/${s.id}`">
           <span>{{ s.name }}</span>
           <span>({{ s.artist }})</span>
@@ -21,21 +21,6 @@ export default {
     return {
       songs: songsJson
     };
-  },
-  methods: {
-    compare(a, b) {
-      // Use toUpperCase() to ignore character casing
-      const A = a.name.toUpperCase();
-      const B = b.name.toUpperCase();
-
-      let comparison = 0;
-      if (A > B) {
-        comparison = 1;
-      } else if (A < B) {
-        comparison = -1;
-      }
-      return comparison;
-      }
   },
 };
 </script>
