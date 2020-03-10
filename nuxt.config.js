@@ -5,6 +5,13 @@ export default {
         name: "viewport",
         content: "width=device-width, initial-scale=1.0, user-scalable=no"
       }
+    ],
+    link: [
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      }
     ]
   },
   generate: {

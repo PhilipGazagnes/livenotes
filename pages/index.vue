@@ -19,8 +19,30 @@ import songsJson from "./../data/json/index.json";
 export default {
   data() {
     return {
-      songs: songsJson
+      songs: songsJson.sort(this.compare),
     };
+  },
+  methods: {
+    compare(a, b) {
+      // Use toUpperCase() to ignore character casing
+      const songA = this.regularFirstLetter(a.name.toUpperCase());
+      const songB = this.regularFirstLetter(b.name.toUpperCase());
+
+      let comparison = 0;
+      if (songA > songB) {
+        comparison = 1;
+      } else if (songA < songB) {
+        comparison = -1;
+      }
+      return comparison;
+    },
+    regularFirstLetter(str) {
+      let txt = str;
+      if (txt.startsWith("ç") || txt.startsWith("Ç")) {
+        txt = `C${txt.substring(1)}`;
+      }
+      return txt;
+    },
   },
 };
 </script>
@@ -29,10 +51,13 @@ export default {
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans';
 }
 .index {
   background: white;
-  padding: 10px;
+  h1 {
+    padding:30px 20px
+  }
 }
 ul {
   list-style-type: none;
@@ -41,7 +66,7 @@ ul {
 }
 li {
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   border-bottom: 1px solid #eee;
 }
 li a {
