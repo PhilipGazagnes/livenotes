@@ -1,17 +1,24 @@
 $1
 G;D;Em;Bm C
 
+$2
+[
+G;D;Em;C
+]2
+:
+Bm;G;Bm;Em
+:
+[
+Am
+]4
+
 Intro
 [
 G;D;Em;C
 ]2
 
 Couplet
-[
-G;D;Em;C
-]2
-Bm;G;Bm;Em
-Am;%;%;%
+$2
 --
 Cendrillon pour ses vingt ans
 Est la plus jolie des enfants
@@ -30,12 +37,8 @@ $1
 Elle part, jolie petite histoire
 Elle part, jolie petite histoire
 
-Couplet
-[
-G;D;Em;C
-]3
-Bm;G;Bm;Em
-Am;%;%;%
+Couplet (+1 cycle G)
+$2
 --
 Cendrillon pour ses trente ans
 Est la plus triste des mamans
@@ -57,11 +60,7 @@ Elle part, jolie petite histoire
 Elle part, jolie petite histoire
 
 Couplet
-[
-G;D;Em;C
-]2
-Bm;G;Bm;Em
-Am;%;%;%
+$2
 --
 Dix ans de cette vie ont suffi
 A la changer en junkie
