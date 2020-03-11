@@ -1,11 +1,26 @@
-Intro
-Em ; % ; % ; %
-
-Couplet
-Em ; % ; % ; %
-G ; % ; % ; %
+$1
+[
+Em
+]4
+[
+G
+]4
 C ; % ; Am ; %
-Em ; % ; % ; %
+Em ; %
+
+$2
+G ; % ; D ; %
+Em ; % ; C ; %
+G ; % ; Bm ; %
+Am ; % ; % ; %
+
+Intro
+[
+Em
+]4
+
+Couplet (+2M)
+$1
 --
 D'abord vos corps qui se séparent
 T'es seule dans la lumière des phares
@@ -15,10 +30,7 @@ Et ça continue (encore et encore!)
 C'est que le début (d'accord, d'accord!)
 
 Couplet
-Em ; % ; % ; %
-G ; % ; % ; %
-C ; % ; Am ; %
-Em ; %
+$1
 --
 L'instant d'après le vent se déchaîne
 Les heures s'allongent comme des semaines
@@ -28,10 +40,7 @@ Et tu te retrouves seule assise par terre
 C'est que le début (d'accord, d'accord!)
 
 Refrain
-G ; % ; D ; %
-Em ; % ; C ; %
-G ; % ; Bm ; %
-Am ; % ; % ; %
+$2
 --
 Quelque chose vient de tomber
 Sur les lames de ton plancher
@@ -40,10 +49,7 @@ T'es toute seule au fond de l'espace
 T'as personne devant
 
 Couplet
-Em ; % ; % ; %
-G ; % ; % ; %
-C ; % ; Am ; %
-Em ; %
+$1
 --
 La même nuit que la nuit d'avant
 Les mêmes endroits deux fois trop grands
@@ -53,10 +59,7 @@ Mais ça continue encore et encore
 C'est que le début d'accord, d'accord
 
 Refrain
-G ; % ; D ; %
-Em ; % ; C ; %
-G ; % ; Bm ; %
-Am ; % ; % ; %
+$2
 --
 Quelque chose vient de tomber
 Sur les lames de ton plancher
@@ -81,9 +84,13 @@ Et ça te fait marrer les oiseaux qui s'envolent
 Les oiseaux qui s'envolent
 Les oiseaux qui s'envolent
 
-Break
-Em ; % ; % ; %
-G ; % ; % ; %
+Break 2
+[
+Em
+]4
+[
+G
+]4
 C ; % ; Am ; %
 Em ; % ; C ; %
 Am ; % ; Em ; %
@@ -98,10 +105,7 @@ Mais, ça continue (encore et encore!)
 C'est que le début (d'accord, d'accord!)
 
 Refrain
-G ; % ; D ; %
-Em ; % ; C ; %
-G ; % ; Bm ; %
-Am ; % ; % ; %
+$2
 --
 Y a des couples qui se défont
 Sur les lames de ton plafond
@@ -111,10 +115,7 @@ T'as personne devant
 Personne
 
 Refrain
-G ; % ; D ; %
-Em ; % ; C ; %
-G ; % ; Bm ; %
-Am ; % ; % ; %
+$2
 --
 Quelque chose vient de tomber
 Sur les lames de ton plancher

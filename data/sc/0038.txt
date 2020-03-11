@@ -2,7 +2,7 @@ $1
 A ; % ; E7 ; %
 G ; F# ; Bm % E A7 ; D
 
-Intro
+Solo
 $1
 
 Couplet

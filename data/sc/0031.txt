@@ -2,6 +2,7 @@ $1
 [
 Em;Cm
 ]4
+:
 [
 G#m;A
 ]3
@@ -9,9 +10,11 @@ B;%
 
 Intro guitare
 E;D;E;A B
+[
+Em
+]4
 
 Intro
-E;%;%;%
 [
 Em;Cm
 ]4
@@ -38,16 +41,17 @@ Refrain
 [
 E;C#m;G#m;A
 ]4
-:
-[
-E
-]4
 --
 Daniela, la la la la la la la laaa
 Oh Daniela (la la la la la la laaa)
 Oh Daniela (la la la la la la laaa)
 Oh Daniela (la la la la la la laaa)
 Oh Daniela
+
+Inter
+[
+E
+]4
 
 Couplet
 $1

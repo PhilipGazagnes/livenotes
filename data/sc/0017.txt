@@ -1,23 +1,21 @@
 $1
-[
-Dm C 
-]8
+Dm C
 
 $2
-[
 Gm Dm;A Dm
-]4
 
 $3
 Dm C;A# F
 
 Intro
-[
+(
 $3
-]2
+)2
 
 Couplet
+(
 $1
+)8
 --
 Je suis comme un grain de sable
 Perdu dans l'océan
@@ -29,7 +27,9 @@ Si je coule dans le vent
 Si je fais que passer
 
 Refrain
+(
 $2
+)4
 --
 Emmène-moi voir la mer
 Fais-moi boire l'océan
@@ -41,14 +41,16 @@ Emmène-moi dans les airs
 Aime-moi dans le vent
 
 Solo
-[
+(
 $3
-]4
+)4
 --
 ***Solo***
 
 Couplet
+(
 $1
+)8
 --
 Je suis comme une poussière
 Si je m'envole un matin
@@ -60,7 +62,9 @@ Poussé par ce système
 Qui poursuit sans cesser
 
 Refrain
+(
 $2
+)4
 --
 Emmène-moi voir la mer
 Fais-moi boire l'océan
@@ -72,14 +76,16 @@ Emmène-moi dans les airs
 Aime-moi dans le vent
 
 Solo
-[
+(
 $3
-]4
+)4
 --
 ***Solo***
 
 Couplet
+(
 $1
+)8
 --
 Je suis comme les autres en fait
 Je ne saurai jamais
@@ -91,7 +97,9 @@ Emmène-moi près du phare
 Allons jusqu'aux rochers
 
 Refrain
+(
 $2
+)4
 --
 Emmène-moi voir la mer
 Fais-moi boire l'océan
@@ -103,8 +111,8 @@ Emmène-moi dans les airs
 Aime-moi dans le vent
 
 Solo
-[
+(
 $3
-]4
+)4
 --
 ***Solo***

@@ -5,24 +5,22 @@ Bm;%;Em;%
 A;F#;%;Bm
 
 $2
-[
 Bm;E
-]2
 
 $3
 F#;%;%;%
 
 Intro
-[
-Bm;E
-]6
+(
+$2
+)6
 --
 Rah! Ha! Rah! Ha!
 
 Couplet
-[
-Bm;E
-]14
+(
+$2
+)14
 --
 Voile sur les filles, barques sur le Nil
 Je suis dans ta vie, je suis dans tes bras
@@ -35,8 +33,7 @@ Alexandrie, Alexandra
 Alexandrie o' l'amour danse au fond des bras
 Ce soir j'ai de la fièvre et toi, tu meurs de froid
 
-
-Pré-Refrain
+Pré Refrain
 $3
 
 Refrain
@@ -48,14 +45,16 @@ La lumière du phare d'Alexandrie
 Fait naufrager les papillons de ma jeunesse
 
 Inter
+(
 $2
+)2
 --
 Rah! Ha! Rah! Ha!
 
 Couplet
-[
-Bm;E
-]14
+(
+$2
+)14
 --
 Voile sur les filles et barques sur le Nil
 Je suis dans ta vie, je suis dans tes draps
@@ -68,7 +67,7 @@ Alexandrie, Alexandra
 Alexandrie ce soir je danse dans tes draps
 Je te mangerai crue si tu me retiens pas
 
-Pré-Refrain
+Pré Refrain
 $3
 
 Refrain
@@ -80,14 +79,16 @@ La lumière du phare d'Alexandrie
 Fait naufrager les papillons de ma jeunesse
 
 Inter
+(
 $2
+)2
 --
 Rah! Ha! Rah! Ha!
 
 Couplet
-[
-Bm;E
-]8
+(
+$2
+)8
 --
 Voile sur les filles, barques sur le Nil
 Alexandrie, Alexandra

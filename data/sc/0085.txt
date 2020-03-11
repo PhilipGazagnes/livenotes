@@ -1,12 +1,15 @@
 $1
+[
 Bm;G;Em;G
-Bm;G;Em;G
+]2
+:
 E;D;F#;%
 
 $2
 [
 E A;B
 ]3
+:
 E A;F#;%
 
 $3
@@ -14,13 +17,15 @@ $3
 B;%;%;E A
 ]2
 
-Intro
+$4
+B A;B A;B E;E A
+
+Riff
 (
-B % % A;B % % A
-B % % E;E % % A
+$4
 )2
 
-Couplet part 1
+Couplet
 $1
 --
 Prenez un enfant
@@ -31,7 +36,7 @@ Vous n'attendrez pas longtemps
 Les vautours tournent autour
 De l'enfant
 
-Couplet part 2
+Pré Refrain
 $2
 --
 Le blé a les dents acérées
@@ -46,13 +51,12 @@ Je dis, argent, trop cher
 Trop grand
 La vie n'a pas de prix
 
-Solo
+Riff
 (
-B % % A;B % % A
-B % % E;E % % A
+$4
 )2
 
-Couplet part 1
+Couplet
 $1
 --
 Prends ton meilleur ami
@@ -65,7 +69,7 @@ T'es commun, see'est mortel
 Les vautours tournent autour
 Toujours
 
-Couplet part 2
+Pré Refrain
 $2
 --
 Criez NON a l'esclavage
@@ -77,16 +81,19 @@ La rage
 
 Refrain
 $3
-A;A;A
 --
 Et dis, argent, trop cher
 Trop grand
 La vie n'a pas de prix
 
-Solo
+Instru
+[
+A
+]3
 [
 B A
 ]8
+:
 [
 G D;D
 ]2
@@ -94,13 +101,13 @@ G D;D
 B A
 ]4
 
-Couplet part 1
+Couplet
 E;D;F#;%
 --
 Les vautours tournent autour
 De nous maintenant
 
-Couplet part 2
+Pré Refrain
 $2
 --
 Tu en as, tu n'en n'as pas
@@ -118,8 +125,7 @@ Je dis, argent, trop cher
 Trop grand
 La vie n'as pas de prix
 
-Outro
-[
-B % % A;B % % A
-B % % E;E % % A
-]4
+Riff
+(
+$4
+)4

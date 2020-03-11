@@ -1,14 +1,24 @@
-Thème
-[
+$1
 B;%;E;%
 A;%;F#;%
-]2
+
+$2
+G;%;E;%
+G;%;A;%
+
+$3
+B;D;E;G
+E;G;A;%
+
+Thème
+(
+$1
+)2
 
 Couplet
-[
-B;%;E;%
-A;%;F#;%
-]2
+(
+$1
+)2
 --
 Tourner le temps à l'orage
 Revenir à l'état sauvage
@@ -20,8 +30,7 @@ Monter le son des guitares
 Et le bruit des motos qui démarrent
 
 Pré Refrain
-G;%;E;%
-G;%;A;%
+$2
 --
 Il suffira d'une étincelle
 Oui, d'un rien, oui, d'un geste
@@ -29,10 +38,9 @@ Il suffira d'une étincelle
 Et d'un mot d'amour, oui pour
 
 Refrain
-[
-B;D;E;G
-E;G;A;%
-]2
+(
+$3
+)2
 --
 Allumer le feu, allumer le feu
 Et faire danser les diables et les dieux
@@ -41,14 +49,12 @@ Et voir grandir la flamme dans vos yeux
 Allumer le feu
 
 Thème
-B;%;E;%
-A;%;F#;%
+$1
 
 Couplet
-[
-B;%;E;%
-A;%;F#;%
-]2
+(
+$1
+)2
 --
 Laisser derrière toutes nos peines
 Nos haches de guerre, nos problèmes
@@ -60,8 +66,7 @@ Je veux la fête et les rires
 Je veux la foule en délire
 
 Pré Refrain
-G;%;E;%
-G;%;A;%
+$2
 --
 Il suffira d'une étincelle
 Oui, d'un rien, d'un contact
@@ -69,10 +74,7 @@ Il suffira d'une étincelle
 D'un peu de jour, oui pour
 
 Refrain
-[
-B;D;E;G
-E;G;A;%
-]2
+$3
 --
 Allumer le feu, allumer le feu
 Et faire danser les diables et les dieux
@@ -80,15 +82,13 @@ Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
 Allumer le feu
 
-Solo
-B;%;E;%
-A;%;F#;%
+Solo (thème)
+$1
 --
 ***Solo***
 
-Pré Refrain Calme
-G;%;E;%
-G;%;A;%;%;%;%;%
+Pré Refrain Calme...
+$2
 --
 Il suffira d'une étincelle
 Oui, d'un rien, d'un geste
@@ -96,11 +96,8 @@ Il suffira d'une étincelle
 Oui, d'un mot d'amour pour
 Pour, pour, pour
 
-Refrain reprise prog
-[
-B;D;E;G
-E;G;A;%
-]2
+...Refrain reprise prog
+$3
 --
 Allumer le feu, allumer le feu
 Et faire danser les diables et les dieux
@@ -109,10 +106,7 @@ Et voir grandir la flamme dans vos yeux
 Allumer le feu
 
 Refrain
-[
-B;D;E;G
-E;G;A;%
-]2
+$3
 --
 Allumer le feu, allumer le feu
 Et faire danser les diables et les dieux
@@ -120,19 +114,13 @@ Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
 Allumer le feu
 
-Solo
-[
-B;D;E;G
-E;G;A;%
-]2
+Solo (refrain)
+$3
 --
 ***Solo***
 
 Refrain
-[
-B;D;E;G
-E;G;A;%
-]2
+$3
 --
 Allumer le feu, allumer le feu
 Et faire danser les diables et les dieux

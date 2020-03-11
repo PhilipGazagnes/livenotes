@@ -40,9 +40,8 @@ Call me
 Theme
 $1
 
-Couplet
+Couplet (+ 1 mesure)
 $2
-A
 --
 Cover me with kisses, baby
 Cover me with love
@@ -68,6 +67,7 @@ Pont
 [
 Em;%;Bm;%
 ]2
+:
 F;%;C;%
 Dm;Dm % = =
 A#;%
@@ -79,6 +79,15 @@ Ooo-oo-oo-oo-oo, amore, chiamami, chiamami
 Ooo-oo-oo-oo-oo, appelle-moi mon cherie, appelle-moi
 Anytime, anyplace, anywhere, any way
 Anytime, anyplace, anywhere, any day-ay
+
+Refrain
+$3
+--
+Call me (call me) on the line
+Call me, call me any, anytime
+Call me (call me) oh my love
+When you're ready we can share the wine
+Call me
 
 Refrain
 $3

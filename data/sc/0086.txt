@@ -70,7 +70,7 @@ En parlant, en marchant
 
 Refrain
 $2
-D;C
+D;Bm
 --
 Quelques mots perdus,
 Dans la nuit
@@ -83,7 +83,7 @@ Non la nuit ne peut pas comprendre
 C'est à croire
 Que la nuit n'a pas de cœur
 
-Refrain
+Refrain fin ralentie
 $2
 D;G;D;G;D
 --

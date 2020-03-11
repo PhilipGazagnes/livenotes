@@ -51,7 +51,8 @@ export default {
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: 'Roboto Condensed';
+  font-weight:400;
 }
 .index {
   background: white;

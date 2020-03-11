@@ -1,13 +1,13 @@
-Intro (mélodie / ensemble)
-[
+Intro guitar
 D#;A#;F;C
-]2
+
+Intro ensemble
+D#;A#;F;C
 
 Couplet
 [
 Cm;G#;D#;G
 ]3
-G;%
 --
 Moi je squatte à Juvisy
 Et toi tu crèches à Neuilly
@@ -22,11 +22,13 @@ Qu'est caissière à Prisunic
 Plus moche que Maïté
 Qui travaille aux PTT
 
+Pause
+G;%
+
 Refrain
 [
 D#;A#;F;C
 ]3
-G;%
 --
 Je sais pas comment te dire
 Ce que je peux pas écrire
@@ -37,11 +39,13 @@ Vachement beaucoup
 C'est toi que je t'aime
 Vachement beaucoup
 
+Pause
+G;%
+
 Couplet
 [
 Cm;G#;D#;G
 ]3
-G;%
 --
 Je t'inventerai un domaine
 Où l'amour sera roi
@@ -55,6 +59,9 @@ J'suis capable pour faire du fric
 D'être caissier à Prisunic
 Et d'passer tout l'été
 À me faire chier aux PTT
+
+Pause
+G;%
 
 Refrain
 [

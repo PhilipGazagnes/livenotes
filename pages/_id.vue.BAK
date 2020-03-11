@@ -8,18 +8,10 @@
       </span>
       <button @click="togglePresentation">&spades;</button>
     </div>
-    <ul class="overview">
-      <li v-for="(s, index) in songData" :key="index">
-        <span :class="sectionClass(s.measures)">
-          {{ s.name }}
-          <small v-if="typeof s.measures[s.measures.length - 1] === 'string' && s.measures[s.measures.length - 1].startsWith(')')">{{ s.measures[s.measures.length - 1].substring(1) }}</small>
-        </span>
-      </li>
-    </ul>
-    <div class="notes">
-      <div v-for="(s, index) in songData" :key="index" :class="['section', titleClass(s.name)]">
-        <div :class="['measures', isNewAndSectionClass(s.measures)]">
-          <div v-for="(c, index) in s.comments" :key="index">{{ c }}</div>
+    <div class="sections">
+      <div v-for="(s, index) in songData" :key="index" class="section">
+        <h2 v-show="showTitles">{{ s.name }}</h2>
+        <div class="measures" v-show="showMeasures">
           <div
             v-for="(m, index) in s.measures"
             :key="index"
@@ -37,6 +29,11 @@
             </div>
           </div>
         </div>
+        <div v-show="showLyrics" class="lyrics">
+          <div v-for="(l, index) in s.lyrics" :key="index">
+            <span v-html="decodeLyric(l)" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -47,8 +44,6 @@ import dataJson from "./../data/json/data.json";
 import indexJson from "./../data/json/index.json";
 
 let measureInRepeatCycle = false;
-const cyclesCache = [];
-const cyclesCache2 = [];
 
 export default {
   async asyncData({ params }) {
@@ -60,7 +55,7 @@ export default {
     return {
       allSongsData: dataJson,
       index: indexJson,
-      showLyrics: false,
+      showLyrics: true,
       showTitles: true,
       showMeasures: true,
       spcache: [],
@@ -129,22 +124,6 @@ export default {
         return "repeat";
       }
       return undefined;
-    },
-    titleClass(str) {
-      let txt = undefined;
-      if (str === 'couplet' || str === 'Couplet') {
-        txt = 'couplet';
-      }
-      if (str.indexOf('Refrain') > -1) {
-        txt = 'refrain';
-      }
-      if (str.indexOf('Pré Refrain') > -1) {
-        txt = 'prerefrain';
-      }
-      if (str.indexOf('solo') >= 0 || str.indexOf('Solo') >= 0) {
-        txt = 'solo';
-      }
-      return txt;
     },
     togglePresentation() {
       switch (this.presentationMode) {
@@ -225,22 +204,7 @@ export default {
       Array.prototype.forEach.call(sections, s => {
         this.spcache.push(s.offsetTop);
       });
-    },
-    sectionClass(arr) {
-      const arrWithoutEcho = arr.filter(item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')'))));
-      if (cyclesCache.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
-        cyclesCache.push(JSON.stringify(arrWithoutEcho));
-      }
-      return `sectionStyle${cyclesCache.indexOf(JSON.stringify(arrWithoutEcho))}`;
-    },
-    isNewAndSectionClass(arr) {
-      const arrWithoutEcho = arr.filter(item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')'))));
-      if (cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
-        cyclesCache2.push(JSON.stringify(arrWithoutEcho));
-        return `sectionStyle${cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho))}`;
-      }
-      return 'sectionStyleHidden';
-    },
+    }
   }
 };
 </script>
@@ -284,64 +248,23 @@ body {
     }
   }
 }
-.overview {
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  float:left;
-  width:35%;
-  & > li {
-    border:none;
-    margin-bottom:1px;
-    & > span {
-      display:inline-block;
-      padding:5px 10px;
-      border-radius:20px;
-      font-weight:700;
-      font-size:1.2em;
-      & > small {
-        font-weight:600;
-        background: blue;
-        color: white;
-        font-size:1em;
-        padding:5px;
-      }
-    }
-  }
-}
-.notes {
-  float:left;
-  width:65%;
+.sections {
+  max-width: 600px;
 }
 .section {
-  &::after {
-    content: "";
-    display: block;
-    clear: both;
+  margin-bottom: 40px;
+}
+h2 {
+  background: #222;
+  color: white;
+  display: inline-block;
+  padding: 10px 15px;
+  & > span {
+    font-size: 0.6em;
   }
 }
-.sectionStyle0 {
-  background:lightpink;
-}
-.sectionStyle1 {
-  background:lightblue;
-}
-.sectionStyle2 {
-  background:lightcoral;
-}
-.sectionStyle3 {
-  background:lightgray;
-}
-.sectionStyle4 {
-  background:lightgreen;
-}
-.sectionStyle5 {
-  background:lightyellow;
-}
-.sectionStyleHidden {
-  display:none;
-}
 .measures {
+  margin-bottom: 20px;
   &::after {
     content: "";
     display: block;
@@ -350,11 +273,12 @@ body {
   .measure {
     float: left;
     & > div {
-      border-bottom: 1px solid #222;
-      padding: 5px 0;
+      border: 2px solid #222;
+      padding: 5px;
       margin: 4px;
       font-size: 1.5em;
       font-weight: bold;
+      background: white;
       &::after {
         content: "";
         display: block;
@@ -366,14 +290,12 @@ body {
       display: block;
       float: left;
       text-align: center;
-      padding:0 5px;
       &:not(:first-child) {
         &::before {
           content: "";
           display: block;
           position: absolute;
           width: 1px;
-          left:0;
           height: 100%;
           background: #222;
           transform-origin: center center;
@@ -385,22 +307,21 @@ body {
   .inRepeatCycle {
     & > div {
       position: relative;
-      background: rgba(0,0,0,.07);
       &::before {
         content: "";
         width: 100%;
         position: absolute;
-        height: 2px;
+        height: 5px;
         background: blue;
-        bottom: 0;
+        bottom: -3px;
         left: 0;
       }
     }
   }
   .show1 {
-    // width: 25%;
+    width: 25%;
     span {
-      // width: 100%;
+      width: 100%;
       &:nth-child(2),
       &:nth-child(3),
       &:nth-child(4) {
@@ -409,9 +330,9 @@ body {
     }
   }
   .show2 {
-    // width: 50%;
+    width: 50%;
     span {
-      // width: 50%;
+      width: 50%;
       &:nth-child(2),
       &:nth-child(4) {
         display: none;
@@ -419,9 +340,9 @@ body {
     }
   }
   .show4 {
-    // width: 100%;
+    width: 100%;
     span {
-      // width: 25%;
+      width: 25%;
     }
   }
   .repeat {
@@ -434,22 +355,20 @@ body {
     display: none;
   }
   .repeatEnd {
-    // position: relative;
+    position: relative;
     float: left;
-    // height: 46px;
-    // width: 0;
+    height: 46px;
+    width: 0;
+    background: red;
     & > div {
-      // position: absolute;
-      padding:5px;
+      position: absolute;
       background: blue;
-      border-radius:0 10px 10px 0;
       color: white;
-      margin:4px 0;
-      // width: 30px;
-      // height: 30px;
+      width: 30px;
+      height: 30px;
       text-align: center;
-      // bottom: -15px;
-      // right: 0px;
+      bottom: -15px;
+      right: 0px;
       font-weight: bold;
       font-size: 1.5em;
     }
@@ -457,23 +376,26 @@ body {
   .blank {
     width: 100%;
     float: left;
+    height: 20px;
   }
   .echoStart {
-    // float: left;
-    // border-top: 2px dashed #888;
-    // margin: 10px 4px;
-    display:none;
+    width: 100%;
+    float: left;
+    border-top: 2px dashed #888;
+    margin: 10px 4px;
   }
   .echoEnd {
-    // width: 100%;
-    display:none;
+    width: 100%;
     float: left;
-    // margin: 0 4px;
+    margin: 0 4px;
+    font-size: 2em;
+    font-style: italic;
+    color: #666;
     & > div {
-      // border-top: 2px dashed #888;
-      // margin-top: 10px;
-      // text-align: right;
-      // padding: 0 10px 0 0;
+      border-top: 2px dashed #888;
+      margin-top: 10px;
+      text-align: right;
+      padding: 0 10px 0 0;
       &::before {
         content: "x ";
       }

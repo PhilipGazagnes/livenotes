@@ -10,7 +10,7 @@ export default {
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+          "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap"
       }
     ]
   },

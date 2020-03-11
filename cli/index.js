@@ -9,6 +9,16 @@ fs.readdir(scDir, (err, files) => {
   }
   // decodeSongs(['0098.txt']).then(val => {
   decodeSongs(files).then(val => {
+    const names = [];
+    Object.keys(val).forEach(s => {
+      val[s].forEach(m => {
+        if (names.indexOf(m.name) === -1) {
+          names.push(m.name);
+        }
+      })
+    })
+    console.log(names.sort());
+    
     const json = JSON.stringify(val);
     fs.writeFile(`${outputDir}data.json`, json, 'utf8', function (err) {
       if (err) {

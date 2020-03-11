@@ -1,3 +1,6 @@
+$1
+G;D;Em;Bm C
+
 Intro
 [
 G;D;Em;C
@@ -20,9 +23,9 @@ Pour ne pas voir qu'un nouveau jour se lève
 Elle ferme les yeux et dans ses rêves
 
 Refrain
-[
-G;D;Em;Bm C
-]4
+(
+$1
+)4
 --
 Elle part, jolie petite histoire
 Elle part, jolie petite histoire
@@ -46,9 +49,9 @@ Emmitouflée dans son cafard
 Maintenant elle fait le trottoir
 
 Refrain
-[
-G;D;Em;Bm C
-]4
+(
+$1
+)4
 --
 Elle part, jolie petite histoire
 Elle part, jolie petite histoire
@@ -70,9 +73,9 @@ Mais elle tue sa dernière chance
 Tout ça n'a plus d'importance
 
 Refrain
-[
-G;D;Em;Bm C
-]2
+(
+$1
+)2
 --
 Elle part
 Fin de l'histoire
@@ -90,8 +93,7 @@ G;D;Em;Bm C
 Outro
 [
 G;D;Em;C
-]3
-G;D;Em;A#;C
+]4
 --
 Notre père, qui est si vieux
 As-tu vraiment fait de ton mieux?
