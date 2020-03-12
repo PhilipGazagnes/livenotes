@@ -101,8 +101,8 @@ G D;D
 B A
 ]4
 
-Couplet
-E;D;F#;%
+Couplet (juste fin)
+$1
 --
 Les vautours tournent autour
 De nous maintenant

@@ -1,6 +1,7 @@
 <template>
   <div class="index">
     <h1>Live notes ! Rock on !</h1>
+    <button class="random" @click="focusRandom">Pick a random song</button>
     <ul>
       <li v-for="s in songs" :key="s.id">
         <a :href="`/${s.id}`">
@@ -43,6 +44,13 @@ export default {
       }
       return txt;
     },
+    focusRandom() {
+      const random = Math.floor(Math.random() * this.songs.length - 1);
+      const url = `/${this.songs[random].id}/`
+      this.$router.push({
+        path: url
+      })
+    },
   },
 };
 </script>
@@ -59,6 +67,11 @@ body {
   h1 {
     padding:30px 20px
   }
+}
+.random {
+  padding:10px 20px;
+  margin:0 0 40px 20px;
+  font-size:1em;
 }
 ul {
   list-style-type: none;

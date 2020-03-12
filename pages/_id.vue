@@ -10,7 +10,7 @@
     </div>
     <ul class="overview">
       <li v-for="(s, index) in songData" :key="index">
-        <span :class="sectionClass(s.measures)">
+        <span :class="sectionClass(s.measures, index)">
           {{ s.name }}
           <small v-if="typeof s.measures[s.measures.length - 1] === 'string' && s.measures[s.measures.length - 1].startsWith(')')">{{ s.measures[s.measures.length - 1].substring(1) }}</small>
         </span>
@@ -18,7 +18,7 @@
     </ul>
     <div class="notes">
       <div v-for="(s, index) in songData" :key="index" :class="['section', titleClass(s.name)]">
-        <div :class="['measures', isNewAndSectionClass(s.measures)]">
+        <div :class="['measures', isNewAndSectionClass(s.measures, index)]">
           <div v-for="(c, index) in s.comments" :key="index">{{ c }}</div>
           <div
             v-for="(m, index) in s.measures"
@@ -47,8 +47,8 @@ import dataJson from "./../data/json/data.json";
 import indexJson from "./../data/json/index.json";
 
 let measureInRepeatCycle = false;
-const cyclesCache = [];
-const cyclesCache2 = [];
+let cyclesCache = [];
+let cyclesCache2 = [];
 
 export default {
   async asyncData({ params }) {
@@ -226,14 +226,20 @@ export default {
         this.spcache.push(s.offsetTop);
       });
     },
-    sectionClass(arr) {
+    sectionClass(arr, index) {
+      if (index === 0) {
+        cyclesCache = [];
+      }
       const arrWithoutEcho = arr.filter(item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')'))));
       if (cyclesCache.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
         cyclesCache.push(JSON.stringify(arrWithoutEcho));
       }
       return `sectionStyle${cyclesCache.indexOf(JSON.stringify(arrWithoutEcho))}`;
     },
-    isNewAndSectionClass(arr) {
+    isNewAndSectionClass(arr, index) {
+      if (index === 0) {
+        cyclesCache2 = [];
+      }
       const arrWithoutEcho = arr.filter(item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')'))));
       if (cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
         cyclesCache2.push(JSON.stringify(arrWithoutEcho));
