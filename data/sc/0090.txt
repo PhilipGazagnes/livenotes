@@ -1,6 +1,26 @@
-Theme
+$1
+E D;A B
 
-Couplet
+$2
+[
+E
+]6
+[
+_
+]2
+
+$3
+F#;A B;E
+
+Theme
+(
+$1
+)4
+
+Couplet (pairs: silence)
+(
+$1
+)8
 --
 Quelque chose en toi
 Ne tourne pas rond
@@ -12,6 +32,7 @@ Mais autour de moi
 Tout tourne si rond
 
 Pré Refrain
+$2
 --
 Des balles doum doum
 Aux roues des bagnoles
@@ -22,20 +43,35 @@ Au matin des nuits folles
 Rien ne t'affole
 
 Refrain
+(
+$1
+)4
 --
 Et j'aime encore mieux 'a
 Oui je pr'f're 'a
 Oh j'aime encore mieux 'a
 Car c'est vraiment toi
+
+Post Refrain
+(
+$3
+)2
+--
 Et rien d'autre que toi
 Non rien d'autre que toi
 Que toi, non rien d'autre que toi
 
 Solo
+(
+$1
+)8
 --
 ***Solo***
 
-Couplet
+Couplet (pairs: silence)
+(
+$1
+)8
 --
 Quelque chose en toi
 Ne tourne pas rond
@@ -47,6 +83,7 @@ Mais autour de moi
 Toi tu fais un rond
 
 Pré Refrain
+$2
 --
 Et les balles doum doum
 Aux roues des bagnoles
@@ -57,6 +94,9 @@ Et des ses machines molles
 Rien ne t'affole
 
 Refrain
+(
+$1
+)4
 --
 Et j'aime encore mieux 'a
 Oui je pr'f're 'a
@@ -64,6 +104,12 @@ Oh j'aime encore mieux 'a
 Oui j'aime encore mieux 'a
 
 Break
+[
+E;A
+]8
+[
+_
+]16
 --
 Car 'a c'est vraiment toi
 Ca c'est vraiment toi
@@ -74,11 +120,20 @@ Ca c'est vraiment toi
 Ca ca se sent, 'a se sent
 
 Refrain
+(
+$1
+)8
 --
 Ca se sent que c'est toi, 'a se sent
 Ca se sent que c'est toi, 'a se sent
 Ca se sent que c'est toi, 'a se sent
 Ca se sent que c'est toi, 'a se sent
+
+Post Refrain
+(
+$3
+)3
+--
 Et rien d'autre que toi
 Non rien d'autre que toi
 Que toi, non rien d'autre que toi
