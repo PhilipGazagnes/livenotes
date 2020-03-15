@@ -1,6 +1,26 @@
+$1
+[
+E
+]8
+
+$2
+[
+E
+]8
+[
+A
+]4
+
+$3
+[
+E;A
+]4
+
 Theme
+$1
 
 Couplet
+$2
 --
 J'ai vu Berlin, Bucarest et Pékin comme si j'y étais.
 Matin et soir le nez dans la télé, c'est encore plus vrai.
@@ -10,6 +30,7 @@ Lancer des pierres au bord de Gaza, je ne regrette pas.
 Des religieux, au nom de leur foi, m'ont lance une fatwa.
 
 Refrain
+$3
 --
 J'ai vu la guerre, la victoire était au bout de leur fusils.
 J'ai vu le sang sur ma peau, j'ai vu la fureur et les cris
@@ -18,8 +39,10 @@ J'ai vu la mort se marrer et ramasser ceux qui restaient...
 Et j'ai vu...
 
 Theme
+$1
 
 Couplet
+$2
 --
 Que cent mille fleurs s'ouvrent a jamais, et j'ai déja donné.
 Les drapeaux rouges ont cessé de flotter, je les ai brûlés.
@@ -31,6 +54,7 @@ Accrochée à ma fenêtre bleutée,
 J'ai cherché la vérité.
 
 Refrain
+$3
 --
 J'ai vu la guerre, la victoire était au bout de leur fusils.
 J'ai vu le sang sur ma peau, j'ai vu la fureur et les cris
@@ -39,10 +63,12 @@ J'ai vu la mort se marrer et ramasser ceux qui restaient...
 Et j'ai vu...
 
 Solo
+$2
 --
 ***Solo***
 
 Refrain
+$3
 --
 J'ai vu la guerre, la victoire était au bout de leur fusils.
 J'ai vu le sang sur ma peau, j'ai vu la fureur et les cris
@@ -51,6 +77,7 @@ J'ai vu la mort se marrer et ramasser ceux qui restaient...
 Et j'ai vu...
 
 Refrain
+$3
 --
 J'ai vu la guerre, la victoire était au bout de leur fusils.
 J'ai vu le sang sur ma peau, j'ai vu la fureur et les cris

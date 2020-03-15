@@ -1,26 +1,49 @@
-Intro
+$1
+G;%;Em;%
+:
+C;D;G;%
 
-Couplet
+$3
+C;C7;G;%
+:
+A;%;D;%
+
+$4
+G;%;Em;C
+
+Intro
+$1
+
+Couplet (Fin Em)
+$1
 --
 Every breath you take and every move you make
 Every bond you break, every step you take, I'll be watching you
 
 Couplet
+$1
 --
 Every single day and every word you say
 Every game you play, every night you stay, I'll be watching you
 
 Refrain
+$3
 --
 Oh, can't you see you belong to me
 How my poor heart aches with every step you take
 
-Couplet
+Couplet (Fin Em)
+$1
 --
 Every move you make, and every vow you break
 Every smile you fake, every claim you stake, I'll be watching you
 
 Pont
+[
+D#;%;F;%
+]2
+:
+D#;%
 --
 Since you've gone I've been lost without a trace
 I dream at night, I can only see your face
@@ -28,20 +51,29 @@ I look around but it's you I can't replace
 I feel so cold and I long for your embrace
 I keep crying, "Baby, baby, please"
 
+Theme (Fin Em)
+$1
+
 Theme
+$1
 
 Refrain
+$3
 --
 Oh, can't you see you belong to me
 How my poor heart aches with every step you take
 
-Couplet
+Couplet (Fin Em) (fin doublée)
+$1
 --
 Every move you make and every vow you break
 Every smile you fake, every claim you stake, I'll be watching you
 Every move you make, every step you take, I'll be watching you
 
 Outro
+(
+$4
+)8
 --
 I'll be watching you
 I'll be watching you

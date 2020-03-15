@@ -1,6 +1,15 @@
+$1
+A#;F
+
 Theme
+(
+$1
+)4
 
 Couplet
+(
+$1
+)4
 --
 Tous les enfants de ma cité et même d'ailleurs
 Et tout ce que la colère a fait de meilleur
@@ -8,6 +17,9 @@ Des faces de stalagmites et des jolies filles
 Des têtes d'acné, en un mot la famille sont là
 
 Couplet
+(
+$1
+)4
 --
 Tous les enfants de mon quartier et même d'ailleurs
 Et tous ceux que le béton a fait de meilleur
@@ -15,6 +27,9 @@ Dès qu'ils voulaient pas payer l'entrée trente balles (trop cher!)
 Ont envahi la scène, ont envahi la salle et
 
 Couplet
+(
+$1
+)4
 --
 Y a là des bandits qu'ont des têtes de cailloux
 Ceux qu'ont des sentiments autant que les voyous
@@ -22,6 +37,9 @@ Attendent qu'on allume un méchant boucan
 Et que surgissent de la scène des volcans
 
 Refrain
+(
+$1
+)4
 --
 (Tomber la) on a tombé, on a tombé la chemise
 (Tomber la) oui moi j'ai tombé, j'ai tombé la chemise
@@ -29,6 +47,9 @@ Refrain
 (Tomber la) oui moi j'ai tombé, j'ai tombé la chemise
 
 Couplet
+(
+$1
+)4
 --
 Tous les enfants de ma cité et même d'ailleurs
 Et tous ceux que la colère a fait de meilleur
@@ -36,6 +57,9 @@ Des pas beaux, des faces rondes comme des quilles
 Des têtes rouges, en un mot la famille sont là
 
 Coulet
+(
+$1
+)4
 --
 Tous les enfants de mon quartier, même d'ailleurs
 Et tous ceux que le béton a fait de meilleur
@@ -43,6 +67,9 @@ Et qui voulaient profiter de la pagaille (aie, aie, aie, aie!)
 D'autres qu'avaient pas slamé depuis un bail
 
 Couplet
+(
+$1
+)4
 --
 Tout à coup le trac a fait coucou dans la loge
 Oh maman, qu'elle tourne vite cette horloge
@@ -50,6 +77,9 @@ Allez les gars, vous avez promis le soleil
 On peut vous dire ce soir qu'on a pas sommeil
 
 Refrain
+(
+$1
+)4
 --
 (Tomber la) on a tombé, on a tombé la chemise
 (Tomber la) oui moi j'ai tombé, j'ai tombé la chemise
@@ -57,6 +87,9 @@ Refrain
 (Tomber la) oui moi j'ai tombé, j'ai tombé la chemise
 
 Couplet calme
+(
+$1
+)4
 --
 Tous les petits gavroches et les têtes abîmées
 Et les faces de pioches autant que les minets
@@ -64,6 +97,9 @@ Ont mis le feu en sautant à l'envers
 La tête en bas c'était pas des paroles en l'air (oh, là!)
 
 Couplet
+(
+$1
+)4
 --
 On les entend qui crient "allez, pas de manières
 Surtout pas de caprices on en a rien à faire
@@ -71,6 +107,9 @@ Puis on est pas venu là dans un monastère
 Ni casser la voix mais pour péter les artères"
 
 Couplet
+(
+$1
+)4
 --
 Et c'est ainsi chez nous et c'est pareil ailleurs
 Tout ce que ce vilain monde a fait de meilleur
@@ -78,6 +117,9 @@ Se trouvait là juste pour le plaisir
 Ce jour là je peux dire qu'on s'est fait plaisir
 
 Refrain
+(
+$1
+)4
 --
 (Tomber la) on a tombé, on a tombé la chemise
 (Tomber la) oui moi j'ai tombé, j'ai tombé la chemise
@@ -85,10 +127,16 @@ Refrain
 (Tomber la) oui moi j'ai tombé, j'ai tombé la chemise
 
 Solo
+[
+A#
+]8
 --
 ***Solo***
 
 Refrain
+(
+$1
+)4
 --
 (Tomber la) on a tombé, on a tombé la chemise
 (Tomber la) oui moi j'ai tombé, j'ai tombé la chemise

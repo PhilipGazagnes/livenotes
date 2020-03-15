@@ -1,23 +1,45 @@
-Intro
+$1
+A#m C#;F#
+
+$2
+[
+C#;D#m
+]2
+D#m
+
+Drum...
+(
+$1
+)2
 
 Couplet
+(
+$1
+)2
 --
 I can't believe the news today
 Oh, I can't close my eyes
-And make it go away
-How long?
+And make it go awa
 
 Break
+$2
 --
+How long?
 How long must we sing this song?
 How long, how long?
 
 Refrain
+(
+$1
+)2
 --
 'Cause tonight, we can be as one
 Tonight
 
 Couplet
+(
+$1
+)4
 --
 Broken bottles under children's feet
 Bodies strewn across the dead end street
@@ -26,6 +48,13 @@ It puts my back up
 Puts my back up against the wall
 
 Refrain
+[
+$1
+]2
+:
+[
+E D#m; C#
+]2
 --
 Sunday, Bloody Sunday
 Sunday, Bloody Sunday
@@ -33,8 +62,14 @@ Sunday, Bloody Sunday
 Sunday, Bloody Sunday
 
 Theme
+(
+$1
+)2
 
 Couplet
+(
+$1
+)4
 --
 And the battle's just begun
 There's many lost, but tell me who has won
@@ -42,26 +77,43 @@ The trench is dug within our hearts
 And mothers, children, brothers, sisters torn apart
 
 Refrain
+(
+$1
+)2
 --
 Sunday, Bloody Sunday
 Sunday, Bloody Sunday
 
 Break
+$2
 --
 How long?
 How long must we sing this song?
 How long, how long?
 
 Refrain
+(
+$1
+)4
 --
 'Cause tonight, we can be as one
 Tonight, tonight
 
 Solo
+(
+$1
+)8
 --
 ***Solo***
 
 Refrain
+[
+$1
+]2
+:
+[
+E D#m; C#
+]4
 --
 Sunday, Bloody Sunday
 Sunday, Bloody Sunday
@@ -69,8 +121,14 @@ Sunday, Bloody Sunday
 Sunday, Bloody Sunday
 
 Theme
+(
+$1
+)2
 
 Couplet
+(
+$1
+)6
 --
 And it's true we are immune
 When fact is fiction and TV reality
@@ -80,6 +138,9 @@ the real battle just begun
 to claim the victory Jesus won
 
 Refrain
+(
+$1
+)2
 --
 Sunday, Bloody Sunday
 Sunday, Bloody Sunday

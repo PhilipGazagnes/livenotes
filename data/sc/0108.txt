@@ -1,17 +1,31 @@
+$1
+[
+D
+]8
+
+$2
+A;%;Bm;G
+[
+D
+]8
+
 Couplet
+$1
 --
 Left a good job in the city
 Workin' for the man ev'ry night and day
 And I never lost one minute of sleepin'
 Worryin' 'bout the way things might have been
 
-Refrain
+Refrain (fin courte)
+$2
 --
 Big wheel keep on turnin'
 Proud Mary keep on burnin'
 Rollin', rollin', rollin' on the river
 
 Couplet
+$1
 --
 Cleaned a lot of plates in Memphis
 Pumped a lot of pane down in New Orleans
@@ -19,15 +33,18 @@ But I never saw the good side of the city
 'Til I hitched a ride on a river boat queen
 
 Refrain
+$2
 --
 Big wheel keep on turnin'
 Proud Mary keep on burnin'
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 
-Break
+Break (tempo x2)
+$1
 
 Couplet
+$1
 --
 Left a good job in the city
 Workin' for the man ev'ry night and day
@@ -35,6 +52,7 @@ And I never lost one minute of sleepin'
 Worryin' 'bout the way things might have been
 
 Refrain
+$2
 --
 Big wheel keep on turnin'
 Proud Mary keep on burnin'
@@ -42,6 +60,7 @@ Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 
 Couplet
+$1
 --
 Cleaned a lot of plates in Memphis
 Pumped a lot of pane down in New Orleans
@@ -49,6 +68,7 @@ But I never saw the good side of the city
 'Til I hitched a ride on a river boat queen
 
 Refrain
+$2
 --
 Big wheel keep on turnin'
 Proud Mary keep on burnin'
@@ -56,6 +76,7 @@ Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 
 Couplet
+$1
 --
 If you come down to the river
 Bet you gonna find some people who live
@@ -63,6 +84,7 @@ You don't have to worry 'cause you have no money
 People on the river are happy to give
 
 Refrain
+$2
 --
 Big wheel keep on turnin'
 Proud Mary keep on burnin'

@@ -1,6 +1,24 @@
+$1
+Em;F
+
+$2
+Em;F;G;%
+
+$3
+[
+Em;G
+]3
+Em;D;%
+
 Intro
+(
+$1
+)6
 
 Couplet
+(
+$2
+)4
 --
 London calling to the faraway towns
 Now war is declared and battle come down
@@ -12,6 +30,7 @@ London calling, see we ain't got no swing
 Except for the ring of that truncheon thing
 
 Refrain
+$3
 --
 The ice age is coming, the sun is zooming in
 Meltdown expected, the wheat is growin' thin
@@ -19,6 +38,9 @@ Engines stop running, but I have no fear
 'Cause London is drowning, and I, I live by the river
 
 Couplet
+(
+$2
+)4
 --
 London calling to the imitation zone
 Forget it, brother, you can go it alone
@@ -30,6 +52,7 @@ London calling, see we ain't got no high
 Except for that one with the yellowy eye
 
 Refrain
+$3
 --
 The ice age is coming, the sun is zooming in
 Engines stop running, the wheat is growin' thin
@@ -37,12 +60,21 @@ A nuclear era, but I have no fear
 'Cause London is drowning, and I, I live by the river
 
 Break / Solo
+(
+$2
+)4
 --
 ***Solo***
 
 Refrain
+$3
 --
 The ice age is coming, the sun is zooming in
 Engines stop running, the wheat is growin' thin
 A nuclear era, but I have no fear
 'Cause London is drowning, and I, I live by the river
+
+Intro
+(
+$1
+)6

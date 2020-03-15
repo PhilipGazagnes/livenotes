@@ -1,6 +1,11 @@
+$1
+G C;Em D
+
 Theme
+$1
 
 Couplet
+$1
 --
 Don't you know
 They're talkin' 'bout a revolution
@@ -14,6 +19,7 @@ Wasting time in the unemployment lines
 Sitting around waiting for a promotion
 
 Couplet
+$1
 --
 Don't you know
 They're talkin' 'bout a revolution
@@ -24,6 +30,7 @@ Poor people gonna rise up
 And take what's theirs
 
 Refrain
+$1
 --
 Don't you know
 You better run, run, run, run, run, run, run, run, run, run, run, run
@@ -31,6 +38,7 @@ Oh I said you better
 Run, run, run, run, run, run, run, run, run, run, run, run
 
 Couplet
+$1
 --
 'Cause finally the tables are starting to turn
 Talkin' bout a revolution
@@ -43,6 +51,7 @@ Wasting time in the unemployment lines
 Sitting around waiting for a promotion
 
 Couplet
+$1
 --
 Don't you know
 They're talkin' 'bout a revolution

@@ -1,8 +1,57 @@
+$4
+[
+D;%;A#;%
+:
+C;%;A;%
+]2
+
+$1
+[
+D;%;A#;%
+:
+C;%;A;%
+]2
+:
+A;%
+
+$2
+[
+C
+]4
+[
+G
+]4
+
+$3
+[
+D;C;G;F
+]3
+D;C;G;%;D
+
+$5
+[
+C
+]2
+[
+G
+]2
+
+$6
+[
+D;%;C;%
+]7
+C;%
+
 Theme planant
+(
+$2
+)2
 
 Theme
+$4
 
 Couplet
+$2
 --
 Tu bosses toute ta vie pour payer ta pierre tombale
 Tu masques ton visage en lisant ton journal
@@ -14,6 +63,7 @@ Tu voudrais donner des yeux a la justice
 Impossible de violer cette femme pleine de vices
 
 Refrain
+$3
 --
 Antisocial, tu perds ton sang froid
 Repense a toutes ces années de service
@@ -21,6 +71,7 @@ Antisocial, bientôt les années de sévices
 Enfin le temps perdu qu'on ne rattrape plus
 
 Couplet
+$2
 --
 Écraser les gens est devenu ton passe-temps
 En les éclaboussant, tu deviens gênant
@@ -32,6 +83,7 @@ Relève la gueule, je suis la, t'es pas seul
 Ceux qui t'enviaient, aujourd'hui te jugeraient
 
 Refrain
+$3
 --
 Antisocial, tu perds ton sang froid
 Repense a toutes ces années de service
@@ -39,14 +91,19 @@ Antisocial, bientôt les années de sévices
 Enfin le temps perdu qu'on ne rattrape plus
 
 Break (theme planant)
+(
+$5
+)2
 --
 Qu'on ne rattrape plus
 
 Solo
+$6
 --
 ***Solo***
 
 Couplet
+$2
 --
 Tu bosses toute ta vie pour payer ta pierre tombale
 Tu masques ton visage en lisant ton journal
@@ -58,6 +115,7 @@ Tu voudrais donner des yeux a la justice
 Impossible de violer cette femme pleine de vices
 
 Refrain
+$3
 --
 Antisocial, tu perds ton sang froid
 Repense a toutes ces années de service
@@ -67,7 +125,10 @@ Qu'on ne rattrape plus
 On ne rattrape plus
 Qu'on ne rattrape plus
 
-Outro (theme planant)
+Outro (fin gimmick)
+(
+$5
+)8
 --
 Qu'on ne rattrape plus
 On ne rattrape plus
@@ -75,3 +136,6 @@ Antisocial, antisocial
 Antisocial, antisocial
 Antisocial, antisocial
 Antisocial, antisocial
+
+Fin
+D;C;%

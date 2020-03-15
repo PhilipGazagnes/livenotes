@@ -1,6 +1,22 @@
+$1
+D
+
+$2
+[
+Bm;A;G;A
+]4
+:
+G;%;C;%
+
 Theme
+(
+$1
+)2
 
 Couplet
+(
+$1
+)8
 --
 Take this pink ribbon off my eyes
 I'm exposed
@@ -11,19 +27,23 @@ This world is forcing me
 To hold your hand
 
 Refrain
+$2
 --
 'Cause I'm just a girl, little ol' me
 Well don't let me out of your sight
 Oh, I'm just a girl, all pretty and petite
 So don't let me have any rights
-
-Post refrain
---
 Oh, I've had it up to here!
 
 Theme
+(
+$1
+)2
 
 Couplet
+(
+$1
+)8
 --
 The moment that I step outside
 So many reasons
@@ -33,7 +53,8 @@ I hold so dear
 'Cause it's all those little things
 That I fear
 
-Refrain
+Refrain (+2 cycles debut)
+$2
 --
 'Cause I'm just a girl
 I'd rather not be
@@ -46,28 +67,30 @@ With their eyes
 Oh I'm just a girl
 Take a good look at me
 Just your typical prototype
-
-Post refrain
---
 Oh, I've had it up to here!
 
 Solo
+$2
 --
 ***Solo***
-
-Post refrain
---
 Oh, am I making myself clear?
 
 Theme
+(
+$1
+)2
 
 Couplet
+(
+$1
+)4
 --
 I'm just a girl
 I'm just a girl in the world
 That's all that you'll let me be!
 
-Refrain
+Refrain (début doublé - fin triplée, dernière ralentie)
+$2
 --
 Oh I'm just a girl, living in captivity
 Your rule of thumb
@@ -79,14 +102,6 @@ Oh I'm just a girl, my apologies
 What I've become is so burdensome
 Oh I'm just a girl, lucky me
 Twiddle-dum there's no comparison
-
-Post refrain
---
 Oh, I've had it up to!
 Oh, I've had it up to!!
-
-Post refrain ralenti
---
 Oh, I've had it up to here
-
-Fin

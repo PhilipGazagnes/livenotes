@@ -1,6 +1,17 @@
+$1
+x53533
+
+$2
+xx7565
+
+$3
+A#;F;C;Gm
+
 Intro
+$1
 
 Couplet
+$2
 --
 Giant steps are what you take
 Walking on the moon
@@ -12,6 +23,7 @@ We could live together
 Walking on, walking on the moon
 
 Couplet
+$2
 --
 Walking back from your house
 Walking on the moon
@@ -23,6 +35,7 @@ My feet don't hardly make no sound
 Walking on, walking on the moon
 
 Refrain
+$3
 --
 Some may say
 I'm wishing my days away
@@ -34,8 +47,10 @@ You stay
 I may as well play
 
 Theme
+$1
 
 Couplet
+$2
 --
 Giant steps are what you take
 Walking on the moon
@@ -47,6 +62,7 @@ We could be together
 Walking on, walking on the moon
 
 Refrain
+$3
 --
 Some may say
 I'm wishing my days away
@@ -58,3 +74,4 @@ You stay
 I may as well play
 
 Outro
+$1

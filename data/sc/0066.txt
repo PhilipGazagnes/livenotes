@@ -1,6 +1,15 @@
+$1
+E;C;G;D
+
 Intro
+E;%
+:
+$1
 
 Couplet
+(
+$1
+)3
 --
 A se changer en Roi
 A hurler à la lune
@@ -15,6 +24,9 @@ Au fond il a d'la classe
 Ou alors qu'on prenne la sève
 
 Refrain
+(
+$1
+)2
 --
 Comme elle vient
 Encore et encore
@@ -22,17 +34,23 @@ Comme elle vient
 Encore et encore
 
 Couplet
+(
+$1
+)2
 --
 Tu la vois la belle bleue
 Des feux de l'artifice
 Et tu la sens même un peu mieux
 A la faveur d'une éclipse
-On voit do jour au lendemain
+On voit du jour au lendemain
 Que ça ne s'invente pas
 Instantanément comme ça
 Reprendre de volée d'aussi loin
 
 Refrain
+(
+$1
+)2
 --
 Comme elle vient
 Encore et encore
@@ -40,6 +58,9 @@ Comme elle vient
 Encore et encore
 
 Pont
+[
+E;B;C;G A
+]2
 --
 Comme elle vient
 Comme on peut
@@ -51,6 +72,9 @@ see'est bon pour la mémoire
 Ça vous fait quoi d'être au milieu ?
 
 Couplet
+(
+$1
+)3
 --
 Hé camarade
 Si les jeux sont faits
@@ -66,6 +90,9 @@ Je peux encore garder ton nom
 Je peux aussi dire que je l'aime
 
 Refrain
+(
+$1
+)2
 --
 Comme elle vient
 Encore et encore

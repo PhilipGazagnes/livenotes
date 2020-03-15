@@ -1,6 +1,29 @@
+$1
+A C
+
+$2
+A;C;G;A
+
+Intro (appel drum)
+(
+$1
+)4
+
 Theme
+(
+$1
+)4
 
 Couplet
+[
+A C
+]7
+D;%
+[
+A C
+]4
+:
+G;F;A;%
 --
 J'suis un mannequin glacé
 Avec un teint de soleil
@@ -30,6 +53,9 @@ Vous n'imaginez pas
 Ce qu'ils sont gais
 
 Refrain
+(
+$2
+)2
 --
 Qui veut de moi
 Et des miettes de mon cerveau
@@ -37,6 +63,20 @@ Qui veut entrer
 Dans la toile de mon réseau
 
 Couplet
+[
+A C
+]4
+D;%
+[
+A C
+]6
+:
+D;%
+[
+A C
+]2
+:
+G;F;A;%
 --
 Militant quotidien
 De l'inhumanité
@@ -51,9 +91,6 @@ Et puis le reste aussi
 Mes connaissances uniques
 Et leurs femmes que je
 Fréquente évidemment
-
-Couplet
---
 Les cordons de la bourse
 Se relâchent pour moi
 Il n'y a plus de secrets
@@ -75,6 +112,9 @@ Mieux que d'la confiture
 À des cochons
 
 Refrain
+(
+$2
+)4
 --
 Qui veut de moi
 Et des miettes de mon cerveau
@@ -88,7 +128,10 @@ Je suis un homme pressé
 Un homme pressé
 Un homme pressé
 
-Couplet
+Pont
+A;C;G;A
+:
+A;B;C D;A
 --
 J'suis un militant quotidien
 De l'inhumanité
@@ -106,4 +149,33 @@ Moi je vais vite, très vite
 Ma carrière est en jeu
 Je suis l'homme médiatique
 Moi je suis plus que politique
+
+Refrain
+(
+$2
+)2
+--
 Car je suis un homme pressé
+Un homme pressé, un homme pressé
+Un homme pressé, un homme pressé
+Un homme pressé, un homme pressé
+
+Pont
+(
+$2
+)2
+--
+J'suis un militant quotidien
+De l'inhumanité
+Et des profits immédiats
+Et puis des faveurs des médias
+Moi je suis riche, très riche
+Je fais dans l'immobilier
+Je sais faire des affaires
+Y'en a qui peuvent payer
+Love, love, love
+Dit-on en Amérique
+Lioubov
+Russie ex-Soviétique
+Amour
+Aux quatre coins de France

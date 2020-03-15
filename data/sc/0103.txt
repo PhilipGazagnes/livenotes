@@ -1,4 +1,21 @@
+$1
+Em;Am;D;G
+:
+Em;Am;D;C
+:
+G;C;F;%
+:
+E;%
+
+$2
+Em;Am;D;G
+:
+Em;Am;D;C
+:
+C;D;G;B
+
 Refrain
+$1
 --
 Strumming my pain with his fingers
 Singing my life with his words
@@ -8,12 +25,14 @@ Telling my whole life with his words
 Killing me softly with his song
 
 Couplet
+$2
 --
 I heard he sang a good song, I heard he had a style
 And so I came to see him, to listen for a while
 And there he was, this young boy, a stranger to my eyes
 
 Refrain
+$1
 --
 Strumming my pain with his fingers
 Singing my life with his words
@@ -23,12 +42,14 @@ Telling my whole life with his words
 Killing me softly with his song
 
 Couplet
+$2
 --
 I heard he sang a good song, I heard he had a style
 And so I came to see him, to listen for a while
 And there he was, this young boy, a stranger to my eyes
 
 Refrain
+$1
 --
 Strumming my pain with his fingers
 Singing my life with his words
@@ -38,12 +59,14 @@ Telling my whole life with his words
 Killing me softly with his song
 
 Couplet
+$2
 --
 I felt all flushed with fever, embarrassed by the crowd
 I felt he'd found my letters and read each one out loud
 I prayed that he would finish, but he just kept right on
 
 Refrain
+$1
 --
 Strumming my pain with his fingers
 Singing my life with his words

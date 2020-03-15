@@ -1,6 +1,23 @@
-Intro
+$1
+[
+G;F;C;G
+]2
+
+$2
+[
+G;D;C;G
+]2
+
+$3
+[
+G
+]8
+
+Intro drum gimmick
+$3
 
 Couplet
+$1
 --
 Some folks are born made to wave the flag
 Ooh, they're red, white and blue
@@ -8,11 +25,13 @@ And when the band plays "Hail to the chief"
 Ooh, they point the cannon at you, Lord
 
 Refrain
+$2
 --
 It ain't me, it ain't me, I ain't no senator's son, son
 It ain't me, it ain't me, I ain't no fortunate one, no
 
 Couplet
+$1
 --
 Some folks are born silver spoon in hand
 Lord, don't they help themselves, oh
@@ -20,13 +39,16 @@ But when the taxman comes to the door
 Lord, the house looks like a rummage sale, yes
 
 Refrain
+$2
 --
 It ain't me, it ain't me, I ain't no millionaire's son, no
 It ain't me, it ain't me, I ain't no fortunate one, no
 
 Break
+$3
 
 Couplet
+$1
 --
 Some folks inherit star spangled eyes
 Ooh, they send you down to war, Lord
@@ -34,11 +56,13 @@ And when you ask them, "How much should we give?"
 Ooh, they only answer "More! More! More!" yoh
 
 Refrain
+$2
 --
 It ain't me, it ain't me, I ain't no millionaire's son, no
 It ain't me, it ain't me, I ain't no fortunate one, no
 
 Refrain
+$2
 --
 It ain't me, it ain't me, I ain't no millionaire's son, no
 It ain't me, it ain't me, I ain't no fortunate one, no

@@ -1,6 +1,15 @@
+$1
+A;G;D;A
+
 Theme
+(
+$1
+)2
 
 Couplet
+(
+$1
+)2
 --
 I can see you're young and pretty
 I know it would be so easy
@@ -10,6 +19,9 @@ I don't think that you really chose
 There's even one more reason to feel lazy
 
 Refrain
+(
+$1
+)2
 --
 While you go away
 While you go away
@@ -17,6 +29,9 @@ While you go away
 While you go away
 
 Couplet
+(
+$1
+)2
 --
 I could die but I could lie
 I can deal with what's in your mind
@@ -27,6 +42,9 @@ Don't you think you should feel
 Suddenly lazy
 
 Refrain
+(
+$1
+)2
 --
 While you go away
 While you go away
@@ -34,10 +52,16 @@ While you go away
 While you go away
 
 Solo
+(
+$1
+)2
 --
 ***Solo***
 
 Lazy la la lazy
+(
+$1
+)4
 --
 Lazy, la, la, la, lazy
 Lazy, la, la, la, lazy

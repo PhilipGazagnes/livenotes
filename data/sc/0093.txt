@@ -1,4 +1,24 @@
+$1
+A;%;C#m;%
+F#m;%;D G;A
+
+$2
+[
+Bm
+]4
+[
+G
+]4
+[
+E
+]4
+[
+A
+]4
+
 Intro
+Bm;%;G;%
+E;%;A;%
 --
 Help! I need somebody
 Help! not just anybody
@@ -6,6 +26,9 @@ Help! you know I need someone
 Help!
 
 Couplet
+(
+$1
+)2
 --
 When I was younger so much younger than today
 I never needed anybody's help in any way
@@ -13,6 +36,7 @@ But now these days are gone and I'm not so self assured
 Now I find I've changed my mind, I've opened up the doors
 
 Refrain
+$2
 --
 Help me if you can, I'm feeling down
 And I do appreciate you being 'round
@@ -20,6 +44,9 @@ Help me get my feet back on the ground
 Won't you please, please help me?
 
 Couplet
+(
+$1
+)2
 --
 And now my life has changed in oh so many ways
 My independence seems to vanish in the haze
@@ -27,13 +54,17 @@ But ev'ry now and then I feel so insecure
 I know that I just need you like I've never done before
 
 Refrain
+$2
 --
 Help me if you can, I'm feeling down
 And I do appreciate you being 'round
 Help me get my feet back on the ground
 Won't you please, please help me?
 
-Couplet
+Couplet (début calme)
+(
+$1
+)2
 --
 When I was younger, so much younger than today
 I never needed anybody's help in any way
@@ -41,13 +72,9 @@ But now these days are gone and I'm not so self assured
 Now I find I've changed my mind, I've opened up the doors
 
 Refrain
+$2
 --
 Help me if you can, I'm feeling down
 And I do appreciate you being 'round
 Help me get my feet back on the ground
 Won't you please, please help me?
-
-Outro
---
-Help me, help me
-Ooh

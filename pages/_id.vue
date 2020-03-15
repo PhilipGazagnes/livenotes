@@ -6,9 +6,9 @@
         {{ truncate(meta.name, 25) }}
         <small>{{ meta.artist }}</small>
       </span>
-      <button @click="togglePresentation">&spades;</button>
+      <button @click="lyrics = !lyrics">&spades;</button>
     </div>
-    <ul class="overview">
+    <ul class="overview" v-if="!lyrics">
       <li v-for="(s, index) in songData" :key="index">
         <span :class="sectionClass(s.measures, index)">
           {{ s.name }}
@@ -16,7 +16,7 @@
         </span>
       </li>
     </ul>
-    <div class="notes">
+    <div class="notes" v-if="!lyrics">
       <div v-for="(s, index) in songData" :key="index" :class="['section', titleClass(s.name)]">
         <div :class="['measures', isNewAndSectionClass(s.measures, index)]">
           <div v-for="(c, index) in s.comments" :key="index">{{ c }}</div>
@@ -37,6 +37,11 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="lyrics" v-if="lyrics">
+      <div v-for="(s, index) in songData" :key="index">
+        {{ s.lyrics }}
       </div>
     </div>
   </div>
@@ -64,7 +69,8 @@ export default {
       showTitles: true,
       showMeasures: true,
       spcache: [],
-      presentationMode: 1
+      presentationMode: 1,
+      lyrics: false,
     };
   },
   computed: {

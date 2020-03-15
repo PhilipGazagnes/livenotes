@@ -1,6 +1,16 @@
+$1
+C G;Am F;C G;F C
+
+$2
+Am G;F C;C G;F C
+
 Theme
+$1
 
 Couplet
+(
+$1
+)2
 --
 When I find myself in times of trouble
 Mother Mary comes to me
@@ -10,12 +20,16 @@ She is standing right in front of me
 Speaking words of wisdom, let it be.
 
 Refrain
+$2
 --
 Let it be, let it be,
 Let it be, let it be,
 Whisper words of wisdom, let it be
 
 Couplet
+(
+$1
+)2
 --
 And when the broken hearted people
 Living in the world agree,
@@ -24,31 +38,43 @@ For though they may be parted there is
 Still a chance that they will see
 There will be an answer, let it be
 
-Refrain
+Refrain (entrée drum)
+$2
 --
 Let it be, let it be,
 Let it be, let it be,
 There will be an answer, let it be
 
 Refrain
+$2
 --
 Let it be, let it be,
 Let it be, let it be,
 Whisper words of wisdom, let it be
 
 Break
+[
+F C;G C
+]2
 
 Solo
+(
+$1
+)2
 --
 ***Solo***
 
 Refrain
+$2
 --
 Let it be, let it be,
 Let it be, let it be,
 Whisper words of wisdom, let it be
 
 Couplet
+(
+$1
+)2
 --
 And when the night is cloudy,
 There is still a light that shines on me,
@@ -58,12 +84,14 @@ Mother Mary comes to me
 Speaking words of wisdom, let it be.
 
 Refrain
+$2
 --
 Let it be, let it be,
 Let it be, let it be,
 There will be an answer, let it be
 
 Refrain
+$2
 --
 Let it be, let it be,
 Let it be, let it be,

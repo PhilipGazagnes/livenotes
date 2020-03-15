@@ -1,6 +1,23 @@
-Intro
+$1
+[
+F;D#;A#;F
+]2
+
+$2
+[
+F;C;A#;F
+]2
+
+$3
+[
+F
+]8
+
+Intro drum gimmick
+$3
 
 Couplet
+$1
 --
 Y en a qui naissent
 Dans les plis du drapeau
@@ -9,6 +26,7 @@ Et quand la troupe défile sous leurs carreaux
 Ils ont l'âme guerrière
 
 Refrain
+$2
 --
 Mais pas moi
 Mais pas moi
@@ -18,6 +36,7 @@ Mais pas moi
 Je suis le fils de personne
 
 Couplet
+$1
 --
 Y en a qui naissent avec dans leur berceau
 Les milliards de leur père
@@ -25,6 +44,7 @@ On leur apprend que tout peux s'acheter
 Les affaires, oui, sont les affaires
 
 Refrain
+$2
 --
 Mais pas moi
 Mais pas moi
@@ -34,8 +54,10 @@ Mais pas moi
 Je suis le fils de personne
 
 Break
+$3
 
 Couplet
+$1
 --
 Y en a qui naissent
 Dans le respect des lois
@@ -44,6 +66,7 @@ Leurs paradis, c'est un bureau étroit
 Dans un immense ministère
 
 Refrain
+$2
 --
 Mais pas moi
 Mais pas moi
@@ -52,8 +75,14 @@ Mais pas moi
 Mais pas moi
 Je suis le fils de personne
 Mais pas moi
+
+Refrain
+$2
+--
+Mais pas moi
+Mais pas moi
+Je ne suis pas né fonctionnaire
+Mais pas moi
 Mais pas moi
 Je suis le fils de personne
 Mais pas moi
-Mais pas moi
-Je suis le fils de personne

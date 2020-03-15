@@ -1,8 +1,21 @@
-Intro
+$1
+Em;D
+
+$2
+[
+Em;D
+]2
+C;D;Em;D
+
+Drum
 
 Theme
+(
+$1
+)4
 
 Couplet
+$2
 --
 They told him don't you ever come around here
 Don't want to see your face, you better disappear
@@ -10,6 +23,7 @@ The fire's in their eyes and their words are really clear
 So beat it, just beat it
 
 Couplet
+$2
 --
 You better run, you better do what you can
 Don't want to see no blood, don't be a macho man
@@ -17,6 +31,9 @@ You want to be tough, better do what you can
 So beat it, but you want to be bad
 
 Refrain
+(
+$1
+)6
 --
 Just beat it, beat it, beat it, beat it
 No one wants to be defeated
@@ -28,6 +45,7 @@ Just beat it, beat it
 Just beat it, beat it
 
 Couplet
+$2
 --
 They're out to get you, better leave while you can
 Don't want to be a boy, you want to be a man
@@ -35,6 +53,7 @@ You want to stay alive, better do what you can
 So beat it, just beat it
 
 Couplet
+$2
 --
 You have to show them that you're really not scared
 You're playin' with your life, this ain't no truth or dare
@@ -43,6 +62,9 @@ Then they'll tell you it's fair
 So beat it, but you want to be bad
 
 Refrain
+(
+$1
+)8
 --
 Just beat it, beat it, beat it, beat it
 No one wants to be defeated
@@ -54,14 +76,23 @@ Showin' how funky and strong is your fight
 It doesn't matter who's wrong or right
 
 Break
+[
+Em
+]16
 --
 Just beat it, beat it, beat it, beat it
 
 Solo
+(
+$2
+)2
 --
 ***Solo***
 
 Refrain
+(
+$1
+)8
 --
 Just beat it, beat it, beat it, beat it
 No one wants to be defeated
@@ -74,6 +105,9 @@ Showin' how funky and strong is your fight
 It doesn't matter who's wrong or who's right
 
 Refrain
+(
+$1
+)8
 --
 Just beat it, beat it, beat it, beat it
 No one wants to be defeated

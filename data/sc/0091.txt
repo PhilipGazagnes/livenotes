@@ -1,6 +1,29 @@
+$1
+[
+A;F#;A;B
+]2
+D
+:
+[
+A;F#;A;B
+]2
+D;%
+
+$2
+[
+A;B;D;%
+]3
+
+$3
+[
+A;F#
+]4
+
 Intro
+$3
 
 Couplet
+$1
 --
 Un jour j'irai à New York avec toi
 Toutes les nuits déconner
@@ -13,6 +36,7 @@ Voir leurs cœurs se vider et saigner
 Oui, saigner
 
 Refrain
+$2
 --
 Un jour j'irai là -bas
 Un jour Chat, un autre Rat
@@ -20,7 +44,11 @@ Voir si le cœur de la ville bat en toi
 Et tu m'emmèneras
 Emmène-moi!
 
+Intro
+$3
+
 Couplet
+$1
 --
 Un jour j'aurai New York au bout des doigts
 On y jouera, tu verras
@@ -34,6 +62,7 @@ Que nulle part c'est chez moi, chez toi
 Chez nous, quoi!
 
 Refrain
+$2
 --
 Un jour j'irai là -bas
 Un jour Chat, un autre Rat
@@ -41,6 +70,7 @@ Voir si le cœur de la ville bat en toi
 Et tu m'emmèneras
 
 Refrain
+$2
 --
 Un jour (emmène-moi, mène-moi)
 (Emmène-moi, mène-moi)
@@ -50,3 +80,4 @@ Et tu m'emmèneras!
 Emmène-moi!
 
 Outro
+A;F#m;A;E A

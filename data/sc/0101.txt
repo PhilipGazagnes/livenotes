@@ -1,6 +1,14 @@
+$1
+[
+A
+]6
+B;C B
+
 Intro
+E
 
 Couplet
+E
 --
 Ah keep your eyes on the road,
 Your hands upon the wheel.
@@ -10,8 +18,10 @@ Yeah, we're going to the roadhouse,
 Gonna have a real good-time.
 
 Inter
+E
 
 Couplet
+E
 --
 Yeah, the back of the roadhouse,
 They've got some bungalows.
@@ -21,6 +31,7 @@ They dance for the people
 Who like to go down slow.
 
 Refrain
+$1
 --
 Let it roll, baby, roll.
 Let it roll, baby, roll.
@@ -28,10 +39,12 @@ Let it roll, baby, roll.
 Let it roll, all night long.
 
 Solo
+E
 --
 ***Solo***
 
 Couplet
+E
 --
 You gotta roll, roll, roll,
 You gotta thrill my soul, alright.
@@ -52,6 +65,7 @@ The future's uncertain
 And the end is always near.
 
 Refrain
+$1
 --
 Let it roll, baby, roll.
 Let it roll, baby, roll.
