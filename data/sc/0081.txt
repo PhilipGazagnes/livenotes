@@ -1,13 +1,17 @@
+$1
+B;A
+
 Intro
 [
 B;E A
 ]3
+:
 B;%;%
 
 Couplet
-[
-B;A
-]6
+(
+$1
+)6
 --
 I was born in a cross-fire hurricane
 And I howled at the morning driving rain
@@ -16,6 +20,7 @@ Refrain
 [
 D;A;E;B
 ]2
+:
 B;%
 --
 But it's all right now, in fact, it's a gas
@@ -23,9 +28,9 @@ But it's all right. I'm Jumpin' Jack Flash
 It's a gas, gas, gas
 
 Couplet
-[
-B;A
-]6
+(
+$1
+)6
 --
 I was raised by a toothless, bearded hag,
 I was schooled with a strap right across my back
@@ -34,6 +39,7 @@ Refrain
 [
 D;A;E;B
 ]2
+:
 B;%
 --
 But it's all right now, in fact, it's a gas
@@ -44,12 +50,13 @@ Solo
 [
 B;E A
 ]4
+:
 B;%;%
 
 Couplet
-[
-B;A
-]10
+(
+$1
+)10
 --
 I was drowned, I was washed up and left for dead
 I fell down to my feet and I saw they bled , yeah yeah
@@ -60,6 +67,7 @@ Refrain
 [
 D;A;E;B
 ]2
+:
 B;%
 --
 But it's all right now, in fact, it's a gas

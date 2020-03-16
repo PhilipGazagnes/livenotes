@@ -1,8 +1,19 @@
+$1
+E
+
+$2
+B;D;E
+:
+B;A
+
 Intro
+$1
 
 Theme
+$1
 
 Couplet
+$1
 --
 Nous survolons des villes
 (des) autoroutes en friche
@@ -14,6 +25,7 @@ Soyons désinvoltes
 N'ayons l'air de rien
 
 Refrain
+$2
 --
 Para la queja mexica
 Este sueño de america
@@ -30,8 +42,10 @@ Encore combien à attendre
 Tostaky
 
 Theme
+$1
 
 Couplet
+$1
 --
 Le fond do continent
 L'or do nouveau monde
@@ -43,6 +57,7 @@ Notre mère la terre
 Étonne moi
 
 Refrain
+$2
 --
 Para la queja mexica
 Este sueño de america
@@ -65,8 +80,10 @@ Aqui para nosotros
 Tostaky
 
 Theme
+$1
 
 Couplet
+$1
 --
 Bien reçu
 Tous les messages

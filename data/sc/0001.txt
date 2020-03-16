@@ -1,4 +1,30 @@
+$1
+A D;G;%;A
+
+$2
+[
+A D;G;%;A
+]3
+:
+A D;G;%;E;%
+
+$3
+[
+A;D G
+]3
+:
+A;D;%
+
+$4
+[
+A;D G
+]4
+
+Intro
+$1
+
 Couplet
+$2
 --
 Living easy, living free
 Season ticket on a one-way ride
@@ -10,6 +36,7 @@ Going down, party time
 My friends are gonna be there too
 
 Refrain
+$3
 --
 I'm on the highway to hell
 On the highway to hell
@@ -17,6 +44,7 @@ Highway to hell
 I'm on the highway to hell
 
 Couplet
+$2
 --
 No stop signs, speed limit
 Nobody's gonna slow me down
@@ -28,6 +56,8 @@ Hey mama, look at me
 I'm on my way to the promised land, whoo!
 
 Refrain
+$3
+%;%;%
 --
 I'm on the highway to hell
 Highway to hell
@@ -35,10 +65,12 @@ I'm on the highway to hell
 Highway to hell
 
 Solo
+$4
 --
 ***Solo***
 
 Refrain
+$4
 --
 I'm on the highway to hell
 On the highway to hell
@@ -46,6 +78,7 @@ I'm on the highway to hell
 On the highway
 
 Refrain
+$4
 --
 Yeah, highway to hell
 I'm on the highway to hell

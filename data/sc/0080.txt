@@ -3,6 +3,7 @@ Intro
 [
 F#;%;D#m;%
 ]2
+:
 E;%;F#;%
 )2
 --
@@ -12,6 +13,7 @@ Couplet
 [
 F#;%;D#m;%
 ]4
+:
 E;%;F#;%
 --
 Ouais, le secret ça coupe et ça donne
@@ -26,6 +28,7 @@ Couplet
 [
 F#;%;D#m;%
 ]4
+:
 E;%;F#;%
 --
 Ça le susurre à mes entournures
@@ -40,6 +43,7 @@ La la la
 [
 F#;%;D#m;%
 ]3
+:
 E;%;F#;%
 --
 La lala lala lala lalala
@@ -63,15 +67,22 @@ Ni que je veux m'enfuir
 Il me faut prendre le frais, c'est vrai, hé, hé, hé
 
 Break
-(
 [
 F#;%;A#m;%
 ]2
+:
 E;%;F#;%
-)2
+:
+[
+F#;%;A#m;%
+]2
+:
+E;%;F#;%
+:
 [
 F#;%;A#m;%
 ]4
+:
 E;%;F#;%
 --
 Hé, viens près de moi que je te le dise

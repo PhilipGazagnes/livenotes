@@ -4,18 +4,15 @@ G#m;E;B;C#m
 $2
 Dm;Am;C;G
 
-Intro
-G#m;E;B;C#m;%
-
 Instru
+(
 $1
-$1
+)2
 
 Couplet
+(
 $1
-$1
-$1
-$1
+)4
 --
 Égaré dans la vallée infernale
 Le héros s'appelle Bob Morane
@@ -27,15 +24,17 @@ Stop au trafic des Caraïbes
 Escale dans l'opération Nadawieb
 
 Instru
+[
 $1
-$1
-G#m E B C#m; G#m E B C#m
+]2
+[
+G#m E B C#m
+]2
 
 Couplet
+(
 $1
-$1
-$1
-$1
+)4
 --
 Le cœur tendre dans le lit de Miss Clark
 Prisonnière du Sultan de Jarawak
@@ -47,15 +46,20 @@ On a volé le collier de Shiva
 Le Maharadja en répondra
 
 Instru
+[
 $1
-$1
-G#m E B C#m; G#m E B C#m
+]2
+:
+[
+G#m E B C#m
+]2
+:
 $2
 
 Refrain
+(
 $2
-$2
-$2
+)2
 --
 Et soudain surgit face au vent
 Le vrai héros de tous les temps
@@ -65,15 +69,18 @@ Bob Morane contre tout chacal
 L'aventurier contre tout guerrier
 
 Break
-_;_;_;_
+[
+_
+]4
+:
+[
 A E; F#m C#m
-A E; F#m C#m
+]2
 
 Couplet
+(
 $1
-$1
-$1
-$1
+)4
 --
 Dérivant à bord du Sampang
 L'aventure au parfum d'Ylalang
@@ -85,15 +92,20 @@ Tel l'aventurier solitaire
 Bob Morane est le roi de la Terre
 
 Instru
+[
 $1
-$1
-G#m E B C#m; G#m E B C#m
+]2
+:
+[
+G#m E B C#m
+]2
+:
 $2
 
 Refrain
+(
 $2
-$2
-$2
+)3
 --
 Et soudain surgit face au vent
 Le vrai héros de tous les temps

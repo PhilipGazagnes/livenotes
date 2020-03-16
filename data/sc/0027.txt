@@ -12,9 +12,11 @@ Couplet
 [
 Gm;%;F;Gm
 ]2
+:
 [
 C F#;G
 ]3
+:
 C;D
 --
 Sittin' here, eatin' my heart out waitin'
@@ -45,9 +47,11 @@ Couplet
 [
 Gm;%;F;Gm
 ]2
+:
 [
 C F#;G
 ]3
+:
 C;D
 --
 Lookin' for a lover who needs another

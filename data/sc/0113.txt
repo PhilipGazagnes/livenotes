@@ -1,6 +1,15 @@
+$1
+E;C B
+
 Theme
+(
+$1
+)4
 
 Couplet
+(
+$1
+)8
 --
 I'm gonna fight 'em all
 A seven nation army couldn't hold me back
@@ -12,13 +21,26 @@ Back and forth through my mind
 Behind a cigarette
 
 Break
+G;A
+:
+[
+$1
+]4
+:
+G;A
 --
 And the message coming from my eyes
 Says leave it alone
 
 Theme
+(
+$1
+)4
 
 Couplet
+(
+$1
+)8
 --
 Don't want to hear about it
 Every single one's got a story to tell
@@ -29,16 +51,28 @@ I'm gonna serve it to you
 And that ain't what you want to hear
 But that's what I'll do
 
-Break
+Break Solo
+G;A
+:
+[
+$1
+]8
+:
+G;A
 --
 And the feeling coming from my bones
 Says find a home
-
-Solo
---
 ***Solo***
 
+Theme
+(
+$1
+)4
+
 Couplet
+(
+$1
+)8
 --
 I'm going to Wichita
 Far from this opera for evermore
@@ -50,8 +84,11 @@ All the words are gonna bleed from me
 And I will sing no more
 
 Break
+G;A
+:
+[
+$1
+]4
 --
 And the stains coming from my blood
 Tell me go back home
-
-Theme

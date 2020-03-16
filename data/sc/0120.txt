@@ -1,6 +1,14 @@
+$1
+E;D;A
+
+$2
+B;E
+
 Intro
+$1
 
 Couplet
+$1
 --
 Please allow me to introduce myself
 I'm a man of wealth and taste
@@ -12,6 +20,7 @@ Made damn sure that Pilate
 Washed his hands and sealed his fate
 
 Refrain
+$2
 --
 Pleased to meet you
 Hope you guess my name
@@ -19,6 +28,7 @@ Hope you guess my name
 Nature of my game
 
 Couplet
+$1
 --
 I stuck around St. Petersburg
 When I saw it was a time for a change
@@ -28,6 +38,7 @@ I rode a tank, held a general's rank
 When the blitzkrieg raged and the bodies stank
 
 Refrain
+$2
 --
 Pleased to meet you
 Hope you guess my name
@@ -35,6 +46,7 @@ Hope you guess my name
 Nature of my game
 
 Couplet
+$1
 --
 I watched with glee while your kings and queens
 Fought for ten decades, for the gods they made
@@ -47,6 +59,7 @@ I laid traps for troubadours
 Who get killed before they reached Bombay
 
 Refrain
+$2
 --
 Pleased to meet you
 Hope you guessed my name, oh yeah
@@ -54,10 +67,12 @@ But what's confusing you is just the
 Nature of my game
 
 Solo
+$1
 --
 ***Solo***
 
 Refrain
+$2
 --
 Pleased to meet you
 Hope you guessed my name, oh yeah
@@ -65,6 +80,7 @@ But what's confusing you is just the
 Nature of my game
 
 Couplet
+$1
 --
 Just as every cop is a criminal
 And all the sinners saints
@@ -77,6 +93,7 @@ Use all your well-learned politesse
 Or I'll lay your soul to waste, oh yeah
 
 Refrain
+$2
 --
 Pleased to meet you
 Hope you guessed my name, ah yeah

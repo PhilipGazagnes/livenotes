@@ -1,6 +1,11 @@
+$1
+Em;D
+
 Theme
+$1
 
 Couplet
+$1
 --
 Je n'ai pas peur de la route
 Faudrait voir, faut qu'on y goûte
@@ -9,6 +14,7 @@ Et tout ira bien
 Le vent l'emportera
 
 Couplet long
+$1
 --
 Ton message à la grande ourse
 Et la trajectoire de la course
@@ -19,6 +25,7 @@ Tout disparaîtra
 Le vent nous portera
 
 Couplet
+$1
 --
 La caresse et la mitraille
 Cette plaie qui nous tiraille
@@ -27,6 +34,7 @@ D'hier et demain
 Le vent les portera
 
 Couplet long
+$1
 --
 Génétique en bandoulière
 Des chromosomes dans l'atmosphère
@@ -37,10 +45,12 @@ Tout disparaîtra
 Le vent nous portera
 
 Solo
+$1
 --
 ***Solo***
 
 Couplet
+$1
 --
 Ce parfum de nos années mortes
 Ceux qui peuvent frapper à ta porte
@@ -49,6 +59,7 @@ On en pose un, qu'est-ce qu'on en retient?
 Le vent l'emportera
 
 Couplet long
+$1
 --
 Pendant que la marée monte
 Et que chacun refait ses comptes
@@ -59,5 +70,6 @@ Tout disparaîtra
 Le vent nous portera
 
 Solo
+$1
 --
 ***Solo***

@@ -1,6 +1,11 @@
+$1
+D G;C;C G;D
+
 Theme
+$1
 
 Couplet
+$1
 --
 Cendre de lune, petite bulle d'écume
 Poussée par le vent, je brûle et je m'enrhume
@@ -8,6 +13,7 @@ Entre mes dunes reposent mes infortunes
 C'est nue, que j'apprends la vertu
 
 Refrain
+$1
 --
 Je, je suis libertine
 Je suis une catin
@@ -15,6 +21,7 @@ Je, je suis si fragile
 Qu'on me tienne la main
 
 Couplet
+$1
 --
 Fendre la lune, baisers d'épine et de plume
 Bercée par un petit vent, je déambule
@@ -22,6 +29,7 @@ La vie est triste comme un verre de grenadine
 Aimer c'est pleurer quand on s'incline
 
 Refrain
+$1
 --
 Je, je suis libertine
 Je suis une catin
@@ -29,6 +37,9 @@ Je, je suis si fragile
 Qu'on me tienne la main
 
 Break
+[
+D;%;C;%;%;D
+]2
 --
 Quand sur mon corps tu t'endors
 Je m'évapore
@@ -38,6 +49,7 @@ Un goût amer
 Me rappelle que je suis au ciel
 
 Couplet
+$1
 --
 Cendre de lune, petite bulle d'écume
 Perdue dans le vent, je brûle et je m'enrhume
@@ -45,6 +57,7 @@ Mon corps a peur, la peau mouillée, j'ai plus d'âme
 Papa, ils ont violé mon cœur
 
 Refrain
+$1
 --
 Je, je suis libertine
 Je suis une catin
@@ -52,10 +65,12 @@ Je, je suis si fragile
 Qu'on me tienne la main
 
 Solo
+$1
 --
 ***Solo***
 
 Refrain
+$1
 --
 Je, je suis libertine
 Je suis une catin

@@ -30,6 +30,7 @@ Dans ma ville
 
 Refrain
 $2
+:
 D;Bm
 --
 Quelques mots perdus,
@@ -70,6 +71,7 @@ En parlant, en marchant
 
 Refrain
 $2
+:
 D;Bm
 --
 Quelques mots perdus,
@@ -85,6 +87,7 @@ Que la nuit n'a pas de cœur
 
 Refrain fin ralentie
 $2
+:
 D;G;D;G;D
 --
 Quelques mots perdus,

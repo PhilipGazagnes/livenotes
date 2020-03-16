@@ -1,10 +1,6 @@
 $1
-C B7;Em G
-C B7;Em
-
-$2
-C B7;Em G7
-C B7;Em
+C# C7;Fm G#
+C# C7;Fm
 
 Intro
 $1
@@ -23,7 +19,7 @@ And I wanna spend some time with you
 
 Refrain
 (
-$2
+$1
 )2
 --
 Just the two of us
@@ -49,7 +45,7 @@ We gotta go for all we know
 
 Refrain
 (
-$2
+$1
 )2
 --
 Just the two of us
@@ -82,7 +78,7 @@ I wanna be the one with you
 
 Refrain
 (
-$2
+$1
 )2
 --
 Just the two of us

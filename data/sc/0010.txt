@@ -1,11 +1,13 @@
 $1
 Dm;Dm % Gm F
+:
 Dm;Dm % F C
 
 $2
 [
 Dm; %; A#; %
 ]2
+:
 [
 Gm;A
 ]2

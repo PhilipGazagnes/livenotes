@@ -2,10 +2,14 @@ $1
 [
 Cm;G;G;Cm
 ]2
-Fm;D#;Fm;G
+:
+Fm;D#;Fm;G;_
+
+$2
+Cm;G;G;G Cm;Cm =;Cm;G;G;G =;G#; % =;Fm;G;%
 
 Intro
-Cm; Cm
+Cm; %
 
 Couplet
 $1
@@ -24,7 +28,7 @@ C'est pas vrai ces histoires
 Mais moi j'y crois
 
 Refrain
-_;Cm;G;G;G Cm;Cm =;Cm;G;G;G =;G#; % =;Fm;G;%;Cm;Cm
+$2
 --
 Mon mec à moi il me parle d'aventures
 Et quand elles brillent dans ses yeux
@@ -36,6 +40,9 @@ Tellement je crois tout c'qu'y' m'dit
 Tellement je crois tout c'qu'y' m'dit
 Oh oui
 Mon mec à moi
+
+Inter
+Cm;Cm
 
 Couplet
 $1
@@ -54,7 +61,7 @@ C'est pas vrai ces histoires
 Mais moi j'y crois
 
 Refrain
-_;Cm;G;G;G Cm;Cm =;Cm;G;G;G =;Fm; Fm =;Fm;G;%
+$2
 --
 Mon mec à moi il me parle d'aventures
 Et quand elles brillent dans ses yeux
@@ -73,7 +80,7 @@ D#;G#;D#;G#;D;G;G
 ***Solo***
 
 Refrain
-Cm;G;G;G Cm;Cm =;Cm;G;G;G =;Fm; Fm =;Fm;G;%
+$2
 --
 Mon mec à moi il me parle d'aventures
 Et quand elles brillent dans ses yeux
@@ -87,7 +94,7 @@ Oh oui
 Mon mec à moi
 
 Refrain
-Cm;G;G;G Cm;Cm =;Cm;G;G;G =;Fm; Fm =;Fm;G;%
+$2
 --
 Mon mec à moi il me parle d'aventures
 Et quand elles brillent dans ses yeux

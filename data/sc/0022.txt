@@ -1,3 +1,7 @@
+$2
+Dm;D#;F#;G#
+C#;Cm F
+
 Intro
 [
 A#;F;D#;%
@@ -49,10 +53,9 @@ A#;D#
 A#
 
 Refrain
-[
-Dm;D#;F#;G#
-C#;Cm F
-]2
+(
+$2
+)2
 --
 Les juges et les lois
 Ça m'fait pas peur
@@ -87,10 +90,9 @@ A#;D#
 A#
 
 Refrain
-[
-Dm;D#;F#;G#
-C#;Cm F
-]4
+(
+$2
+)4
 --
 Les juges et les lois
 Ça m'fait pas peur

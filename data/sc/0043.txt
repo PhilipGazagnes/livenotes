@@ -1,25 +1,24 @@
 $1
+[
 Bm E; F#m
-Bm E; F#m
-Bm E; F#m
-A; A
+]3
+A; %
 
 $2
-F#m; E
-D; C#m
+F#m; E; D; C#m
 
 Guitar gimmick
+[
 F#m; E
-F#m; E
-F#m; E
-F#m; E
+]4
 
 Intro
 $1
 
 Couplet
+(
 $2
-$2
+)2
 --
 Searching for a destiny that's mine
 There's another place another time
@@ -27,7 +26,7 @@ Touching many hearts along the way
 Hoping that I'll never have to say
 It's just an illusion 
 
-Ooh ooh ooh a-ah
+Ooh ooh
 $2
 --
 Ooh, ooh, ooh, ooh, a-ah
@@ -35,8 +34,9 @@ Illusion
 Ooh, ooh, ooh, ooh, a-ah
 
 Couplet
+(
 $2
-$2
+)2
 --
 Follow your emotions anywhere
 Is it really magic in the air?
@@ -44,7 +44,7 @@ Never let your feelings get you down
 Open up your eyes and look around
 It's just an illusion
 
-Ooh ooh ooh a-ah
+Ooh ooh
 $2
 --
 Ooh, ooh, ooh, ooh, a-ah
@@ -52,8 +52,9 @@ Illusion
 Ooh, ooh, ooh, ooh, a-ah
 
 Refrain
+(
 $1
-$1
+)2
 --
 COULD IT BE THAT / it's just an illusion
 PUTTING ME BACK / in all this confusion?
@@ -65,8 +66,9 @@ COULD IT BE THAT / it's just an illusion
 Nooooow?
 
 Couplet
+(
 $2
-$2
+)2
 --
 Could it be a picture in my mind?
 Never sure exactly what I'll find
@@ -74,7 +76,7 @@ Only in my dreams I turn you on
 Here for just a moment then you're gone
 It's just an illusion
 
-Ooh ooh ooh a-ah
+Ooh ooh
 $2
 --
 Ooh, ooh, ooh, ooh, a-ah
@@ -82,14 +84,16 @@ Illusion
 Ooh, ooh, ooh, ooh, a-ah
 
 Solo
+(
 $1
-$1
+)2
 --
 ***Solo***
 
-Ooh ooh ooh a-ah
+Ooh ooh
+(
 $2
-$2
+)2
 --
 Ooh, ooh, ooh, ooh, a-ah
 Ooh, ooh, ooh, ooh, a-ah

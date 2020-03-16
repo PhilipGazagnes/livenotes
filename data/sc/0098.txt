@@ -1,4 +1,8 @@
+$1
+Cm
+
 Refrain
+$1
 --
 Chain, chain, chain
 Chain, chain, chain
@@ -6,6 +10,7 @@ Chain, chain, chain
 Chain of fools
 
 Couplet
+$1
 --
 For five long years
 I thought you were my man
@@ -17,18 +22,21 @@ Ya treated me mean
 Oh you treated me cruel
 
 Refrain
+$1
 --
 Chain, chain, chain
 Chain of fools
 
 Couplet
+$1
 --
 Every chain, has got a weak link
 I might be weak yeah
 But I'll give you strength
 Oh, hey
 
-Break (ooh ooh)
+Break (clap)
+_
 --
 You told me to leave you alone
 My father said, "Come on home"
@@ -37,6 +45,7 @@ Oh but your lovin' is much too strong
 I'm added to your
 
 Refrain
+$1
 --
 Chain, chain, chain
 Chain, chain, chain
@@ -44,6 +53,7 @@ Chain, chain, chain
 Chain of fools
 
 Couplet
+$1
 --
 One of these mornings
 The chain is gonna break
@@ -51,6 +61,7 @@ But up until the day
 I'm gonna take all I can take, oh hey
 
 Refrain
+$1
 --
 Chain, chain, chain
 Chain, chain, chain
