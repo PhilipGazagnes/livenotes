@@ -15,7 +15,12 @@ export default {
     ]
   },
   modules: ["@nuxtjs/pwa"],
+  workbox: {
+    globPatterns: ["**/*.{js,css}", "**/img/*"],
+    offlinePage: "/404.html"
+  },
   generate: {
+    fallback: true,
     routes: [
       "/0001",
       "/0002",
