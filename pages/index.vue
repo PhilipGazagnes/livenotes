@@ -20,7 +20,7 @@ import songsJson from "./../data/json/index.json";
 export default {
   data() {
     return {
-      songs: songsJson.sort(this.compare),
+      songs: songsJson.sort(this.compare)
     };
   },
   methods: {
@@ -46,12 +46,12 @@ export default {
     },
     focusRandom() {
       const random = Math.floor(Math.random() * this.songs.length - 1);
-      const url = `/${this.songs[random].id}/`
+      const url = `/${this.songs[random].id}/`;
       this.$router.push({
         path: url
-      })
-    },
-  },
+      });
+    }
+  }
 };
 </script>
 
@@ -59,19 +59,19 @@ export default {
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Condensed';
-  font-weight:400;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
 }
 .index {
   background: white;
   h1 {
-    padding:30px 20px
+    padding: 30px 20px;
   }
 }
 .random {
-  padding:10px 20px;
-  margin:0 0 40px 20px;
-  font-size:1em;
+  padding: 10px 20px;
+  margin: 0 0 40px 20px;
+  font-size: 1em;
 }
 ul {
   list-style-type: none;

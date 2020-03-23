@@ -14,6 +14,7 @@ export default {
       }
     ]
   },
+  modules: ["@nuxtjs/pwa"],
   generate: {
     routes: [
       "/0001",
