@@ -12,12 +12,22 @@
       <li v-for="(s, index) in songData" :key="index">
         <span :class="sectionClass(s.measures, index)">
           {{ s.name }}
-          <small v-if="typeof s.measures[s.measures.length - 1] === 'string' && s.measures[s.measures.length - 1].startsWith(')')">{{ s.measures[s.measures.length - 1].substring(1) }}</small>
+          <small
+            v-if="
+              typeof s.measures[s.measures.length - 1] === 'string' &&
+                s.measures[s.measures.length - 1].startsWith(')')
+            "
+            >{{ s.measures[s.measures.length - 1].substring(1) }}</small
+          >
         </span>
       </li>
     </ul>
     <div class="notes" v-if="!lyrics">
-      <div v-for="(s, index) in songData" :key="index" :class="['section', titleClass(s.name)]">
+      <div
+        v-for="(s, index) in songData"
+        :key="index"
+        :class="['section', titleClass(s.name)]"
+      >
         <div :class="['measures', isNewAndSectionClass(s.measures, index)]">
           <div v-for="(c, index) in s.comments" :key="index">{{ c }}</div>
           <div
@@ -41,7 +51,7 @@
     </div>
     <div class="lyrics" v-if="lyrics">
       <div v-for="(s, index) in songData" :key="index">
-        {{ s.lyrics }}
+        <div v-for="(p, index2) in s.lyrics" :key="index2" v-html="lyric(p)" />
       </div>
     </div>
   </div>
@@ -70,7 +80,7 @@ export default {
       showMeasures: true,
       spcache: [],
       presentationMode: 1,
-      lyrics: false,
+      lyrics: true
     };
   },
   computed: {
@@ -138,17 +148,17 @@ export default {
     },
     titleClass(str) {
       let txt = undefined;
-      if (str === 'couplet' || str === 'Couplet') {
-        txt = 'couplet';
+      if (str === "couplet" || str === "Couplet") {
+        txt = "couplet";
       }
-      if (str.indexOf('Refrain') > -1) {
-        txt = 'refrain';
+      if (str.indexOf("Refrain") > -1) {
+        txt = "refrain";
       }
-      if (str.indexOf('Pré Refrain') > -1) {
-        txt = 'prerefrain';
+      if (str.indexOf("Pré Refrain") > -1) {
+        txt = "prerefrain";
       }
-      if (str.indexOf('solo') >= 0 || str.indexOf('Solo') >= 0) {
-        txt = 'solo';
+      if (str.indexOf("solo") >= 0 || str.indexOf("Solo") >= 0) {
+        txt = "solo";
       }
       return txt;
     },
@@ -236,23 +246,47 @@ export default {
       if (index === 0) {
         cyclesCache = [];
       }
-      const arrWithoutEcho = arr.filter(item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')'))));
+      const arrWithoutEcho = arr.filter(
+        item =>
+          !(
+            typeof item === "string" &&
+            (item.startsWith("(") || item.startsWith(")"))
+          )
+      );
       if (cyclesCache.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
         cyclesCache.push(JSON.stringify(arrWithoutEcho));
       }
-      return `sectionStyle${cyclesCache.indexOf(JSON.stringify(arrWithoutEcho))}`;
+      return `sectionStyle${cyclesCache.indexOf(
+        JSON.stringify(arrWithoutEcho)
+      )}`;
     },
     isNewAndSectionClass(arr, index) {
       if (index === 0) {
         cyclesCache2 = [];
       }
-      const arrWithoutEcho = arr.filter(item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')'))));
+      const arrWithoutEcho = arr.filter(
+        item =>
+          !(
+            typeof item === "string" &&
+            (item.startsWith("(") || item.startsWith(")"))
+          )
+      );
       if (cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
         cyclesCache2.push(JSON.stringify(arrWithoutEcho));
-        return `sectionStyle${cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho))}`;
+        return `sectionStyle${cyclesCache2.indexOf(
+          JSON.stringify(arrWithoutEcho)
+        )}`;
       }
-      return 'sectionStyleHidden';
+      return "sectionStyleHidden";
     },
+    lyric(str) {
+      const spl = str.split("***");
+      if (spl.length > 1) {
+        return `<strong>${spl[1]}</strong>`;
+      } else {
+        return str;
+      }
+    }
   }
 };
 </script>
@@ -297,33 +331,33 @@ body {
   }
 }
 .overview {
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  float:left;
-  width:35%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 35%;
   & > li {
-    border:none;
-    margin-bottom:1px;
+    border: none;
+    margin-bottom: 1px;
     & > span {
-      display:inline-block;
-      padding:5px 10px;
-      border-radius:20px;
-      font-weight:700;
-      font-size:1.2em;
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 1.2em;
       & > small {
-        font-weight:600;
+        font-weight: 600;
         background: blue;
         color: white;
-        font-size:1em;
-        padding:5px;
+        font-size: 1em;
+        padding: 5px;
       }
     }
   }
 }
 .notes {
-  float:left;
-  width:65%;
+  float: left;
+  width: 65%;
 }
 .section {
   &::after {
@@ -333,25 +367,25 @@ body {
   }
 }
 .sectionStyle0 {
-  background:lightpink;
+  background: lightpink;
 }
 .sectionStyle1 {
-  background:lightblue;
+  background: lightblue;
 }
 .sectionStyle2 {
-  background:lightcoral;
+  background: lightcoral;
 }
 .sectionStyle3 {
-  background:lightgray;
+  background: lightgray;
 }
 .sectionStyle4 {
-  background:lightgreen;
+  background: lightgreen;
 }
 .sectionStyle5 {
-  background:lightyellow;
+  background: lightyellow;
 }
 .sectionStyleHidden {
-  display:none;
+  display: none;
 }
 .measures {
   &::after {
@@ -378,14 +412,14 @@ body {
       display: block;
       float: left;
       text-align: center;
-      padding:0 5px;
+      padding: 0 5px;
       &:not(:first-child) {
         &::before {
           content: "";
           display: block;
           position: absolute;
           width: 1px;
-          left:0;
+          left: 0;
           height: 100%;
           background: #222;
           transform-origin: center center;
@@ -397,7 +431,7 @@ body {
   .inRepeatCycle {
     & > div {
       position: relative;
-      background: rgba(0,0,0,.07);
+      background: rgba(0, 0, 0, 0.07);
       &::before {
         content: "";
         width: 100%;
@@ -452,11 +486,11 @@ body {
     // width: 0;
     & > div {
       // position: absolute;
-      padding:5px;
+      padding: 5px;
       background: blue;
-      border-radius:0 10px 10px 0;
+      border-radius: 0 10px 10px 0;
       color: white;
-      margin:4px 0;
+      margin: 4px 0;
       // width: 30px;
       // height: 30px;
       text-align: center;
@@ -474,11 +508,11 @@ body {
     // float: left;
     // border-top: 2px dashed #888;
     // margin: 10px 4px;
-    display:none;
+    display: none;
   }
   .echoEnd {
     // width: 100%;
-    display:none;
+    display: none;
     float: left;
     // margin: 0 4px;
     & > div {
@@ -493,15 +527,19 @@ body {
   }
 }
 .lyrics {
-  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 20px;
   font-size: 1.2em;
-  span {
-    display: block;
-    margin: 0 0 10px 0;
-  }
+  background: white;
   strong {
     font-size: 2em;
     font-weight: bold;
+  }
+  & > div {
+    margin: 0 0 40px 0;
+    & > div {
+      margin: 0 0 7px 0;
+    }
   }
 }
 </style>
