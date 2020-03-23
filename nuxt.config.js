@@ -19,6 +19,11 @@ export default {
     globPatterns: ["**/*.{js,css}", "**/img/*"],
     offlinePage: "/404.html"
   },
+  pwa: {
+    manifest: {
+      orientation: "portrait"
+    }
+  },
   generate: {
     fallback: true,
     routes: [
