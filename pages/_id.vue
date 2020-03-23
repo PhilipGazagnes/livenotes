@@ -49,10 +49,16 @@
         </div>
       </div>
     </div>
-    <div class="lyrics" v-if="lyrics">
-      <div v-for="(s, index) in songData" :key="index">
+    <div class="lyrics" v-if="lyrics" ref="lyrics">
+      <div
+        v-for="(s, index) in songData"
+        :key="index"
+        :style="{ fontSize: `${fontSizeUser}em` }"
+      >
         <div v-for="(p, index2) in s.lyrics" :key="index2" v-html="lyric(p)" />
       </div>
+      <button @click="fontSize(true)">+</button>
+      <button @click="fontSize(false)">-</button>
     </div>
   </div>
 </template>
@@ -80,7 +86,8 @@ export default {
       showMeasures: true,
       spcache: [],
       presentationMode: 1,
-      lyrics: true
+      lyrics: true,
+      fontSizeUser: 1.2
     };
   },
   computed: {
@@ -286,6 +293,10 @@ export default {
       } else {
         return str;
       }
+    },
+    fontSize(increase) {
+      this.fontSizeUser = this.fontSizeUser + 0.1 * (increase ? 1 : -1);
+      console.log(this.fontSizeUser);
     }
   }
 };
@@ -529,16 +540,27 @@ body {
 .lyrics {
   font-family: Arial, Helvetica, sans-serif;
   padding: 50px 20px;
-  font-size: 1.2em;
   background: white;
   strong {
     font-size: 2em;
     font-weight: bold;
   }
   & > div {
-    margin: 0 0 40px 0;
+    margin: 0 0 3em 0;
     & > div {
-      margin: 0 0 7px 0;
+      margin: 0 0 0.7em 0;
+    }
+  }
+  & > button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    opacity: 0.5;
+    font-size: 2em;
+    &:last-child {
+      bottom: 80px;
     }
   }
 }
