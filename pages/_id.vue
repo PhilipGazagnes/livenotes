@@ -8,14 +8,14 @@
       </span>
       <button @click="lyrics = !lyrics">&spades;</button>
     </div>
-    <ul class="overview" v-if="!lyrics">
-      <li v-for="(s, index) in songData" :key="index">
+    <ul v-if="!lyrics" class="overview">
+      <li v-for="(s, index3) in songData" :key="index3">
         <span :class="sectionClass(s.measures, index)">
           {{ s.name }}
           <small
             v-if="
               typeof s.measures[s.measures.length - 1] === 'string' &&
-                s.measures[s.measures.length - 1].startsWith(')')
+              s.measures[s.measures.length - 1].startsWith(')')
             "
           >
             {{ s.measures[s.measures.length - 1].substring(1) }}
@@ -23,15 +23,19 @@
         </span>
       </li>
     </ul>
-    <div class="notes" v-if="!lyrics">
+    <div v-if="!lyrics" class="notes">
       <div
-        v-for="(s, index) in songData"
-        :key="index"
+        v-for="(s, index3) in songData"
+        :key="index3"
         :class="['section', titleClass(s.name)]"
       >
         <div :class="['measures', isNewAndSectionClass(s.measures, index)]">
-          <div v-for="(c, index) in s.comments" :key="index">{{ c }}</div>
-          <div v-for="(m, index) in s.measures" :key="index" :class="measureClass(m)">
+          <div v-for="(c, index2) in s.comments" :key="index2">{{ c }}</div>
+          <div
+            v-for="(m, index2) in s.measures"
+            :key="index2"
+            :class="measureClass(m)"
+          >
             <div v-if="typeof m === 'number'" />
             <div v-else-if="typeof m === 'object'">
               <span :class="beatClass(m[0])">{{ m[0] }}</span>
@@ -46,10 +50,10 @@
         </div>
       </div>
     </div>
-    <div class="lyrics" v-if="lyrics" ref="lyrics">
+    <div v-if="lyrics" ref="lyrics" class="lyrics">
       <div
-        v-for="(s, index) in songData"
-        :key="index"
+        v-for="(s, index3) in songData"
+        :key="index3"
         :style="{ fontSize: `${fontSizeUser}em` }"
       >
         <div v-for="(p, index2) in s.lyrics" :key="index2" v-html="lyric(p)" />
@@ -61,10 +65,10 @@
 </template>
 
 <script>
-import dataJson from './../data/json/data.json';
-import indexJson from './../data/json/index.json';
+import dataJson from '../data/json/data.json';
+import indexJson from '../data/json/index.json';
 
-let measureInRepeatCycle = false;
+const measureInRepeatCycle = false; // eslint-disable-line no-unused-vars
 let cyclesCache = [];
 let cyclesCache2 = [];
 
@@ -89,7 +93,7 @@ export default {
   },
   computed: {
     meta() {
-      return this.index.filter(i => i.id === this.id)[0];
+      return this.index.filter((i) => i.id === this.id)[0];
     },
     songData() {
       return this.allSongsData[this.id];
@@ -97,7 +101,7 @@ export default {
   },
   mounted() {
     this.cacheSectionsOffsetTop();
-    window.addEventListener('keydown', e => {
+    window.addEventListener('keydown', (e) => {
       if (e.keyCode === 40) {
         // KeyDown : Airturn right button
         e.preventDefault();
@@ -120,26 +124,33 @@ export default {
     },
     measureClass(m) {
       if (typeof m === 'number') {
-        return;
-      } else if (typeof m === 'object') {
+        return undefined;
+      }
+      if (typeof m === 'object') {
         return [
           'measure',
           `show${this.showCount(m)}`,
           this.measureInRepeatCycle ? 'inRepeatCycle' : '',
         ];
-      } else if (m === '[') {
+      }
+      if (m === '[') {
         this.measureInRepeatCycle = true;
         return ['repeatStart'];
-      } else if (m.startsWith(']')) {
+      }
+      if (m.startsWith(']')) {
         this.measureInRepeatCycle = false;
         return ['repeatEnd'];
-      } else if (m === '(') {
+      }
+      if (m === '(') {
         return ['echoStart'];
-      } else if (m.startsWith(')')) {
+      }
+      if (m.startsWith(')')) {
         return ['echoEnd'];
-      } else if (m === ':') {
+      }
+      if (m === ':') {
         return ['blank'];
       }
+      return undefined;
     },
     beatClass(str) {
       if (str === '=') {
@@ -151,7 +162,7 @@ export default {
       return undefined;
     },
     titleClass(str) {
-      let txt = undefined;
+      let txt;
       if (str === 'couplet' || str === 'Couplet') {
         txt = 'couplet';
       }
@@ -206,7 +217,7 @@ export default {
     decodeLyric(str) {
       const spl = str.split('***');
       let output = '';
-      spl.forEach(val => {
+      spl.forEach((val) => {
         const index = spl.indexOf(val);
         if (index * -1 < 0) {
           spl[index] = `<strong>${val}</strong>`;
@@ -242,7 +253,7 @@ export default {
     cacheSectionsOffsetTop() {
       const sections = document.getElementsByClassName('section');
       this.spcache = [];
-      Array.prototype.forEach.call(sections, s => {
+      Array.prototype.forEach.call(sections, (s) => {
         this.spcache.push(s.offsetTop);
       });
     },
@@ -251,23 +262,35 @@ export default {
         cyclesCache = [];
       }
       const arrWithoutEcho = arr.filter(
-        item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')')))
+        (item) =>
+          !(
+            typeof item === 'string' &&
+            (item.startsWith('(') || item.startsWith(')'))
+          ),
       );
       if (cyclesCache.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
         cyclesCache.push(JSON.stringify(arrWithoutEcho));
       }
-      return `sectionStyle${cyclesCache.indexOf(JSON.stringify(arrWithoutEcho))}`;
+      return `sectionStyle${cyclesCache.indexOf(
+        JSON.stringify(arrWithoutEcho),
+      )}`;
     },
     isNewAndSectionClass(arr, index) {
       if (index === 0) {
         cyclesCache2 = [];
       }
       const arrWithoutEcho = arr.filter(
-        item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')')))
+        (item) =>
+          !(
+            typeof item === 'string' &&
+            (item.startsWith('(') || item.startsWith(')'))
+          ),
       );
       if (cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
         cyclesCache2.push(JSON.stringify(arrWithoutEcho));
-        return `sectionStyle${cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho))}`;
+        return `sectionStyle${cyclesCache2.indexOf(
+          JSON.stringify(arrWithoutEcho),
+        )}`;
       }
       return 'sectionStyleHidden';
     },
@@ -275,12 +298,11 @@ export default {
       const spl = str.split('***');
       if (spl.length > 1) {
         return `<strong>${spl[1]}</strong>`;
-      } else {
-        return str;
       }
+      return str;
     },
     fontSize(increase) {
-      this.fontSizeUser = this.fontSizeUser + 0.1 * (increase ? 1 : -1);
+      this.fontSizeUser += 0.1 * (increase ? 1 : -1);
     },
   },
 };

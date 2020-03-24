@@ -15,12 +15,12 @@
 </template>
 
 <script>
-import songsJson from "./../data/json/index.json";
+import songsJson from '../data/json/index.json';
 
 export default {
   data() {
     return {
-      songs: songsJson.sort(this.compare)
+      songs: songsJson.sort(this.compare),
     };
   },
   methods: {
@@ -39,7 +39,7 @@ export default {
     },
     regularFirstLetter(str) {
       let txt = str;
-      if (txt.startsWith("ç") || txt.startsWith("Ç")) {
+      if (txt.startsWith('ç') || txt.startsWith('Ç')) {
         txt = `C${txt.substring(1)}`;
       }
       return txt;
@@ -48,10 +48,10 @@ export default {
       const random = Math.floor(Math.random() * this.songs.length - 1);
       const url = `/${this.songs[random].id}/`;
       this.$router.push({
-        path: url
+        path: url,
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -59,7 +59,7 @@ export default {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Condensed";
+  font-family: 'Roboto Condensed';
   font-weight: 400;
 }
 .index {
