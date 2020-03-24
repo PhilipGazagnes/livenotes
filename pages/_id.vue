@@ -17,8 +17,9 @@
               typeof s.measures[s.measures.length - 1] === 'string' &&
                 s.measures[s.measures.length - 1].startsWith(')')
             "
-            >{{ s.measures[s.measures.length - 1].substring(1) }}</small
           >
+            {{ s.measures[s.measures.length - 1].substring(1) }}
+          </small>
         </span>
       </li>
     </ul>
@@ -30,11 +31,7 @@
       >
         <div :class="['measures', isNewAndSectionClass(s.measures, index)]">
           <div v-for="(c, index) in s.comments" :key="index">{{ c }}</div>
-          <div
-            v-for="(m, index) in s.measures"
-            :key="index"
-            :class="measureClass(m)"
-          >
+          <div v-for="(m, index) in s.measures" :key="index" :class="measureClass(m)">
             <div v-if="typeof m === 'number'" />
             <div v-else-if="typeof m === 'object'">
               <span :class="beatClass(m[0])">{{ m[0] }}</span>
@@ -64,8 +61,8 @@
 </template>
 
 <script>
-import dataJson from "./../data/json/data.json";
-import indexJson from "./../data/json/index.json";
+import dataJson from './../data/json/data.json';
+import indexJson from './../data/json/index.json';
 
 let measureInRepeatCycle = false;
 let cyclesCache = [];
@@ -74,7 +71,7 @@ let cyclesCache2 = [];
 export default {
   async asyncData({ params }) {
     return {
-      id: params.id
+      id: params.id,
     };
   },
   data() {
@@ -87,7 +84,7 @@ export default {
       spcache: [],
       presentationMode: 1,
       lyrics: true,
-      fontSizeUser: 1.2
+      fontSizeUser: 1.2,
     };
   },
   computed: {
@@ -96,11 +93,11 @@ export default {
     },
     songData() {
       return this.allSongsData[this.id];
-    }
+    },
   },
   mounted() {
     this.cacheSectionsOffsetTop();
-    window.addEventListener("keydown", e => {
+    window.addEventListener('keydown', e => {
       if (e.keyCode === 40) {
         // KeyDown : Airturn right button
         e.preventDefault();
@@ -122,50 +119,50 @@ export default {
       return str;
     },
     measureClass(m) {
-      if (typeof m === "number") {
+      if (typeof m === 'number') {
         return;
-      } else if (typeof m === "object") {
+      } else if (typeof m === 'object') {
         return [
-          "measure",
+          'measure',
           `show${this.showCount(m)}`,
-          this.measureInRepeatCycle ? "inRepeatCycle" : ""
+          this.measureInRepeatCycle ? 'inRepeatCycle' : '',
         ];
-      } else if (m === "[") {
+      } else if (m === '[') {
         this.measureInRepeatCycle = true;
-        return ["repeatStart"];
-      } else if (m.startsWith("]")) {
+        return ['repeatStart'];
+      } else if (m.startsWith(']')) {
         this.measureInRepeatCycle = false;
-        return ["repeatEnd"];
-      } else if (m === "(") {
-        return ["echoStart"];
-      } else if (m.startsWith(")")) {
-        return ["echoEnd"];
-      } else if (m === ":") {
-        return ["blank"];
+        return ['repeatEnd'];
+      } else if (m === '(') {
+        return ['echoStart'];
+      } else if (m.startsWith(')')) {
+        return ['echoEnd'];
+      } else if (m === ':') {
+        return ['blank'];
       }
     },
     beatClass(str) {
-      if (str === "=") {
-        return "empty";
+      if (str === '=') {
+        return 'empty';
       }
-      if (str === "%") {
-        return "repeat";
+      if (str === '%') {
+        return 'repeat';
       }
       return undefined;
     },
     titleClass(str) {
       let txt = undefined;
-      if (str === "couplet" || str === "Couplet") {
-        txt = "couplet";
+      if (str === 'couplet' || str === 'Couplet') {
+        txt = 'couplet';
       }
-      if (str.indexOf("Refrain") > -1) {
-        txt = "refrain";
+      if (str.indexOf('Refrain') > -1) {
+        txt = 'refrain';
       }
-      if (str.indexOf("Pré Refrain") > -1) {
-        txt = "prerefrain";
+      if (str.indexOf('Pré Refrain') > -1) {
+        txt = 'prerefrain';
       }
-      if (str.indexOf("solo") >= 0 || str.indexOf("Solo") >= 0) {
-        txt = "solo";
+      if (str.indexOf('solo') >= 0 || str.indexOf('Solo') >= 0) {
+        txt = 'solo';
       }
       return txt;
     },
@@ -198,17 +195,17 @@ export default {
     },
     showCount(arr) {
       let show = 1;
-      if (arr[2] !== "%") {
+      if (arr[2] !== '%') {
         show = 2;
       }
-      if (arr[1] !== "%" || arr[3] !== "%") {
+      if (arr[1] !== '%' || arr[3] !== '%') {
         show = 4;
       }
       return show;
     },
     decodeLyric(str) {
-      const spl = str.split("***");
-      let output = "";
+      const spl = str.split('***');
+      let output = '';
       spl.forEach(val => {
         const index = spl.indexOf(val);
         if (index * -1 < 0) {
@@ -227,7 +224,7 @@ export default {
       if (i < this.spcache.length) {
         window.scrollTo(0, this.spcache[i]);
       } else {
-        console.log("end");
+        console.log('end');
       }
     },
     skipToPrevSection() {
@@ -243,7 +240,7 @@ export default {
       }
     },
     cacheSectionsOffsetTop() {
-      const sections = document.getElementsByClassName("section");
+      const sections = document.getElementsByClassName('section');
       this.spcache = [];
       Array.prototype.forEach.call(sections, s => {
         this.spcache.push(s.offsetTop);
@@ -254,40 +251,28 @@ export default {
         cyclesCache = [];
       }
       const arrWithoutEcho = arr.filter(
-        item =>
-          !(
-            typeof item === "string" &&
-            (item.startsWith("(") || item.startsWith(")"))
-          )
+        item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')')))
       );
       if (cyclesCache.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
         cyclesCache.push(JSON.stringify(arrWithoutEcho));
       }
-      return `sectionStyle${cyclesCache.indexOf(
-        JSON.stringify(arrWithoutEcho)
-      )}`;
+      return `sectionStyle${cyclesCache.indexOf(JSON.stringify(arrWithoutEcho))}`;
     },
     isNewAndSectionClass(arr, index) {
       if (index === 0) {
         cyclesCache2 = [];
       }
       const arrWithoutEcho = arr.filter(
-        item =>
-          !(
-            typeof item === "string" &&
-            (item.startsWith("(") || item.startsWith(")"))
-          )
+        item => !(typeof item === 'string' && (item.startsWith('(') || item.startsWith(')')))
       );
       if (cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
         cyclesCache2.push(JSON.stringify(arrWithoutEcho));
-        return `sectionStyle${cyclesCache2.indexOf(
-          JSON.stringify(arrWithoutEcho)
-        )}`;
+        return `sectionStyle${cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho))}`;
       }
-      return "sectionStyleHidden";
+      return 'sectionStyleHidden';
     },
     lyric(str) {
-      const spl = str.split("***");
+      const spl = str.split('***');
       if (spl.length > 1) {
         return `<strong>${spl[1]}</strong>`;
       } else {
@@ -296,9 +281,8 @@ export default {
     },
     fontSize(increase) {
       this.fontSizeUser = this.fontSizeUser + 0.1 * (increase ? 1 : -1);
-      console.log(this.fontSizeUser);
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -372,7 +356,7 @@ body {
 }
 .section {
   &::after {
-    content: "";
+    content: '';
     display: block;
     clear: both;
   }
@@ -400,7 +384,7 @@ body {
 }
 .measures {
   &::after {
-    content: "";
+    content: '';
     display: block;
     clear: both;
   }
@@ -413,7 +397,7 @@ body {
       font-size: 1.5em;
       font-weight: bold;
       &::after {
-        content: "";
+        content: '';
         display: block;
         clear: both;
       }
@@ -426,7 +410,7 @@ body {
       padding: 0 5px;
       &:not(:first-child) {
         &::before {
-          content: "";
+          content: '';
           display: block;
           position: absolute;
           width: 1px;
@@ -444,7 +428,7 @@ body {
       position: relative;
       background: rgba(0, 0, 0, 0.07);
       &::before {
-        content: "";
+        content: '';
         width: 100%;
         position: absolute;
         height: 2px;
@@ -455,9 +439,7 @@ body {
     }
   }
   .show1 {
-    // width: 25%;
     span {
-      // width: 100%;
       &:nth-child(2),
       &:nth-child(3),
       &:nth-child(4) {
@@ -466,19 +448,11 @@ body {
     }
   }
   .show2 {
-    // width: 50%;
     span {
-      // width: 50%;
       &:nth-child(2),
       &:nth-child(4) {
         display: none;
       }
-    }
-  }
-  .show4 {
-    // width: 100%;
-    span {
-      // width: 25%;
     }
   }
   .repeat {
@@ -491,22 +465,14 @@ body {
     display: none;
   }
   .repeatEnd {
-    // position: relative;
     float: left;
-    // height: 46px;
-    // width: 0;
     & > div {
-      // position: absolute;
       padding: 5px;
       background: blue;
       border-radius: 0 10px 10px 0;
       color: white;
       margin: 4px 0;
-      // width: 30px;
-      // height: 30px;
       text-align: center;
-      // bottom: -15px;
-      // right: 0px;
       font-weight: bold;
       font-size: 1.5em;
     }
@@ -516,23 +482,14 @@ body {
     float: left;
   }
   .echoStart {
-    // float: left;
-    // border-top: 2px dashed #888;
-    // margin: 10px 4px;
     display: none;
   }
   .echoEnd {
-    // width: 100%;
     display: none;
     float: left;
-    // margin: 0 4px;
     & > div {
-      // border-top: 2px dashed #888;
-      // margin-top: 10px;
-      // text-align: right;
-      // padding: 0 10px 0 0;
       &::before {
-        content: "x ";
+        content: 'x ';
       }
     }
   }

@@ -1,38 +1,12 @@
-const scToObj = require('./scToObj');
 const fs = require('fs');
+const scToObj = require('./scToObj');
+
 const scDir = '../data/sc/';
 const outputDir = '../data/json/';
 
-fs.readdir(scDir, (err, files) => {
-  if (err) {
-    console.log(err);
-  }
-  // decodeSongs(['0098.txt']).then(val => {
-  decodeSongs(files).then(val => {
-    const names = [];
-    Object.keys(val).forEach(s => {
-      val[s].forEach(m => {
-        if (names.indexOf(m.name) === -1) {
-          names.push(m.name);
-        }
-      })
-    })
-    console.log(names.sort());
-    
-    const json = JSON.stringify(val);
-    fs.writeFile(`${outputDir}data.json`, json, 'utf8', function (err) {
-      if (err) {
-          console.log('Error.');
-          return console.log(err);
-      }
-      console.log('Success.');
-    });
-  });
-})
-
 function decodeSongs(files) {
   const output = {};
-  return new Promise(res => {
+  return new Promise((res) => {
     for (let i = 0, len = files.length; i < len; i += 1) {
       const id = files[i].split('.')[0];
       fs.readFile(`${scDir}${id}.txt`, 'utf8', (err, sc) => {
@@ -47,3 +21,30 @@ function decodeSongs(files) {
     }
   });
 }
+
+fs.readdir(scDir, (err, files) => {
+  if (err) {
+    console.log(err);
+  }
+  // decodeSongs(['0098.txt']).then((val) => {
+  decodeSongs(files).then((val) => {
+    const names = [];
+    Object.keys(val).forEach((s) => {
+      val[s].forEach((m) => {
+        if (names.indexOf(m.name) === -1) {
+          names.push(m.name);
+        }
+      });
+    });
+    console.log(names.sort());
+
+    const json = JSON.stringify(val);
+    fs.writeFile(`${outputDir}data.json`, json, 'utf8', function (err) {
+      if (err) {
+        console.log('Error.');
+        return console.log(err);
+      }
+      console.log('Success.');
+    });
+  });
+});
