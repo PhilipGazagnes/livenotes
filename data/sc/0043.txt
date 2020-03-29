@@ -52,9 +52,7 @@ Illusion
 Ooh, ooh, ooh, ooh, a-ah
 
 Refrain
-(
 $1
-)2
 --
 COULD IT BE THAT / it's just an illusion
 PUTTING ME BACK / in all this confusion?
@@ -84,9 +82,7 @@ Illusion
 Ooh, ooh, ooh, ooh, a-ah
 
 Solo
-(
 $1
-)2
 --
 ***Solo***
 
