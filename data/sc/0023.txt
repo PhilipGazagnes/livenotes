@@ -1,19 +1,28 @@
-Intro
-[
+$1
 B;%;%;F# E
-]3
 
-Couplet
-[
-B;%;%;F# E
-]2
+$2
 E;F#;B A;E
 E;F#
+
+Intro
+(
+$1
+)3
+
+Couplet
+(
+$1
+)2
 --
 Entre toute autre chose
 J'aurais dû m'arrêter faire une pause
 Mais j'étais trop pressé
 N'aurait-on pas pu attendre un été
+
+Pré Ref
+$2
+--
 Erreur fatale
 J'aurais dû t'écouter
 Je ne dissociais plus le bien du mal
@@ -36,16 +45,18 @@ Si seulement j'avais pu lire
 Dans tes pensées
 
 Couplet
-[
-B;%;%;F# E
-]2
-E;F#;B A;E
-E;F#
+(
+$1
+)2
 --
 J'avais perdu l'habitude
 Le sentiment profond de solitude
 Je ne m'apercevais pas
 Que tu étais derrière chacun de mes pas
+
+Pré Ref
+$2
+--
 Erreur fatale
 Vient le temps des regrets
 Je me noie dans un verre de larmes

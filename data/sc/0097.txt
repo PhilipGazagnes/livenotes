@@ -1,6 +1,19 @@
+$1
+[
+D G;D
+]2
+:
+G F;G;D G;D
+:
+A G;A;D G;D
+
 Intro
+[
+D G;D
+]4
 
 Couplet
+$1
 --
 Darling, you got to let me know
 Should I stay or should I go?
@@ -10,6 +23,7 @@ So you got to let me know
 Should I stay or should I go?
 
 Couplet
+$1
 --
 It's always tease, tease, tease
 You're happy when I'm on my knees
@@ -18,7 +32,8 @@ So if you want me off your back
 Well, come on and let me know
 Should I stay or should I go?
 
-Refrain
+Refrain !-1 tx2
+$1
 --
 Should I stay or should I go now?
 Should I stay or should I go now?
@@ -27,6 +42,7 @@ And if I stay it will be double
 So come on and let me know
 
 Couplet
+$1
 --
 This indecision's bugging me
 If you don't want me, set me free
@@ -36,10 +52,12 @@ Come on and let me know
 Should I cool it or should I blow?
 
 Theme
+$1
 --
-Split
+***Instru***
 
-Refrain
+Refrain !tx2
+$1
 --
 Should I stay or should I go now?
 Should I stay or should I go now?
@@ -48,7 +66,8 @@ And if I stay it will be double
 So ya gotta let me know
 Should I cool it or should I blow?
 
-Refrain
+Refrain !tx2
+$1
 --
 Should I stay or should I go now?
 Should I stay or should I go now?

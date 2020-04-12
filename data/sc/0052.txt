@@ -1,11 +1,16 @@
+$1
+A;%;E;%
+
 Intro
-E;%;%;%
-%;%;%;_
+[
+E
+]7
+_
 
 Couplet calme
-[
-A;%;E;%
-]4
+(
+$1
+)4
 --
 Toute la musique que j'aime,
 Elle vient de là, elle vient du blues
@@ -17,9 +22,9 @@ Je le chante autant que je l'aime
 Et je le chanterai toujours
 
 Couplet
-[
-A;%;E;%
-]2
+(
+$1
+)2
 --
 Il y a longtemps, sur des guitares,
 Des mains noires lui donnaient le jour
@@ -32,9 +37,9 @@ A;B;E;_
 La musique vivra tant que vivra le blues
 
 Couplet
-[
-A;%;E;%
-]4
+(
+$1
+)4
 --
 Le blues, ça veut dire que je t'aime
 Et que j'ai mal à en crever
@@ -46,16 +51,16 @@ Les mots, les mots, les mots ne sont jamais les mêmes
 Pour exprimer ce qu'est le blues, whoo!
 
 Solo
-[
-A;%;E;%
-]4
+(
+$1
+)4
 --
 ***Solo***
 
 Couplet calme
-[
-A;%;E;%
-]4
+(
+$1
+)4
 --
 J'y mets mes joies, j'y mets mes peines
 Et tout ça, ça devient le blues
@@ -67,9 +72,9 @@ Pour chanter les peines et les espoirs
 Pour chanter Dieu et puis l'amour
 
 Couplet
-[
-A;%;E;%
-]4
+(
+$1
+)4
 --
 Le blues, ça veut dire que je t'aime
 Et que j'ai mal à en crever
@@ -81,8 +86,8 @@ Les mots ne sont jamais les même
 Pour exprimer ce qu'est le blues, whoo!
 
 Solo
-[
-A;%;E;%
-]4
+(
+$1
+)4
 --
 ***Solo***

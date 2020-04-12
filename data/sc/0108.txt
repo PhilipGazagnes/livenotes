@@ -5,6 +5,7 @@ D
 
 $2
 A;%;Bm;G
+:
 [
 D
 ]8
@@ -17,7 +18,7 @@ Workin' for the man ev'ry night and day
 And I never lost one minute of sleepin'
 Worryin' 'bout the way things might have been
 
-Refrain (fin courte)
+Refrain !-4
 $2
 --
 Big wheel keep on turnin'
@@ -40,7 +41,7 @@ Proud Mary keep on burnin'
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 
-Break (tempo x2)
+Break !tx2
 $1
 
 Couplet

@@ -56,6 +56,7 @@ Instru
 $1
 
 Couplet
+$1
 --
 Make a joke and I will sigh and you will laugh and I will cry
 Happiness I cannot feel and love to me is so unreal
@@ -64,6 +65,7 @@ Transi
 $2
 
 Couplet
+$1
 --
 And so as you hear these words telling you now of my state
 I tell you to enjoy life I wish I could but it's too late

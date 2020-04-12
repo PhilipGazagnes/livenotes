@@ -1,14 +1,22 @@
 $1
-x53533
+x.5.3.5.3.3
 
 $2
-xx7565
+x.x.7.5.6.5
+:
+xx12.10.11.10
+:
+xx14.12.13.12
 
 $3
+[
 A#;F;C;Gm
+]4
 
 Intro
+(
 $1
+)8
 
 Couplet
 $2
@@ -22,6 +30,11 @@ Walking on the moon
 We could live together
 Walking on, walking on the moon
 
+Intro
+(
+$1
+)4
+
 Couplet
 $2
 --
@@ -33,6 +46,9 @@ Feet they hardly touch the ground
 Walking on the moon
 My feet don't hardly make no sound
 Walking on, walking on the moon
+
+Intro
+$1
 
 Refrain
 $3
@@ -46,8 +62,10 @@ Tomorrow's another day
 You stay
 I may as well play
 
-Theme
+Intro
+(
 $1
+)4
 
 Couplet
 $2
@@ -60,6 +78,9 @@ We could walk forever
 Walking on the moon
 We could be together
 Walking on, walking on the moon
+
+Intro
+$1
 
 Refrain
 $3

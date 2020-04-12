@@ -1,11 +1,16 @@
 $1
-D;%;%;%
-Bm;%;%;%
+[
+D
+]4
+[
+Bm
+]4
 
 $2
 [
 G;E;A;F#m
 ]2
+:
 G;Em;F#;%
 
 Intro
@@ -48,9 +53,8 @@ I'm gonna meet ya, meet ya, meet ya, meet ya
 One day, maybe next week, I'm gonna meet ya
 I'll meet ya, ah
 
-Refrain
+Refrain !+2
 $2
-F#;%
 --
 And if the lights are all out
 I'll follow your bus downtown
@@ -60,7 +64,9 @@ Solo
 [
 F#m;%;A;C#m
 ]2
+:
 Bm;E;F#m;%
+:
 A;%;B;%
 --
 ***Solo***
@@ -82,16 +88,4 @@ I'm gonna give you the slip
 Break
 (
 $1
-)12
---
-I'll walk down the mall
-Stand over by the wall
-Where I can see it all
-Find out who ya call
-Lead you to the supermarket checkout
-Some specials and rat food
-Get lost in the crowd
-One way or another, I'm gonna get ya
-I'll get ya, get ya, get ya, get ya
-One way or another, I'm gonna get ya
-I'll get ya, get ya, get ya, get ya
+)4

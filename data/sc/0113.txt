@@ -22,7 +22,6 @@ Behind a cigarette
 
 Break
 G;A
-:
 [
 $1
 ]4
@@ -53,7 +52,6 @@ But that's what I'll do
 
 Break Solo
 G;A
-:
 [
 $1
 ]8
@@ -85,7 +83,6 @@ And I will sing no more
 
 Break
 G;A
-:
 [
 $1
 ]4

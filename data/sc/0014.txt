@@ -1,5 +1,6 @@
 $1
 C G;Am F
+:
 C F;C G
 
 $2
@@ -16,9 +17,9 @@ No, woman, no cry
 No, woman, no cry
 
 Couplet
-[
+(
 $2
-]8
+)8
 --
 I remember when a we used to sit
 In a government yard in Trenchtown
@@ -40,9 +41,9 @@ A little darlin', don't shed no tears:
 No, woman, no cry. Eh!
 
 Couplet
-[
+(
 $2
-]8
+)8
 --
 I remember when we used to sit
 In the government yard in Trenchtown, yeah!
@@ -55,9 +56,9 @@ And so I've got to push on through.
 Oh, while I'm gone,
 
 Break
-[
+(
 $2
-]4
+)4
 --
 Everything's gonna be all right!
 Everything's gonna be all right!

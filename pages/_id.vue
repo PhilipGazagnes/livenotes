@@ -8,58 +8,77 @@
       </span>
       <button @click="lyrics = !lyrics">&spades;</button>
     </div>
-    <ul v-if="!lyrics" class="overview">
-      <li v-for="(s, index3) in songData" :key="index3">
-        <span :class="sectionClass(s.measures, index)">
-          {{ s.name }}
-          <small
+    <div class="content">
+      <ul v-if="!lyrics" class="overview">
+        <li
+          v-for="(s, index3) in songData"
+          :key="index3"
+          :class="sectionClass(s.measures, index3)"
+        >
+          <span>
+            <span v-html="sectionName(s.name)"></span>
+          </span>
+          <span
             v-if="
               typeof s.measures[s.measures.length - 1] === 'string' &&
               s.measures[s.measures.length - 1].startsWith(')')
             "
           >
-            {{ s.measures[s.measures.length - 1].substring(1) }}
-          </small>
-        </span>
-      </li>
-    </ul>
-    <div v-if="!lyrics" class="notes">
-      <div
-        v-for="(s, index3) in songData"
-        :key="index3"
-        :class="['section', titleClass(s.name)]"
-      >
-        <div :class="['measures', isNewAndSectionClass(s.measures, index)]">
-          <div v-for="(c, index2) in s.comments" :key="index2">{{ c }}</div>
-          <div
-            v-for="(m, index2) in s.measures"
-            :key="index2"
-            :class="measureClass(m)"
-          >
-            <div v-if="typeof m === 'number'" />
-            <div v-else-if="typeof m === 'object'">
-              <span :class="beatClass(m[0])">{{ m[0] }}</span>
-              <span :class="beatClass(m[1])">{{ m[1] }}</span>
-              <span :class="beatClass(m[2])">{{ m[2] }}</span>
-              <span :class="beatClass(m[3])">{{ m[3] }}</span>
-            </div>
-            <div v-else-if="m !== '[' && m !== ':' && m !== '('">
-              {{ m.substring(1) }}
+            <span>{{ s.measures[s.measures.length - 1].substring(1) }}</span>
+          </span>
+        </li>
+      </ul>
+      <div v-if="!lyrics" class="notes">
+        <div
+          v-for="(s, index3) in songData"
+          :key="index3"
+          :class="[
+            'section',
+            titleClass(s.name),
+            isNewAndSectionClass(s.measures, index3),
+          ]"
+        >
+          <!-- <div v-for="(c, index2) in s.comments" :key="index2">{{ c }}</div> -->
+          <div>
+            <div>
+              <div
+                v-for="(m, index2) in s.measures"
+                :key="index2"
+                :class="measureClass(m)"
+              >
+                <div v-if="typeof m === 'number'" />
+                <div v-else-if="typeof m === 'object'">
+                  <span :class="beatClass(m[0])">{{ m[0] }}</span>
+                  <span :class="beatClass(m[1])">{{ m[1] }}</span>
+                  <span :class="beatClass(m[2])">{{ m[2] }}</span>
+                  <span :class="beatClass(m[3])">{{ m[3] }}</span>
+                </div>
+                <div v-else-if="m !== '[' && m !== ':' && m !== '('">
+                  <span>{{ m.substring(1) }}</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div v-if="lyrics" ref="lyrics" class="lyrics">
-      <div
-        v-for="(s, index3) in songData"
-        :key="index3"
-        :style="{ fontSize: `${fontSizeUser}em` }"
-      >
-        <div v-for="(p, index2) in s.lyrics" :key="index2" v-html="lyric(p)" />
+      <div v-if="lyrics" ref="lyrics" class="lyrics">
+        <div
+          v-for="(s, index3) in songData"
+          :key="index3"
+          :style="{ fontSize: `${fontSizeUser}em` }"
+        >
+          <div v-if="s.lyrics">
+            <div
+              v-for="(p, index2) in s.lyrics"
+              :key="index2"
+              v-html="lyric(p)"
+            />
+          </div>
+        </div>
+        <span>FIN</span>
+        <button @click="fontSize(true)">+</button>
+        <button @click="fontSize(false)">-</button>
       </div>
-      <button @click="fontSize(true)">+</button>
-      <button @click="fontSize(false)">-</button>
     </div>
   </div>
 </template>
@@ -87,7 +106,7 @@ export default {
       showMeasures: true,
       spcache: [],
       presentationMode: 1,
-      lyrics: true,
+      lyrics: false,
       fontSizeUser: 1.2,
     };
   },
@@ -139,7 +158,7 @@ export default {
       }
       if (m.startsWith(']')) {
         this.measureInRepeatCycle = false;
-        return ['repeatEnd'];
+        return ['measure', 'repeatEnd'];
       }
       if (m === '(') {
         return ['echoStart'];
@@ -176,6 +195,16 @@ export default {
         txt = 'solo';
       }
       return txt;
+    },
+    sectionName(str) {
+      const arr = str.split('!');
+      if (arr.length > 1) {
+        return `${arr[0]}<span>${arr[1]}</span>`;
+      }
+      if (str === 'Solo' || str === 'solo') {
+        return `&#11088;${str}&#11088;`;
+      }
+      return str;
     },
     togglePresentation() {
       switch (this.presentationMode) {
@@ -314,13 +343,16 @@ body {
   margin: 0;
 }
 .song {
-  background: #eee;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
 }
 .bar {
   background: #222;
   height: 50px;
+  flex: 0 0 50px;
   display: flex;
   & > a,
   & > button {
@@ -347,174 +379,206 @@ body {
     }
   }
 }
+.content {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: row;
+}
 .overview {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  float: left;
-  width: 35%;
+  flex: 0 0 35%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   & > li {
     border: none;
-    margin-bottom: 1px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    &:not(:last-child) {
+      margin-bottom: 1px;
+    }
     & > span {
-      display: inline-block;
-      padding: 5px 10px;
-      border-radius: 20px;
-      font-weight: 700;
-      font-size: 1.2em;
-      & > small {
-        font-weight: 600;
-        background: blue;
+      display: table;
+      height: 100%;
+      &:nth-child(1) {
+        flex: 1 1 auto;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 0 3px;
+      }
+      &:nth-child(2) {
+        flex: 0 0 30px;
+        text-align: center;
         color: white;
-        font-size: 1em;
-        padding: 5px;
+        font-weight: bold;
+        background: blue;
+        font-size: 1.2em;
+        line-height: 0.1em;
+      }
+      & > span {
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        & > span {
+          color: red;
+          // text-shadow: 1px 1px 0 white;
+          background: white;
+        }
       }
     }
   }
 }
 .notes {
-  float: left;
-  width: 65%;
+  flex: 0 0 65%;
+  margin-left: 1px;
+  display: flex;
+  flex-direction: column;
 }
 .section {
-  &::after {
-    content: '';
-    display: block;
-    clear: both;
+  flex: 1 1 auto;
+  &:not(:last-child) {
+    margin-bottom: 1px;
+  }
+  & > div {
+    display: table;
+    height: 100%;
+    width: 100%;
+
+    & > div {
+      display: table-cell;
+      height: 100%;
+      vertical-align: middle;
+      text-align: center;
+      .measure {
+        display: inline-block;
+        & > div {
+          border-bottom: 1px solid #222;
+          padding: 5px 0;
+          margin: 4px;
+          font-size: 1.5em;
+          font-weight: bold;
+          &::after {
+            content: '';
+            display: block;
+            clear: both;
+          }
+        }
+        span {
+          position: relative;
+          display: block;
+          float: left;
+          text-align: center;
+          padding: 0 5px;
+          &:not(:first-child) {
+            &::before {
+              content: '';
+              display: block;
+              position: absolute;
+              width: 1px;
+              left: 0;
+              height: 100%;
+              background: #222;
+              transform-origin: center center;
+              transform: rotate(10deg);
+            }
+          }
+        }
+      }
+      .inRepeatCycle {
+        & > div {
+          position: relative;
+          background: rgba(0, 0, 0, 0.07);
+          &::before {
+            content: '';
+            width: 100%;
+            position: absolute;
+            height: 2px;
+            background: blue;
+            bottom: 0;
+            left: 0;
+          }
+        }
+      }
+      .show1 {
+        span {
+          &:nth-child(2),
+          &:nth-child(3),
+          &:nth-child(4) {
+            display: none;
+          }
+        }
+      }
+      .show2 {
+        span {
+          &:nth-child(2),
+          &:nth-child(4) {
+            display: none;
+          }
+        }
+      }
+      .repeat {
+        opacity: 0.5;
+      }
+      .empty {
+        background: #222;
+      }
+      .repeatStart {
+        display: none;
+      }
+      .repeatEnd {
+        display: inline-block;
+        & > div {
+          background: blue;
+          border-radius: 0 10px 10px 0;
+          color: white;
+          margin: 4px 0;
+          text-align: center;
+          font-weight: bold;
+          font-size: 1.5em;
+        }
+      }
+      .blank {
+        width: 100%;
+      }
+      .echoStart {
+        display: none;
+      }
+      .echoEnd {
+        display: none;
+        float: left;
+        & > div {
+          &::before {
+            content: 'x ';
+          }
+        }
+      }
+    }
   }
 }
 .sectionStyle0 {
   background: lightpink;
 }
 .sectionStyle1 {
-  background: lightblue;
+  background: aqua;
 }
 .sectionStyle2 {
-  background: lightcoral;
+  background: yellow;
 }
 .sectionStyle3 {
-  background: lightgray;
+  background: violet;
 }
 .sectionStyle4 {
-  background: lightgreen;
+  background: lightblue;
 }
 .sectionStyle5 {
-  background: lightyellow;
+  background: lightcoral;
 }
 .sectionStyleHidden {
   display: none;
-}
-.measures {
-  &::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-  .measure {
-    float: left;
-    & > div {
-      border-bottom: 1px solid #222;
-      padding: 5px 0;
-      margin: 4px;
-      font-size: 1.5em;
-      font-weight: bold;
-      &::after {
-        content: '';
-        display: block;
-        clear: both;
-      }
-    }
-    span {
-      position: relative;
-      display: block;
-      float: left;
-      text-align: center;
-      padding: 0 5px;
-      &:not(:first-child) {
-        &::before {
-          content: '';
-          display: block;
-          position: absolute;
-          width: 1px;
-          left: 0;
-          height: 100%;
-          background: #222;
-          transform-origin: center center;
-          transform: rotate(10deg);
-        }
-      }
-    }
-  }
-  .inRepeatCycle {
-    & > div {
-      position: relative;
-      background: rgba(0, 0, 0, 0.07);
-      &::before {
-        content: '';
-        width: 100%;
-        position: absolute;
-        height: 2px;
-        background: blue;
-        bottom: 0;
-        left: 0;
-      }
-    }
-  }
-  .show1 {
-    span {
-      &:nth-child(2),
-      &:nth-child(3),
-      &:nth-child(4) {
-        display: none;
-      }
-    }
-  }
-  .show2 {
-    span {
-      &:nth-child(2),
-      &:nth-child(4) {
-        display: none;
-      }
-    }
-  }
-  .repeat {
-    color: #aaa;
-  }
-  .empty {
-    background: #222;
-  }
-  .repeatStart {
-    display: none;
-  }
-  .repeatEnd {
-    float: left;
-    & > div {
-      padding: 5px;
-      background: blue;
-      border-radius: 0 10px 10px 0;
-      color: white;
-      margin: 4px 0;
-      text-align: center;
-      font-weight: bold;
-      font-size: 1.5em;
-    }
-  }
-  .blank {
-    width: 100%;
-    float: left;
-  }
-  .echoStart {
-    display: none;
-  }
-  .echoEnd {
-    display: none;
-    float: left;
-    & > div {
-      &::before {
-        content: 'x ';
-      }
-    }
-  }
 }
 .lyrics {
   font-family: Arial, Helvetica, sans-serif;
@@ -525,10 +589,18 @@ body {
     font-weight: bold;
   }
   & > div {
-    margin: 0 0 3em 0;
     & > div {
-      margin: 0 0 0.7em 0;
+      margin: 0 0 3em 0;
+      & > div {
+        margin: 0 0 0.7em 0;
+      }
     }
+  }
+  & > span {
+    font-style: italic;
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-weight: bold;
   }
   & > button {
     position: fixed;

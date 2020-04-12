@@ -3,7 +3,10 @@ $1
 Cm;D#;G#;G
 ]2
 Cm;D#;G#;C#
-Dm;G;Cm A#;G# G
+:
+Dm;G
+:
+Cm A#;G# G
 
 Couplet
 $1
@@ -28,7 +31,7 @@ $1
 --
 ***Solo***
 
-Couplet TONA +0,5
+Couplet !TON+0.5
 $1
 --
 Sunny, thank you for the truth you let me see

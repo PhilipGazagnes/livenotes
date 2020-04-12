@@ -9,12 +9,16 @@ $2
 Gm;C
 ]3
 Cm
+:
 G D;A# C
 
-Intro
-[
+$3
 Gm;C
-]4
+
+Intro
+(
+$3
+)4
 --
 Hey sister, go sister, soul sister, go sister
 Hey sister, go sister, soul sister, go sister
@@ -35,9 +39,9 @@ Mocha-choca-lata ya ya
 Creole lady marmalade
 
 Refrain
-[
-Gm;C
-]2
+(
+$3
+)2
 --
 Voulez-vous coucher avec moi ce soir?
 Voulez-vous coucher avec moi?
@@ -58,30 +62,30 @@ Mocha-choca-lata ya ya
 Creole lady marmalade
 
 Refrain
-[
-Gm;C
-]2
+(
+$3
+)2
 --
 Voulez-vous coucher avec moi ce soir?
 Voulez-vous coucher avec moi?
 
 Break
 G D;A# C
+:
 D#;%;G;%
+:
 D#;%;D;%
 
-Couplet Allongé
+Couplet !+2
 $1
-Dm;%
 --
 Touching her skin feelin' silky smooth
 The colour of cafe au lait
 Made the savage beast inside roar until it cried
 More, more, moooore !!!
 
-Couplet Allongé
+Couplet !+2
 $1
-Dm;%
 --
 Now he's back home doing nine to five
 Living his grey flannel life
@@ -98,9 +102,9 @@ Mocha-choca-lata ya ya
 Creole lady marmalade
 
 Refrain
-[
-Gm;C
-]8
+(
+$3
+)8
 --
 Voulez-vous coucher avec moi ce soir?
 Voulez-vous coucher avec moi?

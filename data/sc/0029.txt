@@ -1,18 +1,24 @@
 $1
 A#;A#7;D#;A#
+:
 A#;Gm;C;F
+:
 A#;A#7;D#;E
+:
 A#;Gm;C F;A#
 
 $2
-A#;%;%;%
-%;%;F;%
+[
+A#
+]6
+F;%
+:
 A#;D;D#;E
+:
 A#;F;A#;%
 
-Intro (hors tempo)
-A#;A#7;D#;A#
-A#;Gm;C;F
+Intro hors tempo !-8
+$1
 --
 Le pape a dit que l'acte d'amour
 Sans être marié, est un péché

@@ -2,21 +2,32 @@ $1
 E
 
 $2
-B;D;E
+[
+B;%;D;E
+]2
 :
+[
 B;A
+]5
+A
+
+Gtr alone
+(
+$1
+)4
 
 Intro
+(
 $1
-
-Theme
-$1
+)4
 
 Couplet
+(
 $1
+)15
 --
 Nous survolons des villes
-(des) autoroutes en friche
+des autoroutes en friche
 Diagonales perdues
 Et des droites au hasard
 Des femmes sans visage
@@ -42,10 +53,14 @@ Encore combien à attendre
 Tostaky
 
 Theme
+(
 $1
+)4
 
 Couplet
+(
 $1
+)15
 --
 Le fond do continent
 L'or do nouveau monde
@@ -56,7 +71,7 @@ Pourrit sur les trottoirs
 Notre mère la terre
 Étonne moi
 
-Refrain
+Refrain !LONG
 $2
 --
 Para la queja mexica
@@ -80,9 +95,11 @@ Aqui para nosotros
 Tostaky
 
 Theme
+(
 $1
+)4
 
-Couplet
+Couplet !OUTRO
 $1
 --
 Bien reçu

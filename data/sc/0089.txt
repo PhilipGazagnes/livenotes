@@ -1,8 +1,28 @@
-Intro
+$1
+D;Bm;F#m;%
 
-Theme
+$2
+[
+D;Bm;F#m;%
+]3
+:
+D;Bm;C;%
+
+$3
+G;A
+
+Gtr alone
+(
+$1
+)2
+
+Intro
+(
+$1
+)2
 
 Couplet
+$2
 --
 Je rêvais d'un autre monde
 Où la Terre serait ronde
@@ -10,6 +30,9 @@ Où la lune serait blonde
 Et la vie serait féconde
 
 Refrain
+(
+$3
+)4
 --
 Je dormais à poings fermés
 Je ne voyais plus en pied
@@ -17,17 +40,24 @@ Je rêvais réalité
 Ma réalité
 
 Solo
+(
+$1
+)2
 --
 ***Solo***
 
 Couplet
+$2
 --
 Je rêvais d'une autre Terre
 Qui resterait un mystère
 Une Terre moins terre à terre
 Oui, je voulais tout foutre en l'air
 
-Refrain
+Ref !LONG
+(
+$3
+)4
 --
 Je marchais les yeux fermés
 Je ne voyais plus mes pieds
@@ -35,17 +65,24 @@ Je rêvais réalité
 Ma réalité m'a alité
 
 Solo
+(
+$1
+)4
 --
 ***Solo***
 
 Couplet
+$2
 --
 Oui, je rêvais de notre monde
 Et la Terre est bien ronde
 Et la lune est si blonde
 Ce soir dansent les ombres du monde
 
-Refrain
+Ref !LONG
+(
+$3
+)4
 --
 À la rêver immobile
 Elle m'a trouvé bien futile
@@ -53,6 +90,9 @@ Mais quand bouger l'a faite tourner
 Ma réalité m'a pardonné
 
 Outro
+(
+$1
+)4
 --
 M'a pardonné
 Ma réalité m'a pardonné

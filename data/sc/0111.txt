@@ -3,15 +3,22 @@ G#m;B;D#m;%
 
 $2
 F#;%;G#m;%
+:
 F#;%;E;%
 
-Intro
+$3
 [
 G#m;B;D#m;%
 ]2
+:
 G#m;B;F#;%
+:
 E;%;G#m;%
+:
 F#;%;E;%
+
+Intro
+$3
 
 Couplet
 (
@@ -54,12 +61,7 @@ I, I will begin again
 I, I will begin again
 
 Thème
-[
-G#m;B;D#m;%
-]2
-G#m;B;F#;%
-E;%;G#m;%
-F#;%;E;%
+$3
 
 Solo
 (

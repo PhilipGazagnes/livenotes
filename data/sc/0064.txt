@@ -1,8 +1,20 @@
-Intro gratte
+$1
+F A#;G# C#
+
+Gtr alone
+(
+$1
+)2
 
 Intro
+(
+$1
+)2
 
 Couplet
+(
+$1
+)10
 --
 Load up on guns, bring your friends
 It's fun to lose and to pretend
@@ -14,6 +26,9 @@ Hello, hello, hello, how low
 Hello, hello, hello
 
 Refrain
+(
+$1
+)8
 --
 With the lights out, it's less dangerous
 Here we are now, entertain us
@@ -23,6 +38,9 @@ A mulatto, an albino, a mosquito, my libido
 Yeah, hey
 
 Couplet
+(
+$1
+)10
 --
 I'm worse at what I do best
 And for this gift I feel blessed
@@ -34,6 +52,9 @@ Hello, hello, hello, how low
 Hello, hello, hello
 
 Refrain
+(
+$1
+)8
 --
 With the lights out, it's less dangerous
 Here we are now, entertain us
@@ -43,10 +64,16 @@ A mulatto, an albino, a mosquito, my libido
 Yeah, hey
 
 Solo
+(
+$1
+)4
 --
 ***Solo***
 
 Couplet
+(
+$1
+)10
 --
 And I forget just why I taste
 Oh yeah, I guess it makes me smile
@@ -58,6 +85,9 @@ Hello, hello, hello, how low
 Hello, hello, hello
 
 Refrain
+(
+$1
+)8
 --
 With the lights out, it's less dangerous
 Here we are now, entertain us

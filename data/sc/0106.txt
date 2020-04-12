@@ -1,6 +1,9 @@
 $1
 C G;A F
 
+$2
+D A;B G
+
 Couplet
 (
 $1
@@ -49,16 +52,16 @@ So lonely
 So lonely
 So lonely
 
-Solo (+ 1 ton)
+Solo
 (
-$1
+$2
 )4
 --
 ***Solo***
 
 Refrain
 (
-$1
+$2
 )8
 --
 So lonely

@@ -1,7 +1,12 @@
 $1
 Am;%;%;%
+:
 Dm7;%;Am;%
-Dm7;Am;Dm7;Am
+:
+[
+Dm7;Am
+]2
+:
 F7;E7;Am;%
 
 $2
@@ -9,7 +14,7 @@ Dm7;%;Am;%
 Dm7;%;E7;_
 
 Intro
-Am;Am
+Am;%
 
 Couplet
 $1

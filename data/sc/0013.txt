@@ -1,6 +1,8 @@
 $1
 E;A;E;%
+:
 A;%;E;%
+:
 B;A;E;B
 
 $2
@@ -9,9 +11,13 @@ E
 ]4
 :
 A;%;E;%
+:
 B;A;E;B
 
 Intro guitare
+[
+E
+]4
 
 Couplet
 $1
