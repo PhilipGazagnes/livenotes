@@ -1,5 +1,7 @@
 $1
-Em;D
+Em;%;%;%
+:
+D;%;Em;%
 
 Theme
 $1
@@ -13,7 +15,7 @@ Des méandres au creux des reins
 Et tout ira bien
 Le vent l'emportera
 
-Couplet long
+Couplet!rep4
 $1
 --
 Ton message à la grande ourse
@@ -33,7 +35,7 @@ Le palais des autres jours
 D'hier et demain
 Le vent les portera
 
-Couplet long
+Couplet!rep4
 $1
 --
 Génétique en bandoulière
@@ -45,7 +47,9 @@ Tout disparaîtra
 Le vent nous portera
 
 Solo
+(
 $1
+)2
 --
 ***Solo***
 
@@ -58,7 +62,7 @@ Infinité de destin
 On en pose un, qu'est-ce qu'on en retient?
 Le vent l'emportera
 
-Couplet long
+Couplet!rep4
 $1
 --
 Pendant que la marée monte
@@ -70,6 +74,8 @@ Tout disparaîtra
 Le vent nous portera
 
 Solo
+(
 $1
+)2
 --
 ***Solo***

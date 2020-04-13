@@ -13,7 +13,10 @@
         <li
           v-for="(s, index3) in songData"
           :key="index3"
-          :class="sectionClass(s.measures, index3)"
+          :class="[
+            sectionClass(s.measures, index3, s.name),
+            isSeparator(s.name),
+          ]"
         >
           <span>
             <span v-html="sectionName(s.name)"></span>
@@ -32,11 +35,7 @@
         <div
           v-for="(s, index3) in songData"
           :key="index3"
-          :class="[
-            'section',
-            titleClass(s.name),
-            isNewAndSectionClass(s.measures, index3),
-          ]"
+          :class="['section', isNewAndSectionClass(s.measures, index3, s.name)]"
         >
           <!-- <div v-for="(c, index2) in s.comments" :key="index2">{{ c }}</div> -->
           <div>
@@ -48,10 +47,10 @@
               >
                 <div v-if="typeof m === 'number'" />
                 <div v-else-if="typeof m === 'object'">
-                  <span :class="beatClass(m[0])">{{ m[0] }}</span>
-                  <span :class="beatClass(m[1])">{{ m[1] }}</span>
-                  <span :class="beatClass(m[2])">{{ m[2] }}</span>
-                  <span :class="beatClass(m[3])">{{ m[3] }}</span>
+                  <span :class="beatClass(m[0])" v-html="beatCt(m[0])" />
+                  <span :class="beatClass(m[1])" v-html="beatCt(m[1])" />
+                  <span :class="beatClass(m[2])" v-html="beatCt(m[2])" />
+                  <span :class="beatClass(m[3])" v-html="beatCt(m[3])" />
                 </div>
                 <div v-else-if="m !== '[' && m !== ':' && m !== '('">
                   <span>{{ m.substring(1) }}</span>
@@ -180,21 +179,12 @@ export default {
       }
       return undefined;
     },
-    titleClass(str) {
-      let txt;
-      if (str === 'couplet' || str === 'Couplet') {
-        txt = 'couplet';
+    beatCt(str) {
+      const arr = str.split('!');
+      if (arr.length > 1) {
+        return `${arr[0]}<small>${arr[1]}</small>`;
       }
-      if (str.indexOf('Refrain') > -1) {
-        txt = 'refrain';
-      }
-      if (str.indexOf('Pré Refrain') > -1) {
-        txt = 'prerefrain';
-      }
-      if (str.indexOf('solo') >= 0 || str.indexOf('Solo') >= 0) {
-        txt = 'solo';
-      }
-      return txt;
+      return str;
     },
     sectionName(str) {
       const arr = str.split('!');
@@ -286,7 +276,7 @@ export default {
         this.spcache.push(s.offsetTop);
       });
     },
-    sectionClass(arr, index) {
+    sectionClass(arr, index, name) {
       if (index === 0) {
         cyclesCache = [];
       }
@@ -297,14 +287,17 @@ export default {
             (item.startsWith('(') || item.startsWith(')'))
           ),
       );
-      if (cyclesCache.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
+      if (
+        cyclesCache.indexOf(JSON.stringify(arrWithoutEcho)) === -1 &&
+        name !== '#'
+      ) {
         cyclesCache.push(JSON.stringify(arrWithoutEcho));
       }
       return `sectionStyle${cyclesCache.indexOf(
         JSON.stringify(arrWithoutEcho),
       )}`;
     },
-    isNewAndSectionClass(arr, index) {
+    isNewAndSectionClass(arr, index, name) {
       if (index === 0) {
         cyclesCache2 = [];
       }
@@ -315,13 +308,22 @@ export default {
             (item.startsWith('(') || item.startsWith(')'))
           ),
       );
-      if (cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho)) === -1) {
+      if (
+        cyclesCache2.indexOf(JSON.stringify(arrWithoutEcho)) === -1 &&
+        name !== '#'
+      ) {
         cyclesCache2.push(JSON.stringify(arrWithoutEcho));
         return `sectionStyle${cyclesCache2.indexOf(
           JSON.stringify(arrWithoutEcho),
         )}`;
       }
       return 'sectionStyleHidden';
+    },
+    isSeparator(str) {
+      if (str === '#') {
+        return 'separator';
+      }
+      return '';
     },
     lyric(str) {
       const spl = str.split('***');
@@ -425,10 +427,17 @@ body {
         height: 100%;
         & > span {
           color: red;
-          // text-shadow: 1px 1px 0 white;
           background: white;
         }
       }
+    }
+    &.separator {
+      flex: 0 0 3px;
+      background: black;
+      font-size: 0;
+      line-height: 0;
+      margin-bottom: 0;
+      margin-top: -1px;
     }
   }
 }
@@ -485,6 +494,10 @@ body {
               transform-origin: center center;
               transform: rotate(10deg);
             }
+          }
+          & > small {
+            color: red;
+            background: white;
           }
         }
       }

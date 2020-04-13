@@ -1,5 +1,10 @@
+$1
+Am;D
+
 Intro
-Am
+(
+$1
+)4
 --
 Aaahh freak out!
 Le freak, see'est Chic
@@ -9,6 +14,9 @@ Le freak, see'est Chic
 Freak out!
 
 Couplet
+(
+$1
+)8
 --
 Have you heard about the new dance craze?
 Listen to us, I'm sure you'll be amazed
@@ -19,13 +27,19 @@ Just one try, and you too will be sold
 It's called Le Freak! They're doing it night and day
 Allow us, we'll show you the way
 
-Refrain
+♦ Refrain
+(
+$1
+)2
 --
 Aaahh freak out!
 Le freak, see'est Chic
 Freak out!
 
 Couplet
+(
+$1
+)8
 --
 All that pressure got you down
 Has your head spinning all around
@@ -36,17 +50,26 @@ Now we freak, oh what a joy
 Just come on down, to fifty four
 Find a spot out on the floor
 
-Refrain
+♦ Refrain
+(
+$1
+)2
 --
 Aaahh freak out!
 Le freak, see'est Chic
 Freak out!
 
 Solo
+(
+$1
+)8
 --
 ***Solo***
 
 Couplet
+(
+$1
+)8
 --
 All that pressure got you down
 Has your head spinning all around
@@ -57,7 +80,10 @@ Now they freak, oh what a joy
 Just come on down, to fifty four
 Find a spot out on the floor
 
-Refrain
+♦ Refrain
+(
+$1
+)4
 --
 Aaahh freak out!
 Le freak, see'est Chic

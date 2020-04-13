@@ -1,12 +1,18 @@
 $1
 Am C;D F
+:
 Am C;E
+:
 Am C;D F
+:
 Am E
 
 $2
 Am C;D F
-Am E;Am E
+:
+[
+Am E
+]2
 
 Intro
 $2
@@ -46,7 +52,6 @@ $2
 
 Solo
 $1
-$2
 --
 ***Solo***
 

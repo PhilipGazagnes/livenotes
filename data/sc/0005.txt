@@ -31,6 +31,7 @@ Than any love I know
 
 Refrain
 $3
+:
 $1
 --
 It's like thunder, lightning
@@ -50,6 +51,7 @@ Than any love I know
 
 Refrain
 $3
+:
 $1
 --
 It's like thunder, lightning
@@ -74,6 +76,7 @@ You know it means so much
 
 Refrain
 $3
+:
 $1
 --
 It's like thunder, lightning

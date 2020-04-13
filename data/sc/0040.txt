@@ -1,16 +1,25 @@
-Guitar
+$1
 G D; C
+
+$2
+[
+G D; Am
+:
 G D; C
+]2
+
+Gtr alone
+(
+$1
+)2
 
 Intro
-G D; C
-G D; C
+(
+$1
+)2
 
 Couplet
-G D; Am
-G D; C
-G D; Am
-G D; C
+$2
 --
 Mama, take this badge off of me
 I can't use it anymore
@@ -18,10 +27,9 @@ It's gettin' dark, too dark to see
 I feel I'm knockin' on heaven's door
 
 Refrain
-G D; C
-G D; C
-G D; C
-G D; C
+(
+$1
+)4
 --
 Knock, knock, knockin' on heaven's door
 Knock, knock, knockin' on heaven's door
@@ -29,18 +37,14 @@ Knock, knock, knockin' on heaven's door
 Knock, knock, knockin' on heaven's door
 
 Solo
-G D; C
-G D; C
-G D; C
-G D; C
+(
+$1
+)4
 --
 ***Solo***
 
 Couplet
-G D; Am
-G D; C
-G D; Am
-G D; C
+$2
 --
 Mama, put my guns in the ground
 I can't shoot them anymore
@@ -48,10 +52,9 @@ That long black cloud is comin' down
 I feel I'm knockin' on heaven's door
 
 Refrain
-G D; C
-G D; C
-G D; C
-G D; C
+(
+$1
+)4
 --
 Knock, knock, knockin' on heaven's door
 Knock, knock, knockin' on heaven's door
@@ -59,22 +62,21 @@ Knock, knock, knockin' on heaven's door
 Knock, knock, knockin' on heaven's door
 
 Solo
-G D; C
-G D; C
-G D; C
-G D; C
+(
+$1
+)4
 --
 ***Solo***
 
 Break
-G D; C
-G D; C
+(
+$1
+)2
 
-Question/reponse
-G D; C
-G D; C
-G D; C
-G D; C
+Q/R
+(
+$1
+)4
 --
 Knock, knock, knockin' on heaven's door
 Knock, knock, knockin' on heaven's door
@@ -82,10 +84,9 @@ Knock, knock, knockin' on heaven's door
 Knock, knock, knockin' on heaven's door
 
 Refrain
-G D; C
-G D; C
-G D; C
-G D; C
+(
+$1
+)4
 --
 Knock, knock, knockin' on heaven's door
 Knock, knock, knockin' on heaven's door

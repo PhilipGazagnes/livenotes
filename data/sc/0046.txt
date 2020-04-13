@@ -1,18 +1,15 @@
-$1
-_;_;E;E
-A;%;E;%
-B;A;E;B
-
 $2
 E;%;%;%
+:
 A;%;E;%
+:
 B;A;E;B
 
 Intro batterie
 _;_
 
-Couplet
-$1
+Couplet!break
+$2
 --
 Le monde entier est un cactus
 Il est impossible de s'assoir
@@ -22,8 +19,8 @@ Aïe aïe aïe!
 Ouille!
 Aïe aïe aïe!
 
-Couplet
-$1
+Couplet!break
+$2
 --
 Dans leurs coeurs, il y a des cactus
 Dans leurs portefeuilles, il y a des cactus
@@ -33,8 +30,8 @@ Aïe aïe aïe!
 Ouille ouille ouille!
 Aïe!
 
-Couplet
-$1
+Couplet!break
+$2
 --
 Pour me défendre de leurs cactus
 À mon tour j'ai mis des cactus

@@ -8,6 +8,7 @@ $3
 [
 Em;G
 ]3
+:
 Em;D;%
 
 Intro

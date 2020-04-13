@@ -31,9 +31,9 @@ export default {
 
       let comparison = 0;
       if (songA > songB) {
-        comparison = -1;
-      } else if (songA < songB) {
         comparison = 1;
+      } else if (songA < songB) {
+        comparison = -1;
       }
       return comparison;
     },

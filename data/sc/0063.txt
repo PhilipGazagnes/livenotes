@@ -1,6 +1,29 @@
-Intro
+$1
+E D#m; C#m B
+:
+A# A; E B
+:
+E D#m; C#m B
+:
+A# A; G#m; %
+
+$2
+[
+A;E
+]2
+A; E Bm; C#m
+F#;%;%;B
+:
+E D#m; C#m B
+:
+A# A; E B
+
+
+Intro!-5
+$1
 
 Couplet
+$1
 --
 C'est un endroit qui ressemble à la Louisiane
 À l'Italie
@@ -8,6 +31,7 @@ Il y a du linge étendu sur la terrasse
 Et c'est joli
 
 Refrain
+$2
 --
 On dirait le Sud
 Le temps dure longtemps
@@ -16,6 +40,7 @@ Plus d'un million d'années
 Et toujours en été
 
 Couplet
+$1
 --
 Il y a plein d'enfants qui se roulent sur la pelouse
 Il y a plein de chiens
@@ -23,6 +48,7 @@ Il y a même un chat, une tortue, des poissons rouges
 Il ne manque rien
 
 Refrain
+$2
 --
 On dirait le Sud
 Le temps dure longtemps
@@ -31,6 +57,7 @@ Plus d'un million d'années
 Et toujours en été
 
 Couplet
+$1
 --
 Un jour ou l'autre il faudra qu'il y ait la guerre
 On le sait bien
@@ -38,6 +65,7 @@ On n'aime pas ça, mais on ne sait pas quoi faire
 On dit c'est le destin
 
 Refrain
+$2
 --
 Tant pis pour le Sud
 C'était pourtant bien

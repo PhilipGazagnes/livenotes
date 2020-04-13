@@ -4,10 +4,19 @@ G#m;E;B;C#m
 $2
 Dm;Am;C;G
 
-Instru
-(
+$3
+[
 $1
-)2
+]2
+:
+[
+G#m E B C#m
+]2
+:
+Dm;Am;C;G
+
+Instru!-6
+$3
 
 Couplet
 (
@@ -23,13 +32,8 @@ Sauvé de justesse des crocodiles
 Stop au trafic des Caraïbes
 Escale dans l'opération Nadawieb
 
-Instru
-[
-$1
-]2
-[
-G#m E B C#m
-]2
+Instru!-4
+$3
 
 Couplet
 (
@@ -46,20 +50,12 @@ On a volé le collier de Shiva
 Le Maharadja en répondra
 
 Instru
-[
-$1
-]2
-:
-[
-G#m E B C#m
-]2
-:
-$2
+$3
 
 Refrain
 (
 $2
-)2
+)3
 --
 Et soudain surgit face au vent
 Le vrai héros de tous les temps
@@ -92,15 +88,7 @@ Tel l'aventurier solitaire
 Bob Morane est le roi de la Terre
 
 Instru
-[
-$1
-]2
-:
-[
-G#m E B C#m
-]2
-:
-$2
+$3
 
 Refrain
 (

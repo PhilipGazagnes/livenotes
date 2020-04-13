@@ -19,6 +19,8 @@ F#;_
 Intro
 $1
 
+#
+
 Couplet
 (
 $1
@@ -57,6 +59,8 @@ Et jamais ne revient
 Post refrain
 $4
 
+#
+
 Couplet
 (
 $1
@@ -94,6 +98,8 @@ Et jamais ne revient
 
 Post refrain
 $4
+
+#
 
 Solo
 $1

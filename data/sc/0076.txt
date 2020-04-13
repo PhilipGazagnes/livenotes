@@ -1,12 +1,14 @@
 $1
+[
 E;A;D A;E
-E;A;D A;E
+]2
+:
+[
 A;E;D A;E
-A;E;D A;E
+]2
 
-Intro
-E;A;D A;E
-E;A;D A;E
+Intro!-8
+$1
 
 Couplet
 $1
@@ -32,15 +34,13 @@ Sans même regarder, elle fait non...non...non...non...
 Pourtant je donnerais ma vie
 Pourqu'elle dise oui
 
-Solo
-E;A;D A;E
-E;A;D A;E
+Solo!-8
+$1
 --
 ***Solo***
 
-Couplet
-A;E;D A;E
-A;E;D A;E
+Couplet!from8
+$1
 --
 Pourtant je donnerais ma vie
 Pourqu'elle dise oui

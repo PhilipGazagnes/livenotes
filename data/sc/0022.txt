@@ -1,6 +1,22 @@
 $2
 Dm;D#;F#;G#
+:
 C#;Cm F
+
+$3
+[
+A#;Dm;D#;%
+]2
+:
+Gm;F;D#;A#
+:
+Gm;F;D#;%
+
+$4
+[
+A#;D#
+]2
+A#
 
 Intro
 [
@@ -8,11 +24,7 @@ A#;F;D#;%
 ]2
 
 Couplet
-[
-A#;Dm;A#;%
-]2
-Gm;F;D#;A#
-Gm;F;A#;%
+$3
 --
 Ça fait longtemps que t'es partie
 Maintenant
@@ -24,17 +36,11 @@ Par l'ombre d'un corps
 Que j'ai serré si souvent
 Pour un enfant
 
-Inter
-[
-A#;D#
-]2
+Inter!-1
+$4
 
 Couplet
-[
-A#;Dm;A#;%
-]2
-Gm;F;D#;A#
-Gm;F;A#;%
+$3
 --
 Tu leur dis que mon métier
 C'est du vent
@@ -47,10 +53,7 @@ Que tu voulais un enfant
 Devenu grand
 
 Inter
-[
-A#;D#
-]2
-A#
+$4
 
 Refrain
 (
@@ -67,11 +70,7 @@ Au fruit de mes entrailles
 Fallait pas qu'elle s'en aille
 
 Couplet
-[
-A#;Dm;A#;%
-]2
-Gm;F;D#;A#
-Gm;F;A#;%
+$3
 --
 Bien sûr c'est elle qui l'a porté
 Et pourtant
@@ -84,10 +83,7 @@ Que rien ne défend
 C'est mon enfant
 
 Inter
-[
-A#;D#
-]2
-A#
+$4
 
 Refrain
 (

@@ -1,8 +1,10 @@
 $1
 F#m E; D A
-Bm F#m; Bm F#m
+[
+Bm F#m
+]2
 
-Intro
+Instru
 $1
 
 Couplet
@@ -13,6 +15,8 @@ Sur un chariot chargé de paille
 Sur un chariot chargé de foin
 La fille du coupeur de joints
 La fille du coupeur de joints
+
+#
 
 Instru
 $1
@@ -26,6 +30,8 @@ Une chanson de collégien
 La fille du coupeur de joints
 La fille du coupeur de joints
 
+#
+
 Instru
 $1
 
@@ -37,6 +43,8 @@ A se lamenter sur notre malheur
 En se disant qu'on se taperait bien
 La fille du coupeur de joints
 La fille du coupeur de joints
+
+#
 
 Instru
 $1
@@ -50,6 +58,8 @@ Et qu'elle nous fait "Coucou les gens"
 La fille du coupeur de joints
 La fille du coupeur de joints
 
+#
+
 Instru
 $1
 
@@ -61,6 +71,8 @@ Et puis qu'elle nous emmène sur sa paille
 Elle nous fait le coup du zeppelin
 La fille du coupeur de joints
 La fille du coupeur de joints
+
+#
 
 Instru
 $1
@@ -74,6 +86,8 @@ Une tranche de tagada tsoin-tsoin
 La fille du coupeur de joints
 La fille du coupeur de joints
 
+#
+
 Instru
 $1
 
@@ -86,10 +100,12 @@ Sacré bon Dieu que c'était bien
 La fille du coupeur de joints
 La fille du coupeur de joints
 
-Ralenti instru
+#
+
+Instru!SLOW
 $1
 
-Ralenti couplet
+Couplet!SLOW
 $1
 --
 Plus question de chercher du travail
@@ -98,8 +114,10 @@ Au milieu des petits lapins
 La fille du coupeur de joints
 La fille du coupeur de joints
 
-Ralenti instru
+Instru!SLOW
 $1
+
+#
 
 Instru
 $1

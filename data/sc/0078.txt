@@ -124,6 +124,7 @@ $1
 
 Break
 D;E;F;G
+:
 A;A#;C;D
 
 Refrain
