@@ -188,13 +188,14 @@ export default {
     },
     sectionName(str) {
       const arr = str.split('!');
+      let txt = str;
       if (arr.length > 1) {
-        return `${arr[0]}<span>${arr[1]}</span>`;
+        txt = `${arr[0]}<span>${arr[1]}</span>`;
       }
-      if (str === 'Solo' || str === 'solo') {
-        return `&#11088;${str}&#11088;`;
+      if (txt.startsWith('Solo') || txt.startsWith('solo')) {
+        txt = `&#11088;${txt}&#11088;`;
       }
-      return str;
+      return txt;
     },
     togglePresentation() {
       switch (this.presentationMode) {
@@ -349,7 +350,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: calc(100vh - 50px);
 }
 .bar {
   background: #222;
@@ -465,9 +466,9 @@ body {
       .measure {
         display: inline-block;
         & > div {
-          border-bottom: 1px solid #222;
+          border-bottom: 2px solid #222;
           padding: 5px 0;
-          margin: 4px;
+          margin: 4px 6px;
           font-size: 1.5em;
           font-weight: bold;
           &::after {
@@ -482,6 +483,12 @@ body {
           float: left;
           text-align: center;
           padding: 0 5px;
+          &:first-child {
+            padding-left: 0;
+          }
+          &:last-child {
+            padding-right: 0;
+          }
           &:not(:first-child) {
             &::before {
               content: '';
@@ -504,14 +511,13 @@ body {
       .inRepeatCycle {
         & > div {
           position: relative;
-          background: rgba(0, 0, 0, 0.07);
           &::before {
             content: '';
             width: 100%;
             position: absolute;
             height: 2px;
-            background: blue;
-            bottom: 0;
+            border-top: 4px blue dashed;
+            bottom: -3px;
             left: 0;
           }
         }
@@ -537,7 +543,7 @@ body {
         opacity: 0.5;
       }
       .empty {
-        background: #222;
+        background: black;
       }
       .repeatStart {
         display: none;
@@ -552,6 +558,10 @@ body {
           text-align: center;
           font-weight: bold;
           font-size: 1.5em;
+          & > span {
+            padding-left: 5px !important;
+            padding-right: 5px !important;
+          }
         }
       }
       .blank {

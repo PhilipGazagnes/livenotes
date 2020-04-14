@@ -2,7 +2,9 @@ $1
 [
 A
 ]4
+:
 D;%;A;%
+:
 E;%;A;%
 
 Intro
@@ -28,7 +30,7 @@ Demande à l'interphone
 Si t'as envie d'quelqu'un, vas-y
 Décroche ton téléphone
 
-Refrain (-2M)
+Refrain!-2
 $1
 --
 Come on, come on, dansez
@@ -38,13 +40,14 @@ Demande au mégaphone
 Bientôt au bout du fil
 Tu n'auras plus personne
 
-Break / Solo
+Break
 A;C
 [
 A;D
 ]5
-D;%;A;%
-E;%;A;%
+
+Solo!from5
+$1
 --
 ***Solo***
 
@@ -81,7 +84,7 @@ Tu n'auras plus personne
 Outro (breaks)
 [
 E;%;A;%
-]4
+]5
 --
 Au bout du fil
 Tu n'auras plus personne

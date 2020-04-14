@@ -1,4 +1,12 @@
+$1
+[
+Am
+]4
+:
+Dm;Am;E7;Am
+
 Couplet
+$1
 --
 Mi son alzato
 O bella ciao, bella ciao, bella ciao, ciao, ciao
@@ -6,6 +14,7 @@ Una mattina mi son alzato
 E ho trovato l'invasor
 
 Couplet
+$1
 --
 O partigiano, portami via
 O bella ciao, bella ciao, bella ciao, ciao, ciao
@@ -13,10 +22,12 @@ O partigiano, portami via
 Ché mi sento di morir
 
 Solo
+$1
 --
 ***Solo***
 
 Couplet
+$1
 --
 E se io muoio da partigiano
 O bella ciao, bella ciao, bella ciao, ciao, ciao
@@ -24,6 +35,7 @@ E se io muoio da partigiano
 Tu mi devi seppellir
 
 Couplet
+$1
 --
 E seppellire lassù in montagna
 O bella ciao, bella ciao, bella ciao, ciao, ciao
@@ -31,10 +43,12 @@ E seppellire lassù in montagna
 Sotto l'ombra di un bel fior
 
 Solo
+$1
 --
 ***Solo***
 
 Couplet
+$1
 --
 Mi son alzato
 O bella ciao, bella ciao, bella ciao, ciao, ciao
@@ -42,6 +56,7 @@ Una mattina mi son alzato
 E ho trovato l'invasor
 
 Couplet
+$1
 --
 O partigiano, portami via
 O bella ciao, bella ciao, bella ciao, ciao, ciao

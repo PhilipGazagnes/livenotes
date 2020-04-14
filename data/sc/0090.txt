@@ -10,14 +10,14 @@ _
 ]2
 
 $3
-F#m;A B;E
+F#m;A B;E;%
 
 Theme
 (
 $1
 )4
 
-Couplet (impairs: silence)
+Couplet !odd _
 (
 $1
 )8
@@ -68,7 +68,7 @@ $1
 --
 ***Solo***
 
-Couplet (impairs: silence)
+Couplet !odd _
 (
 $1
 )8

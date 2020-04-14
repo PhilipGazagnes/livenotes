@@ -1,15 +1,19 @@
+$1
+[
+E;E % C# D
+]4
+:
+[
+G A;E
+]4
+
 Intro
 [
 E;E % C# D
 ]4
 
 Couplet
-[
-E;E % C# D
-]4
-[
-G A;E
-]4
+$1
 --
 Get your motor runnin'
 Head out on the highway
@@ -21,12 +25,7 @@ Fire all of your guns at once
 And explode into space
 
 Couplet
-[
-E;E % C# D
-]4
-[
-G A;E
-]4
+$1
 --
 I like smoke and lightning
 Heavy metal thunder
@@ -66,12 +65,7 @@ _;_
 ***Solo***
 
 Couplet
-[
-E;E % C# D
-]4
-[
-G A;E
-]4
+$1
 --
 Get your motor runnin'
 Head out on the highway

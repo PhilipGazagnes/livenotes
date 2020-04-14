@@ -1,20 +1,17 @@
-Intro
-(
-[
-F#;%;D#m;%
-]2
+$1
+F#;%;A#m;%
 :
 E;%;F#;%
+
+Intro !2*1
+(
+$1
 )2
 --
 C'est comme ça, ah, la la la la la
 
-Couplet
-[
-F#;%;D#m;%
-]4
-:
-E;%;F#;%
+Couplet !4*1
+$1
 --
 Ouais, le secret ça coupe et ça donne
 Oh, faut que j'move sans fin
@@ -24,12 +21,8 @@ Oh, oh, faut que j'move
 L'ami Sadi s'enlise et là ça fait peur
 Si c'est ça, ah, la la la la la
 
-Couplet
-[
-F#;%;D#m;%
-]4
-:
-E;%;F#;%
+Couplet !4*1
+$1
 --
 Ça le susurre à mes entournures
 Ah, ah, faut que j'move
@@ -39,26 +32,16 @@ Ah, ah, faut que j'move
 Et ça gêne, quoi, quand y a pas de plaisir
 C'est comme ça, ah la la la la
 
-La la la
-[
-F#;%;D#m;%
-]3
-:
-E;%;F#;%
+La la la !3*1
+$1
 --
 La lala lala lala lalala
 La lala lala lala la
 La lala lala lala lalala lala lalala
 Ah, ah, ah, ah, lalala lala
 
-Couplet
-[
-F#;%;D#m;%
-]2
-:
-[
-E;%;F#;%
-]2
+Couplet !2*2
+$1
 --
 Je veux pas t'abandonner, mon bébé
 Je veux pas nous achever, tu sais
@@ -66,47 +49,25 @@ C'est pas que je veux te nuire
 Ni que je veux m'enfuir
 Il me faut prendre le frais, c'est vrai, hé, hé, hé
 
-Break
-[
-F#;%;A#m;%
-]2
-:
-E;%;F#;%
-:
-[
-F#;%;A#m;%
-]2
-:
-E;%;F#;%
-:
-[
-F#;%;A#m;%
-]4
-:
-E;%;F#;%
+Break !2*1 + 2*1 + 4*1
+$1
 --
 Hé, viens près de moi que je te le dise
 Faut que j'move
 Ce secret qui me tord le cœur
 Ah, la la la
 
-La la la
-[
-F#;%;D#m;%
-]4
-E;%;F#;%
+La la la !4*1
+$1
 --
 Ah, la la la la la
 La lala lala lala lalala
 La lala lala lala la
 La lala lala lala lalala lala lalala
 
-Solo
+Solo !3*1
 (
-[
-F#;%;D#m;%
-]3
-E;%;F#;%
+$1
 )2
 --
 ***Solo***

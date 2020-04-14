@@ -2,11 +2,14 @@ $2
 [
 C;F
 ]4
+:
 F Am;Dm;G;%
 
 $1
 [
-F G;C E7;F G;C
+F G;C E7
+:
+F G;C
 ]2
 
 Intro

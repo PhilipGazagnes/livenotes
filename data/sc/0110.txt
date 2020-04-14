@@ -26,15 +26,8 @@ $3
 [
 D;C;G;F
 ]3
+:
 D;C;G;%;D
-
-$5
-[
-C
-]2
-[
-G
-]2
 
 $6
 [
@@ -42,7 +35,7 @@ D;%;C;%
 ]7
 C;%
 
-Theme planant
+Intro
 (
 $2
 )2
@@ -51,7 +44,7 @@ Theme
 $4
 
 Couplet
-$2
+$4
 --
 Tu bosses toute ta vie pour payer ta pierre tombale
 Tu masques ton visage en lisant ton journal
@@ -71,7 +64,7 @@ Antisocial, bientôt les années de sévices
 Enfin le temps perdu qu'on ne rattrape plus
 
 Couplet
-$2
+$4
 --
 Écraser les gens est devenu ton passe-temps
 En les éclaboussant, tu deviens gênant
@@ -90,9 +83,9 @@ Repense a toutes ces années de service
 Antisocial, bientôt les années de sévices
 Enfin le temps perdu qu'on ne rattrape plus
 
-Break (theme planant)
+Intro !répés de 2
 (
-$5
+$2
 )2
 --
 Qu'on ne rattrape plus
@@ -103,7 +96,7 @@ $6
 ***Solo***
 
 Couplet
-$2
+$4
 --
 Tu bosses toute ta vie pour payer ta pierre tombale
 Tu masques ton visage en lisant ton journal
@@ -125,9 +118,9 @@ Qu'on ne rattrape plus
 On ne rattrape plus
 Qu'on ne rattrape plus
 
-Outro (fin gimmick)
+Intro !répés de 2
 (
-$5
+$2
 )8
 --
 Qu'on ne rattrape plus
@@ -136,6 +129,3 @@ Antisocial, antisocial
 Antisocial, antisocial
 Antisocial, antisocial
 Antisocial, antisocial
-
-Fin
-D;C;%

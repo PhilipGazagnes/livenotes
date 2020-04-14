@@ -1,7 +1,14 @@
-Couplet
-C;%;%;%
+$1
+[
+C
+]4
+:
 F;%;C;%
+:
 G;F;C;_
+
+Couplet
+$1
 --
 You ain't nothin' but a hound dog
 Cryin' all the time.
@@ -11,9 +18,7 @@ Well, you ain't never caught a rabbit
 And you ain't no friend of mine
 
 Couplet
-C;%;%;%
-F;%;C;%
-G;F;C;_
+$1
 --
 When they said you was high classed
 Well, that was just a lie.
@@ -23,9 +28,7 @@ Yeah, you ain't never caught a rabbit
 And you ain't no friend of mine
 
 Couplet
-C;%;%;%
-F;%;C;%
-G;F;C;_
+$1
 --
 You ain't nothin' but a hound dog
 Cryin' all the time.
@@ -35,16 +38,12 @@ Well, you ain't never caught a rabbit
 And you ain't no friend of mine.
 
 Solo
-C;%;%;%
-F;%;C;%
-G;F;C;_
+$1
 --
 ***Solo***
 
 Couplet
-C;%;%;%
-F;%;C;%
-G;F;C;_
+$1
 --
 When they said you was high classed
 Well, that was just a lie.
@@ -54,16 +53,12 @@ Well, you ain't never caught a rabbit
 And you ain't no friend of mine.
 
 Solo
-C;%;%;%
-F;%;C;%
-G;F;C;_
+$1
 --
 ***Solo***
 
 Couplet
-C;%;%;%
-F;%;C;%
-G;F;C;_
+$1
 --
 When they said you was high classed,
 Well, that was just a lie.
@@ -73,9 +68,7 @@ Well, you ain't never caught a rabbit
 And you ain't no friend of mine.
 
 Couplet
-C;%;%;%
-F;%;C;%
-G;F;C;_
+$1
 --
 You ain't nothin' but a hound dog
 Cryin' all the time.

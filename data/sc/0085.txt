@@ -51,6 +51,8 @@ Je dis, argent, trop cher
 Trop grand
 La vie n'a pas de prix
 
+#
+
 Riff
 (
 $4
@@ -86,10 +88,12 @@ Et dis, argent, trop cher
 Trop grand
 La vie n'a pas de prix
 
-Instru
+#
+
+Break
 [
 A
-]3
+]4
 [
 B A
 ]8
@@ -100,8 +104,12 @@ G D;D
 [
 B A
 ]4
+--
+Un compte bloqué
+L'autre a découvert
+Maintenant, banque!
 
-Couplet (juste fin)
+Couplet !4 last
 $1
 --
 Les vautours tournent autour

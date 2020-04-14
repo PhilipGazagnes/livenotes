@@ -2,7 +2,9 @@ $1
 [
 Am Em; Am
 ]2
+:
 Em; Dm
+:
 Am Em; Am
 
 Couplet

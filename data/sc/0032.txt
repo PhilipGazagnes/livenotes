@@ -1,14 +1,24 @@
+$1
+[
+A
+]4
+:
+D;%;A;%
+:
+E;%;A;%
+
 Couplet
-A;%;%;%
+(
+A
+)4
 --
 Well, it's one for the money
 Two for the show
 Three to get ready
 Now go, cat, go
 
-Refrain
-D;%;A;%
-E;%;A;%
+Refrain !from5
+$1
 --
 But don't you
 Step on my blue suede shoes
@@ -16,8 +26,9 @@ Well you can do anything
 But stay off of my blue suede shoes
 
 Couplet
-A;%;%;%
-%;%;%;%
+(
+A
+)8
 --
 Well, you can knock me down
 Step in my face
@@ -25,24 +36,22 @@ Slander my name all over the place
 Well do anything that you want to do
 But uh-uh, honey lay off of them shoes
 
-Refrain
-D;%;A;%
-E;%;A;%
+Refrain !from5
+$1
 --
 And don't you step on my blue suede shoes
 Well, you can do anything
 But stay off of my blue suede shoes
 
 Solo
-A;%;%;%
-D;%;A;%
-E;%;A;%
+$1
 --
 ***Solo***
 
 Couplet
-A;%;%;%
-%;%;%;%
+(
+A
+)8
 --
 You can burn my house
 Steal my car
@@ -51,9 +60,8 @@ From an old fruit jar
 Well do anything that you want to do
 But uh-uh, honey lay off of my shoes
 
-Refrain
-D;%;A;%
-E;%;A;%
+Refrain !from5
+$1
 --
 And don't you
 Step on my blue suede shoes
@@ -61,23 +69,22 @@ Well, you can do anything
 But stay off of my blue suede shoes
 
 Solo
-A;%;%;%
-D;%;A;%
-E;%;A;%
+$1
 --
 ***Solo***
 
 Couplet
-A;%;%;%
+(
+A
+)4
 --
 Well, it's one for the money
 Two for the show
 Three to get ready
 Now go, cat, go
 
-Refrain
-D;%;A;%
-E;%;A;%
+Refrain !from5
+$1
 --
 But don't you
 Step on my blue suede shoes
@@ -85,9 +92,7 @@ Well you can do anything
 But stay off of my blue suede shoes
 
 Outro
-A;%;%;%
-D;%;A;%
-E;%;A;%
+$1
 --
 Blue blue, blue suede shoes
 Blue blue, blue suede shoes

@@ -1,12 +1,24 @@
-Theme
-[
-Am C;G
-]2
-
-Couplet
+$1
 [
 Am C;G
 ]4
+:
+[
+F;%;G;%
+]2
+
+$2
+Am C;G
+
+Theme
+(
+$2
+)2
+
+Couplet
+)
+$2
+)4
 --
 Le mal est entré
 Meilleur ennemi
@@ -14,11 +26,7 @@ Il sait m'abandonner
 Me ramener près de lui
 
 Refrain
-[
-Am C;G
-]4
-F;%;G;%
-F;%;G;_
+$1
 --
 Je n'veux pas rester sage
 J'aime le souffre et l'envie
@@ -30,15 +38,17 @@ Le mal est ma lueur
 Mon parfum son odeur
 Prend ton mal en douceur
 
+#
+
 Theme
-[
-Am C;G
-]2
+)
+$2
+)2
 
 Couplet
-[
-Am C;G
-]4
+)
+$2
+)4
 --
 Le mal est entré
 Et je sais qu'il détruit
@@ -46,11 +56,7 @@ Qu'il pourrait me faire crever
 Que reste-t-il ici?
 
 Refrain
-[
-Am C;G
-]4
-F;%;G;%
-F;%;G;_
+$1
 --
 Je n'veux pas rester sage
 J'aime le souffre et l'envie
@@ -61,6 +67,8 @@ Son ombre est ma couleur
 Le mal est ma lueur
 Mon parfum son odeur
 Prend ton mal en douceur
+
+#
 
 Pont
 [

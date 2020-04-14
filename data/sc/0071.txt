@@ -46,8 +46,8 @@ Pont
 [
 G D;C %
 ]2
-G D;C G
-G F; D
+:
+G D;C G; G F; D
 --
 Looks like nothin's gonna change
 Everything seems to stay the same

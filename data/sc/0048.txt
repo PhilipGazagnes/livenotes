@@ -1,10 +1,18 @@
 $1
-E;A B;E;A % B =
-E;%
+E;A B;E
+:
+A % B =;E;%
 
 $2
-E;%;%;B;A B;E =
-A;%;_;%;A
+[
+E
+]3
+B
+:
+A B; E =
+[
+A
+]5
 
 Intro
 $1
@@ -49,14 +57,13 @@ So put another dime in the jukebox, baby
 I love rock n' roll
 So come an' take your time an' dance with me
 
-Solo
-E;%;%;B
+Solo!debut
+$2
 --
 ***Solo***
 
-Demi Couplet
-A B;E =
-A;%;_;%;%
+Couplet!fin
+$2
 --
 Said "Can I take you home where we can be alone?"
 Next we're movin' on
@@ -66,31 +73,33 @@ An' singin' that same old song
 Yeah with me, singin'
 
 Refrain
-_;%;%;%
+[
+_
+]4
 --
 I love rock n' roll
 So put another dime in the jukebox, baby
 I love rock n' roll
 So come an' take your time an' dance with me
 
-Refrain
-E;A B;E;A % B =
+Refrain!-2
+$1
 --
 I love rock n' roll
 So put another dime in the jukebox, baby
 I love rock n' roll
 So come an' take your time an' dance with me
 
-Refrain
-E;A B;E;A % B =
+Refrain!-2
+$1
 --
 I love rock n' roll
 So put another dime in the jukebox, baby
 I love rock n' roll
 So come an' take your time an' dance with me
 
-Refrain
-E;A B;E;A % B =
+Refrain!-2
+$1
 --
 I love rock n' roll
 So put another dime in the jukebox, baby

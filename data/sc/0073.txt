@@ -1,12 +1,19 @@
 $1
-Em D;%;%;%
-%;%;%;%
-C;Em;C;Em
+[
+Em D
+]8
+:
+[
+C;Em
+]2
+:
 D;%
 
 $2
 Dm;Cm;Dm;A#
+:
 Dm;Cm;Am;%
+:
 Dm;Cm;Dm;A#
 
 Couplet

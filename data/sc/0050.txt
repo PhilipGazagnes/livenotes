@@ -1,13 +1,16 @@
 $1
 B;%;E;%
+:
 A;%;F#;%
 
 $2
 G;%;E;%
+:
 G;%;A;%
 
 $3
 B;D;E;G
+:
 E;G;A;%
 
 Thème
@@ -48,6 +51,8 @@ Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
 Allumer le feu
 
+#
+
 Thème
 $1
 
@@ -82,7 +87,9 @@ Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
 Allumer le feu
 
-Solo (thème)
+#
+
+Solo
 $1
 --
 ***Solo***
@@ -114,7 +121,7 @@ Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
 Allumer le feu
 
-Solo (refrain)
+Solo
 $3
 --
 ***Solo***

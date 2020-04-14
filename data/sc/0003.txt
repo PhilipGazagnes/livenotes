@@ -1,9 +1,11 @@
 $1
 Em C;D7 B7
+:
 Em C;Am B7
 
 $2
 Em C;Am B7
+:
 Em Am;D B7
 
 Intro

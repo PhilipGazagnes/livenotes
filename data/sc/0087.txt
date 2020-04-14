@@ -12,10 +12,8 @@ Bm;G;Bm;Em
 Am
 ]4
 
-Intro
-[
-G;D;Em;C
-]2
+Intro!-8
+$2
 
 Couplet
 $2
@@ -37,7 +35,7 @@ $1
 Elle part, jolie petite histoire
 Elle part, jolie petite histoire
 
-Couplet (+1 cycle G)
+Couplet!+1 répé début
 $2
 --
 Cendrillon pour ses trente ans
@@ -89,10 +87,10 @@ G;D;Em;Bm C
 --
 ***Solo***
 
-Outro
-[
-G;D;Em;C
-]4
+Outro!-8
+(
+$2
+)2
 --
 Notre père, qui est si vieux
 As-tu vraiment fait de ton mieux?

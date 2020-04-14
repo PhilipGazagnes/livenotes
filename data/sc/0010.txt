@@ -42,7 +42,7 @@ Call me
 Theme
 $1
 
-Couplet (+ 1 mesure)
+Couplet!+1
 $2
 --
 Cover me with kisses, baby
@@ -63,6 +63,7 @@ Call me
 
 Montée de ton
 Dm;Dm % Gm F
+:
 Em;Em % Am G
 
 Pont
@@ -71,10 +72,10 @@ Em;%;Bm;%
 ]2
 :
 F;%;C;%
-Dm;Dm % = =
-A#;%
-G;%
-A;%
+:
+Dm;Dm =;A#;%
+:
+G;%;A;%
 --
 Ooo-oo-oo-oo-oo, he speaks the languages of love
 Ooo-oo-oo-oo-oo, amore, chiamami, chiamami

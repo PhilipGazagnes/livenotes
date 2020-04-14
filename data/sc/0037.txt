@@ -19,7 +19,7 @@ Intro
 Em
 ]4
 
-Couplet (+2M)
+Couplet!+2
 $1
 --
 D'abord vos corps qui se séparent
@@ -84,16 +84,8 @@ Et ça te fait marrer les oiseaux qui s'envolent
 Les oiseaux qui s'envolent
 Les oiseaux qui s'envolent
 
-Break 2
-[
-Em
-]4
-[
-G
-]4
-C ; % ; Am ; %
-Em ; % ; C ; %
-Am ; % ; Em ; %
+Break 2!6 last x2
+$1
 --
 Tu comptes les chances qu'il te reste
 Un peu de son parfum sur ta veste

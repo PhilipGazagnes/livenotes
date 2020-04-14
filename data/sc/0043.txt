@@ -2,10 +2,13 @@ $1
 [
 Bm E; F#m
 ]3
+:
 A; %
 
 $2
-F#m; E; D; C#m
+F#m; E
+:
+D; C#m
 
 Guitar gimmick
 [

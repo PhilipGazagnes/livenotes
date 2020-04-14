@@ -95,11 +95,10 @@ J'ferai plus 36 15 ULLA
 J'achèterai le Figaro
 J'pisserai plus dans le lavabo
 
-Refrain
+Refrain!+1répé
 [
 D#;A#;F;C
-]4
-C
+]3
 --
 Je sais pas comment te dire
 Ce que je peux pas écrire

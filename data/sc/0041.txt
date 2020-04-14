@@ -66,11 +66,15 @@ Y en a même qui disent qu'ils l'ont vu voler
 
 Solo
 [
-G# C#; F# F A#m %
+G# C#
+:
+F# F A#m %
 ]2
+:
 [
 D# A#m
 ]2
+:
 F# F A#m %
 --
 ***Solo***

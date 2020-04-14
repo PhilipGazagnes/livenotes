@@ -1,4 +1,8 @@
+$1
+0220xx;2002xx
+
 Couplet
+$1
 --
 On the first part of the journey
 I was looking at all the life
@@ -10,6 +14,7 @@ The heat was hot and the ground was dry
 But the air was full of sound
 
 Refrain
+$1
 --
 I've been through the desert on a horse with no name
 It felt good to be out of the rain
@@ -17,10 +22,12 @@ In the desert you can remember your name
 'Cause there ain't no one for to give you no pain
 
 La la la
+$1
 --
 La, la, la la la...
 
 Couplet
+$1
 --
 After two days in the desert sun
 My skin began to turn red
@@ -30,6 +37,7 @@ And the story it told of a river that flowed
 Made me sad to think it was dead
 
 Refrain
+$1
 --
 You see I've been through the desert on a horse with no name
 It felt good to be out of the rain
@@ -37,14 +45,17 @@ In the desert you can remember your name
 'Cause there ain't no one for to give you no pain
 
 La la la
+$1
 --
 La, la, la la la...
 
 Solo
+$1
 --
 ***Solo***
 
 Couplet
+$1
 --
 After nine days I let the horse run free
 'Cause the desert had turned to sea
@@ -56,6 +67,7 @@ Under the cities lies a heart made of ground
 But the humans will give no love
 
 Refrain
+$1
 --
 You see I've been through the desert on a horse with no name
 It felt good to be out of the rain
@@ -63,5 +75,6 @@ In the desert you can remember your name
 'Cause there ain't no one for to give you no pain
 
 La la la
+$1
 --
 La, la, la la la...

@@ -1,5 +1,6 @@
 $1
 Am ; Dm ; G ; C
+:
 F ; Dm ; E ; E7
 
 Intro

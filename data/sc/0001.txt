@@ -55,14 +55,18 @@ Playing in a rocking band
 Hey mama, look at me
 I'm on my way to the promised land, whoo!
 
-Refrain
+Refrain!-2
 $3
-%;%;%
 --
 I'm on the highway to hell
 Highway to hell
 I'm on the highway to hell
 Highway to hell
+
+Break
+[
+A
+]5
 
 Solo
 $4

@@ -5,9 +5,12 @@ $2
 [
 Em;D
 ]2
-C;D;Em;D
+C;D
+:
+Em;D
 
 Drum
+_
 
 Theme
 (

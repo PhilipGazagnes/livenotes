@@ -1,14 +1,7 @@
-Intro
-[
+$1
 Gm;%;F;Gm
-]2
 
-Mélodie
-[
-Gm;%;F;Gm
-]2
-
-Couplet
+$2
 [
 Gm;%;F;Gm
 ]2
@@ -18,6 +11,21 @@ C F#;G
 ]3
 :
 C;D
+
+Intro
+(
+$1
+)2
+
+#
+
+Mélodie
+(
+$1
+)2
+
+Couplet
+$2
 --
 Sittin' here, eatin' my heart out waitin'
 Waitin' for some lover to call
@@ -38,21 +46,15 @@ I need hot stuff
 I want some hot stuff
 I need hot stuff
 
+#
+
 Mélodie
-[
-Gm;%;F;Gm
-]2
+(
+$1
+)2
 
 Couplet
-[
-Gm;%;F;Gm
-]2
-:
-[
-C F#;G
-]3
-:
-C;D
+$2
 --
 Lookin' for a lover who needs another
 Don't want another night on my own
@@ -73,27 +75,26 @@ I need hot stuff
 Hot love
 Lookin' for hot love
 
+#
+
 Solo
-[
+(
 Gm;%;D#;%
 F;%;Gm;%
-]2
+)2
 --
 ***Solo***
 
 Break
-[
-Gm;%;F;Gm
-]2
+(
+$1
+)2
 --
 Hot hot hot hot stuff
 Hot hot hot
 
-Demi couplet
-[
-C F#;G
-]3
-C;D
+Couplet!from9
+$2
 --
 How's 'bout some hot stuff, baby this evenin'
 I need some hot stuff baby tonight
@@ -112,6 +113,6 @@ Lookin' for hot love
 Wanna have hot love
 
 Mélodie
-[
-Gm;%;F;Gm
-]2
+(
+$1
+)2

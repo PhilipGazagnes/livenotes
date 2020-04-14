@@ -1,6 +1,7 @@
 $1
 [
 Em;%;C;%
+:
 D;%;Am;C
 ]4
 
@@ -45,9 +46,8 @@ C'est à croire
 Que la nuit n'a pas de cœur
 Pas de cœur
 
-Solo
-Em;%;C;%
-D;%;Am;C
+Solo !1 seule répé
+$1
 
 Couplet
 $1

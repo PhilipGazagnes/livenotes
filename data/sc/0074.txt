@@ -1,12 +1,16 @@
 $1
-Dm;%;%;%
-%;%;%;%
-%;%;%;%
-%;%
-G;%;%;%
+[
+Dm
+]14
+[
+G
+]4
+:
 Dm;%
+:
+[
 F;C;Dm;%
-F;C;Dm;%
+]2
 
 Couplet
 $1
@@ -31,13 +35,16 @@ All in all it's just another brick in the wall
 All in all you're just another brick in the wall
 
 Solo
-Dm;%;%;%
-%;%;%;%
+[
+Dm
+]8
+:
+[
 C;%;Dm;%
-C;%;Dm;%
-C;%;Dm;%
-C;%;Dm;%
+]4
+:
 C;%;A#;%
+:
 C;%;Dm;%
 --
 ***Solo***
