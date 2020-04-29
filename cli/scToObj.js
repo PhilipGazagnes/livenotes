@@ -1,3 +1,9 @@
+/* * * * * * * * * * * * * * * * * * * * * * *
+
+     THIS FILS NEEDS A SERIOUS REFACTOR !
+
+ * * * * * * * * * * * * * * * * * * * * * * */
+
 const constants = {};
 
 function chordsScToArr(arr) {
@@ -73,13 +79,15 @@ function scToConstantMeasures(arr) {
   });
 }
 
-function scToSectionsArr(arr) {
-  const exportArr = [];
-  arr.forEach((i) => {
+function scToSectionsArr(sectionsArr, stacktips) {
+  const exportObj = {
+    sections: [],
+  };
+  sectionsArr.forEach((i) => {
     const spl1 = i.split('--');
     const spl2 = spl1[0].split('++');
     const spl3 = spl2[0].split('\n').filter((val) => val !== '');
-    exportArr.push({
+    exportObj.sections.push({
       name: spl3[0],
       measures: measuresScToArr(spl3.filter((j) => spl3.indexOf(j) > 0)),
       lyrics: spl1[1]
@@ -90,14 +98,24 @@ function scToSectionsArr(arr) {
         : undefined,
     });
   });
-  return exportArr;
+  if (stacktips) {
+    const spl1 = stacktips.split('\n');
+    exportObj.stacktips = spl1[1];
+  }
+  return exportObj;
 }
 
 function scToObj(sc) {
   const blocs = sc.split('\n\n');
   const constantMeasuresSc = blocs.filter((b) => b.startsWith('$'));
-  const songSectionsSc = blocs.filter((b) => !b.startsWith('$'));
+  const stacktips = blocs.filter((b) => b.startsWith('@'));
+  const songSectionsSc = blocs.filter(
+    (b) => !b.startsWith('$') && !b.startsWith('@'),
+  );
   scToConstantMeasures(constantMeasuresSc);
-  return scToSectionsArr(songSectionsSc);
+  return scToSectionsArr(
+    songSectionsSc,
+    stacktips.length ? stacktips[0] : undefined,
+  );
 }
 exports.scToObj = scToObj;

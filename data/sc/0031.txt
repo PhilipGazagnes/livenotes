@@ -1,6 +1,6 @@
 $1
 [
-Em;Cm
+Em;C#m
 ]4
 :
 [
@@ -16,7 +16,7 @@ Em
 
 Intro
 [
-Em;Cm
+Em;C#m
 ]4
 
 Couplet

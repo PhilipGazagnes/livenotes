@@ -45,7 +45,7 @@ Regardent l'océan
 Refrain
 (
 $2
-)2
+)4
 --
 Voyage, voyage
 Plus loin que la nuit et le jour
@@ -85,7 +85,7 @@ Regardent l'océan
 Refrain
 (
 $2
-)2
+)4
 --
 Voyage, voyage
 Plus loin que la nuit et le jour

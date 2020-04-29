@@ -1,88 +1,117 @@
 <template>
-  <div class="song">
-    <div class="bar">
-      <nuxt-link to="/">&laquo;</nuxt-link>
-      <span>
-        {{ truncate(meta.name, 25) }}
-        <small>{{ meta.artist }}</small>
-      </span>
-      <button @click="lyrics = !lyrics">&spades;</button>
-    </div>
-    <div class="content">
-      <ul v-if="!lyrics" class="overview">
-        <li
-          v-for="(s, index3) in songData"
-          :key="index3"
-          :class="[
-            sectionClass(s.measures, index3, s.name),
-            isSeparator(s.name),
-          ]"
-        >
-          <span>
-            <span v-html="sectionName(s.name)"></span>
-          </span>
-          <span
-            v-if="
-              typeof s.measures[s.measures.length - 1] === 'string' &&
-              s.measures[s.measures.length - 1].startsWith(')')
-            "
+  <div>
+    <div class="song">
+      <div class="bar">
+        <nuxt-link to="/">&laquo;</nuxt-link>
+        <span>
+          {{ truncate(meta.name, 25) }}
+          <small>{{ meta.artist }}</small>
+        </span>
+        <button @click="lyrics = !lyrics">&spades;</button>
+      </div>
+      <div class="content">
+        <ul v-if="!lyrics" class="overview">
+          <li
+            v-for="(s, index3) in songData.sections"
+            :key="index3"
+            :class="[
+              sectionClass(s.measures, index3, s.name),
+              isSeparator(s.name),
+            ]"
           >
-            <span>{{ s.measures[s.measures.length - 1].substring(1) }}</span>
-          </span>
-        </li>
-      </ul>
-      <div v-if="!lyrics" class="notes">
-        <div
-          v-for="(s, index3) in songData"
-          :key="index3"
-          :class="['section', isNewAndSectionClass(s.measures, index3, s.name)]"
-        >
-          <!-- <div v-for="(c, index2) in s.comments" :key="index2">{{ c }}</div> -->
-          <div>
+            <span>
+              <span v-html="sectionName(s.name)"></span>
+            </span>
+            <span
+              v-if="
+                typeof s.measures[s.measures.length - 1] === 'string' &&
+                s.measures[s.measures.length - 1].startsWith(')')
+              "
+            >
+              <span>{{ s.measures[s.measures.length - 1].substring(1) }}</span>
+            </span>
+          </li>
+        </ul>
+        <div v-if="!lyrics" class="notes">
+          <div
+            v-for="(s, index3) in songData.sections"
+            :key="index3"
+            :class="[
+              'section',
+              isNewAndSectionClass(s.measures, index3, s.name),
+            ]"
+          >
+            <!-- <div v-for="(c, index2) in s.comments" :key="index2">{{ c }}</div> -->
             <div>
-              <div
-                v-for="(m, index2) in s.measures"
-                :key="index2"
-                :class="measureClass(m)"
-              >
-                <div v-if="typeof m === 'number'" />
-                <div v-else-if="typeof m === 'object'">
-                  <span :class="beatClass(m[0])" v-html="beatCt(m[0])" />
-                  <span :class="beatClass(m[1])" v-html="beatCt(m[1])" />
-                  <span :class="beatClass(m[2])" v-html="beatCt(m[2])" />
-                  <span :class="beatClass(m[3])" v-html="beatCt(m[3])" />
-                </div>
-                <div v-else-if="m !== '[' && m !== ':' && m !== '('">
-                  <span>{{ m.substring(1) }}</span>
+              <div>
+                <div
+                  v-for="(m, index2) in s.measures"
+                  :key="index2"
+                  :class="measureClass(m)"
+                >
+                  <div v-if="typeof m === 'number'" />
+                  <div v-else-if="typeof m === 'object'">
+                    <span :class="beatClass(m[0])" v-html="beatCt(m[0])" />
+                    <span :class="beatClass(m[1])" v-html="beatCt(m[1])" />
+                    <span :class="beatClass(m[2])" v-html="beatCt(m[2])" />
+                    <span :class="beatClass(m[3])" v-html="beatCt(m[3])" />
+                  </div>
+                  <div v-else-if="m !== '[' && m !== ':' && m !== '('">
+                    <span>{{ m.substring(1) }}</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div v-if="lyrics" ref="lyrics" class="lyrics">
-        <div
-          v-for="(s, index3) in songData"
-          :key="index3"
-          :style="{ fontSize: `${fontSizeUser}em` }"
-        >
-          <div v-if="s.lyrics">
-            <div
-              v-for="(p, index2) in s.lyrics"
-              :key="index2"
-              v-html="lyric(p)"
-            />
+        <div v-if="lyrics" ref="lyrics" class="lyrics">
+          <div
+            v-for="(s, index3) in songData.sections"
+            :key="index3"
+            :style="{ fontSize: `${fontSizeUser}em` }"
+          >
+            <div v-if="s.lyrics">
+              <div
+                v-for="(p, index2) in s.lyrics"
+                :key="index2"
+                v-html="lyric(p)"
+              />
+            </div>
           </div>
+          <span>FIN</span>
+          <button @click="fontSize(true)">+</button>
+          <button @click="fontSize(false)">-</button>
         </div>
-        <span>FIN</span>
-        <button @click="fontSize(true)">+</button>
-        <button @click="fontSize(false)">-</button>
       </div>
+    </div>
+    <div v-if="stack" class="stack">
+      <ul>
+        <li v-for="(i, index) in Object.keys(stack)" :key="index">
+          <span>{{ i }}</span>
+          <ul>
+            <li v-if="i === 'tips'">
+              <span>stack</span>
+              <span
+                ><strong>{{ meta.stack }}</strong></span
+              >
+            </li>
+            <li v-if="i === 'tips' && songData.stacktips">
+              <span>extra</span>
+              <span>{{ songData.stacktips }}</span>
+            </li>
+            <li v-for="(j, index2) in Object.keys(stack[i])" :key="index2">
+              <span>{{ j }}</span>
+              <span>{{ stack[i][j] }}</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
 
 <script>
+import stackJson from '../data/json/stack.json';
 import dataJson from '../data/json/data.json';
 import indexJson from '../data/json/index.json';
 
@@ -99,6 +128,7 @@ export default {
   data() {
     return {
       allSongsData: dataJson,
+      allStacks: stackJson,
       index: indexJson,
       showLyrics: false,
       showTitles: true,
@@ -115,6 +145,9 @@ export default {
     },
     songData() {
       return this.allSongsData[this.id];
+    },
+    stack() {
+      return this.allStacks[this.meta.stack];
     },
   },
   mounted() {
@@ -635,6 +668,38 @@ body {
     font-size: 2em;
     &:last-child {
       bottom: 80px;
+    }
+  }
+}
+.stack {
+  background: black;
+  color: #888;
+  & > ul {
+    padding: 40px 20px;
+    & > li {
+      border: none;
+      margin-bottom: 20px;
+      padding: 0;
+      & > span {
+        color: #bbb;
+        font-weight: bold;
+        font-size: 1.5em;
+      }
+      & > ul {
+        & > li {
+          display: table;
+          width: 100%;
+          padding: 10px 0;
+          border-bottom: 1px solid #333;
+          & > span {
+            display: table-cell;
+            width: 50%;
+            & > strong {
+              color: yellow;
+            }
+          }
+        }
+      }
     }
   }
 }
