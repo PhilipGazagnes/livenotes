@@ -84,17 +84,12 @@
         </div>
       </div>
     </div>
-    <div v-if="stack" class="stack">
-      <ul>
+    <div v-if="stack && !lyrics" class="stack">
+      {{ meta.stack }}
+      <ul v-if="false">
         <li v-for="(i, index) in Object.keys(stack)" :key="index">
           <span>{{ i }}</span>
           <ul>
-            <li v-if="i === 'tips'">
-              <span>stack</span>
-              <span
-                ><strong>{{ meta.stack }}</strong></span
-              >
-            </li>
             <li v-if="i === 'tips' && songData.stacktips">
               <span>extra</span>
               <span>{{ songData.stacktips }}</span>
