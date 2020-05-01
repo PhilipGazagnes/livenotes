@@ -1,6 +1,9 @@
 $1
 0220xx;2002xx
 
+$2
+020002;200220
+
 Couplet
 $1
 --
@@ -14,7 +17,7 @@ The heat was hot and the ground was dry
 But the air was full of sound
 
 Refrain
-$1
+$2
 --
 I've been through the desert on a horse with no name
 It felt good to be out of the rain
@@ -22,7 +25,7 @@ In the desert you can remember your name
 'Cause there ain't no one for to give you no pain
 
 La la la
-$1
+$2
 --
 La, la, la la la...
 
@@ -37,7 +40,7 @@ And the story it told of a river that flowed
 Made me sad to think it was dead
 
 Refrain
-$1
+$2
 --
 You see I've been through the desert on a horse with no name
 It felt good to be out of the rain
@@ -45,7 +48,7 @@ In the desert you can remember your name
 'Cause there ain't no one for to give you no pain
 
 La la la
-$1
+$2
 --
 La, la, la la la...
 
@@ -67,7 +70,7 @@ Under the cities lies a heart made of ground
 But the humans will give no love
 
 Refrain
-$1
+$2
 --
 You see I've been through the desert on a horse with no name
 It felt good to be out of the rain
@@ -75,6 +78,6 @@ In the desert you can remember your name
 'Cause there ain't no one for to give you no pain
 
 La la la
-$1
+$2
 --
 La, la, la la la...
