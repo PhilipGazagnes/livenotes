@@ -440,6 +440,7 @@ body {
         font-weight: bold;
         font-size: 1.2em;
         padding: 0 3px;
+        width: 100%;
       }
       &:nth-child(2) {
         flex: 0 0 30px;
@@ -449,6 +450,7 @@ body {
         background: blue;
         font-size: 1.2em;
         line-height: 0.1em;
+        width: 30px;
       }
       & > span {
         display: table-cell;
