@@ -35,10 +35,10 @@ Refrain
 $1
 )2
 --
-No, woman, no cry;
-No, woman, no cry. Eh, yeah!
-A little darlin', don't shed no tears:
-No, woman, no cry. Eh!
+So no, woman, no cry
+No, woman, no cry
+I seh, O little darlin', don't shed no tears
+No, woman, no cry, eh!
 
 Couplet
 (
@@ -74,7 +74,7 @@ Refrain
 $1
 )2
 --
-So no, woman, no cry;
-No, woman, no cry.
-I seh, O little - O little darlin', don't shed no tears;
-No, woman, no cry, eh.
+So no, woman, no cry
+No, woman, no cry
+I seh, O little darlin', don't shed no tears
+No, woman, no cry, eh!

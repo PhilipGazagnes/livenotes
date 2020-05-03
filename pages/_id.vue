@@ -1,16 +1,16 @@
 <template>
   <div>
-    <div class="song">
+    <div v-if="mode === 'chords'" class="song">
       <div class="bar">
         <nuxt-link to="/">&laquo;</nuxt-link>
         <span>
           {{ truncate(meta.name, 25) }}
           <small>{{ meta.artist }}</small>
         </span>
-        <button @click="lyrics = !lyrics">&spades;</button>
+        <button @click="togglemode">&spades;</button>
       </div>
       <div class="content">
-        <ul v-if="!lyrics" class="overview">
+        <ul class="overview">
           <li
             v-for="(s, index3) in songData.sections"
             :key="index3"
@@ -32,7 +32,7 @@
             </span>
           </li>
         </ul>
-        <div v-if="!lyrics" class="notes">
+        <div class="notes">
           <div
             v-for="(s, index3) in songData.sections"
             :key="index3"
@@ -41,7 +41,6 @@
               isNewAndSectionClass(s.measures, index3, s.name),
             ]"
           >
-            <!-- <div v-for="(c, index2) in s.comments" :key="index2">{{ c }}</div> -->
             <div>
               <div>
                 <div
@@ -64,27 +63,54 @@
             </div>
           </div>
         </div>
-        <div v-if="lyrics" ref="lyrics" class="lyrics">
-          <div
-            v-for="(s, index3) in songData.sections"
-            :key="index3"
-            :style="{ fontSize: `${fontSizeUser}em` }"
-          >
-            <div v-if="s.lyrics">
-              <div
-                v-for="(p, index2) in s.lyrics"
-                :key="index2"
-                v-html="lyric(p)"
-              />
-            </div>
-          </div>
-          <span>FIN</span>
-          <button @click="fontSize(true)">+</button>
-          <button @click="fontSize(false)">-</button>
-        </div>
       </div>
     </div>
-    <div v-if="stack && !lyrics" class="stack">
+    <div v-if="mode !== 'chords'" ref="lyrics" class="lyrics">
+      <div class="bar">
+        <nuxt-link to="/">&laquo;</nuxt-link>
+        <span>
+          {{ truncate(meta.name, 25) }}
+          <small>{{ meta.artist }}</small>
+        </span>
+        <button @click="togglemode">&spades;</button>
+      </div>
+      <div
+        v-for="(s, index3) in songData.sections"
+        :key="index3"
+        :style="{ fontSize: `${fontSizeUser}em` }"
+      >
+        <div v-if="mode === 'lyricsandchords' || mode === 'lyrics'">
+          <div>
+            <div
+              v-for="(m, index2) in s.measures"
+              v-show="mode === 'lyricsandchords'"
+              :key="index2"
+              :class="measureClass(m)"
+            >
+              <div v-if="typeof m === 'number'" />
+              <div v-else-if="typeof m === 'object'">
+                <span :class="beatClass(m[0])" v-html="beatCt(m[0])" />
+                <span :class="beatClass(m[1])" v-html="beatCt(m[1])" />
+                <span :class="beatClass(m[2])" v-html="beatCt(m[2])" />
+                <span :class="beatClass(m[3])" v-html="beatCt(m[3])" />
+              </div>
+              <div v-else-if="m !== '[' && m !== ':' && m !== '('">
+                <span>{{ m.substring(1) }}</span>
+              </div>
+            </div>
+          </div>
+          <div
+            v-for="(p, index2) in s.lyrics"
+            :key="index2"
+            v-html="lyric(p)"
+          />
+        </div>
+      </div>
+      <span>FIN</span>
+      <button @click="fontSize(true)">+</button>
+      <button @click="fontSize(false)">-</button>
+    </div>
+    <div v-if="stack && mode === 'chords'" class="stack">
       {{ meta.stack }}
       <ul v-if="false">
         <li v-for="(i, index) in Object.keys(stack)" :key="index">
@@ -130,7 +156,7 @@ export default {
       showMeasures: true,
       spcache: [],
       presentationMode: 1,
-      lyrics: false,
+      mode: 'lyrics',
       fontSizeUser: 1.2,
     };
   },
@@ -146,21 +172,36 @@ export default {
     },
   },
   mounted() {
-    this.cacheSectionsOffsetTop();
+    // this.cacheSectionsOffsetTop();
     window.addEventListener('keydown', (e) => {
       if (e.keyCode === 40) {
         // KeyDown : Airturn right button
         e.preventDefault();
-        this.skipToNextSection();
+        this.scrollDown();
       }
       if (e.keyCode === 38) {
         // KeyUp : Airturn left button
         e.preventDefault();
-        this.skipToPrevSection();
+        this.scrollUp();
       }
     });
   },
   methods: {
+    togglemode() {
+      switch (this.mode) {
+        case 'lyrics':
+          this.mode = 'lyricsandchords';
+          break;
+        case 'lyricsandchords':
+          this.mode = 'chords';
+          break;
+        case 'chords':
+          this.mode = 'lyrics';
+          break;
+        default:
+          break;
+      }
+    },
     truncate(txt, limit) {
       let str = txt;
       if (str.length > limit) {
@@ -225,33 +266,6 @@ export default {
       }
       return txt;
     },
-    togglePresentation() {
-      switch (this.presentationMode) {
-        case 1:
-          this.showTitles = true;
-          this.showLyrics = false;
-          this.showMeasures = true;
-          this.presentationMode = 2;
-          break;
-        case 2:
-          this.showTitles = false;
-          this.showLyrics = true;
-          this.showMeasures = false;
-          this.presentationMode = 3;
-          break;
-        case 3:
-          this.showTitles = true;
-          this.showLyrics = true;
-          this.showMeasures = true;
-          this.presentationMode = 1;
-          break;
-        default:
-          break;
-      }
-      this.$nextTick(() => {
-        this.cacheSectionsOffsetTop();
-      });
-    },
     showCount(arr) {
       let show = 1;
       if (arr[2] !== '%') {
@@ -274,36 +288,11 @@ export default {
       });
       return output;
     },
-    skipToNextSection() {
-      const pos = window.scrollY;
-      let i = 0;
-      while (i < this.spcache.length && this.spcache[i] <= pos) {
-        i += 1;
-      }
-      if (i < this.spcache.length) {
-        window.scrollTo(0, this.spcache[i]);
-      } else {
-        console.log('end');
-      }
+    scrollDown() {
+      window.scrollTo(0, window.scrollY + 100);
     },
-    skipToPrevSection() {
-      const pos = window.scrollY;
-      let i = this.spcache.length - 1;
-      while (i > 0 && this.spcache[i] >= pos) {
-        i -= 1;
-      }
-      if (i > 0) {
-        window.scrollTo(0, this.spcache[i]);
-      } else {
-        window.scrollTo(0, 0);
-      }
-    },
-    cacheSectionsOffsetTop() {
-      const sections = document.getElementsByClassName('section');
-      this.spcache = [];
-      Array.prototype.forEach.call(sections, (s) => {
-        this.spcache.push(s.offsetTop);
-      });
+    scrollUp() {
+      window.scrollTo(0, window.scrollY - 100);
     },
     sectionClass(arr, index, name) {
       if (index === 0) {
@@ -379,11 +368,13 @@ body {
   display: flex;
   flex-direction: column;
   height: calc(100vh - 50px);
+  & > .bar {
+    flex: 0 0 50px;
+  }
 }
 .bar {
   background: #222;
   height: 50px;
-  flex: 0 0 50px;
   display: flex;
   & > a,
   & > button {
@@ -635,13 +626,17 @@ body {
 }
 .lyrics {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 50px 20px;
   background: white;
+  padding-bottom: 100px;
   strong {
     font-size: 2em;
     font-weight: bold;
   }
-  & > div {
+  & > .bar {
+    margin-bottom: 50px;
+  }
+  & > div:not(:first-child) {
+    padding: 0 20px;
     & > div {
       margin: 0 0 3em 0;
       & > div {
@@ -654,6 +649,7 @@ body {
     border: 1px solid black;
     padding: 5px 10px;
     font-weight: bold;
+    margin-left: 20px;
   }
   & > button {
     position: fixed;
@@ -665,6 +661,123 @@ body {
     font-size: 2em;
     &:last-child {
       bottom: 80px;
+    }
+  }
+  .measure {
+    display: inline-block;
+    font-size: 0.8em;
+    opacity: 0.5;
+    & > div {
+      border-bottom: 2px solid #222;
+      padding: 5px 0;
+      margin: 4px 6px;
+      font-weight: bold;
+      &::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+    }
+    span {
+      position: relative;
+      display: block;
+      float: left;
+      text-align: center;
+      padding: 0 5px;
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+      &:not(:first-child) {
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 1px;
+          left: 0;
+          height: 100%;
+          background: #222;
+          transform-origin: center center;
+          transform: rotate(10deg);
+        }
+      }
+      & > small {
+        color: red;
+        background: white;
+      }
+    }
+  }
+  .inRepeatCycle {
+    & > div {
+      position: relative;
+      &::before {
+        content: '';
+        width: 100%;
+        position: absolute;
+        height: 2px;
+        border-top: 2px grey dashed;
+        bottom: -3px;
+        left: 0;
+      }
+    }
+  }
+  .show1 {
+    span {
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4) {
+        display: none;
+      }
+    }
+  }
+  .show2 {
+    span {
+      &:nth-child(2),
+      &:nth-child(4) {
+        display: none;
+      }
+    }
+  }
+  .repeat {
+    opacity: 0.5;
+  }
+  .empty {
+    background: black;
+  }
+  .repeatStart {
+    display: none;
+  }
+  .repeatEnd {
+    display: inline-block;
+    & > div {
+      margin: 4px 0;
+      border: none;
+      color: grey;
+      & > span {
+        &::before {
+          content: 'x';
+        }
+        font-size: 0.8em;
+        font-weight: normal;
+        padding-right: 5px !important;
+      }
+    }
+  }
+  .blank {
+    display: inline;
+  }
+  .echoStart {
+    display: none;
+  }
+  .echoEnd {
+    display: none;
+    float: left;
+    & > div {
+      &::before {
+        content: 'x ';
+      }
     }
   }
 }

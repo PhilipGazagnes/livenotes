@@ -59,7 +59,7 @@ You and I
 
 Pont
 --
-***Solo***
+***Instrumental***
 
 Intro
 $1
@@ -91,3 +91,5 @@ Just the two of us
 You and I
 
 Intro / doubler 3 notes fin
+--
+***Instrumental***

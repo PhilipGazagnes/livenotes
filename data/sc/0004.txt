@@ -27,7 +27,8 @@ In the desert you can remember your name
 La la la
 $2
 --
-La, la, la la la...
+La, la, la la la, la la la, la, la
+La, la, la la la, la la la, la, la
 
 Couplet
 $1
@@ -50,7 +51,8 @@ In the desert you can remember your name
 La la la
 $2
 --
-La, la, la la la...
+La, la, la la la, la la la, la, la
+La, la, la la la, la la la, la, la
 
 Solo
 $1
@@ -80,4 +82,5 @@ In the desert you can remember your name
 La la la
 $2
 --
-La, la, la la la...
+La, la, la la la, la la la, la, la
+La, la, la la la, la la la, la, la

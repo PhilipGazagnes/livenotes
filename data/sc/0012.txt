@@ -39,7 +39,7 @@ Solo
 C; F
 ]8
 --
-***Solo***
+***Instrumental***
 
 Refrain
 $2
@@ -67,6 +67,8 @@ _
 [
 C
 ]8
+--
+***Instrumental***
 
 Couplet
 (

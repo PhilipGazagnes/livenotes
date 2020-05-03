@@ -36,8 +36,8 @@ $1
 --
 It's like thunder, lightning
 The way you love me is frightening
-You better knock, knock on wood, baby
-Baby
+You better knock, knock, knock...
+...On wood, baby
 
 Couplet
 $2
@@ -56,8 +56,8 @@ $1
 --
 It's like thunder, lightning
 The way you love me is frightening
-You better knock, knock on wood, baby
-Baby
+You better knock, knock, knock...
+...On wood, baby
 
 Pont
 F#;G#;A;C B
@@ -81,8 +81,8 @@ $1
 --
 It's like thunder, lightning
 The way you love me is frightening
-You better knock, knock, knock on wood, baby
-Baby
+You better knock, knock, knock...
+...On wood, baby
 
 Outro
 [
