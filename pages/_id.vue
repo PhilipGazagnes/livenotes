@@ -19,17 +19,14 @@
               isSeparator(s.name),
             ]"
           >
-            <span>
-              <span v-html="sectionName(s.name)"></span>
-            </span>
+            <span v-html="sectionName(s.name)" />
             <span
               v-if="
                 typeof s.measures[s.measures.length - 1] === 'string' &&
                 s.measures[s.measures.length - 1].startsWith(')')
               "
-            >
-              <span>{{ s.measures[s.measures.length - 1].substring(1) }}</span>
-            </span>
+              v-html="s.measures[s.measures.length - 1].substring(1)"
+            />
           </li>
         </ul>
         <div class="notes">
@@ -41,24 +38,20 @@
               isNewAndSectionClass(s.measures, index3, s.name),
             ]"
           >
-            <div>
-              <div>
-                <div
-                  v-for="(m, index2) in s.measures"
-                  :key="index2"
-                  :class="measureClass(m)"
-                >
-                  <div v-if="typeof m === 'number'" />
-                  <div v-else-if="typeof m === 'object'">
-                    <span :class="beatClass(m[0])" v-html="beatCt(m[0])" />
-                    <span :class="beatClass(m[1])" v-html="beatCt(m[1])" />
-                    <span :class="beatClass(m[2])" v-html="beatCt(m[2])" />
-                    <span :class="beatClass(m[3])" v-html="beatCt(m[3])" />
-                  </div>
-                  <div v-else-if="m !== '[' && m !== ':' && m !== '('">
-                    <span>{{ m.substring(1) }}</span>
-                  </div>
-                </div>
+            <div
+              v-for="(m, index2) in s.measures"
+              :key="index2"
+              :class="measureClass(m)"
+            >
+              <div v-if="typeof m === 'number'" />
+              <div v-else-if="typeof m === 'object'">
+                <span :class="beatClass(m[0])" v-html="beatCt(m[0])" />
+                <span :class="beatClass(m[1])" v-html="beatCt(m[1])" />
+                <span :class="beatClass(m[2])" v-html="beatCt(m[2])" />
+                <span :class="beatClass(m[3])" v-html="beatCt(m[3])" />
+              </div>
+              <div v-else-if="m !== '[' && m !== ':' && m !== '('">
+                <span>{{ m.substring(1) }}</span>
               </div>
             </div>
           </div>
@@ -424,8 +417,6 @@ body {
       margin-bottom: 1px;
     }
     & > span {
-      display: table;
-      height: 100%;
       &:nth-child(1) {
         flex: 1 1 auto;
         font-weight: bold;
@@ -440,17 +431,12 @@ body {
         font-weight: bold;
         background: blue;
         font-size: 1.2em;
-        line-height: 0.1em;
         width: 30px;
       }
+
       & > span {
-        display: table-cell;
-        vertical-align: middle;
-        height: 100%;
-        & > span {
-          color: red;
-          background: white;
-        }
+        color: red;
+        background: white;
       }
     }
     &.separator {
@@ -471,134 +457,123 @@ body {
 }
 .section {
   flex: 1 1 auto;
+  text-align: center;
   &:not(:last-child) {
     margin-bottom: 1px;
   }
-  & > div {
-    display: table;
-    height: 100%;
-    width: 100%;
-
+  .measure {
+    display: inline-block;
     & > div {
-      display: table-cell;
-      height: 100%;
-      vertical-align: middle;
+      border-bottom: 2px solid #222;
+      padding: 5px 0;
+      margin: 4px 6px;
+      font-size: 1.5em;
+      font-weight: bold;
+      &::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+    }
+    span {
+      position: relative;
+      display: block;
+      float: left;
       text-align: center;
-      .measure {
-        display: inline-block;
-        & > div {
-          border-bottom: 2px solid #222;
-          padding: 5px 0;
-          margin: 4px 6px;
-          font-size: 1.5em;
-          font-weight: bold;
-          &::after {
-            content: '';
-            display: block;
-            clear: both;
-          }
-        }
-        span {
-          position: relative;
+      padding: 0 5px;
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+      &:not(:first-child) {
+        &::before {
+          content: '';
           display: block;
-          float: left;
-          text-align: center;
-          padding: 0 5px;
-          &:first-child {
-            padding-left: 0;
-          }
-          &:last-child {
-            padding-right: 0;
-          }
-          &:not(:first-child) {
-            &::before {
-              content: '';
-              display: block;
-              position: absolute;
-              width: 1px;
-              left: 0;
-              height: 100%;
-              background: #222;
-              transform-origin: center center;
-              transform: rotate(10deg);
-            }
-          }
-          & > small {
-            color: red;
-            background: white;
-          }
+          position: absolute;
+          width: 1px;
+          left: 0;
+          height: 100%;
+          background: #222;
+          transform-origin: center center;
+          transform: rotate(10deg);
         }
       }
-      .inRepeatCycle {
-        & > div {
-          position: relative;
-          &::before {
-            content: '';
-            width: 100%;
-            position: absolute;
-            height: 2px;
-            border-top: 4px blue dashed;
-            bottom: -3px;
-            left: 0;
-          }
-        }
+      & > small {
+        color: red;
+        background: white;
       }
-      .show1 {
-        span {
-          &:nth-child(2),
-          &:nth-child(3),
-          &:nth-child(4) {
-            display: none;
-          }
-        }
-      }
-      .show2 {
-        span {
-          &:nth-child(2),
-          &:nth-child(4) {
-            display: none;
-          }
-        }
-      }
-      .repeat {
-        opacity: 0.5;
-      }
-      .empty {
-        background: black;
-      }
-      .repeatStart {
-        display: none;
-      }
-      .repeatEnd {
-        display: inline-block;
-        & > div {
-          background: blue;
-          border-radius: 0 10px 10px 0;
-          color: white;
-          margin: 4px 0;
-          text-align: center;
-          font-weight: bold;
-          font-size: 1.5em;
-          & > span {
-            padding-left: 5px !important;
-            padding-right: 5px !important;
-          }
-        }
-      }
-      .blank {
+    }
+  }
+  .inRepeatCycle {
+    & > div {
+      position: relative;
+      &::before {
+        content: '';
         width: 100%;
+        position: absolute;
+        height: 2px;
+        border-top: 4px blue dashed;
+        bottom: -3px;
+        left: 0;
       }
-      .echoStart {
+    }
+  }
+  .show1 {
+    span {
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4) {
         display: none;
       }
-      .echoEnd {
+    }
+  }
+  .show2 {
+    span {
+      &:nth-child(2),
+      &:nth-child(4) {
         display: none;
-        float: left;
-        & > div {
-          &::before {
-            content: 'x ';
-          }
-        }
+      }
+    }
+  }
+  .repeat {
+    opacity: 0.5;
+  }
+  .empty {
+    background: black;
+  }
+  .repeatStart {
+    display: none;
+  }
+  .repeatEnd {
+    display: inline-block;
+    & > div {
+      background: blue;
+      border-radius: 0 10px 10px 0;
+      color: white;
+      margin: 4px 0;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5em;
+      & > span {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+      }
+    }
+  }
+  .blank {
+    width: 100%;
+  }
+  .echoStart {
+    display: none;
+  }
+  .echoEnd {
+    display: none;
+    float: left;
+    & > div {
+      &::before {
+        content: 'x ';
       }
     }
   }
