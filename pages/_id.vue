@@ -282,10 +282,10 @@ export default {
       return output;
     },
     scrollDown() {
-      window.scrollTo(0, window.scrollY + 150);
+      window.scrollTo(0, window.scrollY + 300);
     },
     scrollUp() {
-      window.scrollTo(0, window.scrollY - 150);
+      window.scrollTo(0, window.scrollY - 300);
     },
     sectionClass(arr, index, name) {
       if (index === 0) {
