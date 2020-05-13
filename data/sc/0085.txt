@@ -30,10 +30,13 @@ $1
 --
 Prenez un enfant
 Et faites-en un roi
-Couvre-le d'or et de diamants
-Cachez-vous en attendant
+Couvre-le d'or 
+et de diamants
+Cachez-vous
+en attendant
 Vous n'attendrez pas longtemps
-Les vautours tournent autour
+Les vautours
+tournent autour
 De l'enfant
 
 Pré Refrain
@@ -50,6 +53,10 @@ $3
 Je dis, argent, trop cher
 Trop grand
 La vie n'a pas de prix
+Argent, trop cher
+Trop grand
+La vie n'a pas de prix
+pas de prix !
 
 #
 
@@ -63,12 +70,14 @@ $1
 --
 Prends ton meilleur ami
 Fais-en un ennemi
-Je t'achète et je te vends
+Je t'achète
+et je te vends
 Vautre dans le coma
-Do commun des mortels
+Du commun des mortels
 Mon pote, t'es comme un rat
-T'es commun, see'est mortel
-Les vautours tournent autour
+T'es commun, t'es mortel
+Les vautours
+tournent autour
 Toujours
 
 Pré Refrain
@@ -84,6 +93,9 @@ La rage
 Refrain
 $3
 --
+Et dis, argent, trop cher
+Trop grand
+La vie n'a pas de prix
 Et dis, argent, trop cher
 Trop grand
 La vie n'a pas de prix
@@ -127,9 +139,18 @@ Dépense-toi
 Refrain
 (
 $3
-)2
+)4
 --
 Je dis, argent, trop cher
+Trop grand
+La vie n'as pas de prix
+Argent, trop cher
+Trop grand
+La vie n'as pas de prix
+Argent, trop cher
+Trop grand
+La vie n'as pas de prix
+Argent, trop cher
 Trop grand
 La vie n'as pas de prix
 

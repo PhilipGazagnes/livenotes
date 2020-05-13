@@ -52,10 +52,12 @@ Il me faut prendre le frais, c'est vrai, hé, hé, hé
 Break !2*1 + 2*1 + 4*1
 $1
 --
+***Instru***
 Hé, viens près de moi que je te le dise
 Faut que j'move
 Ce secret qui me tord le cœur
 Ah, la la la
+***Instru***
 
 La la la !4*1
 $1

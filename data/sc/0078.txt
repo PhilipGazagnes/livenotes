@@ -34,10 +34,9 @@ Couplet
 $1
 )8
 --
-Some of those that work forces, are the same that burn crosses
-Some of those that work forces, are the same that burn crosses
-Some of those that work forces, are the same that burn crosses
-Some of those that work forces, are the same that burn crosses
+Some of those that work forces
+Are the same that burn crosses
+(x4)
 Huh!
 
 Inter
@@ -55,20 +54,21 @@ $1
 )12
 --
 And now you do what they told ya
-And now you do what they told ya
-And now you do what they told ya
-And now you do what they told ya
-...
+(x12)
 
 Refrain
 (
 $1
 )8
 --
-Those who died are justified, for wearing the badge, they're the chosen whites
-You justify those that died by wearing the badge, they're the chosen whites
-Those who died are justified, for wearing the badge, they're the chosen whites
-You justify those that died by wearing the badge, they're the chosen whites
+Those who died are justified,
+For wearing the badge, they're the chosen whites
+You justify those that died
+By wearing the badge, they're the chosen whites
+Those who died are justified,
+For wearing the badge, they're the chosen whites
+You justify those that died
+By wearing the badge, they're the chosen whites
 
 Couplet
 (
@@ -76,9 +76,7 @@ $1
 )8
 --
 Some of those that work forces, are the same that burn crosses
-Some of those that work forces, are the same that burn crosses
-Some of those that work forces, are the same that burn crosses
-Some of those that work forces, are the same that burn crosses
+(x4)
 Uggh!
 
 Inter
@@ -96,23 +94,21 @@ $1
 )12
 --
 And now you do what they told ya
-And now you do what they told ya
-And now you do what they told ya
-And now you do what they told ya
-And now you do what they told ya, now you're under control
-And now you do what they told ya, now you're under control
-And now you do what they told ya, now you're under control
-And now you do what they told ya, now you're under control
+(x12)
 
 Refrain
 (
 $1
 )8
 --
-Those who died are justified, for wearing the badge, they're the chosen whites
-You justify those that died by wearing the badge, they're the chosen whites
-Those who died are justified, for wearing the badge, they're the chosen whites
-You justify those that died by wearing the badge, they're the chosen whites
+Those who died are justified,
+For wearing the badge, they're the chosen whites
+You justify those that died
+By wearing the badge, they're the chosen whites
+Those who died are justified,
+For wearing the badge, they're the chosen whites
+You justify those that died
+By wearing the badge, they're the chosen whites
 Come on!
 
 Solo
@@ -126,6 +122,9 @@ Break
 D;E;F;G
 :
 A;A#;C;D
+--
+Fuck you, I won't do what you tell me
+(x8)
 
 Refrain
 (
@@ -133,10 +132,8 @@ $1
 )12
 --
 Fuck you, I won't do what you tell me
-Fuck you, I won't do what you tell me
-Fuck you, I won't do what you tell me
-Fuck you, I won't do what you tell me
-...
+(x8)
+Motherfuckeeeeer !!!
 
 Outro
 D;%;D D#

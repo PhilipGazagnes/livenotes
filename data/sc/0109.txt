@@ -5,6 +5,11 @@ Am
 :
 Dm;Am;E7;Am
 
+Solo
+$1
+--
+***Solo***
+
 Couplet
 $1
 --
@@ -62,3 +67,8 @@ O partigiano, portami via
 O bella ciao, bella ciao, bella ciao, ciao, ciao
 O partigiano, portami via
 Ché mi sento di morir
+
+Solo
+$1
+--
+***Solo***
