@@ -54,15 +54,16 @@ While you go away
 Solo
 (
 $1
-)2
+)5
 --
 ***Solo***
 
 Lazy la la lazy
 (
 $1
-)4
+)6
 --
 Lazy, la, la, la, lazy
 Lazy, la, la, la, lazy
 Lazy, la, la, la, lazy
+(x6)

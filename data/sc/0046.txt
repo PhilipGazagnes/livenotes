@@ -67,3 +67,8 @@ Moi je me pique de le savoir
 Aïe aïe aïe!
 Ouille!
 Aïe!
+
+Solo
+$2
+--
+***Solo***

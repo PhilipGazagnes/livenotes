@@ -20,8 +20,10 @@ A#
 
 Intro
 [
-A#;F;D#;%
+A#;D;D#;%
 ]2
+--
+***Intro***
 
 Couplet
 $3
@@ -38,6 +40,8 @@ Pour un enfant
 
 Inter!-1
 $4
+--
+***...***
 
 Couplet
 $3
@@ -54,6 +58,8 @@ Devenu grand
 
 Inter
 $4
+--
+***...***
 
 Refrain
 (
@@ -84,6 +90,8 @@ C'est mon enfant
 
 Inter
 $4
+--
+***...***
 
 Refrain
 (

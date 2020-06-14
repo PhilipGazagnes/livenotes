@@ -57,9 +57,9 @@ Let it be, let it be,
 Whisper words of wisdom, let it be
 
 Break
-[
+(
 F C;G C
-]2
+)2
 
 Solo
 (
@@ -100,3 +100,6 @@ $2
 Let it be, let it be,
 Let it be, let it be,
 Whisper words of wisdom, let it be
+
+Break
+F C;G C

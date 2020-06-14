@@ -2,7 +2,7 @@ $1
 C# C7;Fm G#
 C# C7;Fm
 
-Intro
+Intro basse
 $1
 
 Couplet
@@ -61,7 +61,7 @@ Pont
 --
 ***Instrumental***
 
-Intro
+Intro basse
 $1
 
 Couplet
@@ -79,8 +79,16 @@ I wanna be the one with you
 Refrain
 (
 $1
-)2
+)4
 --
+Just the two of us
+We can make it if we try
+Just the two of us, just
+(Just the two of us)
+Just the two of us
+Building big castles way up high
+Just the two of us
+You and I
 Just the two of us
 We can make it if we try
 Just the two of us, just

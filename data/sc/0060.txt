@@ -3,6 +3,14 @@ D G;C
 :
 C G;D
 
+$2
+D;A;A G;D
+
+Instru
+(
+$2
+)2
+
 Theme
 $1
 
@@ -68,6 +76,11 @@ Je suis une catin
 Je, je suis si fragile
 Qu'on me tienne la main
 
+Instru
+(
+$2
+)2
+
 Solo
 $1
 --
@@ -80,3 +93,24 @@ Je, je suis libertine
 Je suis une catin
 Je, je suis si fragile
 Qu'on me tienne la main
+
+❥ Refrain
+$1
+--
+Je, je suis libertine
+Je suis une catin
+Je, je suis si fragile
+Qu'on me tienne la main
+
+❥ Refrain
+$1
+--
+Je, je suis libertine
+Je suis une catin
+Je, je suis si fragile
+Qu'on me tienne la main
+
+Solo
+$1
+--
+***Solo***

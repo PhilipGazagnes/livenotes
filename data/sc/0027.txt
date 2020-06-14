@@ -52,6 +52,8 @@ Mélodie
 (
 $1
 )2
+--
+***Instru***
 
 Couplet
 $2
@@ -92,6 +94,8 @@ $1
 --
 Hot hot hot hot stuff
 Hot hot hot
+Hot hot hot hot stuff
+Hot hot hot
 
 Couplet!from9
 $2
@@ -116,3 +120,5 @@ Mélodie
 (
 $1
 )2
+--
+***Instru***

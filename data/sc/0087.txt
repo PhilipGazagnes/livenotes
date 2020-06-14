@@ -80,10 +80,13 @@ Fin de l'histoire
 Solo
 [
 Em;%;C;%
+:
 G;D;C;%
 ]2
+:
 G;D;Em;C
-G;D;Em;Bm C
+:
+G;D;D Em;Bm C
 --
 ***Solo***
 

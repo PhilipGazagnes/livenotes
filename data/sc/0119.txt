@@ -55,6 +55,8 @@ Je suis le fils de personne
 
 Break
 $3
+--
+*** Instru***
 
 Couplet
 $1

@@ -6,6 +6,11 @@ G;E;G;E
 :
 G;A;G;E
 
+Intro basse
+[
+G
+]4
+
 Couplet
 (
 $1
@@ -72,7 +77,7 @@ Watchin' the tide, roll away
 I'm sittin' on the dock of the bay
 Wastin' time
 
-Outro
+Outro sifflée
 [
 G;%;%;E
-]2
+]4

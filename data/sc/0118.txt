@@ -66,3 +66,6 @@ $2
 --
 It ain't me, it ain't me, I ain't no millionaire's son, no
 It ain't me, it ain't me, I ain't no fortunate one, no
+
+Intro
+$3

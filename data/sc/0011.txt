@@ -8,7 +8,7 @@ Bm
 
 $2
 [
-G;E;A;F#m
+G;B;A;F#m
 ]2
 :
 G;Em;F#;%

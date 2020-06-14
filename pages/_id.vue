@@ -4,8 +4,8 @@
       <div class="bar">
         <nuxt-link to="/">&laquo;</nuxt-link>
         <span>
-          {{ truncate(meta.name, 25) }}
-          <small>{{ meta.artist }}</small>
+          {{ truncate(`${meta.name} ${meta.artist}`, 25) }}
+          <strong v-if="meta.notes !== ''">{{ meta.notes }}</strong>
         </span>
         <button @click="togglemode">&spades;</button>
       </div>
@@ -57,8 +57,14 @@
           </div>
         </div>
       </div>
+      <div v-if="meta.end !== ''" class="end">
+        {{ meta.end }}
+      </div>
     </div>
     <div v-if="mode !== 'chords'" ref="lyrics" class="lyrics">
+      <div class="guide">
+        <div v-for="i in 20" :key="i" />
+      </div>
       <div class="bar">
         <nuxt-link to="/">&laquo;</nuxt-link>
         <span>
@@ -71,6 +77,7 @@
         v-for="(s, index3) in songData.sections"
         :key="index3"
         :style="{ fontSize: `${fontSizeUser}em` }"
+        class="bloc"
       >
         <div v-if="mode === 'lyrics'">
           <div
@@ -237,10 +244,10 @@ export default {
       return output;
     },
     scrollDown() {
-      window.scrollTo(0, window.scrollY + 400);
+      window.scrollTo(0, window.scrollY + 300);
     },
     scrollUp() {
-      window.scrollTo(0, window.scrollY - 400);
+      window.scrollTo(0, window.scrollY - 300);
     },
     sectionClass(arr, index, name) {
       if (index === 0) {
@@ -352,6 +359,11 @@ body {
     padding: 5px 0 0 0;
     & > small {
       display: block;
+    }
+    & > strong {
+      display: block;
+      color: red;
+      line-height: 0.9em;
     }
   }
 }
@@ -564,6 +576,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: white;
   padding-bottom: 100px;
+  position: relative;
+  overflow: hidden;
   strong {
     font-size: 2em;
     font-weight: bold;
@@ -571,12 +585,27 @@ body {
   & > .bar {
     margin-bottom: 50px;
   }
-  & > div:not(:first-child) {
+  & > .bloc {
     padding: 0 20px;
     & > div {
       margin: 0 0 3em 0;
       & > div {
         margin: 0 0 0.7em 0;
+      }
+    }
+  }
+  & > .guide {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 8px;
+    & > div {
+      height: 300px;
+      &:nth-child(odd) {
+        background: red;
+      }
+      &:nth-child(even) {
+        background: blue;
       }
     }
   }
@@ -715,6 +744,16 @@ body {
         content: 'x ';
       }
     }
+  }
+}
+.end {
+  padding: 10px;
+  color: white;
+  background: #222;
+  &::before {
+    content: 'Fin: ';
+    color: yellow;
+    font-weight: bold;
   }
 }
 </style>

@@ -87,9 +87,16 @@ You better knock, knock, knock...
 Outro
 [
 E;A
-]4
+]8
 --
 Think I better knock, on wood
 Think I better knock, on wood
 Think I better knock, on wood
 Think I better knock, on wood
+Think I better knock, on wood
+Think I better knock, on wood
+Think I better knock, on wood
+Think I better knock, on wood
+
+Finish
+$1

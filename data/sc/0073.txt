@@ -16,6 +16,11 @@ Dm;Cm;Am;%
 :
 Dm;Cm;Dm;A#
 
+Intro Guitare
+[
+Em D
+]4
+
 Couplet
 $1
 --
@@ -83,3 +88,11 @@ Dans la salle du bar tabac de la Rue des Martyrs
 On peut tout ach'ter tout vendre le meilleur et le pire
 Une vieille clocharde la gueule défoncée
 Rentre avec sa poussette et se met à gueuler à boire
+
+Couplet
+$1
+--
+Dans la salle du bar tabac de la Rue des Martyrs
+Dans la salle du bar tabac de la Rue des Martyrs
+Dans la salle du bar tabac de la Rue des Martyrs
+Dans la salle du bar tabac de la Rue des Martyrs

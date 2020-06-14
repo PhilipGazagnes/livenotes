@@ -15,7 +15,7 @@ Fm;G;%
 $3
 Cm;%
 
-Intro
+Intro (notes puis chords)
 $3
 
 Couplet
@@ -89,6 +89,20 @@ D#;G#
 D;G;G
 --
 ***Solo***
+
+Refrain!calme
+$2
+--
+Mon mec à moi il me parle d'aventures
+Et quand elles brillent dans ses yeux
+J'pourrais y passer la nuit
+Il parle d'amour
+Comme il parle des voitures
+Et moi je le suis où il veut
+Tell'ment je crois tout c'qu'y' m'dit
+Tell'ment je crois tout c'qu'y' m'dit
+Oh oui
+Mon mec à moi
 
 Refrain
 $2

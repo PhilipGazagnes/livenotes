@@ -85,3 +85,8 @@ Solo
 $1
 --
 ***Solo***
+
+Acapella
+$1
+--
+La la la...
