@@ -81,11 +81,14 @@ Right before the lord
 All the words are gonna bleed from me
 And I will sing no more
 
-Break
+Break Outro
 G;A
+:
 [
 $1
 ]4
+:
+G;A;E
 --
 And the stains coming from my blood
 Tell me go back home

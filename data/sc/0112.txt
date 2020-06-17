@@ -7,10 +7,13 @@ C#;D#m
 ]2
 D#m
 
+$3
+E D#m; C#
+
 Drum...
 (
 $1
-)2
+)4
 
 Couplet
 (
@@ -48,16 +51,18 @@ It puts my back up
 Puts my back up against the wall
 
 Refrain
-[
+(
 $1
-]2
-:
-[
-E D#m; C#
-]2
+)2
 --
 Sunday, Bloody Sunday
 Sunday, Bloody Sunday
+
+Break
+(
+$3
+)2
+--
 Sunday, Bloody Sunday
 Sunday, Bloody Sunday
 
@@ -107,16 +112,18 @@ $1
 ***Solo***
 
 Refrain
-[
+(
 $1
-]2
-:
-[
-E D#m; C#
-]4
+)2
 --
 Sunday, Bloody Sunday
 Sunday, Bloody Sunday
+
+Break
+(
+$3
+)4
+--
 Sunday, Bloody Sunday
 Sunday, Bloody Sunday
 
@@ -144,3 +151,8 @@ $1
 --
 Sunday, Bloody Sunday
 Sunday, Bloody Sunday
+
+Outro
+(
+$3
+)2

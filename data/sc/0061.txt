@@ -70,3 +70,6 @@ Puisqu'il faut choisir, à mots doux je peux le dire
 Sans contrefaçon je suis un garçon
 Et pour un empire, je ne veux me dévêtir
 Puisque sans contrefaçon je suis un garçon
+
+Outro fin apel drum
+$1

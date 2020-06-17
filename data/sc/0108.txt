@@ -43,6 +43,8 @@ Rollin', rollin', rollin' on the river
 
 Break !tx2
 $1
+--
+...
 
 Couplet
 $1
@@ -59,6 +61,7 @@ Big wheel keep on turnin'
 Proud Mary keep on burnin'
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
+Live up ! too too too too too...
 
 Couplet
 $1
@@ -75,8 +78,9 @@ Big wheel keep on turnin'
 Proud Mary keep on burnin'
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
+Live up ! too too too too too...
 
-Couplet
+Couplet!debut drum
 $1
 --
 If you come down to the river
@@ -89,5 +93,14 @@ $2
 --
 Big wheel keep on turnin'
 Proud Mary keep on burnin'
+Rollin', rollin', rollin' on the river
+Rollin', rollin', rollin' on the river
+Live up ! too too too too too...
+
+Outro 4 rolling + descente
+$1
+--
+Rollin', rollin', rollin' on the river
+Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river

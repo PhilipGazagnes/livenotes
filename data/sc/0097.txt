@@ -70,8 +70,7 @@ Refrain !tx2
 $1
 --
 Should I stay or should I go now?
-Should I stay or should I go now?
 If I go there will be trouble
 And if I stay it will be double
 So ya gotta let me know
-Should I cool it or should I go?
+Should I stay or should I go?
