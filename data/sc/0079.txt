@@ -1,20 +1,22 @@
 $1
-Am;%;%;%
+A7m;%;%;%
 :
-Dm7;%;Am;%
+Dm7;%;A7m;%
 :
 [
-Dm7;Am
+Dm7;A7m
 ]2
 :
-F7;E7;Am;%
+F7;E7;A7m;%
 
 $2
-Dm7;%;Am;%
+Dm7;%;A7m;%
 Dm7;%;E7;_
 
 Intro
-Am;%
+(
+A7m
+)2
 
 Couplet
 $1
@@ -68,3 +70,19 @@ Unchain my heart, you were mean that day
 Why lead me through a life of misery
 When you don't care a bag of beans for me
 Unchain my heart, please, let me free, oh set me free
+
+Outro
+(
+A7m
+)8
+--
+...
+You don't care
+Oh, don't you let me go if you don't love me no more
+...
+Let me go
+I'm under your spell just like a man in a trance
+And you know damn well that I don't stand a chance, no, oh
+...
+you don't care
+So please set me free

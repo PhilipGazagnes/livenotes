@@ -4,7 +4,7 @@ Cm;G# G
 $2
 G#;G# G
 :
-Cm;Fm
+Cm;G#
 :
 G#;G
 
@@ -16,16 +16,13 @@ $1
 Couplet
 (
 $1
-)8
+)4
 --
 Sweet dreams are made of this
 Who am I to disagree?
 I travel the world
 And the seven seas,
-Everybody's looking for something.
-
-Inter
-$2
+Everybody's looking for something
 
 Couplet
 (
@@ -35,29 +32,66 @@ $1
 Some of them want to use you
 Some of them want to get used by you
 Some of them want to abuse you
-Some of them want to be abused.
+Some of them want to be abused
 
-Inter
+Break
 $2
-
-Pont
-[
-Cm7;F#7
-]4
 --
-Hold your head up
-Keep your head up, movin' on
-Hold your head up, movin' on
-Keep your head up, movin' on
-Hold your head up
-Keep your head up, movin' on
-Hold your head up, movin' on
-Keep your head up, movin' on
+***Instru***
+
+Post Break
+(
+$1
+)4
+
+Couplet
+(
+$1
+)4
+--
+Sweet dreams are made of this
+Who am I to disagree?
+I travel the world
+And the seven seas,
+Everybody's looking for something
+
+Couplet
+(
+$1
+)4
+--
+Some of them want to use you
+Some of them want to get used by you
+Some of them want to abuse you
+Some of them want to be abused
+
+Break
+$2
+--
+***Instru***
+
+Post Break !silence fin
+(
+Cm;G#
+)4
 
 Solo
 (
 $1
 )4
+--
+***Solo***
+
+Couplet
+(
+$1
+)4
+--
+Sweet dreams are made of this
+Who am I to disagree?
+I travel the world
+And the seven seas,
+Everybody's looking for something
 
 Couplet
 (
@@ -67,28 +101,9 @@ $1
 Some of them want to use you
 Some of them want to get used by you
 Some of them want to abuse you
-Some of them want to be abused.
+Some of them want to be abused
 
-Inter
+Break !répé 2 last + Cm;G# G;Cm
 $2
-
-Couplet
-(
-$1
-)12
 --
-Sweet dreams are made of this
-Who am I to disagree?
-I travel the world
-And the seven seas
-Everybody's looking for something
-Sweet dreams are made of this
-Who am I to disagree?
-I travel the world
-And the seven seas
-Everybody's looking for something
-Sweet dreams are made of this
-Who am I to disagree?
-I travel the world
-And the seven seas
-Everybody's looking for something
+***Instru***
