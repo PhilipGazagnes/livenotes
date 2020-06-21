@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div v-show="warning" class="warning" />
     <div v-if="mode === 'chords'" class="song">
       <div class="bar">
         <nuxt-link to="/">&laquo;</nuxt-link>
@@ -118,7 +119,8 @@ export default {
       spcache: [],
       presentationMode: 1,
       mode: 'lyrics',
-      fontSizeUser: 1.2,
+      fontSizeUser: 1.5,
+      warning: false,
     };
   },
   computed: {
@@ -132,16 +134,11 @@ export default {
   mounted() {
     // this.cacheSectionsOffsetTop();
     window.addEventListener('keydown', (e) => {
-      if (e.keyCode === 40) {
-        // KeyDown : Airturn right button
-        e.preventDefault();
-        this.scrollDown();
-      }
-      if (e.keyCode === 38) {
-        // KeyUp : Airturn left button
-        e.preventDefault();
-        this.scrollUp();
-      }
+      e.preventDefault();
+      this.warning = true;
+      setTimeout(() => {
+        this.warning = false;
+      }, 500);
     });
   },
   methods: {
@@ -243,12 +240,12 @@ export default {
       });
       return output;
     },
-    scrollDown() {
-      window.scrollTo(0, window.scrollY + 300);
-    },
-    scrollUp() {
-      window.scrollTo(0, window.scrollY - 300);
-    },
+    // scrollscrollDown() {
+    //   window.scrollTo(0, window.scrollY + 300);
+    // },
+    // scrollUp() {
+    //   window.scrollTo(0, window.scrollY - 300);
+    // },
     sectionClass(arr, index, name) {
       if (index === 0) {
         cyclesCache = [];
@@ -755,5 +752,15 @@ body {
     color: yellow;
     font-weight: bold;
   }
+}
+.warning {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  opacity: 0.8;
+  z-index: 10;
 }
 </style>
