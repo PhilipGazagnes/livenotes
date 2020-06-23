@@ -17,6 +17,8 @@ Thème
 (
 $1
 )2
+--
+***Intro***
 
 Couplet
 (
@@ -55,6 +57,8 @@ Allumer le feu
 
 Thème
 $1
+--
+***Instru***
 
 Couplet
 (

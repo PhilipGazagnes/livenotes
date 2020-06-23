@@ -9,6 +9,7 @@
           <span>({{ s.artist }})</span>
           <span v-if="s.nota" class="nota">({{ s.nota }})</span>
         </a>
+        <a :href="`/song/${s.id}`">+</a>
       </li>
     </ul>
   </div>
@@ -82,12 +83,21 @@ li {
   margin: 0;
   padding: 0 10px;
   border-bottom: 1px solid #eee;
+  display: flex;
 }
 li a {
   display: block;
   padding: 10px;
   text-decoration: none;
   color: #333;
+  &:first-child {
+    flex: 1 1 auto;
+  }
+  &:last-child {
+    flex: 0 0 20px;
+    background: #eee;
+    text-align: center;
+  }
 }
 li a span:nth-child(1) {
   display: block;
