@@ -580,7 +580,8 @@ body {
     font-weight: bold;
     background: blue;
     color: white;
-    padding: 0 10px;
+    padding: 50px;
+    display: block;
   }
   i {
     color: blue;
