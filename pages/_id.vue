@@ -296,9 +296,17 @@ export default {
       return '';
     },
     lyric(str) {
-      const spl = str.split('***');
-      if (spl.length > 1) {
-        return `<em>${spl[1]}</em>`;
+      if (str.indexOf('***') >= 0) {
+        const spl = str.split('***');
+        if (spl.length > 1) {
+          return `<em>${spl[1]}</em>`;
+        }
+      }
+      if (str.indexOf('+++') >= 0) {
+        const spl = str.split('+++');
+        if (spl.length > 1) {
+          return `<i>${spl[1]}</i>`;
+        }
       }
       return str;
     },

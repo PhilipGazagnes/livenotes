@@ -321,19 +321,21 @@ body {
     & > span {
       display: block;
       position: absolute;
-      bottom: -20px;
+      bottom: 0px;
       left: 15px;
       width: 100vh;
       transform-origin: top left;
       transform: rotate(-90deg);
-      font-size: 2em;
-      opacity: 0.5;
+      font-size: 1em;
       & > span {
         opacity: 0.5;
-        margin: 0 0 0 15px;
+        margin: 0 0 0 5px;
       }
       & > strong {
-        color: #0f0;
+        background: #0f0;
+        color: black;
+        padding: 5px;
+        font-size: 1.5em;
         margin: 0 0 0 15px;
       }
     }
