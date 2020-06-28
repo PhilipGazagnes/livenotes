@@ -22,6 +22,8 @@ C Em;G Em
 
 Theme
 $1
+--
+***Intro***
 
 Couplet
 $2

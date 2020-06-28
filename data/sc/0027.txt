@@ -16,8 +16,8 @@ Intro
 (
 $1
 )2
-
-#
+--
+***Intro***
 
 Mélodie
 (
@@ -45,8 +45,6 @@ Gm A#;C D
 I need hot stuff
 I want some hot stuff
 I need hot stuff
-
-#
 
 Mélodie
 (
@@ -76,8 +74,6 @@ Gm A#;C D
 I need hot stuff
 Hot love
 Lookin' for hot love
-
-#
 
 Solo
 (

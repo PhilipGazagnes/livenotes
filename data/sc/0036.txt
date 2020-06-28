@@ -2,14 +2,24 @@ $1
 [
 Dm A#; C Dm
 ]3
-Dm A#; C % A# C
+:
+Dm A#
+:
+C % A# C
 
 $2
-C#m7; G#7; C#m7 % C D; E
-F# B;E A;F# B;E
+C#m7; G#7
+:
+C#m7 % C D; E
+:
+F# B;E A
+:
+F# B;E
 
 Intro
 $1
+--
+***Intro***
 
 Couplet
 $2

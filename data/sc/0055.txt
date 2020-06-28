@@ -1,5 +1,7 @@
 Intro guitar
 D#;A#;F;C
+--
+***Intro***
 
 Intro ensemble
 D#;A#;F;C
@@ -24,6 +26,8 @@ Qui travaille aux PTT
 
 Pause
 G;%
+--
++++...+++
 
 Refrain
 [
@@ -41,6 +45,8 @@ Vachement beaucoup
 
 Pause
 G;%
+--
++++...+++
 
 Couplet
 [
@@ -62,6 +68,8 @@ Et d'passer tout l'été
 
 Pause
 G;%
+--
++++...+++
 
 Refrain
 [

@@ -24,6 +24,8 @@ Riff
 (
 $4
 )2
+--
+***Intro***
 
 Couplet
 $1
@@ -58,12 +60,12 @@ Trop grand
 La vie n'a pas de prix
 pas de prix !
 
-#
-
 Riff
 (
 $4
 )2
+--
+***Instru***
 
 Couplet
 $1
@@ -100,8 +102,6 @@ Et dis, argent, trop cher
 Trop grand
 La vie n'a pas de prix
 
-#
-
 Break
 [
 A
@@ -120,6 +120,7 @@ B A
 Un compte bloqué
 L'autre a découvert
 Maintenant, banque!
+***Instru***
 
 Couplet !4 last
 $1
@@ -158,3 +159,5 @@ Riff
 (
 $4
 )4
+--
+***Instru***

@@ -23,8 +23,6 @@ $3
 Hey sister, go sister, soul sister, go sister
 Hey sister, go sister, soul sister, go sister
 
-#
-
 Couplet
 $1
 --
@@ -47,8 +45,6 @@ $3
 --
 Voulez-vous coucher avec moi ce soir?
 Voulez-vous coucher avec moi?
-
-#
 
 Couplet
 $1
@@ -73,14 +69,14 @@ $3
 Voulez-vous coucher avec moi ce soir?
 Voulez-vous coucher avec moi?
 
-#
-
 Break
 G D;A# C
 :
 D#;%;G;%
 :
 D#;%;D;%
+--
+***Instru***
 
 Couplet !+2
 $1

@@ -11,6 +11,8 @@ Intro
 [
 E;E % C# D
 ]4
+--
+***Intro***
 
 Couplet
 $1
@@ -94,3 +96,5 @@ Outro !solo bass/solo guitar/peches
 [
 E
 ]12
+--
+***Instru***

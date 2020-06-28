@@ -13,6 +13,8 @@ E;D;E;A B
 [
 Em
 ]4
+--
+***Intro***
 
 Intro
 [
@@ -52,6 +54,8 @@ Inter
 (
 E
 )4
+--
+***Instru***
 
 Couplet
 $1
@@ -63,6 +67,8 @@ Par devant et par derrière
 
 Pause
 E
+--
++++...+++
 
 Couplet calme / break
 $1

@@ -8,6 +8,8 @@ Thème
 (
 $2
 )4
+--
+***Intro***
 
 Couplet
 (
@@ -31,6 +33,8 @@ Thème
 (
 $2
 )2
+--
+***Instru***
 
 Couplet
 (
@@ -84,6 +88,8 @@ Thème
 (
 $2
 )2
+--
+***Instru***
 
 Refrain
 $1

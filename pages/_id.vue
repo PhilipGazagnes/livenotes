@@ -119,7 +119,7 @@ export default {
       spcache: [],
       presentationMode: 1,
       mode: 'lyrics',
-      fontSizeUser: 1.5,
+      fontSizeUser: 2.2,
       warning: false,
     };
   },
@@ -133,13 +133,13 @@ export default {
   },
   mounted() {
     // this.cacheSectionsOffsetTop();
-    window.addEventListener('keydown', (e) => {
-      e.preventDefault();
-      this.warning = true;
-      setTimeout(() => {
-        this.warning = false;
-      }, 500);
-    });
+    // window.addEventListener('keydown', (e) => {
+    //   e.preventDefault();
+    //   this.warning = true;
+    //   setTimeout(() => {
+    //     this.warning = false;
+    //   }, 500);
+    // });
   },
   methods: {
     togglemode() {
@@ -234,7 +234,7 @@ export default {
       spl.forEach((val) => {
         const index = spl.indexOf(val);
         if (index * -1 < 0) {
-          spl[index] = `<strong>${val}</strong>`;
+          spl[index] = `<em>${val}</em>`;
         }
         output += spl[index];
       });
@@ -298,7 +298,7 @@ export default {
     lyric(str) {
       const spl = str.split('***');
       if (spl.length > 1) {
-        return `<strong>${spl[1]}</strong>`;
+        return `<em>${spl[1]}</em>`;
       }
       return str;
     },
@@ -575,9 +575,16 @@ body {
   padding-bottom: 100px;
   position: relative;
   overflow: hidden;
-  strong {
-    font-size: 2em;
+  em {
+    font-size: 1.5em;
     font-weight: bold;
+    background: blue;
+    color: white;
+    padding: 0 10px;
+  }
+  i {
+    color: blue;
+    background: #ddd;
   }
   & > .bar {
     margin-bottom: 50px;

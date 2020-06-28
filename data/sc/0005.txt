@@ -18,6 +18,8 @@ E;A;E;A;E
 
 Intro
 $1
+--
+***Intro***
 
 Couplet
 $2
@@ -100,3 +102,5 @@ Think I better knock, on wood
 
 Finish
 $1
+--
+***Instru***

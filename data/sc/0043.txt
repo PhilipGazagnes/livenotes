@@ -14,6 +14,8 @@ Guitar gimmick
 [
 F#m; E
 ]4
+--
+***Intro***
 
 Intro
 $1
@@ -55,7 +57,9 @@ Illusion
 Ooh, ooh, ooh, ooh, a-ah
 
 Refrain
+(
 $1
+)2
 --
 COULD IT BE THAT / it's just an illusion
 PUTTING ME BACK / in all this confusion?
@@ -92,7 +96,7 @@ $1
 Ooh ooh
 (
 $2
-)4
+)2
 --
 Ooh, ooh, ooh, ooh, a-ah
 Ooh, ooh, ooh, ooh, a-ah

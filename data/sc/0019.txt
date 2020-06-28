@@ -45,6 +45,8 @@ D'une rencontre
 
 Pause
 C#m
+--
++++...+++
 
 Couplet
 $1

@@ -4,6 +4,8 @@ C# C7;Fm
 
 Intro basse
 $1
+--
+***Intro***
 
 Couplet
 (
@@ -59,7 +61,7 @@ You and I
 
 Pont
 --
-***Instrumental***
+***Instru***
 
 Intro basse
 $1
@@ -100,4 +102,4 @@ You and I
 
 Intro / doubler 3 notes fin
 --
-***Instrumental***
+***Instru***

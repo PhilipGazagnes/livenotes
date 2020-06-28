@@ -17,6 +17,8 @@ Intro
 (
 $1
 )8
+--
+***Intro***
 
 Couplet
 $2
@@ -34,6 +36,8 @@ Intro
 (
 $1
 )4
+--
+***Instru***
 
 Couplet
 $2
@@ -49,6 +53,8 @@ Walking on, walking on the moon
 
 Intro
 $1
+--
+***Instru***
 
 Refrain
 $3
@@ -66,6 +72,8 @@ Intro
 (
 $1
 )4
+--
+***Instru***
 
 Couplet
 $2
@@ -81,6 +89,8 @@ Walking on, walking on the moon
 
 Intro
 $1
+--
+***Instru***
 
 Refrain
 $3
@@ -96,3 +106,5 @@ I may as well play
 
 Outro
 $1
+--
+***Instru***

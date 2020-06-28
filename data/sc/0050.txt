@@ -53,8 +53,6 @@ Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
 Allumer le feu
 
-#
-
 Thème
 $1
 --
@@ -91,14 +89,12 @@ Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
 Allumer le feu
 
-#
-
 Solo
 $1
 --
 ***Solo***
 
-Pré Refrain Calme...
+Pré Refrain!Calme
 $2
 --
 Il suffira d'une étincelle
@@ -106,7 +102,7 @@ Oui, d'un rien, d'un geste
 Il suffira d'une étincelle
 Oui, d'un mot d'amour pour
 
-...Refrain reprise prog
+Refrain!Prog
 $3
 --
 Allumer le feu, allumer le feu

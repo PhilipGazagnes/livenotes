@@ -21,6 +21,8 @@ A;F#
 
 Intro
 $3
+--
+***Intro***
 
 Couplet
 $1
@@ -46,6 +48,8 @@ Emmène-moi!
 
 Intro
 $3
+--
+***Instru***
 
 Couplet
 $1
@@ -81,3 +85,5 @@ Emmène-moi!
 
 Outro
 A;F#m;A;E A
+--
+***Instru***

@@ -20,7 +20,8 @@ Intro
 $2
 )6
 --
-Rah! Ha! Rah! Ha!
+***Intro***
++++Rah! Ha! Rah! Ha!+++
 
 Couplet
 (
@@ -40,6 +41,8 @@ Ce soir j'ai de la fièvre et toi, tu meurs de froid
 
 Pré Refrain
 $3
+--
+Oohhh, oohhh, oohhhhhh
 
 Refrain
 $1
@@ -54,7 +57,8 @@ Inter
 $2
 )2
 --
-Rah! Ha! Rah! Ha!
+***Instru***
++++Rah! Ha! Rah! Ha!+++
 
 Couplet
 (
@@ -74,6 +78,8 @@ Je te mangerai crue si tu me retiens pas
 
 Pré Refrain
 $3
+--
+Oohhh, oohhh, oohhhhhh
 
 Refrain
 $1
@@ -88,7 +94,8 @@ Inter
 $2
 )2
 --
-Rah! Ha! Rah! Ha!
+***Instru***
++++Rah! Ha! Rah! Ha!+++
 
 Couplet
 (

@@ -18,6 +18,8 @@ UN, DEUX, TROIS, QUATRE!
 
 Powerfunk
 $1
+--
+***Instru***
 
 Couplet
 $2
@@ -33,6 +35,8 @@ A LA MUSIQUE CLASSIQUE!
 
 Powerfunk
 $1
+--
+***Instru***
 
 Couplet
 $2
@@ -48,6 +52,8 @@ SUR LE JUKE-BOX!
 
 Powerfunk
 $1
+--
+***Instru***
 
 Couplet
 $2
@@ -75,6 +81,8 @@ JOUEZ!
 
 Powerfunk
 $1
+--
+***Instru***
 
 Couplet
 000000

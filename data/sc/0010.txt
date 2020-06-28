@@ -19,6 +19,8 @@ D;F;G;A#
 
 Intro
 $1
+--
+***Intro***
 
 Couplet
 $2
@@ -41,6 +43,8 @@ Call me
 
 Theme
 $1
+--
+***Instru***
 
 Couplet!+1
 $2
@@ -65,6 +69,8 @@ Montée de ton
 Dm;Dm % Gm F
 :
 Em;Em % Am G
+--
+***Instru***
 
 Pont
 [

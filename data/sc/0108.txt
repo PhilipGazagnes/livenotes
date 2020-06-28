@@ -44,7 +44,7 @@ Rollin', rollin', rollin' on the river
 Break !tx2
 $1
 --
-...
+***Instru***
 
 Couplet
 $1
@@ -62,6 +62,7 @@ Proud Mary keep on burnin'
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 Live up ! too too too too too...
+***Instru***
 
 Couplet
 $1
@@ -79,6 +80,7 @@ Proud Mary keep on burnin'
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 Live up ! too too too too too...
+***Instru***
 
 Couplet!debut drum
 $1
@@ -104,3 +106,4 @@ Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
+***Instru***

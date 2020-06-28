@@ -20,6 +20,8 @@ F#m;%
 
 Intro
 $1
+--
+***Intro***
 
 Couplet
 $1
@@ -81,6 +83,8 @@ Message in a bottle, yeah
 
 Theme
 $1
+--
+***Instru***
 
 Outro
 $1

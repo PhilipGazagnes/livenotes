@@ -7,6 +7,8 @@ B;A;E;B
 
 Intro batterie
 _;_
+--
+***Intro***
 
 Couplet!break
 $2

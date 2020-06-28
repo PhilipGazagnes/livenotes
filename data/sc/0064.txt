@@ -5,6 +5,8 @@ Gtr alone
 (
 $1
 )2
+--
+***Intro***
 
 Intro
 (
@@ -42,6 +44,7 @@ Couplet
 $1
 )10
 --
+***Instru***
 I'm worse at what I do best
 And for this gift I feel blessed
 Our little group has always been

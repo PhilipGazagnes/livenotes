@@ -5,19 +5,32 @@ Em
 [
 G
 ]4
-C ; % ; Am ; %
-Em ; %
+:
+[
+C
+]2
+[
+Am
+]2
+[
+Em
+]2
 
 $2
 G ; % ; D ; %
+:
 Em ; % ; C ; %
+:
 G ; % ; Bm ; %
+:
 Am ; % ; % ; %
 
 Intro
 [
 Em
 ]4
+--
+***Intro***
 
 Couplet!+2
 $1
@@ -69,11 +82,17 @@ T'as personne devant
 
 Break
 G ; D ; Em ; C
+:
 G ; D ; Em ; %
+:
 G ; D ; Em ; C
+:
 G ; D ; C ; %
-Em ; % ; G ; D
+:
+Em ; %
+[
 G ; D
+]2
 --
 Faudrait que t'arrives à en parler au passé
 Faudrait que t'arrives à ne plus penser à ça
@@ -83,6 +102,7 @@ Dis-toi surtout qu'il ne reviendra pas
 Et ça te fait marrer les oiseaux qui s'envolent
 Les oiseaux qui s'envolent
 Les oiseaux qui s'envolent
++++...+++
 
 Break 2!6 last x2
 $1

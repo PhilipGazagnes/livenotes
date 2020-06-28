@@ -20,6 +20,8 @@ Intro Guitare
 [
 Em D
 ]4
+--
+***Intro***
 
 Couplet
 $1

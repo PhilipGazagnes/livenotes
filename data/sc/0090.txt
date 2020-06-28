@@ -16,6 +16,8 @@ Theme
 (
 $1
 )4
+--
+***Intro***
 
 Couplet !odd _
 (
@@ -47,9 +49,9 @@ Refrain
 $1
 )4
 --
-Et j'aime encore mieux 'a
-Oui je pr'f're 'a
-Oh j'aime encore mieux 'a
+Et j'aime encore mieux ça
+Oui je préfère ça
+Oh j'aime encore mieux ça
 Car c'est vraiment toi
 
 Post Refrain
@@ -98,36 +100,41 @@ Refrain
 $1
 )4
 --
-Et j'aime encore mieux 'a
-Oui je pr'f're 'a
-Oh j'aime encore mieux 'a
-Oui j'aime encore mieux 'a
+Et j'aime encore mieux ça
+Oui je préfère ça
+Oh j'aime encore mieux ça
+Oui j'aime encore mieux ça
 
 Break
 [
 E;A
-]8
+]4
+:
+[
+E;A
+]4
+:
 [
 _
 ]16
 --
-Car 'a c'est vraiment toi
-Ca c'est vraiment toi
-Ca c'est vraiment toi
-Ca c'est vraiment toi
-'a se sent
-Ca c'est vraiment toi
-Ca ca se sent, 'a se sent
+***Break***
+Car ça, c'est vraiment toi
+Ça, c'est vraiment toi
+Ça, c'est vraiment toi
+Ça, c'est vraiment toi... ça se sent !
+Ça, c'est vraiment toi
+Ça, ça se sent, ça se sent
 
 Refrain
 (
 $1
 )8
 --
-Ca se sent que c'est toi, 'a se sent
-Ca se sent que c'est toi, 'a se sent
-Ca se sent que c'est toi, 'a se sent
-Ca se sent que c'est toi, 'a se sent
+Ça se sent que c'est toi, ça se sent
+Ça se sent que c'est toi, ça se sent
+Ça se sent que c'est toi, ça se sent
+Ça se sent que c'est toi, ça se sent
 
 Post Refrain
 (

@@ -13,6 +13,8 @@ G;%;Em;C
 
 Intro
 $1
+--
+***Intro***
 
 Couplet!Fin Em
 $1
@@ -64,6 +66,8 @@ I keep crying, Baby, baby, please
 
 Theme!Fin Em
 $1
+--
+***Instru***
 
 Theme
 $1

@@ -6,6 +6,8 @@ B;C B
 
 Intro
 E
+--
+***Intro***
 
 Couplet
 E
@@ -19,6 +21,8 @@ Gonna have a real good-time.
 
 Inter
 E
+--
+***Instru***
 
 Couplet
 E

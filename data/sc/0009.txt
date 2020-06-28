@@ -12,6 +12,8 @@ Intro
 [
 E
 ]8
+--
+***Intro***
 
 Couplet
 $1
@@ -22,7 +24,7 @@ People think I'm insane because I am frowning all the time
 Transi
 $2
 --
-***Instrumental***
+***Instru***
 
 Couplet
 $1
@@ -41,7 +43,7 @@ Oh yeah
 Instru
 $1
 --
-***Instrumental***
+***Instru***
 
 Couplet
 $1
@@ -68,7 +70,7 @@ Happiness I cannot feel and love to me is so unreal
 Transi
 $2
 --
-***Instrumental***
+***Instru***
 
 Couplet
 $1
@@ -79,4 +81,4 @@ I tell you to enjoy life I wish I could but it's too late
 Instru
 $1
 --
-***Instrumental***
+***Instru***

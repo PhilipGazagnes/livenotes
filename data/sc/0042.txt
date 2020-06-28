@@ -1,11 +1,14 @@
 $1
 F#m E; D A
+:
 [
 Bm F#m
 ]2
 
 Instru
 $1
+--
+***Intro***
 
 Couplet
 $1
@@ -16,10 +19,10 @@ Sur un chariot chargé de foin
 La fille du coupeur de joints
 La fille du coupeur de joints
 
-#
-
 Instru
 $1
+--
+***Instru***
 
 Couplet
 $1
@@ -30,10 +33,10 @@ Une chanson de collégien
 La fille du coupeur de joints
 La fille du coupeur de joints
 
-#
-
 Instru
 $1
+--
+***Instru***
 
 Couplet
 $1
@@ -44,10 +47,10 @@ En se disant qu'on se taperait bien
 La fille du coupeur de joints
 La fille du coupeur de joints
 
-#
-
 Instru
 $1
+--
+***Instru***
 
 Couplet
 $1
@@ -58,10 +61,10 @@ Et qu'elle nous fait "Coucou les gens"
 La fille du coupeur de joints
 La fille du coupeur de joints
 
-#
-
 Instru
 $1
+--
+***Instru***
 
 Couplet
 $1
@@ -72,10 +75,10 @@ Elle nous fait le coup du zeppelin
 La fille du coupeur de joints
 La fille du coupeur de joints
 
-#
-
 Instru
 $1
+--
+***Instru***
 
 Couplet
 $1
@@ -86,10 +89,10 @@ Une tranche de tagada tsoin-tsoin
 La fille du coupeur de joints
 La fille du coupeur de joints
 
-#
-
 Instru
 $1
+--
+***Instru***
 
 Couplet
 $1
@@ -100,10 +103,10 @@ Sacré bon Dieu que c'était bien
 La fille du coupeur de joints
 La fille du coupeur de joints
 
-#
-
 Instru!SLOW
 $1
+--
+***Instru***
 
 Couplet!SLOW
 $1
@@ -116,8 +119,8 @@ La fille du coupeur de joints
 
 Instru!SLOW
 $1
-
-#
+--
+***Instru***
 
 Instru
 $1

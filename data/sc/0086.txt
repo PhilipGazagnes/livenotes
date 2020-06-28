@@ -48,6 +48,8 @@ Pas de cœur
 
 Solo !1 seule répé
 $1
+--
+***Solo***
 
 Couplet
 $1

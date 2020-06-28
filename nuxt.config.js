@@ -21,7 +21,7 @@ export default {
   },
   pwa: {
     manifest: {
-      orientation: 'portrait',
+      orientation: 'landscape',
     },
   },
   generate: {

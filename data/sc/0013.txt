@@ -18,6 +18,8 @@ Intro guitare
 [
 E
 ]4
+--
+***Intro***
 
 Couplet
 $1

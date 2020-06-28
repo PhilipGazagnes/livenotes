@@ -18,6 +18,8 @@ E;A;D A;E
 
 Intro!-8
 $1
+--
+***Intro***
 
 Couplet
 $1

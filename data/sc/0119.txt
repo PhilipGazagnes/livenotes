@@ -15,6 +15,8 @@ F
 
 Intro drum gimmick
 $3
+--
+***Intro***
 
 Couplet
 $1
@@ -56,7 +58,7 @@ Je suis le fils de personne
 Break
 $3
 --
-*** Instru***
+***Instru***
 
 Couplet
 $1

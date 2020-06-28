@@ -65,7 +65,11 @@
         v-for="(s, index3) in songData.sections"
         :key="index3"
         :style="{ fontSize: `${fontSizeUser}em` }"
-        class="bloc"
+        :class="[
+          'bloc',
+          sectionClass(s.measures, index3, s.name),
+          isSeparator(s.name),
+        ]"
       >
         <div v-if="mode === 'lyrics'">
           <div
@@ -117,12 +121,24 @@ export default {
   },
   mounted() {
     // this.cacheSectionsOffsetTop();
+    // window.addEventListener('keydown', (e) => {
+    //   e.preventDefault();
+    //   this.warning = true;
+    //   setTimeout(() => {
+    //     this.warning = false;
+    //   }, 500);
+    // });
     window.addEventListener('keydown', (e) => {
-      e.preventDefault();
-      this.warning = true;
-      setTimeout(() => {
-        this.warning = false;
-      }, 500);
+      if (e.keyCode === 40) {
+        // KeyDown : Airturn right button
+        e.preventDefault();
+        this.scrollDown();
+      }
+      if (e.keyCode === 38) {
+        // KeyUp : Airturn left button
+        e.preventDefault();
+        this.scrollUp();
+      }
     });
   },
   methods: {
@@ -212,24 +228,12 @@ export default {
       }
       return show;
     },
-    decodeLyric(str) {
-      const spl = str.split('***');
-      let output = '';
-      spl.forEach((val) => {
-        const index = spl.indexOf(val);
-        if (index * -1 < 0) {
-          spl[index] = `<em>${val}</em>`;
-        }
-        output += spl[index];
-      });
-      return output;
+    scrollDown() {
+      this.$refs.lyrics.scrollTo(0, this.$refs.lyrics.scrollTop + 200);
     },
-    // scrollscrollDown() {
-    //   window.scrollTo(0, window.scrollY + 300);
-    // },
-    // scrollUp() {
-    //   window.scrollTo(0, window.scrollY - 300);
-    // },
+    scrollUp() {
+      this.$refs.lyrics.scrollTo(0, this.$refs.lyrics.scrollTop - 200);
+    },
     sectionClass(arr, index, name) {
       if (index === 0) {
         cyclesCache = [];
@@ -280,9 +284,17 @@ export default {
       return '';
     },
     lyric(str) {
-      const spl = str.split('***');
-      if (spl.length > 1) {
-        return `<em>${spl[1]}</em>`;
+      if (str.indexOf('***') >= 0) {
+        const spl = str.split('***');
+        if (spl.length > 1) {
+          return `<em>${spl[1]}</em>`;
+        }
+      }
+      if (str.indexOf('+++') >= 0) {
+        const spl = str.split('+++');
+        if (spl.length > 1) {
+          return `<i>${spl[1]}</i>`;
+        }
       }
       return str;
     },
@@ -552,7 +564,7 @@ body {
     flex: 0 0 calc(50% - 40px);
     font-family: Arial, Helvetica, sans-serif;
     background: white;
-    padding-bottom: 100px;
+    padding: 10px 0;
     position: relative;
     overflow-y: scroll;
     em {
@@ -562,16 +574,38 @@ body {
       color: white;
       padding: 0 10px;
     }
+    i {
+      color: blue;
+      background: #ddd;
+    }
     & > .bloc {
-      padding: 0 20px;
-      &:first-child {
-        margin-top: 20px;
-      }
+      padding: 0 20px 0 10px;
+      margin: 0 0 2em 10px;
+      border: none;
+      border-left: 10px solid;
+      min-height: 20px;
       & > div {
-        margin: 0 0 3em 0;
         & > div {
-          margin: 0 0 0.7em 0;
+          margin: 0 0 0.5em 0;
         }
+      }
+      &.sectionStyle0 {
+        border-color: lightpink;
+      }
+      &.sectionStyle1 {
+        border-color: aqua;
+      }
+      &.sectionStyle2 {
+        border-color: yellow;
+      }
+      &.sectionStyle3 {
+        border-color: violet;
+      }
+      &.sectionStyle4 {
+        border-color: lightblue;
+      }
+      &.sectionStyle5 {
+        border-color: lightcoral;
       }
     }
   }

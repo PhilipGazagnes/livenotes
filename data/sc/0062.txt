@@ -18,6 +18,8 @@ E;A
 
 Theme
 $1
+--
+***Intro***
 
 Couplet
 $2
@@ -40,6 +42,8 @@ Et j'ai vu...
 
 Theme
 $1
+--
+***Instru***
 
 Couplet
 $2

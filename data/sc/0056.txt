@@ -12,6 +12,8 @@ Intro
 (
 $1
 )2
+--
+***Intro***
 
 Couplet
 (
@@ -68,7 +70,7 @@ Some of them want to be abused
 Break
 $2
 --
-***Instru***
+***Instru + Solo***
 
 Post Break !silence fin
 (
@@ -79,8 +81,6 @@ Solo
 (
 $1
 )4
---
-***Solo***
 
 Couplet
 (

@@ -10,6 +10,8 @@ C G;F C
 
 Theme
 $1
+--
+***Intro***
 
 Couplet
 (
@@ -103,3 +105,5 @@ Whisper words of wisdom, let it be
 
 Break
 F C;G C
+--
+***Instru***

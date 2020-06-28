@@ -7,6 +7,8 @@ Theme
 (
 G
 )32
+--
+***Intro***
 
 Couplet
 [
@@ -32,6 +34,8 @@ Theme
 (
 G
 )8
+--
+***Instru***
 
 Couplet
 [
@@ -96,3 +100,5 @@ Theme
 (
 G
 )16
+--
+***Instru***

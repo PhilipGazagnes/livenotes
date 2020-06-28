@@ -14,6 +14,8 @@ Theme
 (
 $2
 )2
+--
+***Intro***
 
 Couplet
 )
@@ -38,12 +40,12 @@ Le mal est ma lueur
 Mon parfum son odeur
 Prend ton mal en douceur
 
-#
-
 Theme
 )
 $2
 )2
+--
+***Instru***
 
 Couplet
 )
@@ -68,8 +70,6 @@ Le mal est ma lueur
 Mon parfum son odeur
 Prend ton mal en douceur
 
-#
-
 Pont
 [
 Bm;D;E;G
@@ -92,9 +92,9 @@ Il sait m'abandonner
 Je brûlerais avec lui
 
 Outro
-[
+(
 G;%;A;%
-]16
+)8
 --
 Le mal est ma lueur
 Son ombre est ma couleur
@@ -104,3 +104,10 @@ Le mal est ma lueur
 Son ombre est ma couleur
 Le mal est ma lueur
 Mon parfum son odeur
+
+Outro melo
+(
+G;%;A;%
+)8
+--
+***Instru***

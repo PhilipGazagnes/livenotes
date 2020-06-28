@@ -15,6 +15,8 @@ G
 
 Intro drum gimmick
 $3
+--
+***Intro***
 
 Couplet
 $1
@@ -46,6 +48,8 @@ It ain't me, it ain't me, I ain't no fortunate one, no
 
 Break
 $3
+--
+***Instru***
 
 Couplet
 $1
@@ -69,3 +73,5 @@ It ain't me, it ain't me, I ain't no fortunate one, no
 
 Intro
 $3
+--
+***Instru***

@@ -9,6 +9,8 @@ Bm % E A7 ; D
 
 Solo
 $1
+--
+***Intro***
 
 Couplet
 $1
@@ -86,7 +88,6 @@ Oui, mais jamais, au grand jamais
 Son trou dans l'eau n'se refermait
 Cent ans après, coquin de sort
 Il manquait encore
-
 
 Couplet
 $1

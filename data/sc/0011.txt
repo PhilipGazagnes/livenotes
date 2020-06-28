@@ -17,6 +17,8 @@ Intro
 (
 $1
 )2
+--
+***Intro***
 
 Couplet
 (
@@ -89,3 +91,5 @@ Break
 (
 $1
 )4
+--
+***Instru***

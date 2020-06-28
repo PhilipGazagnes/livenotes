@@ -3,6 +3,8 @@ G C;Em D
 
 Theme
 $1
+--
+***Intro***
 
 Couplet
 $1

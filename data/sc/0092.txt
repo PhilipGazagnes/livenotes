@@ -19,6 +19,8 @@ Theme
 (
 $1
 )4
+--
+***Intro***
 
 Couplet
 $2
@@ -35,6 +37,8 @@ Theme
 (
 $1
 )4
+--
+***Instru***
 
 Couplet
 $2
@@ -57,6 +61,8 @@ Theme
 (
 $1
 )4
+--
+***Instru***
 
 Couplet
 $2
@@ -79,6 +85,8 @@ Theme
 (
 $1
 )2
+--
+***Solo***
 
 Solo
 [
@@ -87,8 +95,6 @@ Dm
 [
 A
 ]4
---
-***Solo***
 
 Theme
 (
@@ -116,6 +122,8 @@ Theme
 (
 $1
 )4
+--
+***Instru***
 
 Solo
 (

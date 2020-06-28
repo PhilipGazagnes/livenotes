@@ -10,6 +10,8 @@ G;D;Em;F#
 
 Intro
 $1
+--
+***Intro***
 
 Couplet
 $1

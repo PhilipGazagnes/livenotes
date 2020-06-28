@@ -8,6 +8,8 @@ Intro
 (
 $1
 )2
+--
+***Intro***
 
 Couplet
 (
@@ -47,6 +49,8 @@ Y en a même qui disent qu'ils l'ont vu voler
 
 Solo
 $1
+--
++++...+++
 
 Couplet
 (
@@ -99,6 +103,8 @@ Y en a même qui disent qu'ils l'ont vu voler
 
 Solo
 $1
+--
++++...+++
 
 Couplet
 (

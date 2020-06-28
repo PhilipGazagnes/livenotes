@@ -41,7 +41,7 @@ Pour un enfant
 Inter!-1
 $4
 --
-***...***
+***Instru***
 
 Couplet
 $3
@@ -59,7 +59,7 @@ Devenu grand
 Inter
 $4
 --
-***...***
+***Instru***
 
 Refrain
 (
@@ -91,7 +91,7 @@ C'est mon enfant
 Inter
 $4
 --
-***...***
+***Instru***
 
 Refrain
 (

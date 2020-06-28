@@ -8,7 +8,8 @@ Intro !2*1
 $1
 )3
 --
-C'est comme ça, ah, la la la la la
+***Intro***
++++C'est comme ça, ah, la la la la la+++
 
 Couplet !4*1
 $1

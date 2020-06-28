@@ -17,6 +17,8 @@ Dm;Am;C;G
 
 Instru!-6
 $3
+--
+***Intro***
 
 Couplet
 (
@@ -34,6 +36,8 @@ Escale dans l'opération Nadawieb
 
 Instru!-4
 $3
+--
+***Instru***
 
 Couplet
 (
@@ -51,6 +55,8 @@ Le Maharadja en répondra
 
 Instru
 $3
+--
+***Instru***
 
 Refrain
 (
@@ -72,6 +78,8 @@ _
 [
 A E; F#m C#m
 ]2
+--
+***Break***
 
 Couplet
 (
@@ -89,6 +97,8 @@ Bob Morane est le roi de la Terre
 
 Instru
 $3
+--
+***Instru***
 
 Refrain
 (
