@@ -108,6 +108,26 @@ A#
 --
 ***Solo***
 
+Break
+[
+A#
+]8
+--
+Y tomber, tomber, tomber, tomber la chemise
+Y tomber, tomber, tomber, tomber là
+Y tomber, tomber, tomber, tomber la chemise
+Y tomber, tomber, tomber, tomber là
+
+Refrain
+(
+$2
+)4
+--
+(Tomber la) on a tombé, on a tombé la chemise
+(Tomber la) oui moi j'ai tombé, j'ai tombé la chemise
+(Tomber la) oui moi j'ai tombé, j'ai tombé la chemise
+(Tomber la) oui moi j'ai tombé, j'ai tombé la chemise
+
 Refrain
 (
 $2

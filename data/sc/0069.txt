@@ -51,6 +51,7 @@ Perdues
 Encore combien à attendre
 Combien à attendre
 Combien à attendre
+Combien à attendre
 Encore combien à attendre
 Tostaky
 
@@ -122,3 +123,8 @@ Soyons désinvoltes
 N'ayons l'air de rien
 Soyons désinvoltes
 N'ayons l'air de rien
+
+Solo
+$1
+--
+***Solo***
