@@ -106,21 +106,25 @@ Oh j'aime encore mieux ça
 Oui j'aime encore mieux ça
 
 Break
-[
+(
 E;A
-]4
-:
-[
-E;A
-]4
-:
-[
-_
-]16
+)4
 --
 ***Break***
+
+Break
+(
+E;A
+)4
+--
 Car ça, c'est vraiment toi
 Ça, c'est vraiment toi
+
+Break!drum
+(
+E;A
+)8
+--
 Ça, c'est vraiment toi
 Ça, c'est vraiment toi... ça se sent !
 Ça, c'est vraiment toi

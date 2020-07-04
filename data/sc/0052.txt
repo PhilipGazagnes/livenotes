@@ -55,7 +55,7 @@ Pour exprimer ce qu'est le blues, whoo!
 Solo
 (
 $1
-)4
+)8
 --
 ***Solo***
 

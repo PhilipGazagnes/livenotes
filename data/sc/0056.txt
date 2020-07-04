@@ -18,19 +18,13 @@ $1
 Couplet
 (
 $1
-)4
+)8
 --
 Sweet dreams are made of this
 Who am I to disagree?
 I travel the world
 And the seven seas,
 Everybody's looking for something
-
-Couplet
-(
-$1
-)4
---
 Some of them want to use you
 Some of them want to get used by you
 Some of them want to abuse you
@@ -49,19 +43,13 @@ $1
 Couplet
 (
 $1
-)4
+)8
 --
 Sweet dreams are made of this
 Who am I to disagree?
 I travel the world
 And the seven seas,
 Everybody's looking for something
-
-Couplet
-(
-$1
-)4
---
 Some of them want to use you
 Some of them want to get used by you
 Some of them want to abuse you
@@ -85,19 +73,13 @@ $1
 Couplet
 (
 $1
-)4
+)8
 --
 Sweet dreams are made of this
 Who am I to disagree?
 I travel the world
 And the seven seas,
 Everybody's looking for something
-
-Couplet
-(
-$1
-)4
---
 Some of them want to use you
 Some of them want to get used by you
 Some of them want to abuse you

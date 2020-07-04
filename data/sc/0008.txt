@@ -81,7 +81,7 @@ I wanna be the one with you
 Refrain
 (
 $1
-)4
+)2
 --
 Just the two of us
 We can make it if we try
@@ -91,6 +91,12 @@ Just the two of us
 Building big castles way up high
 Just the two of us
 You and I
+
+Refrain
+(
+$1
+)2
+--
 Just the two of us
 We can make it if we try
 Just the two of us, just
