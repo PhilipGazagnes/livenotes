@@ -3,15 +3,23 @@
     <h1>Live notes ! Rock on !</h1>
     <button class="random" @click="focusRandom">Pick a random song</button>
     <ul>
-      <li v-for="s in songs" :key="s.id">
-        <a :href="`/${s.id}`">
+      <li v-for="s in songs" :key="s.id" :data-first-letter="s.name.charAt(0)">
+        <a @click="toSong(s.id)">
           <span>{{ s.name }}</span>
           <span>({{ s.artist }})</span>
           <span v-if="s.nota" class="nota">({{ s.nota }})</span>
         </a>
-        <a :href="`/song/${s.id}`">+</a>
       </li>
     </ul>
+    <div class="letters">
+      <button
+        v-for="(l, index) in $options.alphabet"
+        :key="index"
+        @click="scrollToLetter(l)"
+      >
+        {{ l }}
+      </button>
+    </div>
   </div>
 </template>
 
@@ -19,6 +27,7 @@
 import songsJson from '../data/json/index.json';
 
 export default {
+  alphabet: 'abcdefghijklmnopqrstuvwxyz',
   data() {
     return {
       songs: songsJson.sort(this.compare),
@@ -51,6 +60,18 @@ export default {
       this.$router.push({
         path: url,
       });
+    },
+    scrollToLetter(letter) {
+      const matches = document.querySelectorAll(
+        `[data-first-letter=${letter.toUpperCase()}]`,
+      );
+      if (matches.length > 0) {
+        const offsetTopFirstMatch = matches[0].offsetTop;
+        window.scrollTo(0, offsetTopFirstMatch);
+      }
+    },
+    toSong(id) {
+      window.location.href = window.innerWidth > 600 ? `/song/${id}` : `/${id}`;
     },
   },
 };
@@ -93,11 +114,6 @@ li a {
   &:first-child {
     flex: 1 1 auto;
   }
-  &:last-child {
-    flex: 0 0 20px;
-    background: #eee;
-    text-align: center;
-  }
 }
 li a span:nth-child(1) {
   display: block;
@@ -109,5 +125,29 @@ li a span:nth-child(2) {
 }
 li a span.nota {
   color: red;
+}
+.letters {
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  top: 0;
+  right: 0;
+  background: #222;
+  & > button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1em;
+    width: 50%;
+    padding: 22px 0;
+  }
+  @media screen and (min-width: 768px) {
+    width: 20%;
+    button {
+      width: 33.33%;
+      padding: 16px 0;
+    }
+  }
 }
 </style>
