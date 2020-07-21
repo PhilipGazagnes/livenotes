@@ -51,7 +51,6 @@ Allumer le feu, allumer le feu
 Et faire danser les diables et les dieux
 Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
-Allumer le feu
 
 Thème
 $1
@@ -81,13 +80,14 @@ Il suffira d'une étincelle
 D'un peu de jour, oui pour
 
 Refrain
+(
 $3
+)2
 --
 Allumer le feu, allumer le feu
 Et faire danser les diables et les dieux
 Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
-Allumer le feu
 
 Solo
 $1
@@ -103,33 +103,21 @@ Il suffira d'une étincelle
 Oui, d'un mot d'amour pour
 
 Refrain!Prog
+(
 $3
+)2
 --
 Allumer le feu, allumer le feu
 Et faire danser les diables et les dieux
 Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
-Allumer le feu
 
 Refrain
+(
 $3
+)2
 --
 Allumer le feu, allumer le feu
 Et faire danser les diables et les dieux
 Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
-Allumer le feu
-
-Solo
-$3
---
-***Solo***
-
-Refrain
-$3
---
-Allumer le feu, allumer le feu
-Et faire danser les diables et les dieux
-Allumer le feu, allumer le feu
-Et voir grandir la flamme dans vos yeux
-Allumer le feu

@@ -7,7 +7,7 @@ Gm;%;F;Gm
 ]2
 :
 [
-C F#;G
+C D;G
 ]3
 :
 C;D
