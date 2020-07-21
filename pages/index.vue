@@ -102,7 +102,7 @@ li a {
 li a span:nth-child(1) {
   display: block;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 li a span:nth-child(2) {
   opacity: 0.5;
