@@ -18,12 +18,11 @@ Em
 
 $2
 G ; % ; D ; %
-:
 Em ; % ; C ; %
-:
 G ; % ; Bm ; %
-:
-Am ; % ; % ; %
+[
+Am
+]4
 
 Intro
 [
@@ -82,13 +81,9 @@ T'as personne devant
 
 Break
 G ; D ; Em ; C
-:
 G ; D ; Em ; %
-:
 G ; D ; Em ; C
-:
 G ; D ; C ; %
-:
 Em ; %
 [
 G ; D

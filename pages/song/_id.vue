@@ -309,6 +309,7 @@ export default {
 body {
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
 }
 .screen {
   display: flex;
@@ -419,6 +420,7 @@ body {
             padding: 5px 0;
             margin: 4px 6px;
             font-size: 1.5em;
+            line-height: 1em;
             font-weight: bold;
             &::after {
               content: '';
@@ -547,6 +549,9 @@ body {
       .sectionStyle5 {
         background: lightcoral;
       }
+      .sectionStyle6 {
+        background: lightgreen;
+      }
       .sectionStyleHidden {
         display: none;
       }
@@ -564,7 +569,6 @@ body {
   }
   & > .lyrics {
     flex: 0 0 calc(50% - 40px);
-    font-family: Arial, Helvetica, sans-serif;
     background: white;
     padding: 10px 0;
     position: relative;
@@ -608,6 +612,9 @@ body {
       }
       &.sectionStyle5 {
         border-color: lightcoral;
+      }
+      &.sectionStyle6 {
+        border-color: lightgreen;
       }
     }
   }
