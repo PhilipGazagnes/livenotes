@@ -3,7 +3,7 @@ $2
 C;F
 ]4
 :
-F Am;Dm;G;%
+F Am;Dm C;G;%
 
 $1
 [
