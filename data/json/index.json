@@ -5,7 +5,7 @@
   {"name":"A horse with no name","artist":"America","id":"0004","end":"","nota":"","notes":""},
   {"name":"Knock on wood","artist":"Eddie Floyd","id":"0005","end":"","nota":"","notes":""},
   {"name":"Le brio","artist":"Big Soul","id":"0006","end":"","nota":"","notes":""},
-  {"name":"Aint no sunshine","artist":"Bill Withers","id":"0007","end":"","nota":"","notes":""},
+  {"name":"Ain't no sunshine","artist":"Bill Withers","id":"0007","end":"","nota":"","notes":""},
   {"name":"Just the two of us","artist":"Bill Withers","id":"0008","end":"","nota":"","notes":""},
   {"name":"Paranoid","artist":"Black Sabbath","id":"0009","end":"","nota":"","notes":""},
   {"name":"Call me","artist":"Blondie","id":"0010","end":"4 ET","nota":"","notes":""},
@@ -18,7 +18,7 @@
   {"name":"Le Freak","artist":"Chic","id":"0018","end":"","nota":"SOLO LONG","notes":""},
   {"name":"Les Mots bleus","artist":"Christophe","id":"0019","end":"","nota":"","notes":""},
   {"name":"Alexandrie Alexandra","artist":"Claude François","id":"0020","end":"","nota":"","notes":""},
-  {"name":"Zombie","artist":"Cranberries","id":"0021","end":"","nota":"","notes":"CAPO 2"},
+  {"name":"Zombie","artist":"Cranberries","id":"0021","end":"plus court : Arrêt sur le premier break","nota":"","notes":"CAPO 2"},
   {"name":"Mon fils ma bataille","artist":"Daniel Balavoine","id":"0022","end":"Finir sur A# en l'air","nota":"","notes":""},
   {"name":"Sur la route","artist":"De Palmas","id":"0023","end":"3 pêche","nota":"","notes":""},
   {"name":"Smoke on the water","artist":"Deep Purple","id":"0024","end":"","nota":"","notes":""},
@@ -115,6 +115,5 @@
   {"name":"Sympathy for the Devil","artist":"Rolling Stones","id":"0120","end":"net sur dernier 'oh no' (le 3eme)","nota":"","notes":""},
   {"name":"Shape of you","artist":"Ed Sheeran","id":"0122","end":"","nota":"","notes":"CAPO2"},
   {"name":"La grenade","artist":"Clara Luciani","id":"0137","end":"","nota":"","notes":""},
-  {"name":"Libérée délivrée","artist":"la reine des neiges","id":"0151","end":"","nota":"","notes":""},
-  {"name":"La même","artist":"Gims / Vianey","id":"0152","end":"","nota":"","notes":""}
+  {"name":"Libérée délivrée","artist":"La Reine des neiges","id":"0151","end":"bordel C# + pêche G#","nota":"","notes":""}
 ]
