@@ -1,12 +1,12 @@
 <template>
   <div class="screen">
-    <nuxt-link to="/">
+    <div class="meta">
       <span>
         {{ meta.name }}
         <span>{{ meta.artist }}</span>
         <strong v-if="meta.notes !== ''">{{ meta.notes }}</strong>
       </span>
-    </nuxt-link>
+    </div>
     <div class="structure">
       <div class="content">
         <ul class="overview">
@@ -314,8 +314,8 @@ body {
 .screen {
   display: flex;
   height: 100vh;
-  & > a {
-    flex: 0 0 80px;
+  & > .meta {
+    flex: 0 0 40px;
     background: #222;
     color: white;
     position: relative;
@@ -323,7 +323,7 @@ body {
       display: block;
       position: absolute;
       bottom: 0px;
-      left: 15px;
+      left: 9px;
       width: 100vh;
       transform-origin: top left;
       transform: rotate(-90deg);
@@ -336,7 +336,7 @@ body {
         background: #0f0;
         color: black;
         padding: 5px;
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin: 0 0 0 15px;
       }
     }
@@ -568,7 +568,7 @@ body {
     }
   }
   & > .lyrics {
-    flex: 0 0 calc(50% - 40px);
+    flex: 0 0 50%;
     background: white;
     padding: 10px 0;
     position: relative;

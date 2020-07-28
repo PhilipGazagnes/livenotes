@@ -67,7 +67,7 @@
   {"name":"Dock of the bay","artist":"Otis Redding","id":"0071","end":"","nota":"","notes":""},
   {"name":"Mon mec à moi","artist":"Patricia Kaas","id":"0072","end":"","nota":"Seulement 2 refrains apres solo","notes":""},
   {"name":"Dans la salle du bar tabac de la rue des Martyrs","artist":"Pigalle","id":"0073","end":"","nota":"","notes":""},
-  {"name":"Another brick in the wall","artist":"Pink Floyd","id":"0074","end":"après solo reprendre 2 mesures de thème Dm pour terminer","nota":"","notes":""},
+  {"name":"Another brick in the wall","artist":"Pink Floyd","id":"0074","end":"","nota":"","notes":""},
   {"name":"Ca plane pour moi","artist":"Plastic Bertrand","id":"0075","end":"","nota":"","notes":""},
   {"name":"La poupée qui fait non","artist":"Polnareff","id":"0076","end":"","nota":"","notes":""},
   {"name":"Creep","artist":"Radiohead","id":"0077","end":"","nota":"","notes":""},
@@ -115,5 +115,6 @@
   {"name":"Sympathy for the Devil","artist":"Rolling Stones","id":"0120","end":"net sur dernier 'oh no' (le 3eme)","nota":"","notes":""},
   {"name":"Shape of you","artist":"Ed Sheeran","id":"0122","end":"","nota":"","notes":"CAPO2"},
   {"name":"La grenade","artist":"Clara Luciani","id":"0137","end":"","nota":"","notes":""},
-  {"name":"Libérée délivrée","artist":"la reine des neiges","id":"0151","end":"","nota":"","notes":""}
+  {"name":"Libérée délivrée","artist":"la reine des neiges","id":"0151","end":"","nota":"","notes":""},
+  {"name":"La même","artist":"Gims / Vianey","id":"0152","end":"","nota":"","notes":""}
 ]
