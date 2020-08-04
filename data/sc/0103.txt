@@ -12,7 +12,7 @@ Em;Am;D;G
 :
 Em;Am;D;C
 :
-C;D;G;B
+C;Am;D;B
 
 Refrain acapella
 $1

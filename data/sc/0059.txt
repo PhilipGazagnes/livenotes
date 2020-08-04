@@ -69,8 +69,16 @@ I stay, I pray
 See you in heaven one day
 
 Solo
-(
 $1
-)2
 --
 ***Solo***
+
+Refrain
+[
+B;%;E A;B
+]2
+--
+I stay, I pray
+See you in heaven far away
+I stay, I pray
+See you in heaven one day

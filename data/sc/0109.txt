@@ -13,7 +13,7 @@ $1
 Couplet
 $1
 --
-Mi son alzato
+Una mattina mi son alzato
 O bella ciao, bella ciao, bella ciao, ciao, ciao
 Una mattina mi son alzato
 E ho trovato l'invasor
@@ -55,7 +55,7 @@ $1
 Couplet
 $1
 --
-Mi son alzato
+Una mattina mi son alzato
 O bella ciao, bella ciao, bella ciao, ciao, ciao
 Una mattina mi son alzato
 E ho trovato l'invasor

@@ -1,11 +1,11 @@
 $1
-Am F;G Am
+Dm A#;C Dm
 
 $2
-Am;G;Am;A#;Dm;G;Am
+Dm;C;Dm;D#;Gm;C;Dm
 :
 [
-A#;Dm
+D#;Gm
 ]3
 
 Intro
