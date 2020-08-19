@@ -1,24 +1,24 @@
 $1
-Fm;C#;A#m;%
+Em;C;Am;%
 
 $2
 [
-A#;%;Dm;%
+A;%;C#m;%
 ]2
 :
-C#;%;Fm;%
+C;%;Em;%
 :
-C#;A#m;C;%
+C;Am;B;%
 
 $3
 [
-Fm;A#m;C# D#;Fm
+Em;Am;C D;Em
 ]2
 
 Intro!fin pêches
 (
 $1
-)3
+)2
 --
 ***INSTRU***
 
@@ -90,14 +90,14 @@ Au fond de mon cœur
 Intro
 (
 $1
-)3
+)2
 --
 ***INSTRU***
 
 Refrain
 (
 $3
-)4
+)2
 --
 Ils m'entraînent au bout de la nuit
 Les démons de minuit
@@ -109,9 +109,3 @@ Ils m'entraînent jusqu'à l'insomnie
 Les fantômes de l'ennui
 Ils m'entraînent au bout de la nuit
 Les démons de minuit
-Ils m'entraînent jusqu'à l'insomnie
-Les fantômes de l'ennui
-Ils m'entraînent au bout de la nuit
-Les démons de minuit
-Ils m'entraînent jusqu'à l'insomnie
-Les fantômes de l'ennui
