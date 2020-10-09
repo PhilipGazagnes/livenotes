@@ -112,6 +112,7 @@ Dès que les vents tourneront
 Nous nous en allerons
 
 Montée!tona+0.5
+$3
 --
 Ho ho ho ho ho hissez haut ho ho ho
 
