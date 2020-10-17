@@ -2,7 +2,9 @@ $1
 B D;E % A A#
 
 $2
+[
 F# G#m;E B
+]4
 
 Rap
 (
@@ -17,9 +19,7 @@ I wanna, (ha) I wanna, (ha) I wanna, (ha) I wanna, (ha)
 I wanna really, really, really wanna zigazig ah
 
 Couplet
-(
 $2
-)4
 --
 If you want my future, forget my past
 If you wanna get with me, better make it fast
@@ -37,20 +37,15 @@ I wanna, (ha) I wanna, (ha) I wanna, (ha) I wanna, (ha)
 I wanna really, really, really wanna zigazig ah
 
 Refrain
-(
 $2
-)4
 --
 If you wanna be my lover, you gotta get with my friends
-(Gotta get with my friends)
 Make it last forever, friendship never ends
 If you wanna be my lover, you have got to give
 Taking is too easy, but that's the way it is
 
 Couplet
-(
 $2
-)4
 --
 Oh, what do you think about that
 Now you know how I feel
@@ -69,15 +64,11 @@ I wanna, (ha) I wanna, (ha) I wanna, (ha) I wanna, (ha)
 I wanna really, really, really wanna zigazig ah
 
 Refrain
-(
 $2
-)4
 --
 If you wanna be my lover, you gotta get with my friends
-(Gotta get with my friends)
 Make it last forever, friendship never ends
 If you wanna be my lover, you have got to give
-(You've got to give)
 Taking is too easy, but that's the way it is
 
 Rap
@@ -97,17 +88,15 @@ Slam your body down and wind it all around
 Refrain
 (
 $2
-)8
+)2
 --
 If you wanna be my lover, you gotta get with my friends
-(Gotta get with my friends)
 Make it last forever, friendship never ends
 If you wanna be my lover, you have got to give
-(You've got to give)
 Taking is too easy, but that's the way it is
 If you wanna be my lover
 You gotta, you gotta, you gotta, you gotta, you gotta
-Slam, slam, slam, slam (make it last forever)
+Slam, slam, slam, slam
 Slam your body down and wind it all around
 Slam your body down and wind it all around
 Ha, ha, ha, ha, ha
