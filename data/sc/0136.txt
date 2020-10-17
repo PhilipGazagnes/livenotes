@@ -73,7 +73,7 @@ Quand la musique sonne sonne sonne
 Quand elle guide mes pas
 
 Solo
-7 G 3 D
+7G 3D
 --
 ***Solo***
 
@@ -90,4 +90,3 @@ Quand la musique est bonne
 Quand la musique donne
 Quand la musique sonne sonne sonne
 Quand elle guide mes pas
-
