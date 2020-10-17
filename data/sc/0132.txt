@@ -2,16 +2,16 @@ $1
 [
 Dm;Am;A#;Gm C
 ]2
-F C;Dm Am
+F C;Dm C
 A# F;A# C
-F C;Dm Am
+F C;Dm C
 A# F;A# F
 A# Gm;A
 
 $2
-G# G#/G;Fm D#
+G# D#;Fm D#
 C# G#;C# D#
-G# G#/G;Fm D#
+G# D#;Fm D#
 C# A#m;C# A#m
 C#
 
