@@ -1,15 +1,18 @@
 $1
 [
 Fm;A#;Fm;A#
+:
 D;Cm;Fm;A#
 ]2
 C;%;Fm;%
+:
 G;C
 
 $2
 [
 Fm D#;A# C
 ]3
+:
 A#;C
 
 Intro
