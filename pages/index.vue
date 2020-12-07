@@ -56,7 +56,7 @@ export default {
     },
     focusRandom() {
       const random = Math.floor(Math.random() * this.songs.length - 1);
-      const url = `/${this.songs[random].id}/`;
+      const url = `/note/${this.songs[random].id}/`;
       this.$router.push({
         path: url,
       });
@@ -71,7 +71,7 @@ export default {
       }
     },
     toSong(id) {
-      window.location.href = window.innerWidth > 600 ? `/song/${id}` : `/${id}`;
+      window.location.href = `/note/${id}`;
     },
   },
 };

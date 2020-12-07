@@ -7,6 +7,8 @@ Bm G;Bm Em
 Bm E; G F#m
 
 Intro
+--
+***Intro***
 
 Couplet
 $1
@@ -39,6 +41,8 @@ Leitmotiv, nuits secrètes
 Tatoue mon âme à mon dégoût
 
 Inter
+--
+***Instru***
 
 Couplet
 $1
@@ -86,3 +90,7 @@ Machine sourde et tempête
 Et cette machine dans ma tête
 Leitmotiv, nuit secrète
 Tatoue mon âme à mon dégoût
+
+Intro
+--
+***Instru***

@@ -48,7 +48,7 @@ Je virevolte à vos cris, vos mains
 La vie m'emporte au creux de tous ses mystères
 Je vois dans vos yeux mes lendemains
 
-Refrain
+Refrain!+4M
 $2
 --
 Tel est mon destin
@@ -70,17 +70,14 @@ Je vis l'amour à des kilomètres ailleurs
 Et le bonheur a mon téléphone
 
 Refrain
+(
 $2
+)2
 --
 Tel est mon destin
 Je vais mon chemin
 Ainsi passent mes heures
 Au rythme entêtant des battements de mon coeur
-Aux battements de mon coeur
-
-Refrain
-$2
---
 Tel est mon destin
 Je vais mon chemin
 Ainsi passent mes heures
