@@ -1,11 +1,11 @@
 <template>
   <div :class="['screen', `screen--${this.mode}` ]">
     <div class="meta">
-      <span>
+      <nuxt-link to="/">
         {{ meta.name }}
         <span>{{ meta.artist }}</span>
         <strong v-if="meta.notes !== ''">{{ meta.notes }}</strong>
-      </span>
+      </nuxt-link>
       <button @click="switchview">switch</button>
     </div>
     <div class="structure">
@@ -325,7 +325,10 @@ body {
       padding: 20px;
       border-bottom: 1px solid #222;
     }
-    & > span {
+    & > a {
+      @media screen and (min-width: $bpdf) {
+        color: white;
+      }
       & > span {
         opacity: .5;
       }
@@ -346,7 +349,7 @@ body {
       color: white;
       position: relative;
       margin: 0;
-      & > span {
+      & > a {
         display: block;
         position: absolute;
         bottom: 0px;
