@@ -1,12 +1,12 @@
 $1
-B;E;A;B
+A;D;G;A
 
 $2
-Cm;A;B;A B
+Bm;G;A;G A
 :
-Cm;A;B;F#
+Bm;G;A;E
 :
-A;G#;Cm;A
+Em7;F#;Bm;G
 
 Intro
 (
@@ -15,7 +15,7 @@ $1
 --
 ***INTRO***
 
-Couplet!+B;B/A
+Couplet!+A;A
 (
 $1
 )4
@@ -47,7 +47,7 @@ $1
 --
 ***INSTRU***
 
-Couplet!+B;B/A
+Couplet!+A;A
 (
 $1
 )4

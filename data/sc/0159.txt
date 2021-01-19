@@ -1,15 +1,15 @@
 $1
-Bm;F#;D;Em F#
+Cm;G(B);D#;Fm G
 
 $2
 [
-A B;_
+A# Cm;_
 ]2
 
 $3
-Bm;F#;D;Em F#
+Cm;G(B);D#;Fm G
 :
-G;A;Em;G A
+G#;A#;Fm;G# A#
 
 Intro
 $2
@@ -67,7 +67,9 @@ Oh, baby, baby
 Oh, baby, baby
 
 Calme
+(
 $3
+)2
 --
 Oh, baby, baby, how was I supposed to know?
 Oh, pretty baby, I shouldn't have let you go

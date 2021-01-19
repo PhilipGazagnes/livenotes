@@ -1,23 +1,23 @@
 $1
 [
-Fm;A#;Fm;A#
+Em;A;Em;A
 :
-D;Cm;Fm;A#
+D;Bm;Em;A
 ]2
-C;%;Fm;%
+B;%;E;%
 :
-G;C
+F#;B
 
 $2
 [
-Fm D#;A# C
+Em C;Am D
 ]3
 :
-A#;C
+A;B
 
 Intro
-Fm;A#;Fm;A#
-C;%
+Em;A;Em;A
+B;%
 
 Couplet
 $1
@@ -102,6 +102,3 @@ Na-na-na-na-na, le Jerk
 Sous les éclairs, des stroboscopes
 Ils dansent le Jerk
 Oh, le Jerk!
-Ouh-ouh, le Jerk
-Toute la nuit, comme à Woodstock
-Ils dansent le Jerk
