@@ -1,5 +1,7 @@
 $1
+[
 Cm
+]2
 
 $2
 [
@@ -36,9 +38,7 @@ Dm7
 ]2
 
 Intro
-(
 $1
-)2
 
 Couplet
 $2
@@ -65,9 +65,7 @@ Flamme, flamme, flamme, flamme
 Où sont les femmes?
 
 Inter
-(
 $1
-)4
 
 Couplet
 $2
@@ -93,12 +91,12 @@ Planent, planent, planent, planent
 Où sont les femmes?
 
 Inter
-(
 $1
-)5
 
-Couplet instru
+Solo
 $2
+--
+***Solo***
 
 Refrain
 (
@@ -114,13 +112,10 @@ A la fois si belles et si pâles
 Aux yeux qui traînent et qui flânent
 Flânent, flânent, flânent, flânent
 Où sont les femmes?
-Avec leurs gestes pleins de charme
-Dites-moi où sont les femmes?
-Femmes, femmes, femmes, femmes
-Où sont les femmes?
-Qui ont des rires pleins de larmes
-Auraient-elles perdu leur flamme
-Flamme, flamme, flamme, flamme
+
+Outro
+Am
+--
 Où sont les femmes?
 Où sont les femmes?
 Où sont les femmes?

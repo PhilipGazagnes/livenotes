@@ -1,11 +1,11 @@
 $1
 [
-F;D#;A#;F
+G;F;C;G
 ]2
 
 $2
 [
-F;C;A#;F
+G;D;C;G
 ]2
 
 $3
@@ -90,3 +90,8 @@ Mais pas moi
 Mais pas moi
 Je suis le fils de personne
 Mais pas moi
+
+Fin intro
+$3
+--
+***Instru***
