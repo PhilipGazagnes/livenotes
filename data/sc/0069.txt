@@ -128,3 +128,5 @@ Solo
 $1
 --
 ***Solo***
+
+@studio

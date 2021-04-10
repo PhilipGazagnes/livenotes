@@ -92,3 +92,5 @@ Solo
 $1
 --
 ***Solo***
+
+@même break qu'après 1er solo + pêche

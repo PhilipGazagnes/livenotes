@@ -116,3 +116,5 @@ Solo
 $1
 --
 ***Solo***
+
+@terminer net sur 4 ET fin solo (=sur le TIN de CATIN)

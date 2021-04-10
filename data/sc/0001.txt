@@ -69,6 +69,8 @@ Break
 [
 A
 ]5
+--
+***Break***
 
 Solo
 $4
@@ -96,3 +98,7 @@ Outro
 And I'm going down
 All the way
 Whoa!
+
+!Faire gaffe
+
+@Fin studio

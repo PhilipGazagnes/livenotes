@@ -1,10 +1,9 @@
 <template>
-  <div :class="['screen', `screen--${this.mode}` ]">
+  <div :class="['screen', `screen--${mode}`]">
     <div class="meta">
       <nuxt-link to="/">
         {{ meta.name }}
         <span>{{ meta.artist }}</span>
-        <strong v-if="meta.notes !== ''">{{ meta.notes }}</strong>
       </nuxt-link>
       <button @click="switchview">switch</button>
     </div>
@@ -28,6 +27,7 @@
               v-html="s.measures[s.measures.length - 1].substring(1)"
             />
           </li>
+          <li v-if="songData.end" class="end" v-html="songData.end" />
         </ul>
         <div class="notes">
           <div
@@ -57,11 +57,9 @@
           </div>
         </div>
       </div>
-      <div class="end">
-        {{ meta.end }}
-      </div>
     </div>
     <div ref="lyrics" class="lyrics">
+      <div v-if="songData.warning" class="warning" v-html="songData.warning" />
       <div
         v-for="(s, index3) in songData.sections"
         :key="index3"
@@ -307,7 +305,7 @@ export default {
 </script>
 
 <style lang="scss">
-$bpmf: 767px;
+$bpmf: 768px;
 $bpdf: 767px;
 
 body {
@@ -317,20 +315,23 @@ body {
 }
 .screen {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   @media screen and (min-width: $bpmf) {
-    display: flex;
+    flex-direction: row;
   }
   & > .meta {
     @media screen and (max-width: $bpdf) {
       padding: 20px;
       border-bottom: 1px solid #222;
+      flex: 0 0 auto;
     }
     & > a {
       @media screen and (min-width: $bpdf) {
         color: white;
       }
       & > span {
-        opacity: .5;
+        opacity: 0.5;
       }
     }
     & > button {
@@ -375,7 +376,7 @@ body {
     padding: 0;
     margin: 0;
     flex-direction: column;
-    height: 85vh;
+    flex: 1 1 100%;
     @media screen and (min-width: $bpmf) {
       height: auto;
       display: flex;
@@ -385,6 +386,7 @@ body {
       flex: 1 1 100%;
       display: flex;
       flex-direction: row;
+      background: black;
       .overview {
         list-style-type: none;
         margin: 0;
@@ -395,7 +397,7 @@ body {
         height: 100%;
         & > li {
           border: none;
-          flex: 1 1 auto;
+          flex: 2 1 auto;
           display: flex;
           flex-direction: row;
           padding: 0;
@@ -433,17 +435,25 @@ body {
             margin-bottom: 0;
             margin-top: -1px;
           }
+          &.end {
+            flex-grow: 1;
+            background: purple;
+            color: white;
+            padding: 0 3px;
+            font-weight: bold;
+            line-height: 1.4em;
+          }
         }
       }
       .notes {
         flex: 0 0 65%;
-        margin-left: 1px;
         display: flex;
         flex-direction: column;
       }
       .section {
         flex: 1 1 auto;
         text-align: center;
+        margin-left: 1px;
         &:not(:last-child) {
           margin-bottom: 1px;
         }
@@ -590,16 +600,6 @@ body {
         display: none;
       }
     }
-    .end {
-      padding: 10px;
-      color: white;
-      background: #222;
-      &::before {
-        content: 'Fin: ';
-        color: yellow;
-        font-weight: bold;
-      }
-    }
   }
   & > .lyrics {
     background: white;
@@ -625,7 +625,7 @@ body {
     }
     i {
       color: blue;
-      background: #ddd; 
+      background: #ddd;
     }
     & > .bloc {
       padding: 0 20px 0 20px;
@@ -664,6 +664,17 @@ body {
       }
       &.sectionStyle6 {
         border-color: lightgreen;
+      }
+    }
+    & > .warning {
+      display: none;
+      @media screen and (min-width: $bpmf) {
+        display: block;
+        background: red;
+        color: white;
+        font-size: 2em;
+        padding: 60px 30px;
+        margin: 0 10px 50px 10px;
       }
     }
   }

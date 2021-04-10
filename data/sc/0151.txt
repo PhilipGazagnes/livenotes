@@ -1,3 +1,5 @@
+!CAPO 1
+
 $1
 Fm;C#;D#;A#
 
@@ -15,6 +17,8 @@ Intro
 [
 $1
 ]2
+--
+***INTRO***
 
 Couplet
 [
@@ -115,3 +119,5 @@ Plus de princesse parfaite
 Je suis là, comme je l'ai rêvé
 Perdue dans l'hiver
 Le froid est pour moi le prix de la liberté
+
+@bordel C# + pêche G#

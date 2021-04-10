@@ -1,3 +1,5 @@
+!Intro Fade in Guitare
+
 $1
 [
 E
@@ -88,3 +90,5 @@ J'ai vu le sang sur ma peau, j'ai vu la fureur et les cris
 Et j'ai prié, j'ai prié tous ceux qui se sont sacrifiés.
 J'ai vu la mort se marrer et ramasser ceux qui restaient...
 Et j'ai vu...
+
+@Pêches "ET J'AI VU"

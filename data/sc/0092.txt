@@ -85,8 +85,6 @@ Theme
 (
 $1
 )2
---
-***Solo***
 
 Solo
 [
@@ -95,6 +93,8 @@ Dm
 [
 A
 ]4
+--
+***Solo***
 
 Theme
 (
@@ -134,3 +134,5 @@ Come together, yeah
 Come together, yeah
 Come together, yeah
 Come together, yeah
+
+@Appel drum solo ralenti

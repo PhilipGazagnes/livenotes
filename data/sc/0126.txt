@@ -1,3 +1,5 @@
+!Fins refrains D<br />1er: 2 mesures<br />2ème: 6 mesures<br />3ème (avant répé refrain): 2 mesures<br />4ème (avant pêche fin): 2 mesures
+
 $1
 [
 G D;C G;G D;C D
@@ -15,6 +17,8 @@ C D;G C
 Am Bm;C =;D;%
 
 Intro
+--
+***Intro***
 
 Couplet
 $1
@@ -82,3 +86,5 @@ Tel est mon destin
 Je vais mon chemin
 Ainsi passent mes heures
 Au rythme entêtant des battements de mon coeur
+
+@G

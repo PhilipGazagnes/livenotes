@@ -81,7 +81,7 @@ function scToConstantMeasures(arr) {
   });
 }
 
-function scToSectionsArr(sectionsArr, stacktips) {
+function scToSectionsArr(sectionsArr, end, warning) {
   const exportObj = {
     sections: [],
   };
@@ -100,9 +100,11 @@ function scToSectionsArr(sectionsArr, stacktips) {
         : undefined,
     });
   });
-  if (stacktips) {
-    const spl1 = stacktips.split(linebreakpattern);
-    exportObj.stacktips = spl1[1];
+  if (end.length) {
+    exportObj.end = end[0].substr(1, end[0].length);
+  }
+  if (warning.length) {
+    exportObj.warning = warning[0].substr(1, warning[0].length);
   }
   return exportObj;
 }
@@ -110,14 +112,12 @@ function scToSectionsArr(sectionsArr, stacktips) {
 function scToObj(sc) {
   const blocs = sc.split(emptylinepattern);
   const constantMeasuresSc = blocs.filter((b) => b.startsWith('$'));
-  const stacktips = blocs.filter((b) => b.startsWith('@'));
+  const end = blocs.filter((b) => b.startsWith('@'));
+  const warning = blocs.filter((b) => b.startsWith('!'));
   const songSectionsSc = blocs.filter(
-    (b) => !b.startsWith('$') && !b.startsWith('@'),
+    (b) => !b.startsWith('$') && !b.startsWith('@') && !b.startsWith('!'),
   );
   scToConstantMeasures(constantMeasuresSc);
-  return scToSectionsArr(
-    songSectionsSc,
-    stacktips.length ? stacktips[0] : undefined,
-  );
+  return scToSectionsArr(songSectionsSc, end, warning);
 }
 exports.scToObj = scToObj;
