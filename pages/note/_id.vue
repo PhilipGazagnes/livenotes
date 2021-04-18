@@ -58,12 +58,13 @@
         </div>
       </div>
     </div>
-    <div ref="lyrics" class="lyrics">
+    <div ref="lyrics" class="lyrics" :style="{ fontSize: `${fontSizeUser}em` }">
+      <button class="increase" @click="fontSize(true)">+</button>
+      <button class="decrease" @click="fontSize(false)">-</button>
       <div v-if="songData.warning" class="warning" v-html="songData.warning" />
       <div
         v-for="(s, index3) in songData.sections"
         :key="index3"
-        :style="{ fontSize: `${fontSizeUser}em` }"
         :class="[
           'bloc',
           sectionClass(s.measures, index3, s.name),
@@ -676,6 +677,21 @@ body {
         padding: 60px 30px;
         margin: 0 10px 50px 10px;
       }
+    }
+    & > .increase,
+    & > .decrease {
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      width: 40px;
+      height: 40px;
+      background: rgba(255, 255, 0, 0.2);
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 20px;
+    }
+    & > .decrease {
+      bottom: 55px;
     }
   }
   @media screen and (max-width: $bpdf) {
