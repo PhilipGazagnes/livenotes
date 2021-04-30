@@ -7,8 +7,7 @@
         <a @click="toSong(s.id)">
           <span>{{ s.name }}</span>
           <span>({{ s.artist }})</span>
-          <span v-if="s.end" class="nota">(END : {{ s.end }})</span>
-          <span v-if="s.notes" class="nota">(NOTES : {{ s.notes }})</span>
+          <span v-if="s.work" class="nota">({{ s.work }})</span>
         </a>
       </li>
     </ul>
