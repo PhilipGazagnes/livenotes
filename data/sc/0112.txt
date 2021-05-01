@@ -141,14 +141,12 @@ $1
 Couplet
 (
 $1
-)6
+)
 --
 And it's true we are immune
 When fact is fiction and TV reality
 And today the millions cry
 We eat and drink while tomorrow they die
-the real battle just begun
-to claim the victory Jesus won
 
 Refrain
 (

@@ -100,7 +100,6 @@
   {"name":"Every breathe you take","artist":"The Police","id":"0104","work":""},
   {"name":"Message in a bottle","artist":"The Police","id":"0105","work":"riff - passage F#m > D"},
   {"name":"So lonely","artist":"The Police","id":"0106","work":""},
-  {"name":"Walking on the moon","artist":"The Police","id":"0107","work":""},
   {"name":"Proud Mary","artist":"Tina Turner","id":"0108","work":"inter melodie"},
   {"name":"Bella ciao","artist":"Traditionnel italien","id":"0109","work":""},
   {"name":"Antisocial","artist":"Trust","id":"0110","work":""},
@@ -137,5 +136,9 @@
   {"name":"Baby one more time","artist":"Britney Spears","id":"0159","work":"passage Cm GbaseB "},
   {"name":"Get Lucky","artist":"Daft Punk","id":"0160","work":""},
   {"name":"Où sont les femmes ?","artist":"Patrick Juvet","id":"0161", "work":"solo, groove"},
-  {"name":"All that she wants","artist":"Ace of Base","id":"0162", "work":""}
+  {"name":"All that she wants","artist":"Ace of Base","id":"0162", "work":""},
+  {"name":"Last resort","artist":"Papa roach","id":"0163", "work":""},
+  {"name":"Resiste","artist":"France Gall","id":"0164", "work":""},
+  {"name":"Il jouait du piano debout","artist":"France Gall","id":"0165", "work":""},
+  {"name":"Shallow","artist":"Lady Gaga","id":"0166", "work":""}
 ]

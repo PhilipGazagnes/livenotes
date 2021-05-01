@@ -1,8 +1,8 @@
 $1
-A#;F
+A# D#;F D#
 
 $2
-A# F;E F
+A# F;D# F
 
 Theme
 (

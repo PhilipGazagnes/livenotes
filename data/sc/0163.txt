@@ -1,0 +1,151 @@
+$1
+E D;C % B D
+
+$2
+E C;D
+
+$3
+[
+E C;G B
+]2
+[
+E G;C B
+]2
+
+Acapella
+$1
+--
+Cut my life into pieces
+This is my last resort
+
+Intro
+$1
+--
+Suffocation, no breathing
+Don't give a fuck, if I cut my arm bleeding
+
+Intro!tricot
+(
+$1
+)2
+--
+This is my last resort
+
+Couplet!tricot
+(
+$1
+)4
+--
+Cut my life into pieces
+I've reached my last resort – suffocation, no breathing
+Don't give a fuck, if I cut my arms bleeding
+Do you even care, if I die bleeding?
+Would it be wrong, would it be right
+If I took my life tonight? Chances are that I might
+Mutilation out of sight
+And I'm contemplatin' suicide
+
+Refrain
+(
+$2
+)2
+--
+'Cause I'm losin' my sight, losin' my mind
+Wish somebody would tell me I'm fine
+Losin' my sight, losin' my mind
+Wish somebody would tell me I'm fine
+
+Instru!tricot
+$1
+--
+***Instru***
+
+Couplet!tricot
+(
+$1
+)4
+--
+I never realized I was spread too thin
+'Til it was too late and I was empty within
+Hungry, feeding on chaos and livin' in sin
+Downward spiral, where do I begin?
+It all started when I lost my mother
+No love for myself and no love for another
+Searchin' to find a love upon a higher level
+Findin' nothin' but questions and devils
+
+Refrain
+(
+$2
+)2
+--
+'Cause I'm losin' my sight, losin' my mind
+Wish somebody would tell me I'm fine
+Losin' my sight, losin' my mind
+Wish somebody would tell me I'm fine
+
+Pont
+$3
+--
+Nothing's alright, nothing is fine
+I'm runnin' and I'm crying
+I'm crying
+I'm crying
+I'm crying
+I'm crying
+
+Break
+(
+$1
+)2
+--
+I ... can't ... go ... on ...
+li ... ving  ... this ... way
+
+Couplet!1/2 tricot
+(
+$1
+)4
+--
+Cut my life into pieces
+This is my last resort
+Suffocation, no breathing
+Don't give a fuck if I cut my arm bleeding
+Would it be wrong, would it be right
+If I took my life tonight? Chances are that I might
+Mutilation out of sight
+And I'm contemplating suicide
+
+Refrain
+(
+$2
+)2
+--
+'Cause I'm losin' my sight, losin' my mind
+Wish somebody would tell me I'm fine
+Losin' my sight, losin' my mind
+Wish somebody would tell me I'm fine
+
+Moitié de pont
+$3
+--
+Nothing's alright, nothing is fine
+I'm runnin' and I'm crying
+
+Outro
+(
+$2
+)2
+--
+I ... can't ... go ... on ...
+li ... ving  ... this ... way
+
+Outro!par coeur
+$2
+--
+...
+Can't go on
+...
+living this way
+...
+Nothing's al......right
