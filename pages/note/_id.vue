@@ -128,6 +128,9 @@ export default {
     //     this.warning = false;
     //   }, 500);
     // });
+    if (window.innerWidth === 600) {
+      this.fontSizeUser = 2.5;
+    }
     window.addEventListener('keydown', (e) => {
       if (e.keyCode === 40) {
         // KeyDown : Airturn right button
