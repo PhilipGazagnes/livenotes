@@ -129,7 +129,7 @@ export default {
     //   }, 500);
     // });
     if (window.innerWidth === 600) {
-      this.fontSizeUser = 2.5;
+      this.fontSizeUser = 2.2;
     }
     window.addEventListener('keydown', (e) => {
       if (e.keyCode === 40) {
