@@ -1,6 +1,8 @@
 <template>
   <div class="index">
-    <h1>Live notes ! Rock on !</h1>
+    <h1>
+      Live notes ! Rock on !<client-only>{{ test }}</client-only>
+    </h1>
     <button class="random" @click="focusRandom">Pick a random song</button>
     <ul>
       <li v-for="s in songs" :key="s.id" :data-first-letter="s.name.charAt(0)">
@@ -31,7 +33,11 @@ export default {
   data() {
     return {
       songs: songsJson.sort(this.compare),
+      test: 0,
     };
+  },
+  mounted() {
+    this.test = window.innerWidth;
   },
   methods: {
     compare(a, b) {
