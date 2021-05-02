@@ -1,9 +1,5 @@
 <template>
-  <div class="index">
-    <h1>
-      Live notes ! Rock on !<client-only>{{ test }}</client-only>
-    </h1>
-    <button class="random" @click="focusRandom">Pick a random song</button>
+  <div :class="['index', isKliPad ? 'isKliPad' : '']">
     <ul>
       <li v-for="s in songs" :key="s.id" :data-first-letter="s.name.charAt(0)">
         <a @click="toSong(s.id)">
@@ -33,11 +29,11 @@ export default {
   data() {
     return {
       songs: songsJson.sort(this.compare),
-      test: 0,
+      isKliPad: false,
     };
   },
   mounted() {
-    this.test = window.innerWidth;
+    this.isKliPad = window.innerWidth === 600;
   },
   methods: {
     compare(a, b) {
@@ -59,13 +55,6 @@ export default {
         txt = `C${txt.substring(1)}`;
       }
       return txt;
-    },
-    focusRandom() {
-      const random = Math.floor(Math.random() * this.songs.length - 1);
-      const url = `/note/${this.songs[random].id}/`;
-      this.$router.push({
-        path: url,
-      });
     },
     scrollToLetter(letter) {
       const matches = document.querySelectorAll(
@@ -105,6 +94,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.isKliPad ul {
+  font-size: 1.2em;
 }
 li {
   margin: 0;

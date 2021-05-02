@@ -34,6 +34,6 @@ export default {
         arr.push(`/note/${Object.keys(dataJson)[i]}`);
       }
       return arr;
-    }
+    },
   },
 };
