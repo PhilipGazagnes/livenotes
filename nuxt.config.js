@@ -1,6 +1,7 @@
 import dataJson from './data/json/data.json';
 
 export default {
+  target: 'static',
   head: {
     meta: [
       {
@@ -20,6 +21,7 @@ export default {
   workbox: {
     globPatterns: ['**/*.{js,css}', '**/img/*'],
     offlinePage: '/404.html',
+    preCaching: ['/notes/0001/', '/notes/0002/'],
   },
   // pwa: {
   //   manifest: {
