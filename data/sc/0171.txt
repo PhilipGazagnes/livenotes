@@ -62,7 +62,7 @@ Où t'es
 Où t'es...
 
 Couplet
-$3
+$1
 --
 Quoi, qu'on y croit ou pas
 Y aura bien un jour où on n'y croira plus

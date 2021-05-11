@@ -1,12 +1,17 @@
 $1
+D G;Em A
+:
+F#m Bm;Em A
+
+$2
 Bm G;Em A
 :
 F#m Bm;Em A
 
-Intro! -> D 
+Intro
 $1
 
-Couplet! -> D 
+Couplet
 (
 $1
 )2
@@ -20,8 +25,8 @@ d'en avoir vraiment rêvé
 Est-ce une envie ? Parfois, j'me sens
 obligée
 
-Spleen! -> D, F# <- 
-$1
+Spleen
+$2
 --
 Le spleen n'est plus à la mode,
 c'est pas compliqué d'être heureux
@@ -30,7 +35,7 @@ c'est pas compliqué
 
 Refrain
 (
-$1
+$2
 )2
 --
 Tout, il faudrait tout oublier
@@ -38,7 +43,7 @@ Pour y croire, il faudrait tout oublier
 On joue, mais là, j'ai trop joué
 Ce bonheur, si je le veux, je l'aurai
 
-Couplet! -> D, F# <- 
+Couplet
 (
 $1
 )2
@@ -54,7 +59,7 @@ Et si tout l'monde t'a délaissé,
 
 Refrain
 (
-$1
+$2
 )2
 --
 Tout, il faudrait tout oublier
@@ -64,7 +69,7 @@ Ce bonheur, si je le veux, je l'aurai
 
 Spleen
 (
-$1
+$2
 )2
 --
 Le spleen n'est plus à la mode,
@@ -76,7 +81,7 @@ c'est pas compliqué d'être heureux
 C'est simple : sois juste heureux,
 si tu l'voulais, tu le s'rais
 
-Couplet! -> D 
+Couplet
 $1
 --
 Ferme les yeux, oublie
@@ -90,7 +95,7 @@ si tu l'voulais, tu le s'rais
 
 Refrain
 (
-$1
+$2
 )4
 --
 Tout, il faudrait tout oublier
@@ -104,7 +109,7 @@ Ce bonheur, si je le veux, je l'aurai
 
 Spleen
 (
-$1
+$2
 )2
 --
 Le spleen n'est plus à la mode,
@@ -118,7 +123,7 @@ si tu l'voulais, tu le s'rais
 
 Outro
 (
-$1
+$2
 )2
 --
 ...

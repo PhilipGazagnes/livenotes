@@ -47,7 +47,15 @@ Ce n'est pas Paris, et ce n'est pas Londres
 Ce n'est pas Berlin, ni même Hong-Kong, pas Tokyo
 Et il fait si chaud, je t'emmène sur la baie
 
-Refrain!3+3
+Break!4xC
+$2
+--
+On est si bien
+Sur la baie
+On est si bien
+Sur la baie
+
+Refrain!2+4
 $2
 --
 On est si bien

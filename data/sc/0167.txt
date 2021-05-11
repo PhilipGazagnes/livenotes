@@ -46,23 +46,23 @@ Refrain
 $3
 --
 Ella, elle l'a
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Ce je n'sais quoi
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Que d'autres n'ont pas
 Qui nous met dans un drôle d'état
 Ella, elle l'a !
 Ella, elle l'a
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Cette drôle de voix
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Cette drôle de joie
 Ce don du ciel qui la rend belle
 Ella, elle l'a !
 Ella, elle l'a
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Ella, elle l'a
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 
 Pont
 E;C;Am;D;G;C;Bsus4 B
@@ -83,20 +83,20 @@ Que tu cherches encore les pouvoirs qui dorment en toi
 Tu vois ça ne s'achète pas
 Quand tu l'as tu l'as
 
-Refrain!1tourne
+Refrain!1er cycle x1
 $3
 --
 Ella, elle l'a
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Ce je n'sais quoi
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Que d'autres n'ont pas
 Qui nous met dans un drôle d'état
 Ella, elle l'a !
 Ella, elle l'a
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Ella, elle l'a
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Ella, elle l'a
 
 Break!8premx2
@@ -112,16 +112,19 @@ Refrain
 $3
 --
 Ella, elle l'a
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Ce je n'sais quoi
++++Ou-ou ou-ou ou-ou ou+++
 Que d'autres n'ont pas
 Qui nous met dans un drôle d'état
 Ella, elle l'a !
 Ella, elle l'a
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Cette drôle de voix
-Ou-ou ou-ou ou-ou ou
++++Ou-ou ou-ou ou-ou ou+++
 Cette drôle de joie
 Ce don du ciel qui la rend belle
 Ella, elle l'a
 Ella, elle l'a
+
+@fin nette
