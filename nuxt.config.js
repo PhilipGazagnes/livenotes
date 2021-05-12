@@ -1,5 +1,13 @@
 import dataJson from './data/json/data.json';
 
+const appRoutes = () => {
+  const arr = [];
+  for (let i = 0, len = Object.keys(dataJson).length; i < len; i += 1) {
+    arr.push(`/note/${Object.keys(dataJson)[i]}`);
+  }
+  return arr;
+};
+
 export default {
   target: 'static',
   head: {
@@ -21,7 +29,7 @@ export default {
   workbox: {
     globPatterns: ['**/*.{js,css}', '**/img/*'],
     offlinePage: '/404.html',
-    preCaching: ['/notes/0001/', '/notes/0002/'],
+    preCaching: ['/note/0001/', '/note/0002/', '/note/0003/', '/note/0004/'],
   },
   // pwa: {
   //   manifest: {
@@ -30,12 +38,6 @@ export default {
   // },
   generate: {
     fallback: true,
-    routes() {
-      const arr = [];
-      for (let i = 0, len = Object.keys(dataJson).length; i < len; i += 1) {
-        arr.push(`/note/${Object.keys(dataJson)[i]}`);
-      }
-      return arr;
-    },
+    routes: appRoutes,
   },
 };

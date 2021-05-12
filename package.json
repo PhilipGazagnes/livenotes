@@ -2,7 +2,8 @@
   "name": "livenotes",
   "scripts": {
     "dev": "nuxt",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "start": "nuxt start"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
