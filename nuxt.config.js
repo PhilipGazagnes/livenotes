@@ -29,6 +29,7 @@ export default {
   workbox: {
     globPatterns: ['**/*.{js,css}', '**/img/*'],
     offlinePage: '/404.html',
+    offline: true,
     preCaching: ['/note/0001/', '/note/0002/', '/note/0003/', '/note/0004/'],
   },
   // pwa: {
