@@ -1,7 +1,7 @@
 <template>
   <div :class="['screen', `screen--${mode}`]">
     <div class="meta">
-      <nuxt-link to="/">
+      <nuxt-link ref="back" to="/">
         {{ meta.name }}
         <span>{{ meta.artist }}</span>
       </nuxt-link>
@@ -120,6 +120,15 @@ export default {
     },
   },
   mounted() {
+    if (this.$store.state.warmup.active) {
+      setTimeout(() => {
+        this.$refs.back.$el.click();
+      }, 500);
+    }
+    // const nextSong =
+    // setTimeout(() => {
+    //   window.location.href =
+    // }, 200),
     // this.cacheSectionsOffsetTop();
     // window.addEventListener('keydown', (e) => {
     //   e.preventDefault();

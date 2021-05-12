@@ -1,12 +1,17 @@
 <template>
   <div :class="['index', isKliPad ? 'isKliPad' : '']">
+    <button @click="handlewarmup">WARM UP THIS FUCKIN SHIT</button>
     <ul>
-      <li v-for="s in songs" :key="s.id" :data-first-letter="s.name.charAt(0)">
-        <a @click="toSong(s.id)">
+      <li
+        v-for="(s, index) in songs"
+        :key="s.id"
+        :data-first-letter="s.name.charAt(0)"
+      >
+        <nuxt-link :ref="`link${index}`" :to="`/note/${s.id}`">
           <span>{{ s.name }}</span>
           <span>({{ s.artist }})</span>
           <span v-if="!isKliPad && s.work" class="nota">({{ s.work }})</span>
-        </a>
+        </nuxt-link>
       </li>
     </ul>
     <div class="letters">
@@ -30,12 +35,28 @@ export default {
     return {
       songs: songsJson.sort(this.compare),
       isKliPad: false,
+      warmuppos: 0,
+      warmup: false,
     };
   },
   mounted() {
     this.isKliPad = window.innerWidth === 600;
+    if (this.$store.state.warmup.active) {
+      if (this.$store.state.warmup.pos < this.songs.length - 1) {
+        this.$store.commit('warmup/SET_POS', this.$store.state.warmup.pos + 1);
+        this.$refs[`link${this.$store.state.warmup.pos}`][0].$el.click();
+      } else {
+        this.$store.commit('warmup/SET_ACTIVE', false);
+        alert('warm up complete !');
+      }
+    }
   },
   methods: {
+    handlewarmup() {
+      this.$store.commit('warmup/SET_ACTIVE', true);
+      this.$store.commit('warmup/SET_POS', 0);
+      this.$refs.link0[0].$el.click();
+    },
     compare(a, b) {
       // Use toUpperCase() to ignore character casing
       const songA = this.regularFirstLetter(a.name.toUpperCase());
@@ -64,9 +85,6 @@ export default {
         const offsetTopFirstMatch = matches[0].offsetTop;
         window.scrollTo(0, offsetTopFirstMatch);
       }
-    },
-    toSong(id) {
-      window.location.href = `/note/${id}`;
     },
   },
 };
