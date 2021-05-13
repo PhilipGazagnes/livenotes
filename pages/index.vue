@@ -1,6 +1,5 @@
 <template>
   <div :class="['index', isKliPad ? 'isKliPad' : '']">
-    <button @click="handlewarmup">WARM UP THIS FUCKIN SHIT</button>
     <ul>
       <li
         v-for="(s, index) in songs"
@@ -12,6 +11,9 @@
           <span>({{ s.artist }})</span>
           <span v-if="!isKliPad && s.work" class="nota">({{ s.work }})</span>
         </nuxt-link>
+      </li>
+      <li>
+        <button @click="handlewarmup">WARM UP</button>
       </li>
     </ul>
     <div class="letters">
@@ -53,9 +55,12 @@ export default {
   },
   methods: {
     handlewarmup() {
-      this.$store.commit('warmup/SET_ACTIVE', true);
-      this.$store.commit('warmup/SET_POS', 0);
-      this.$refs.link0[0].$el.click();
+      const go = confirm('warm up ?');
+      if (go) {
+        this.$store.commit('warmup/SET_ACTIVE', true);
+        this.$store.commit('warmup/SET_POS', 0);
+        this.$refs.link0[0].$el.click();
+      }
     },
     compare(a, b) {
       // Use toUpperCase() to ignore character casing
@@ -121,26 +126,37 @@ li {
   padding: 0 10px;
   border-bottom: 1px solid #eee;
   display: flex;
-}
-li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-  &:first-child {
-    flex: 1 1 auto;
+  &:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.02);
   }
-}
-li a span:nth-child(1) {
-  display: block;
-  font-weight: bold;
-  font-size: 1.5em;
-}
-li a span:nth-child(2) {
-  opacity: 0.5;
-}
-li a span.nota {
-  color: red;
+  &:last-child {
+    padding: 200px 0 20px 20px;
+    & > button {
+      padding: 15px 30px;
+    }
+  }
+  & > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    &:first-child {
+      flex: 1 1 auto;
+    }
+    & > span {
+      &:nth-child(1) {
+        display: block;
+        font-weight: bold;
+        font-size: 1.5em;
+      }
+      &:nth-child(2) {
+        opacity: 0.5;
+      }
+      &.nota {
+        color: red;
+      }
+    }
+  }
 }
 .letters {
   position: fixed;
