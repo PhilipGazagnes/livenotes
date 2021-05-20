@@ -8,7 +8,7 @@
       >
         <nuxt-link :ref="`link${index}`" :to="`/note/${s.id}`">
           <span>{{ s.name }}</span>
-          <span>({{ s.artist }})</span>
+          <span>{{ isKliPad ? '' : index + 1 }} ({{ s.artist }})</span>
           <span v-if="!isKliPad && s.work" class="nota">({{ s.work }})</span>
         </nuxt-link>
       </li>
