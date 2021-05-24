@@ -108,7 +108,7 @@ $3
 ...Ella, elle l'a
 ...Ella, elle l'a
 
-Refrain
+Refrain!cut apres 2e fin
 $3
 --
 Ella, elle l'a

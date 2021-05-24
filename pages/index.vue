@@ -2,7 +2,7 @@
   <div :class="['index', isKliPad ? 'isKliPad' : '']">
     <ul>
       <li
-        v-for="(s, index) in songs"
+        v-for="(s, index) in scope.arr"
         :key="s.id"
         :data-first-letter="s.name.charAt(0)"
       >
@@ -24,6 +24,9 @@
       >
         {{ l }}
       </button>
+      <button class="switchscope" @click="switchscope">
+        {{ scope.name }} ({{ scope.arr.length }})
+      </button>
     </div>
   </div>
 </template>
@@ -39,7 +42,37 @@ export default {
       isKliPad: false,
       warmuppos: 0,
       warmup: false,
+      scopekey: 1,
     };
+  },
+  computed: {
+    scope() {
+      const obj = {
+        arr: [],
+        name: '',
+      };
+      switch (this.scopekey) {
+        case 1:
+          obj.arr = this.songs;
+          obj.name = 'All songs';
+          break;
+        case 2:
+          obj.arr = this.songs.filter((s) => s.solo);
+          obj.name = 'Songs with solos';
+          break;
+        case 3:
+          obj.arr = this.songs.filter((s) => s.solo && s.solotype === 'learn');
+          obj.name = 'Solos to learn';
+          break;
+        case 4:
+          obj.arr = this.songs.filter((s) => s.solo && s.solotype === 'feel');
+          obj.name = 'Free solos';
+          break;
+        default:
+          break;
+      }
+      return obj;
+    },
   },
   mounted() {
     this.isKliPad = window.innerWidth === 600;
@@ -54,6 +87,9 @@ export default {
     }
   },
   methods: {
+    switchscope() {
+      this.scopekey = this.scopekey === 4 ? 1 : this.scopekey + 1;
+    },
     handlewarmup() {
       const go = confirm('warm up ?');
       if (go) {
@@ -165,6 +201,7 @@ li {
   top: 0;
   right: 0;
   background: #222;
+  overflow: auto;
   & > button {
     display: inline-block;
     text-transform: uppercase;
@@ -173,6 +210,11 @@ li {
     line-height: 1em;
     width: 50%;
     padding: 22px 0;
+    &.switchscope {
+      width: 100%;
+      border: purple 2px solid;
+      font-size: 1em;
+    }
   }
   @media screen and (min-width: 768px) {
     width: 20%;
