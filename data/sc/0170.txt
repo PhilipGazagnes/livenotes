@@ -1,6 +1,6 @@
 $1
 [
-Cm;Bm;D A;F#m
+C#m;Bm;D A;F#m
 ]6
 
 $2

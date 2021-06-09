@@ -22,11 +22,11 @@ Toi, toi ma belle Andalouse, aussi belle que jalouse
 Quand tu danses le temps s'arrête, je perds le nord, je perds la tête
 Toi ma belle Espagnole, quand tu bouges tes épaules
 Je ne vois plus le monde autour, c'est peut-être ça l'amour
-Des airs d'orient, le sourire et le cœur brûlant
 
 Couplet
 $1
 --
+Des airs d'orient, le sourire et le cœur brûlant
 Regard ébène, j'aime te voir bouger comme une reine
 Ton corps ondule, déjà mes pensées se bousculent
 Comme la lumière, il n'y a que toi qui m'éclaires
@@ -42,12 +42,12 @@ Quand tu danses le temps s'arrête, je perds le nord, je perds la tête
 Toi, ma belle Espagnole, quand tu bouges tes épaules
 Je ne vois plus le monde autour, c'est peut-être ça l'amour
 
-Solo
+Solo!+STOP1234
 $1
 --
 ***Solo***
 
-Refrain
+Refrain!STOP inter
 $1
 --
 Toi, toi ma belle Andalouse, aussi belle que jalouse

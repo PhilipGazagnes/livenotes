@@ -1,3 +1,5 @@
+!Jouer avec capo 1
+
 $1
 Gm D#;A# F
 
