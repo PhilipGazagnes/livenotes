@@ -60,6 +60,7 @@ Où t'es, papaoutai ?
 Où t'es, où t'es où, papaoutai ?
 Où t'es
 Où t'es...
+***Instru***
 
 Couplet
 $1
@@ -97,6 +98,7 @@ Où t'es, papaoutai ?
 Où t'es, où t'es où, papaoutai ?
 Où t'es
 Où t'es...
+***Instru***
 
 Pont
 (
@@ -142,3 +144,4 @@ Outro
 (
 $2
 )4
+***Instru***
