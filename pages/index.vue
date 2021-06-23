@@ -75,6 +75,9 @@ export default {
     },
   },
   mounted() {
+    window.onbeforeunload = function (event) {
+      return confirm('Confirm refresh');
+    };
     this.isKliPad = window.innerWidth === 600;
     if (this.$store.state.warmup.active) {
       if (this.$store.state.warmup.pos < this.songs.length - 1) {

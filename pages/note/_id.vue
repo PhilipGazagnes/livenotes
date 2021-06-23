@@ -120,6 +120,9 @@ export default {
     },
   },
   mounted() {
+    window.onbeforeunload = function (event) {
+      return confirm('Confirm refresh');
+    };
     if (this.$store.state.warmup.active) {
       setTimeout(() => {
         this.$refs.back.$el.click();
