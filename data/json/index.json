@@ -158,5 +158,16 @@
   {"name":"Wake me up","artist":"Avicii","id":"0181", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
   {"name":"Mr Jones","artist":"Counting Crows","id":"0182", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
   {"name":"Black or white","artist":"Mickael Jackson","id":"0183", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
-  {"name":"Matchistador","artist":"M","id":"0184", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]}
+  {"name":"Matchistador","artist":"M","id":"0184", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
+  {"name":"La Bohème","artist":"Charles Aznavour","id":"0185", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Je m'voyais déjà","artist":"Charles Aznavour","id":"0186", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Emmenez-moi","artist":"Charles Aznavour","id":"0187", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Mes emmerdes","artist":"Charles Aznavour","id":"0188", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"La dernière séance","artist":"Eddy Mitchell","id":"0189", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Couleur menthe à l'eau","artist":"Eddy Mitchell","id":"0190", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Sensualité","artist":"Axelle Red","id":"0191", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Je t'emmène au vent","artist":"Lousie Attaque","id":"0192", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Mourir sur scène","artist":"Dalida","id":"0193", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Crazy in love","artist":"Beyoncé","id":"0194", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
+  {"name":"Salsa du démon","artist":"Le Splendid","id":"0195", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]}
 ]
