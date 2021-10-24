@@ -2,11 +2,17 @@ $1
 Fm;Cm;Fm G7;Cm C7
 
 $2
-Fm;%;G#;Cm;%;Fm;G;Cm;%
-Fm;Dtruc;Cm;%;Fm;G7;Cm;C7
+Fm;%;G#;Cm;%
+:
+Fm;G;Cm;%
+:
+Fm;%;Cm;%
+:
+Fm;G7;Cm;C7
 
 $3
-Fm;%;Cm;%;Dtruc G7;Cm C7
+Fm;%;Cm;%;Fm G7;Cm C7
+:
 Fm;%;Cm;%;Fm;G;Cm;%
 
 Intro
