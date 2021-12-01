@@ -68,6 +68,10 @@ export default {
           obj.arr = this.songs.filter((s) => s.solo && s.solotype === 'feel');
           obj.name = 'Free solos';
           break;
+        case 5:
+          obj.arr = this.songs.filter((s) => s.scope.indexOf('fun live') >= 0);
+          obj.name = 'Fun Live';
+          break;
         default:
           break;
       }
@@ -91,7 +95,7 @@ export default {
   },
   methods: {
     switchscope() {
-      this.scopekey = this.scopekey === 4 ? 1 : this.scopekey + 1;
+      this.scopekey = this.scopekey === 5 ? 1 : this.scopekey + 1;
     },
     handlewarmup() {
       const go = confirm('warm up ?');
