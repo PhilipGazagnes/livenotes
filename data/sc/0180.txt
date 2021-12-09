@@ -22,40 +22,105 @@ Couplet
 (
 $1
 )2
+--
+C'est une façon de voir la vie
+Un peu plus grand qu'un pays
+Un destin, un regard
+C'est de la musique et des cris
+Un pour tous, et tous réunis
+Un chemin, une histoire
 
 Pré Refrain
 $2
+--
+Mi vida, mis amor
+Mi fuerza, mi amor
+Color Gitano
+Ma raison, mes valeurs
+Ma maison, ma couleur
+Color Gitano
 
 Refrain montée
 (
 $3
 )4
+--
+Gitano
+El color de mi cielo
+Gitano
+Le cœur qui bat sous ma peau
 
 Refrain
 (
 $3
 )4
+--
+Gitano
+El color de mi cielo
+Gitano
+Le cœur qui bat sous ma peau
 
 Couplet
 (
 $1
 )2
+--
+C'est des guitares, des nuits sans fin
+Les mots chaleureux des anciens
+Le respect et les liens
+C'est ton regard croisant le mien
+Nous deux au milieu du chemin
+Et soudain tu deviens
 
 Pré Refrain
 $2
+--
+Mi vida, mis amor
+Mi fuerza, mi amor
+Color Gitano
+Ma passion, mon bonheur
+Ma maison, ma couleur
+Color Gitano
 
 Refrain
 (
 $3
 )4
+--
+Gitano
+El color de mi cielo
+Gitano
+Le cœur qui bat sous ma peau
+Gitano
+El color de mi cielo
+Gitano
+Le cœur qui bat sous ma peau
 
 Solo
 $4
+--
+***Solo***
 
 Pont
 $4
+--
+Dans nos cœurs, dans nos âmes
+Dans nos sangs, dans nos flammes
+Nos couleurs gitanes
+Dans mon cœur, dans mon âme s'enflamment
+Mes couleurs gitanes
 
 Refrain
 (
 $3
 )4
+--
+Gitano
+El color de mi cielo
+Gitano
+Le cœur qui bat sous ma peau
+Gitano
+El color de mi cielo
+Gitano
+Le cœur qui bat sous ma peau
+Gitano

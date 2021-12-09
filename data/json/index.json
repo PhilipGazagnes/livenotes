@@ -154,7 +154,7 @@
   {"name":"Soulman","artist":"Ben l'oncle Soul","id":"0177", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
   {"name":"Le temps","artist":"Syl","id":"0178", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
   {"name":"Riptide","artist":"Vance Joy","id":"0179", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
-  {"name":"Gitano","artist":"Kendji Girac","id":"0180", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
+  {"name":"Gitano","artist":"Kendji Girac","id":"0180", "work":"", "lang":"EN", "solo":false, "scope": ["fun live", "syl"]},
   {"name":"Wake me up","artist":"Avicii","id":"0181", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
   {"name":"Mr Jones","artist":"Counting Crows","id":"0182", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
   {"name":"Black or white","artist":"Mickael Jackson","id":"0183", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
