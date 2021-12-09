@@ -40,21 +40,15 @@ Ma raison, mes valeurs
 Ma maison, ma couleur
 Color Gitano
 
-Refrain montée
+Refrain!début calme
 (
 $3
-)4
+)8
 --
 Gitano
 El color de mi cielo
 Gitano
 Le cœur qui bat sous ma peau
-
-Refrain
-(
-$3
-)4
---
 Gitano
 El color de mi cielo
 Gitano
@@ -85,7 +79,7 @@ Color Gitano
 Refrain
 (
 $3
-)4
+)8
 --
 Gitano
 El color de mi cielo
