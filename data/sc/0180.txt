@@ -79,12 +79,8 @@ Color Gitano
 Refrain
 (
 $3
-)8
+)4
 --
-Gitano
-El color de mi cielo
-Gitano
-Le cœur qui bat sous ma peau
 Gitano
 El color de mi cielo
 Gitano
