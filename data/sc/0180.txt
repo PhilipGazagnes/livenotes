@@ -1,19 +1,21 @@
 $1
-Am;E;F;E
+A#m;F;D#m;F
+:
+A#m;F;F#;F
 
 $2
 [
-Dm;Am;E
+D#m;A#m;F
 ]2
 E
 
 $3
-Am G;C F
+A#m G#;C# D#m
 
 $4
-Dm;Am;E;Am
+D#m;A#m;F;A#m
 :
-Dm;Am;E;%
+D#m;A#m;F;%
 
 Intro
 $1
