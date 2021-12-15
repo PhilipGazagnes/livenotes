@@ -172,5 +172,6 @@
   {"name":"Salsa du démon","artist":"Le Splendid","id":"0195", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
   {"name":"Au bout de mes rêves","artist":"Goldman","id":"0196", "work":"", "lang":"FR", "solo":false, "scope": ["fun live"]},
   {"name":"Plus près de étoiles","artist":"Gold","id":"0197", "work":"", "lang":"FR", "solo":false, "scope": ["fun live"]},
-  {"name":"Stand by me","artist":"Ben E King","id":"0198", "work":"", "lang":"EN", "solo":false, "scope": ["fun live"]}
+  {"name":"Stand by me","artist":"Ben E King","id":"0198", "work":"", "lang":"EN", "solo":false, "scope": ["fun live"]},
+  {"name":"Mets de l'huile !","artist":"Regg'lyss","id":"0199", "work":"", "lang":"FR", "solo":false, "scope": ["fun live"]}
 ]
