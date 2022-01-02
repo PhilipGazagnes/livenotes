@@ -1,4 +1,18 @@
+$1
+F;A;C;D
+
 Intro
+[
+F C;Dm
+]2
+:
+A# C;F
+:
+A# C;A7
+:
+F C;Dm
+:
+A#7;F
 --
 Dans un voyage en absurdie
 Que je fais lorsque je m'ennuie
@@ -7,132 +21,219 @@ Qu'un matin je changeais de sexe
 Que je vivais l'étrange drame
 D'être une femme
 
+Couplet
+$1
+--
 Femme des années 80,
 Mais femme jusqu'au bout des seins
 Ayant réussi l'amalgame
 De l'autorité et du charme
 
+Couplet
+$1
+--
 Femme des années 80
 Moins Colombine qu'Arlequin
 Sachant pianoter sur la gamme
 Qui va du grand sourire aux larmes
 
+Couplet
+$1
+--
 Être un P.D.G. en bas noirs
 Sexy comm'autrefois les stars
 Être un général d'infanterie
 Rouler des patins aux conscrits
 
+Couplet
+$1
+--
 Enceinte jusqu'au fond des yeux
 Qu'on a envie d'app'ler monsieur
 Être un flic ou pompier d'service
 Et donner le sein à mon fils
 
+Refrain
+$1
+--
 Femme, être une femme
 
+Couplet
+$1
+--
 Femme cinéaste, écrivain
 A la fois poète et mannequin
 Femme panthère sous sa pelisse
 Et femme banquière planquée en Suisse
 
+Couplet
+$1
+--
 Femme dévoreuse de minets
 Femme directeur de cabinet
 A la fois sensuelle et pudique
 Et femme chirurgien-esthétique
 
+Couplet
+$1
+--
 Une maîtresse Messaline
 Et contremaîtresse à l'usine
 Faire le matin les abattoirs
 Et dans la soirée le trottoir
 
+Couplet
+$1
+--
 Femme et gardien de la paix
 Chauffeur de car, agent-secret
 Femme général d'aviation
 Rouler des gamelles aux plantons
 
+Refrain
+$1
+--
 Femme, être une femme
 
+Couplet
+$1
+--
 Être un major de promotion
 Parler six langues, ceinture marron
 Championne du monde des culturistes
 Aimer Sissi impératrice
 
+Couplet
+$1
+--
 Enceinte jusqu'au fond des yeux
 Qu'on a envie d'app'ler monsieur
 En robe du soir, à talons plats
 Qu'on voudrait bien app'ler papa
 
+Couplet
+$1
+--
 Femme pilote de long-courriers
 Mais femme à la tour contrôlée
 Galonnée jusqu'au porte-jarretelles
 Et au steward rouler des pelles
 
+Couplet
+$1
+--
 Maîtriser à fond le système
 Accéder au pouvoir suprême :
 S'installer à la Présidence
 Et de là faire bander la France
 
+Refrain
+$1
+--
 Femme, être une femme
 
+Couplet
+$1
+--
 Femme et gardienne de prison
 Chanteuse d'orchestre et franc-maçon
 Une strip-teaseuse à corps perdu
 Emmerdeuse comme on en fait plus
 
+Couplet
+$1
+--
 Femme conducteur d'autobus
 Porte des halles, vendeuse aux puces
 Qu'on a envie d'appeler Georges
 Mais qu'on aime bien sans soutien-gorge
 
+Refrain
+$1
+--
 Femme, être une femme
 Femme, être une femme
 
+Couplet
+$1
+--
 Femme des années 80
 Mais femme jusqu'au bout des seins
 Ayant réussi l'amalgame
 De l'autorité et du charme
 
+Couplet
+$1
+--
 Femme des années 80
 Moins Colombine qu'Arlequin
 Sachant pianoter sur la gamme
 Qui va du grand sourire aux larmes
 
+Refrain
+$1
+--
 Femme, être une femme
 
+Couplet
+$1
+--
 Être un P.D.G. en bas noirs
 Sexy comm'autrefois les stars
 Être un général d'infanterie
 Rouler des patins aux conscrits
 
+Couplet
+$1
+--
 Femme cinéaste, écrivain
 A la fois poète et mannequin
 Femme panthère sous sa pelisse
 Et femme banquière planquée en Suisse
 
+Couplet
+$1
+--
 Femme dévoreuse de minets
 Femme directeur de cabinet
 A la fois sensuelle et pudique
 Et femme chirurgien-esthétique
 
+Couplet
+$1
+--
 Être un major de promotion
 Parler six langues, ceinture marron
 Championne du monde des culturistes
 Aimer Sissi impératrice
 
+Couplet
+$1
+--
 Femme et gardien de la paix
 Chauffeur de car, agent-secret
 Femme général d'aviation
 Rouler des gamelles aux plantons
 
+Couplet
+$1
+--
 Femme pilote de long-courriers
 Mais femme à la tour contrôlée
 Galonnée jusqu'au porte-jarretelles
 Et au steward rouler des pelles
 
+Couplet
+$1
+--
 Maîtriser à  fond le système
 Accéder au pouvoir suprême :
 S'installer à la Présidence
 Et de là faire bander la France
 
+Couplet
+$1
+--
 Femme des années 80
 Moins Colombine qu'Arlequin
 Sachant pianoter sur la gamme

@@ -1,8 +1,19 @@
 $1
 A E;D Dm
-A F#m;Bm E
+A F#m;Bm E*Dm
+
+$2
+A Dm;Am E
+:
+A Dm;E _
+
+$3
+A;C#7M;%;F#m
+:
+A;C#7M;%;F#m % Bm E
 
 Couplet
+$1
 --
 Tu m'as dit que j'étais faite
 Pour une drôle de vie
@@ -13,12 +24,14 @@ De ma drôle de vie
 Je te verrai tous les jours
 
 Pré-ref
+$2
 --
 Et si je te pose des questions (qu'est-ce que tu diras?)
 Et si je te réponds (qu'est-ce que tu diras?)
 Si on parle d'amour (qu'est-ce que tu diras?)
 
 Refrain
+$3
 --
 Si je sais que tu m'aimes
 La vie que tu aimes au fond de moi
@@ -30,6 +43,7 @@ Laisse les autres totems
 Tes drôles de poèmes et viens avec moi
 
 Couplet
+$1
 --
 On est parti tous les deux
 Pour une drôle de vie
@@ -40,12 +54,16 @@ De ma drôle de vie
 Je te demanderai toujours
 
 Pré-ref
+$2
 --
 Et si je te pose des questions (qu'est-ce que tu diras?)
 Et si je te réponds (qu'est-ce que tu diras?)
 Si on parle d'amour (qu'est-ce que tu diras?)
 
 Refrain
+(
+$3
+)2
 --
 Et si je sais que tu m'aimes
 La vie que tu aimes au fond de moi

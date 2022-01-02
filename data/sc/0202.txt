@@ -1,6 +1,17 @@
+$1
+Dm;F;Am;G
+
+$2
+Am;F C
+
+$3
+G#;D#;A#;F
+
 Intro
+$1
 
 Couplet
+$1
 --
 C'est dans la nuit de Rebecca
 Que la légende partira
@@ -16,17 +27,20 @@ Et sous la chaleur et sans un bruit
 Ils rattraperont toute la nuit
 
 Pré ref
+$2
 --
 La nuit
 La nuit
 
 Refrain
+$3
 --
 Mais trois nuits par semaine
 C'est sa peau contre ma peau et je suis avec elle
 Mais trois nuits par semaine mon dieu, qu'elle est belle
 
 Couplet
+$1
 --
 À bout de souffle comme une sirène
 Elle voit son corps qui se réveille
@@ -42,11 +56,13 @@ Car elle avait un peu froid
 Elle voudra le revoir au moins trois nuits
 
 Pré-ref
+$2
 --
 Trois nuits
 Trois nuits
 
 Refrain
+$3
 --
 Mais trois nuits par semaine
 C'est sa peau contre ma peau et je suis avec elle
@@ -56,9 +72,11 @@ C'est son corps contre mon corps, c'est nos corps qui s'enchaînent
 Mais trois nuits par semaine, mais mon dieu qu'elle est belle
 
 Instru
+$1
 --
 
 Couplet
+$1
 --
 C'est dans la nuit de Rebecca
 Que la légende partira
@@ -68,11 +86,13 @@ Elle voudra le revoir au moins trois nuits
 Ils se donnèrent rendez-vous
 
 Pré-ref
+$2
 --
 Trois nuits
 Trois nuits
 
 Refrain
+$3
 --
 Mais trois nuits par semaine
 C'est sa peau contre ma peau et je suis avec elle

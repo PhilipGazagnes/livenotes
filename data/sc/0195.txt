@@ -1,8 +1,32 @@
+$1
+Cm;D;G7;Cm
+
+$2
+[
+Cm;G
+]4
+[
+Cm;Fm
+]2
+D;Gm;D;%
+[
+Cm;G
+]2
+Fm;Cm;G;C
+
+$3
+[
+C;F;G;C
+]2
+
 Intro
+$1
 --
 Horreur, malheur
 
 Couplet
+$2
+--
 Oui, je suis Belzébuth (horreur)
 Je suis un bouc, je suis en rut (horreur, malheur)
 Oui, oui, oui, je vis dans l'ordure (horreur)
@@ -16,7 +40,8 @@ Quand j'vois une vieille j'lui pique son sac
 Je crache, je rote, rien ne m'arrête
 Car aujourd'hui c'est la fête
 
-Refrain
+Refrain!-1M
+$3
 --
 C'est la, c'est la, c'est la
 Salsa du démon
@@ -25,9 +50,12 @@ Salsa du démon
 Salsa du démon
 
 Instru
+$1
 --
+***Instru***
 
 Couplet
+$2
 --
 Oui, c'est moi Vampirella (horreur)
 Malheur à ceux qui ne m'aiment pas (horreur, malheur)
@@ -43,6 +71,7 @@ Venez là mes petits amis
 Car c'est la fête aujourd'hui
 
 Refrain
+$3
 --
 C'est la, c'est la, c'est la
 Salsa du démon
@@ -51,9 +80,12 @@ Salsa du démon
 Salsa du démon
 
 Instru
+$1
 --
+***Instru***
 
 Couplet
+$2
 --
 Oui, je suis la sorcière (horreur)
 J'suis vieille, j'suis moche, j'suis une mégère (horreur, malheur)
@@ -69,6 +101,28 @@ Ce soir j'fais du bœuf au pipi
 Car c'est la fête aujourd'hui
 
 Refrain
+$3
+--
+C'est la, c'est la, c'est la
+Salsa du démon
+Salsa du démon
+Salsa du démon
+Salsa du démon
+
+Solos Drum
+--
+***Instru***
+
+Solos Basse
+--
+***Instru***
+
+Solos Guitare
+--
+***Instru***
+
+Refrain
+$3
 --
 C'est la, c'est la, c'est la
 Salsa du démon
