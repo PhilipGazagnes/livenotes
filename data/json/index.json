@@ -176,5 +176,15 @@
   {"name":"Mets de l'huile !","artist":"Regg'lyss","id":"0199", "work":"", "lang":"FR", "solo":false, "scope": ["fun live"]},
   {"name":"Drôle de vie","artist":"Véronique Sanson","id":"0200", "work":"", "lang":"FR", "solo":false, "scope": ["fun live"]},
   {"name":"Etre une femme","artist":"Michel Sardou","id":"0201", "work":"", "lang":"FR", "solo":false, "scope": ["fun live"]},
-  {"name":"Trois nuits par semaine","artist":"Indochine","id":"0202", "work":"", "lang":"FR", "solo":false, "scope": ["fun live"]}
+  {"name":"Trois nuits par semaine","artist":"Indochine","id":"0202", "work":"", "lang":"FR", "solo":false, "scope": ["fun live"]},
+  {"name":"Petite Marie","artist":"Francis Cabrel","id":"0203", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"La Corrida","artist":"Francis Cabrel","id":"0204", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"L'encre de tes yeux","artist":"Francis Cabrel","id":"0205", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Les murs de poussière","artist":"Francis Cabrel","id":"0206", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Je l'aime à mourir","artist":"Francis Cabrel","id":"0207", "work":"", "lang":"FR", "solo":false, "scope": ["phil"]},
+  {"name":"Don't look back in anger","artist":"Oasis","id":"0208", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
+  {"name":"Heart of gold","artist":"Neil Young","id":"0209", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
+  {"name":"About a girl","artist":"Nirvana","id":"0210", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
+  {"name":"Californication","artist":"Red hot chili peppers","id":"0211", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
+  {"name":"Toxic","artist":"Britney Spears","id":"0212", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]}
 ]
