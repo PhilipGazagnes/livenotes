@@ -153,7 +153,6 @@
   {"name":"La tribu de Dana","artist":"Manau","id":"0176", "work":"", "lang":"EN", "solo":false, "scope": ["fun live"]},
   {"name":"Soulman","artist":"Ben l'oncle Soul","id":"0177", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
   {"name":"Le temps","artist":"Syl","id":"0178", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
-  {"name":"Riptide","artist":"Vance Joy","id":"0179", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
   {"name":"Gitano","artist":"Kendji Girac","id":"0180", "work":"", "lang":"EN", "solo":false, "scope": ["fun live", "syl"]},
   {"name":"Wake me up","artist":"Avicii","id":"0181", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
   {"name":"Mr Jones","artist":"Counting Crows","id":"0182", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
@@ -188,5 +187,6 @@
   {"name":"Californication","artist":"Red hot chili peppers","id":"0211", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
   {"name":"Toxic","artist":"Britney Spears","id":"0212", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
   {"name":"Heroes","artist":"David Bowie","id":"0213", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
-  {"name":"Beggin","artist":"Maneskin","id":"0214", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]}
+  {"name":"Beggin","artist":"Maneskin","id":"0214", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
+  {"name":"Riptide","artist":"Vance Joy","id":"0215", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]}
 ]
