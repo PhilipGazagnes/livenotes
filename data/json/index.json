@@ -187,5 +187,6 @@
   {"name":"About a girl","artist":"Nirvana","id":"0210", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
   {"name":"Californication","artist":"Red hot chili peppers","id":"0211", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
   {"name":"Toxic","artist":"Britney Spears","id":"0212", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
-  {"name":"Heroes","artist":"David Bowie","id":"0213", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]}
+  {"name":"Heroes","artist":"David Bowie","id":"0213", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
+  {"name":"Beggin","artist":"Maneskin","id":"0214", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]}
 ]
