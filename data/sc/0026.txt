@@ -100,10 +100,6 @@ Le mal est ma lueur
 Son ombre est ma couleur
 Le mal est ma lueur
 Mon parfum son odeur
-Le mal est ma lueur
-Son ombre est ma couleur
-Le mal est ma lueur
-Mon parfum son odeur
 
 Outro melo
 (
@@ -111,5 +107,15 @@ G;%;A;%
 )8
 --
 ***Instru***
+
+Outro
+(
+G;%;A;%
+)8
+--
+Le mal est ma lueur
+Son ombre est ma couleur
+Le mal est ma lueur
+Mon parfum son odeur
 
 @G

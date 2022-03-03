@@ -74,6 +74,7 @@ Mais trois nuits par semaine, mais mon dieu qu'elle est belle
 Instru
 $1
 --
+***Instru***
 
 Couplet
 $1

@@ -1,9 +1,9 @@
 $1
 [
-Gm;B
+G#m;B
 ]2
 :
-Cm;Gm;F#;A
+Cm;G#m;F#;A
 
 Couplet
 $1
