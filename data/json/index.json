@@ -188,5 +188,6 @@
   {"name":"Toxic","artist":"Britney Spears","id":"0212", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
   {"name":"Heroes","artist":"David Bowie","id":"0213", "work":"", "lang":"EN", "solo":false, "scope": ["phil"]},
   {"name":"Beggin","artist":"Maneskin","id":"0214", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
-  {"name":"Riptide","artist":"Vance Joy","id":"0215", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]}
+  {"name":"Riptide","artist":"Vance Joy","id":"0215", "work":"", "lang":"EN", "solo":false, "scope": ["syl"]},
+  {"name":"Je joue","artist":"Jean Baptiste Guégan","id":"0216", "work":"", "lang":"FR", "solo":false, "scope": ["fun live"]}
 ]
