@@ -54,23 +54,23 @@ export default {
       switch (this.scopekey) {
         case 1:
           obj.arr = this.songs;
-          obj.name = 'All songs';
+          obj.name = 'All';
           break;
         case 2:
-          obj.arr = this.songs.filter((s) => s.solo);
-          obj.name = 'Songs with solos';
+          obj.arr = this.songs.filter((s) => s.scope.indexOf('funlive') >= 0);
+          obj.name = 'Fun Live';
           break;
         case 3:
-          obj.arr = this.songs.filter((s) => s.solo && s.solotype === 'learn');
-          obj.name = 'Solos to learn';
+          obj.arr = this.songs.filter((s) => s.scope.indexOf('madyfab') >= 0);
+          obj.name = 'Mady & Fab';
           break;
         case 4:
-          obj.arr = this.songs.filter((s) => s.solo && s.solotype === 'feel');
-          obj.name = 'Free solos';
+          obj.arr = this.songs.filter((s) => s.scope.indexOf('syl') >= 0);
+          obj.name = 'Syl';
           break;
         case 5:
-          obj.arr = this.songs.filter((s) => s.scope.indexOf('fun live') >= 0);
-          obj.name = 'Fun Live';
+          obj.arr = this.songs.filter((s) => s.scope.indexOf('lilthing') >= 0);
+          obj.name = 'Lil Thing';
           break;
         default:
           break;
