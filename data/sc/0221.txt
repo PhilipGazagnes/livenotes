@@ -5,7 +5,7 @@ $2
 C#;%;A#m;%;F#;%
 
 $3
-C#;%;A#m;F#;%
+C#;%;A#m;F#
 
 $4
 [
@@ -31,7 +31,7 @@ I guess I had a naive heart
 You said I was your only
 I never thought you'd leave me lonely
 
-Pré-Ref
+Pré-Ref!+ 1 F#
 $3
 --
 You're just a lost boy, with your head up in the clouds
@@ -83,7 +83,7 @@ $5
 --
 ***Solo***
 
-Pré-ref calme
+Pré-ref calme!+ 1 F#
 $3
 --
 You're just a lost boy, yeah, I know who you are
@@ -102,7 +102,7 @@ You'll never grow up
 Yeah, you're never gonna be a man
 Peter Pan
 
-Outro
+Outro Solo
 $5
 --
 Never gonna be a man
