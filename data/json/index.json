@@ -198,5 +198,6 @@
   {"name":"American Honey","artist":"Lady A","id":"0222","lang":"EN","scope": ["madyfab"]},
   {"name":"Need you know","artist":"Lady A","id":"0223","lang":"EN","scope": ["madyfab"]},
   {"name":"What's up","artist":"4 non blondes","id":"0224","lang":"EN","scope": ["madyfab"]},
-  {"name":"La Bamba","artist":"Los Lobo","id":"0225","lang":"ES","scope": ["funlive"]}
+  {"name":"La Bamba","artist":"Los Lobo","id":"0225","lang":"ES","scope": ["funlive"]},
+  {"name":"Les démons de minuit (Mady)","artist":"Emile et images","id":"0226","lang":"FR","scope": ["madyfab"]}
 ]

@@ -1,18 +1,18 @@
 $1
-Em;C;Am;%
+Dm;A#;Gm;%
 
 $2
 [
-A;%;C#m;%
+G;%;Bm;%
 ]2
 :
-C;%;Em;%
+A#;%;Dm;%
 :
-C;Am;B;%
+A#;Gm;A;%
 
 $3
 [
-Em;C;Am D;Em
+Dm;A#;Gm C;Dm
 ]2
 
 Intro!fin pêches
