@@ -199,5 +199,16 @@
   {"name":"Need you know","artist":"Lady A","id":"0223","lang":"EN","scope": ["madyfab"]},
   {"name":"What's up","artist":"4 non blondes","id":"0224","lang":"EN","scope": ["madyfab"]},
   {"name":"La Bamba","artist":"Los Lobo","id":"0225","lang":"ES","scope": ["funlive"]},
-  {"name":"Les démons de minuit (Mady)","artist":"Emile et images","id":"0226","lang":"FR","scope": ["madyfab"]}
+  {"name":"Les démons de minuit (Mady)","artist":"Emile et images","id":"0226","lang":"FR","scope": ["madyfab"]},
+  {"name":"Baby can I hold you","artist":"Tracy Chapman","id":"0227","lang":"EN","scope": ["madyfab"]},
+  {"name":"Sweet home alabama","artist":"Lynyrd Skynyrd","id":"0228","lang":"EN","scope": ["madyfab"]},
+  {"name":"You really got me","artist":"The kinks","id":"0229","lang":"EN","scope": ["madyfab"]},
+  {"name":"Moves like Jagger","artist":"Maroon 5","id":"0230","lang":"EN","scope": ["madyfab"]},
+  {"name":"All the pretty girls","artist":"Kenny Chesney","id":"0231","lang":"EN","scope": ["madyfab"]},
+  {"name":"Sweet dreams","artist":"Eurythmics","id":"0232","lang":"EN","scope": ["madyfab"]},
+  {"name":"Eyes of the tiger","artist":"Survivor","id":"0233","lang":"EN","scope": ["madyfab"]},
+  {"name":"Man I feel like a woman","artist":"Shania Twain","id":"0234","lang":"EN","scope": ["madyfab"]},
+  {"name":"Maniac","artist":"Flashdance","id":"0235","lang":"EN","scope": ["madyfab"]},
+  {"name":"Dance monkey","artist":"Tones and I","id":"0236","lang":"EN","scope": ["madyfab"]},
+  {"name":"Hey Baby","artist":"Bruce Channel","id":"0237","lang":"EN","scope": ["madyfab"]}
 ]

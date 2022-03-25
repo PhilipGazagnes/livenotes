@@ -1,0 +1,11 @@
+intro : C D Em
+
+V: Em*4 C*3 B7 *2
+
+Pch : G7 A7
+
+CH : C D Em *3 C D Am
+
+instru :
+
+solo sur V 

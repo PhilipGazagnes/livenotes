@@ -1,0 +1,7 @@
+Intro : A# G D# F *4
+
+CH : A# G D# F *3 D # A # *2
+
+V: D# A#D#FF
+
+bridge ?? G C F A#
