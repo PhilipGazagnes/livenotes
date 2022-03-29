@@ -1,5 +1,124 @@
-Iintro outro : D A E Fm# D A E A*2
+$1
+D A;E F#m
+:
+D A;E A
 
-V : D A E A *2 D A E Fm# D A E A
+$2
+[
+D A;E A
+]2
+:
+D A;E F#m
+:
+D A;E A
 
-CH : D A E Fm# / D A E A *3 +D
+$3
+[
+D
+]4
+
+Intro
+(
+$1
+)2
+
+Couplet
+$2
+--
+All the pretty girls said pick me up at eight
+All the pretty girls said I'm going to L.A.
+Talking to the mirror in their underwear
+
+Instru
+$1
+--
+***Instru***
+
+Couplet
+$2
+--
+All the lost boys said I just got paid
+All the lost boys said I wanna get laid
+When the town goes blue and the lights blink red
+All the lost boys do what all the pretty girls said
+
+Refrain
+(
+$1
+)2
+--
+I'm home for the summer, Shoot out the lights
+Don't blow my cover, Oh I'm free tonight
+I'm coming over, Call all your friends
+Somebody hold me all the pretty girls said
+
+Post ref
+$3
+--
+All of the whiskey went straight to my head
+Shut up and kiss me all the pretty girls said
+
+Instru
+$1
+--
+***Instru***
+
+Couplet
+$2
+--
+All the sheriffs said kid you better slow down
+All the preachers said it's the devils playground
+I wonder if they knew they were wasting their breath
+All I ever heard was all the pretty girls said
+
+Refrain
+(
+$1
+)2
+--
+I'm home for the summer, Shoot out the lights
+Don't blow my cover, Oh I'm free tonight
+I'm coming over, Call all your friends
+Somebody hold me all the pretty girls said
+
+Post ref
+$3
+--
+All of the whiskey went straight to my head
+Shut up and kiss me all the pretty girls said
+
+Solo
+$2
+--
+***Solo***
+
+Couplet!fin E D + 2 temps D
+$2
+--
+All the seventeens said I'm getting outta dodge
+All the big dreams said I'm selling all I got
+All the high rollers busy placing their bets
+Me, I'm heading south cause all the pretty girls said
+
+Refrain
+$3
+--
+I'm home for the summer, Shoot out the lights
+Don't blow my cover, Oh I'm free tonight
+I'm coming over, Call all your friends
+Somebody hold me all the pretty girls said
+
+Post ref
+$3
+--
+All of the whiskey went straight to my head
+Shut up and kiss me all the pretty girls said
+
+Outro
+(
+$1
+)2
+--
+***Instru***
+
+@ A
