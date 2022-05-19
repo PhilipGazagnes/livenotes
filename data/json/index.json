@@ -210,5 +210,8 @@
   {"name":"Man I feel like a woman","artist":"Shania Twain","id":"0234","lang":"EN","scope": ["madyfab"]},
   {"name":"Maniac","artist":"Flashdance","id":"0235","lang":"EN","scope": ["madyfab"]},
   {"name":"Dance monkey","artist":"Tones and I","id":"0236","lang":"EN","scope": ["madyfab"]},
-  {"name":"Hey Baby","artist":"Bruce Channel","id":"0237","lang":"EN","scope": ["madyfab"]}
+  {"name":"Hey Baby","artist":"Bruce Channel","id":"0237","lang":"EN","scope": ["madyfab"]},
+  {"name":"These boots are made for walking","artist":"Nancy Sinatra","id":"0238","lang":"EN","scope": ["funlive"]},
+  {"name":"Mambo n°5","artist":"Lou Bega","id":"0239","lang":"EN","scope": ["funlive"]},
+  {"name":"All night long","artist":"Lionel Ritchie","id":"0240","lang":"EN","scope": ["funlive"]}
 ]

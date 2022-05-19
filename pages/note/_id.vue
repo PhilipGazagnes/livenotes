@@ -320,10 +320,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
-$bpmf: 768px;
-$bpdf: 767px;
-
+<style lang="postcss">
 body {
   padding: 0;
   margin: 0;
@@ -333,17 +330,17 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: $bpmf) {
+  @media screen and (min-width: 768px) {
     flex-direction: row;
   }
   & > .meta {
-    @media screen and (max-width: $bpdf) {
+    @media screen and (max-width: 767px) {
       padding: 20px;
       border-bottom: 1px solid #222;
       flex: 0 0 auto;
     }
     & > a {
-      @media screen and (min-width: $bpdf) {
+      @media screen and (min-width: 767px) {
         color: white;
       }
       & > span {
@@ -356,11 +353,11 @@ body {
       right: 5px;
       height: 47px;
       padding: 0 30px;
-      @media screen and (min-width: $bpmf) {
+      @media screen and (min-width: 768px) {
         display: none;
       }
     }
-    @media screen and (min-width: $bpmf) {
+    @media screen and (min-width: 768px) {
       flex: 0 0 40px;
       background: #222;
       color: white;
@@ -393,7 +390,7 @@ body {
     margin: 0;
     flex-direction: column;
     flex: 1 1 100%;
-    @media screen and (min-width: $bpmf) {
+    @media screen and (min-width: 768px) {
       height: auto;
       display: flex;
       flex: 0 0 calc(50% - 40px);
@@ -622,7 +619,7 @@ body {
     padding: 10px 0;
     position: relative;
     margin-top: 20px;
-    @media screen and (min-width: $bpmf) {
+    @media screen and (min-width: 768px) {
       margin: 0;
       flex: 0 0 50%;
       overflow-y: scroll;
@@ -634,7 +631,7 @@ body {
       color: white;
       padding: 100px 20px;
       display: block;
-      @media screen and (min-width: $bpmf) {
+      @media screen and (min-width: 768px) {
         padding: 0 10px;
         display: inline;
       }
@@ -649,7 +646,7 @@ body {
       border: none;
       min-height: 20px;
       font-weight: bold;
-      @media screen and (min-width: $bpmf) {
+      @media screen and (min-width: 768px) {
         font-weight: normal;
         border-left: 10px solid;
         padding: 0 20px 0 10px;
@@ -684,7 +681,7 @@ body {
     }
     & > .warning {
       display: none;
-      @media screen and (min-width: $bpmf) {
+      @media screen and (min-width: 768px) {
         display: block;
         background: red;
         color: white;
@@ -709,7 +706,7 @@ body {
       bottom: 55px;
     }
   }
-  @media screen and (max-width: $bpdf) {
+  @media screen and (max-width: 767px) {
     &--lyrics {
       & > .lyrics {
         display: block;

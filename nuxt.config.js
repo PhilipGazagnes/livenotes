@@ -40,4 +40,16 @@ export default {
     fallback: true,
     routes: appRoutes,
   },
+  build: {
+    postcss: {
+      plugins: {
+        'postcss-nested': {},
+      },
+      preset: {
+        autoprefixer: {
+          grid: true,
+        },
+      },
+    },
+  },
 };
