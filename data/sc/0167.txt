@@ -99,32 +99,4 @@ Ella, elle l'a
 +++Ou-ou ou-ou ou-ou ou+++
 Ella, elle l'a
 
-Break!8premx2
-$3
---
-...Ella, elle l'a
-...Ella, elle l'a
-...Ella, elle l'a
-...Ella, elle l'a
-...Ella, elle l'a
-
-Refrain!cut apres 2e fin
-$3
---
-Ella, elle l'a
-+++Ou-ou ou-ou ou-ou ou+++
-Ce je n'sais quoi
-+++Ou-ou ou-ou ou-ou ou+++
-Que d'autres n'ont pas
-Qui nous met dans un drôle d'état
-Ella, elle l'a !
-Ella, elle l'a
-+++Ou-ou ou-ou ou-ou ou+++
-Cette drôle de voix
-+++Ou-ou ou-ou ou-ou ou+++
-Cette drôle de joie
-Ce don du ciel qui la rend belle
-Ella, elle l'a
-Ella, elle l'a
-
 @fin nette
