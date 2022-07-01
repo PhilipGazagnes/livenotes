@@ -1,15 +1,15 @@
 $1
-A
+A#
 
 $2
-Bm;D;F#;E
+Cm;D#;Gm;F
 :
-Bm;D;E;%
+Cm;D#;F;%
 
 $3
-F#m;F#m B
+Gm;Gm B
 :
-D;C#m;D;E
+D#;Dm;D#;F
 
 Intro
 $1
