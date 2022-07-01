@@ -1,17 +1,17 @@
 !CAPO 2
 
 $1
-A;E;Fm;C#m D
+B;F#;G#m;D#m E
 
 $2
 [
-A;E;Fm;D
+B;F#;G#m;E
 ]2
 :
-C#m;A;C#m;F#m
+D#m;B;D#m;G#m
 :
 [
-Bm
+C#m
 ]4
 
 Intro!-8
@@ -83,14 +83,14 @@ Fin de l'histoire
 
 Solo
 [
-Fm;%;D;%
+G#m;%;E;%
 :
-A;E;D;%
+B;F#;E;%
 ]2
 :
-A;E;Fm;D
+B;F#;Gm;E
 :
-A;E;E Fm;C#m D
+B;F#;F# G#m;D#m E
 --
 ***Solo***
 
