@@ -1,23 +1,23 @@
 $1
-Em G;D A7
+F#m A;E B7
 
 $2
 [
-Em G;D A7
+F#m A;E B7
 ]3
 :
-C D;A
+D E;B
 
 $3
 [
-C D;Em
+D E;F#m
 ]2
 :
-C D;G D Em %;A
+D E;A E F#m %;B
 
 $4
 [
-C Em;G Em
+D F#m;A F#m
 ]4
 
 Theme

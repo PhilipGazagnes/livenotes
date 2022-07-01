@@ -1,22 +1,22 @@
 $1
-G;%;Em;%
+G#;%;Fm;%
 :
-C;D;G;%
+C#;D#;G#;%
 
 $3
-C;C7;G;%
+C#;C#7;G#;%
 :
-A;%;D;%
+A#;%;D#;%
 
 $4
-G;%;Em;C
+G#;%;Fm;C#
 
 Intro
 $1
 --
 ***Intro***
 
-Couplet!Fin Em
+Couplet!Fin Fm
 $1
 --
 Every breath you take
@@ -42,7 +42,7 @@ You belong to me
 How my poor heart aches
 With every step you take
 
-Couplet!Fin Em
+Couplet!Fin Fm
 $1
 --
 Every move you make
@@ -53,10 +53,10 @@ I'll be watching you
 
 Pont
 [
-D#;%;F;%
+E;%;F#;%
 ]2
 :
-D#;%
+E;%
 --
 Since you've gone I've been lost without a trace
 I dream at night, I can only see your face
@@ -64,7 +64,7 @@ I look around but it's you I can't replace
 I feel so cold and I long for your embrace
 I keep crying, Baby, baby, please
 
-Theme!Fin Em
+Theme!Fin Fm
 $1
 --
 ***Instru***
@@ -80,7 +80,7 @@ You belong to me
 How my poor heart aches
 With every step you take
 
-Couplet!Fin Em
+Couplet!Fin Fm
 $1
 --
 Every move you make
