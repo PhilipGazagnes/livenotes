@@ -1,3 +1,5 @@
+!Version SYL un peu diff de l'originale
+
 $1
 F#m;B7;E;C#m
 :
@@ -8,9 +10,15 @@ F#m B7;E
 $2
 C#m;G#m;G#7;C#m
 :
-Am;G =;B7
+Am;B7;B7 =
+
+$3
+E;F#m;B7;E
+:
+E G#m;F#m;C#m;B7;B7 =
 
 Intro
+E;F#m;B7;E;G#m;F#m;C#m;B7
 --
 Pienso que un sueño parecido no volverá más
 Y me pintaba las manos y la cara de azul
@@ -36,7 +44,7 @@ Se aleja despacio de mí
 Una música dulce
 Se ha tocado solo para mí
 
-Refrain
+Refrain!+1M E
 $1
 --
 Volaré, oh-oh
@@ -44,12 +52,8 @@ Cantaré, oh-oh-oh-oh
 Nel blu dipinto di blu
 Felice di stare lassù
 
-Solo
---
-***Solo***
-
 Couplet
-$2
+$3
 --
 Pienso que un sueño parecido no volverá más
 Y me pintaba las manos y la cara de azul
@@ -65,10 +69,11 @@ Nel blu dipinto di blu
 Felice di stare lassù
 
 Solo
+$2
 --
 ***Solo***
 
-Refrain
+Refrain!+1M E
 $1
 --
 Volaré, oh-oh
@@ -77,14 +82,14 @@ Nel blu dipinto di blu
 Felice di stare lassù
 
 Couplet
-$2
+$3
 --
 Pienso que un sueño parecido no volverá más
 Y me pintaba las manos y la cara de azul
 Y de improviso el viento rápido me llevo
 Y me hizo ir a volar en el cielo infinito
 
-Refrain
+Refrain!répé der
 $1
 --
 Volaré, oh-oh
