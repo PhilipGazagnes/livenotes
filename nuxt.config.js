@@ -9,9 +9,6 @@ const appRoutes = () => {
 };
 
 export default {
-  env: {
-    enablePwa: process.env.ENABLE_PWA === 'true',
-  },
   target: 'static',
   head: {
     meta: [
@@ -32,8 +29,8 @@ export default {
       },
     ],
   },
-  modules: process.env.enablePwa ? ['@nuxtjs/pwa'] : undefined,
-  workbox: process.env.enablePwa
+  modules: process.env.ENABLE_PWA ? ['@nuxtjs/pwa'] : undefined,
+  workbox: process.env.ENABLE_PWA
     ? {
         globPatterns: ['**/*.{js,css}', '**/img/*'],
         offlinePage: '/404.html',
