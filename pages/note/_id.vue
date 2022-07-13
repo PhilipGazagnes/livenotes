@@ -1,12 +1,5 @@
 <template>
-  <div :class="['screen', `screen--${mode}`]">
-    <div class="meta">
-      <nuxt-link ref="back" to="/">
-        {{ meta.name }}
-        <span>{{ meta.artist }}</span>
-      </nuxt-link>
-      <button @click="switchview">switch</button>
-    </div>
+  <div v-if="urlParamsProcessed" class="screen" :data-mode="mode">
     <div class="structure">
       <div class="content">
         <ul class="overview">
@@ -59,17 +52,28 @@
       </div>
     </div>
     <div ref="lyrics" class="lyrics" :style="{ fontSize: `${fontSizeUser}em` }">
-      <button class="increase" @click="fontSize(true)">+</button>
-      <button class="decrease" @click="fontSize(false)">-</button>
-      <div v-if="songData.warning" class="warning" v-html="songData.warning" />
+      <div class="lyricsDirectory">
+        <a v-if="urlParams.directory" :href="directoryParams.url">
+          {{ directoryParams.name }}
+        </a>
+        <nuxt-link v-else to="/">Retour au répertoire</nuxt-link>
+      </div>
+      <div class="lyricsTitle">{{ meta.name }} - {{ meta.artist }}</div>
+      <div
+        v-if="mode === 3 && songData.warning"
+        class="lyricsWarning"
+        v-html="songData.warning"
+      />
       <div
         v-for="(s, index3) in songData.sections"
+        v-show="!(mode === 1 && !s.lyrics)"
         :key="index3"
         :class="[
-          'bloc',
+          'lyricsBloc',
           sectionClass(s.measures, index3, s.name),
           isSeparator(s.name),
         ]"
+        :data-mode="mode"
       >
         <div>
           <div
@@ -79,6 +83,17 @@
           />
         </div>
       </div>
+    </div>
+    <div class="tools">
+      <button
+        v-if="!this.urlParams.directory"
+        class="toolsButton"
+        @click="changeMode"
+      >
+        M
+      </button>
+      <button class="toolsButton" @click="fontSize(true)">+</button>
+      <button class="toolsButton" @click="fontSize(false)">-</button>
     </div>
   </div>
 </template>
@@ -106,9 +121,11 @@ export default {
       showMeasures: true,
       spcache: [],
       presentationMode: 1,
-      mode: 'lyrics',
+      mode: 1, // 1: lyrics, 2: chords, 3: hybrid
       fontSizeUser: 1.5,
       warning: false,
+      urlParams: {},
+      urlParamsProcessed: false,
     };
   },
   computed: {
@@ -118,31 +135,52 @@ export default {
     songData() {
       return this.allSongsData[this.id];
     },
+    directoryParams() {
+      if (this.urlParams.directory === 'funlive') {
+        return {
+          name: 'Retour au répertoire Fun Live',
+          url: 'https://www.fun-live.fr/repertoire/',
+        };
+      }
+      if (this.urlParams.directory === 'airjprod') {
+        return {
+          name: "Retour au répertoire C'est toi la star",
+          url: 'https://star.fun-live.fr/repertoire/',
+        };
+      }
+      // if (this.urlParams.directory === 'fifi') {
+      //   return {
+      //     name: 'Fun Live',
+      //     url: 'https://fifi.fun-live.fr/repertoire/',
+      //   };
+      // }
+      return null;
+    },
   },
   mounted() {
-    window.onbeforeunload = function (event) {
-      return confirm('Confirm refresh');
-    };
-    if (this.$store.state.warmup.active) {
-      setTimeout(() => {
-        this.$refs.back.$el.click();
-      }, 500);
+    /** * * * * * * * */
+    /* GET URL PARAMS */
+    /** * * * * * * * */
+    const urlParamsRaw = window.location.search.substring(1).split('&');
+    urlParamsRaw.forEach((i) => {
+      const split = i.split('=');
+      this.urlParams[split[0]] = split[1];
+    });
+    if (!this.urlParams.directory) {
+      this.mode = window.innerWidth >= 768 ? 3 : 1;
     }
-    // const nextSong =
-    // setTimeout(() => {
-    //   window.location.href =
-    // }, 200),
-    // this.cacheSectionsOffsetTop();
-    // window.addEventListener('keydown', (e) => {
-    //   e.preventDefault();
-    //   this.warning = true;
+    this.urlParamsProcessed = true;
+
+    if (!this.urlParams.directory) {
+      window.onbeforeunload = function (event) {
+        return confirm('Confirm refresh');
+      };
+    }
+    // if (this.$store.state.warmup.active) {
     //   setTimeout(() => {
-    //     this.warning = false;
+    //     this.$refs.back.$el.click();
     //   }, 500);
-    // });
-    if (window.innerWidth === 600) {
-      this.fontSizeUser = 2.2;
-    }
+    // }
     window.addEventListener('keydown', (e) => {
       if (e.keyCode === 40) {
         // KeyDown : Airturn right button
@@ -157,18 +195,6 @@ export default {
     });
   },
   methods: {
-    switchview() {
-      switch (this.mode) {
-        case 'lyrics':
-          this.mode = 'chords';
-          break;
-        case 'chords':
-          this.mode = 'lyrics';
-          break;
-        default:
-          break;
-      }
-    },
     truncate(txt, limit) {
       let str = txt;
       if (str.length > limit) {
@@ -316,6 +342,10 @@ export default {
     fontSize(increase) {
       this.fontSizeUser += 0.1 * (increase ? 1 : -1);
     },
+    changeMode() {
+      this.mode = this.mode === 3 ? 1 : this.mode + 1;
+      console.log(this.mode);
+    },
   },
 };
 </script>
@@ -328,401 +358,349 @@ body {
 }
 .screen {
   height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-  }
-  & > .meta {
-    @media screen and (max-width: 767px) {
-      padding: 20px;
-      border-bottom: 1px solid #222;
-      flex: 0 0 auto;
-    }
-    & > a {
-      @media screen and (min-width: 767px) {
-        color: white;
-      }
-      & > span {
-        opacity: 0.5;
-      }
-    }
-    & > button {
-      position: absolute;
-      top: 5px;
-      right: 5px;
-      height: 47px;
-      padding: 0 30px;
-      @media screen and (min-width: 768px) {
-        display: none;
-      }
-    }
-    @media screen and (min-width: 768px) {
-      flex: 0 0 40px;
-      background: #222;
-      color: white;
-      position: relative;
-      margin: 0;
-      & > a {
-        display: block;
-        position: absolute;
-        bottom: 0px;
-        left: 9px;
-        width: 100vh;
-        transform-origin: top left;
-        transform: rotate(-90deg);
-        font-size: 1em;
-        & > span {
-          margin: 0 0 0 5px;
-        }
-        & > strong {
-          background: #0f0;
-          color: black;
-          padding: 5px;
-          font-size: 1.2em;
-          margin: 0 0 0 15px;
-        }
-      }
-    }
-  }
-  & > .structure {
-    padding: 0;
-    margin: 0;
-    flex-direction: column;
-    flex: 1 1 100%;
-    @media screen and (min-width: 768px) {
-      height: auto;
-      display: flex;
-      flex: 0 0 calc(50% - 40px);
-    }
-    .content {
+  &[data-mode='1'] {
+    .lyrics {
+      display: block;
       flex: 1 1 100%;
+    }
+    .structure {
+      display: none;
+    }
+  }
+  &[data-mode='2'] {
+    .lyrics {
+      display: none;
+    }
+    .structure {
       display: flex;
-      flex-direction: row;
-      background: black;
-      .overview {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        flex: 0 0 35%;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        & > li {
-          border: none;
-          flex: 2 1 auto;
-          display: flex;
-          flex-direction: row;
-          padding: 0;
-          &:not(:last-child) {
-            margin-bottom: 1px;
-          }
-          & > span {
-            &:nth-child(1) {
-              flex: 1 1 auto;
-              font-weight: bold;
-              font-size: 1.2em;
-              padding: 0 3px;
-              width: 100%;
-            }
-            &:nth-child(2) {
-              flex: 0 0 30px;
-              text-align: center;
-              color: white;
-              font-weight: bold;
-              background: blue;
-              font-size: 1.2em;
-              width: 30px;
-            }
+      flex: 1 1 100%;
+    }
+  }
+  &[data-mode='3'] {
+    @media screen and (max-width: 768px) {
+      font-size: 0.5em;
+    }
+    .lyrics {
+      display: block;
+      flex: 0 0 50%;
+    }
+    .structure {
+      display: flex;
+      flex: 0 0 50%;
+    }
+  }
+}
+.structure {
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
 
-            & > span {
-              color: red;
-              background: white;
-            }
-          }
-          &.separator {
-            flex: 0 0 3px;
-            background: black;
-            font-size: 0;
-            line-height: 0;
-            margin-bottom: 0;
-            margin-top: -1px;
-          }
-          &.end {
-            flex-grow: 1;
-            background: purple;
-            color: white;
-            padding: 0 3px;
-            font-weight: bold;
-            line-height: 1.4em;
-          }
-        }
-      }
-      .notes {
-        flex: 0 0 65%;
+  .content {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: row;
+    background: black;
+    .overview {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      flex: 0 0 35%;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      & > li {
+        border: none;
+        flex: 2 1 auto;
         display: flex;
-        flex-direction: column;
-      }
-      .section {
-        flex: 1 1 auto;
-        text-align: center;
-        margin-left: 1px;
+        flex-direction: row;
+        padding: 0;
         &:not(:last-child) {
           margin-bottom: 1px;
         }
-        .measure {
-          display: inline-block;
-          & > div {
-            border-bottom: 2px solid #222;
-            padding: 5px 0;
-            margin: 4px 6px;
-            font-size: 1.5em;
-            line-height: 1em;
+        & > span {
+          &:nth-child(1) {
+            flex: 1 1 auto;
             font-weight: bold;
-            &::after {
+            font-size: 1.2em;
+            padding: 0 3px;
+            width: 100%;
+          }
+          &:nth-child(2) {
+            flex: 0 0 30px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            background: blue;
+            font-size: 1.2em;
+            width: 30px;
+          }
+
+          & > span {
+            color: red;
+            background: white;
+          }
+        }
+        &.separator {
+          flex: 0 0 3px;
+          background: black;
+          font-size: 0;
+          line-height: 0;
+          margin-bottom: 0;
+          margin-top: -1px;
+        }
+        &.end {
+          flex-grow: 1;
+          background: purple;
+          color: white;
+          padding: 0 3px;
+          font-weight: bold;
+          line-height: 1.4em;
+        }
+      }
+    }
+    .notes {
+      flex: 0 0 65%;
+      display: flex;
+      flex-direction: column;
+    }
+    .section {
+      flex: 1 1 auto;
+      text-align: center;
+      margin-left: 1px;
+      &:not(:last-child) {
+        margin-bottom: 1px;
+      }
+      .measure {
+        display: inline-block;
+        & > div {
+          border-bottom: 2px solid #222;
+          padding: 5px 0;
+          margin: 4px 6px;
+          font-size: 1.5em;
+          line-height: 1em;
+          font-weight: bold;
+          &::after {
+            content: '';
+            display: block;
+            clear: both;
+          }
+        }
+        span {
+          position: relative;
+          display: block;
+          float: left;
+          text-align: center;
+          padding: 0 5px;
+          &:first-child {
+            padding-left: 0;
+          }
+          &:last-child {
+            padding-right: 0;
+          }
+          &:not(:first-child) {
+            &::before {
               content: '';
               display: block;
-              clear: both;
-            }
-          }
-          span {
-            position: relative;
-            display: block;
-            float: left;
-            text-align: center;
-            padding: 0 5px;
-            &:first-child {
-              padding-left: 0;
-            }
-            &:last-child {
-              padding-right: 0;
-            }
-            &:not(:first-child) {
-              &::before {
-                content: '';
-                display: block;
-                position: absolute;
-                width: 1px;
-                left: 0;
-                height: 100%;
-                background: #222;
-                transform-origin: center center;
-                transform: rotate(10deg);
-              }
-            }
-            & > small {
-              color: red;
-              background: white;
-            }
-          }
-        }
-        .inRepeatCycle {
-          & > div {
-            position: relative;
-            &::before {
-              content: '';
-              width: 100%;
               position: absolute;
-              height: 2px;
-              border-top: 4px blue dashed;
-              bottom: -3px;
+              width: 1px;
               left: 0;
+              height: 100%;
+              background: #222;
+              transform-origin: center center;
+              transform: rotate(10deg);
             }
           }
-        }
-        .show1 {
-          span {
-            &:nth-child(2),
-            &:nth-child(3),
-            &:nth-child(4) {
-              display: none;
-            }
-          }
-        }
-        .show2 {
-          span {
-            &:nth-child(2),
-            &:nth-child(4) {
-              display: none;
-            }
-          }
-        }
-        .repeat {
-          opacity: 0.5;
-        }
-        .empty {
-          background: black;
-        }
-        .repeatStart {
-          display: none;
-        }
-        .repeatEnd {
-          display: inline-block;
-          & > div {
-            background: blue;
-            border-radius: 0 10px 10px 0;
-            color: white;
-            margin: 4px 0;
-            text-align: center;
-            font-weight: bold;
-            font-size: 1.5em;
-            & > span {
-              padding-left: 5px !important;
-              padding-right: 5px !important;
-            }
-          }
-        }
-        .blank {
-          width: 100%;
-        }
-        .echoStart {
-          display: none;
-        }
-        .echoEnd {
-          display: none;
-          float: left;
-          & > div {
-            &::before {
-              content: 'x ';
-            }
+          & > small {
+            color: red;
+            background: white;
           }
         }
       }
-      .sectionStyle0 {
-        background: lightpink;
-      }
-      .sectionStyle1 {
-        background: aqua;
-      }
-      .sectionStyle2 {
-        background: yellow;
-      }
-      .sectionStyle3 {
-        background: violet;
-      }
-      .sectionStyle4 {
-        background: lightblue;
-      }
-      .sectionStyle5 {
-        background: lightcoral;
-      }
-      .sectionStyle6 {
-        background: lightgreen;
-      }
-      .sectionStyleHidden {
-        display: none;
-      }
-    }
-  }
-  & > .lyrics {
-    background: white;
-    padding: 10px 0;
-    position: relative;
-    margin-top: 20px;
-    @media screen and (min-width: 768px) {
-      margin: 0;
-      flex: 0 0 50%;
-      overflow-y: scroll;
-    }
-    em {
-      font-size: 1.5em;
-      font-weight: bold;
-      background: blue;
-      color: white;
-      padding: 100px 20px;
-      display: block;
-      @media screen and (min-width: 768px) {
-        padding: 0 10px;
-        display: inline;
-      }
-    }
-    i {
-      color: blue;
-      background: #ddd;
-    }
-    & > .bloc {
-      padding: 0 20px 0 20px;
-      margin: 0 0 2em 0;
-      border: none;
-      min-height: 20px;
-      font-weight: bold;
-      @media screen and (min-width: 768px) {
-        font-weight: normal;
-        border-left: 10px solid;
-        padding: 0 20px 0 10px;
-        margin: 0 0 2em 10px;
-      }
-      & > div {
+      .inRepeatCycle {
         & > div {
-          margin: 0 0 0.5em 0;
+          position: relative;
+          &::before {
+            content: '';
+            width: 100%;
+            position: absolute;
+            height: 2px;
+            border-top: 4px blue dashed;
+            bottom: -3px;
+            left: 0;
+          }
         }
       }
-      &.sectionStyle0 {
-        border-color: lightpink;
+      .show1 {
+        span {
+          &:nth-child(2),
+          &:nth-child(3),
+          &:nth-child(4) {
+            display: none;
+          }
+        }
       }
-      &.sectionStyle1 {
-        border-color: aqua;
+      .show2 {
+        span {
+          &:nth-child(2),
+          &:nth-child(4) {
+            display: none;
+          }
+        }
       }
-      &.sectionStyle2 {
-        border-color: yellow;
+      .repeat {
+        opacity: 0.5;
       }
-      &.sectionStyle3 {
-        border-color: violet;
+      .empty {
+        background: black;
       }
-      &.sectionStyle4 {
-        border-color: lightblue;
+      .repeatStart {
+        display: none;
       }
-      &.sectionStyle5 {
-        border-color: lightcoral;
+      .repeatEnd {
+        display: inline-block;
+        & > div {
+          background: blue;
+          border-radius: 0 10px 10px 0;
+          color: white;
+          margin: 4px 0;
+          text-align: center;
+          font-weight: bold;
+          font-size: 1.5em;
+          & > span {
+            padding-left: 5px !important;
+            padding-right: 5px !important;
+          }
+        }
       }
-      &.sectionStyle6 {
-        border-color: lightgreen;
+      .blank {
+        width: 100%;
+      }
+      .echoStart {
+        display: none;
+      }
+      .echoEnd {
+        display: none;
+        float: left;
+        & > div {
+          &::before {
+            content: 'x ';
+          }
+        }
       }
     }
-    & > .warning {
+    .sectionStyle0 {
+      background: lightpink;
+    }
+    .sectionStyle1 {
+      background: aqua;
+    }
+    .sectionStyle2 {
+      background: yellow;
+    }
+    .sectionStyle3 {
+      background: violet;
+    }
+    .sectionStyle4 {
+      background: lightblue;
+    }
+    .sectionStyle5 {
+      background: lightcoral;
+    }
+    .sectionStyle6 {
+      background: lightgreen;
+    }
+    .sectionStyleHidden {
       display: none;
-      @media screen and (min-width: 768px) {
-        display: block;
-        background: red;
-        color: white;
-        font-size: 2em;
-        padding: 60px 30px;
-        margin: 0 10px 50px 10px;
-      }
-    }
-    & > .increase,
-    & > .decrease {
-      position: fixed;
-      right: 10px;
-      bottom: 10px;
-      width: 40px;
-      height: 40px;
-      background: rgba(255, 255, 0, 0.2);
-      border: 1px solid #ccc;
-      border-radius: 3px;
-      font-size: 20px;
-    }
-    & > .decrease {
-      bottom: 55px;
     }
   }
-  @media screen and (max-width: 767px) {
-    &--lyrics {
-      & > .lyrics {
-        display: block;
-      }
-      & > .structure {
-        display: none;
+}
+.lyrics {
+  background: white;
+  padding: 10px 0;
+  overflow-y: scroll;
+  em {
+    font-size: 1.5em;
+    font-weight: bold;
+    background: blue;
+    color: white;
+    padding: 50px 20px;
+    display: block;
+  }
+  i {
+    color: blue;
+    background: #ddd;
+  }
+  &Directory {
+    padding: 20px 20px 0;
+  }
+  &Title {
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px 20px 50px;
+    font-size: 1.5em;
+  }
+  &Warning {
+    background: red;
+    color: white;
+    font-size: 1.2em;
+    padding: 30px;
+    margin: 0 10px 50px 10px;
+  }
+  &Bloc {
+    padding: 0 20px 0 20px;
+    margin: 0 0 2em 0;
+    border: none;
+    min-height: 20px;
+    font-weight: bold;
+    &[data-mode='3'] {
+      font-weight: normal;
+      border-left: 10px solid;
+      padding: 0 20px 0 10px;
+      margin: 0 0 2em 10px;
+    }
+    & > div {
+      & > div {
+        margin: 0 0 0.5em 0;
       }
     }
-    &--chords {
-      & > .lyrics {
-        display: none;
-      }
-      & > .structure {
-        display: flex;
-      }
+    &.sectionStyle0 {
+      border-color: lightpink;
     }
+    &.sectionStyle1 {
+      border-color: aqua;
+    }
+    &.sectionStyle2 {
+      border-color: yellow;
+    }
+    &.sectionStyle3 {
+      border-color: violet;
+    }
+    &.sectionStyle4 {
+      border-color: lightblue;
+    }
+    &.sectionStyle5 {
+      border-color: lightcoral;
+    }
+    &.sectionStyle6 {
+      border-color: lightgreen;
+    }
+  }
+}
+.tools {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  &Button {
+    background: rgba(255, 255, 0, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
   }
 }
 </style>
