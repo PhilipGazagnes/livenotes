@@ -32,7 +32,7 @@ export default {
       },
     ],
   },
-  modules: ['@nuxtjs/pwa'],
+  modules: process.env.enablePwa ? ['@nuxtjs/pwa'] : undefined,
   workbox: process.env.enablePwa
     ? {
         globPatterns: ['**/*.{js,css}', '**/img/*'],
