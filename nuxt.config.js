@@ -9,6 +9,9 @@ const appRoutes = () => {
 };
 
 export default {
+  env: {
+    enablePwa: process.env.ENABLE_PWA === 'true',
+  },
   target: 'static',
   head: {
     meta: [
@@ -30,11 +33,13 @@ export default {
     ],
   },
   modules: ['@nuxtjs/pwa'],
-  workbox: {
-    globPatterns: ['**/*.{js,css}', '**/img/*'],
-    offlinePage: '/404.html',
-    offline: true,
-  },
+  workbox: process.env.enablePwa
+    ? {
+        globPatterns: ['**/*.{js,css}', '**/img/*'],
+        offlinePage: '/404.html',
+        offline: true,
+      }
+    : undefined,
   // pwa: {
   //   manifest: {
   //     orientation: 'landscape',
