@@ -82,22 +82,4 @@ Et je voudrais que tu te rappelles
 Notre amour est éternel
 Et pas artificiel
 
-Couplet
-$1
---
-Je voudrais que tu te ramènes devant
-Que tu sois là de temps en temps
-Et je voudrais que tu te rappelles
-Notre amour est éternel
-Et pas artificiel
-
-Couplet
-$1
---
-Je voudrais que tu te ramènes devant
-Que tu sois là de temps en temps
-Et je voudrais que tu te rappelles
-Notre amour est éternel
-Artificiel
-
 @Fin phrase solo
