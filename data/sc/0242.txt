@@ -2,7 +2,7 @@
 
 $1
 [
-F#m;Bm;C7;F#m
+F#m;Bm;C#7;F#m
 ]2
 
 Refrain
@@ -19,6 +19,7 @@ Refrain!x2
 $1
 
 Solo
+Bm;A
 
 Refrain!x2
 $1
