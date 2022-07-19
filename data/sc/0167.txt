@@ -83,7 +83,7 @@ Que tu cherches encore les pouvoirs qui dorment en toi
 Tu vois ça ne s'achète pas
 Quand tu l'as tu l'as
 
-Refrain!1er cycle x1
+Refrain
 $3
 --
 Ella, elle l'a
@@ -95,8 +95,11 @@ Qui nous met dans un drôle d'état
 Ella, elle l'a !
 Ella, elle l'a
 +++Ou-ou ou-ou ou-ou ou+++
-Ella, elle l'a
+Cette drôle de voix
 +++Ou-ou ou-ou ou-ou ou+++
+Cette drôle de joie
+Ce don du ciel qui la rend belle
+Ella, elle l'a !
 Ella, elle l'a
 
 @fin nette

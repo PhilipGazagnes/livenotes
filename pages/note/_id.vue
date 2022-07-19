@@ -176,11 +176,11 @@ export default {
         return confirm('Confirm refresh');
       };
     }
-    // if (this.$store.state.warmup.active) {
-    //   setTimeout(() => {
-    //     this.$refs.back.$el.click();
-    //   }, 500);
-    // }
+    if (this.$store.state.warmup.active) {
+      setTimeout(() => {
+        window.history.back();
+      }, 100);
+    }
     window.addEventListener('keydown', (e) => {
       if (e.keyCode === 40) {
         // KeyDown : Airturn right button
