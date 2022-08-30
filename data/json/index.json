@@ -215,5 +215,6 @@
   {"name":"Mambo n°5","artist":"Lou Bega","id":"0239","lang":"EN","scope": ["funlive"]},
   {"name":"Volare","artist":"Gipsy Kings","id":"0241","lang":"ES","scope": ["syl"]},
   {"name":"Bamboleo","artist":"Gipsy Kings","id":"0242","lang":"ES","scope": ["syl"]},
-  {"name":"Master Blaster","artist":"Steevie Wonder","id":"0243","lang":"EN","scope": ["syl"]}
+  {"name":"Master Blaster","artist":"Steevie Wonder","id":"0243","lang":"EN","scope": ["syl"]},
+  {"name":"Setting me free","artist":"Beth Hart","id":"0244","lang":"FR","scope": ["funlive"]}
 ]
