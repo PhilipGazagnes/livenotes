@@ -248,5 +248,6 @@
   {"name":"Angie","artist":"Rolling Stones","id":"0273","lang":"EN","scope": ["phil"]},
   {"name":"Besoin de personne","artist":"Véronique Sanson","id":"0274","lang":"FR","scope": ["phil"]},
   {"name":"Balance ton quoi","artist":"Angèle","id":"0275","lang":"FR","scope": ["phil"]},
-  {"name":"What a wonderful world","artist":"Louis Armstrong","id":"0276","lang":"EN","scope": ["phil"]}
+  {"name":"What a wonderful world","artist":"Louis Armstrong","id":"0276","lang":"EN","scope": ["phil"]},
+  {"name":"I'm outa love","artist":"Anastacia","id":"0277","lang":"EN","scope": ["phil"]}
 ]
