@@ -148,12 +148,12 @@ export default {
           url: 'https://star.fun-live.fr/repertoire/',
         };
       }
-      // if (this.urlParams.directory === 'fifi') {
-      //   return {
-      //     name: 'Fun Live',
-      //     url: 'https://fifi.fun-live.fr/repertoire/',
-      //   };
-      // }
+      if (this.urlParams.directory === 'acoustic') {
+        return {
+          name: 'Retour au répertoire Fun Live Acoustic',
+          url: 'https://acoustic.fun-live.fr/repertoire/',
+        };
+      }
       return null;
     },
   },
