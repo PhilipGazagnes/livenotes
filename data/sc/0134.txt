@@ -1,8 +1,9 @@
 $1
-Em D
+Em,D
 
 $2
-Em D;D;Em
+Em D;D Em
+:
 [
 G D;B Em
 ]2
@@ -50,7 +51,7 @@ J'ai dormi dans des draps mouillés
 Ça m'a coûté des sous
 C'est d'la plaisance, c'est le pied
 
-Refrain
+Refrain!-2tempsFin
 $2
 --
 Dès que le vent soufflera
@@ -103,7 +104,7 @@ Foutre un peu le boxon
 Jamais les océans
 N'oublieront mon prénom
 
-Refrain
+Refrain!-2tempsFin
 $2
 --
 Dès que le vent soufflera

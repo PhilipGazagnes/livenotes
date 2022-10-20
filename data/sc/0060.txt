@@ -3,18 +3,16 @@ D G;C
 :
 C G;D
 
-Instru
-(
-$1
-)2
---
-***Instru***
+$2
+[
+D;C;G;D
+]2
 
 Theme
 $1
 
 Couplet
-$1
+$2
 --
 Cendre de lune, petite bulle d'écume
 Poussée par le vent, je brûle et je m'enrhume
@@ -30,7 +28,7 @@ Je, je suis si fragile
 Qu'on me tienne la main
 
 Couplet
-$1
+$2
 --
 Fendre la lune, baisers d'épine et de plume
 Bercée par un petit vent, je déambule
@@ -60,7 +58,7 @@ Un goût amer
 Me rappelle que je suis au ciel
 
 Couplet
-$1
+$2
 --
 Cendre de lune, petite bulle d'écume
 Perdue dans le vent, je brûle et je m'enrhume

@@ -1,24 +1,26 @@
 $1
 [
-Em;C#m
+Em/C#m
 ]4
 :
 [
-G#m;A
+G#m/A
 ]3
-B;%
+B
+
+$2
+[
+E/C#m;G#m/A
+]4
 
 Intro guitare
-E;D;E;A B
-[
-Em
-]4
+E;D;E;A B;Em;%
 --
 ***Intro***
 
 Intro
 [
-Em;C#m
+Em/C#m
 ]4
 
 Couplet
@@ -40,9 +42,7 @@ Pour battre des records
 Ouh ouh ouhhh
 
 Refrain
-[
-E;C#m;G#m;A
-]4
+$2
 --
 Daniela, la la la la la la la laaa
 Oh Daniela (la la la la la la laaa)
@@ -80,9 +80,7 @@ Pour les copains qui passent
 Ouh ouh ouh ouhhh
 
 Refrain
-[
-E;C#m;G#m;A
-]4
+$2
 --
 Daniela, la la la la la la la laaa
 Oh Daniela (la la la la la la laaa)
@@ -92,7 +90,7 @@ Oh Daniela
 
 Outro
 [
-E;G#;A;B
+E/G#;A/B
 ]3
 E
 --
