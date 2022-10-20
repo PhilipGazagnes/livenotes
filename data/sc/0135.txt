@@ -15,6 +15,21 @@ Em C;Am D
 :
 A;B
 
+$3
+[
+Em;A;Em;A
+:
+D;Bm;Em;A
+]2
+:
+B;%;E;%
+:
+F#;%;F
+:
+[
+B
+]4
+
 Intro
 Em;A;Em;A
 B;%
@@ -70,8 +85,8 @@ $2
 --
 ***Solo***
 
-Couplet!1cycle+3rep
-$1
+Couplet
+$3
 --
 Un soir Roger rencontra Joséphine
 Il lui dit "ce que vous êtes mignonne"

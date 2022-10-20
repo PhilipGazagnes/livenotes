@@ -7,7 +7,7 @@ $2
 [
 D#m;A#m;F
 ]2
-E
+F
 
 $3
 A#m G#;C# D#m
@@ -21,9 +21,7 @@ Intro
 $1
 
 Couplet
-(
 $1
-)2
 --
 C'est une façon de voir la vie
 Un peu plus grand qu'un pays
@@ -57,9 +55,7 @@ Gitano
 Le cœur qui bat sous ma peau
 
 Couplet
-(
 $1
-)2
 --
 C'est des guitares, des nuits sans fin
 Les mots chaleureux des anciens
@@ -105,7 +101,7 @@ Mes couleurs gitanes
 Refrain
 (
 $3
-)4
+)8
 --
 Gitano
 El color de mi cielo

@@ -8,9 +8,9 @@ A Dm;Am E
 A Dm;E _
 
 $3
-A;C#7M;%;F#m
+A;C#7;%;F#m
 :
-A;C#7M;%;F#m % Bm E
+A;C#7;%;F#m % Bm E
 
 Couplet
 $1
@@ -81,3 +81,8 @@ Même si tu as des problèmes
 Tu sais que je t'aime, ça t'aidera
 Laisse les autres totems
 Tes drôles de poèmes et viens avec moi
+
+Outro
+[
+A;C#7;F#m;Bm E
+]x
