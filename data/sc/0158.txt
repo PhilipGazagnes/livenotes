@@ -29,8 +29,7 @@ Cherchent une réponse en moi
 Elle veut vraiment que rien ne soit sûr
 Dans tout ce qu'elle croit
 Oh oh oh
-Oh oh oh
-Ta couleur et tes mots tout me va
+Oh oh ta couleur et tes mots tout me va
 
 Refrain
 $2
@@ -61,8 +60,7 @@ Tu n'as pas le choix
 Ne la porte pas comme on porte un fardeau
 Ta force c'est ton droit
 Oh oh oh
-Oh oh oh
-Ta couleur et tes mots tout me va
+Oh oh ta couleur et tes mots tout me va
 
 Refrain
 $2
@@ -81,8 +79,10 @@ $1
 --
 ***SOLO***
 
-Refrain!rallongé
+Refrain!1ere tourne -2 Mes
+(
 $2
+)2
 --
 L'Aziza
 Ta couleur et tes mots tout me va

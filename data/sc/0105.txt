@@ -16,7 +16,26 @@ F#m;D
 C#m;A
 ]3
 :
-F#m;%
+[
+F#m
+]2
+
+$3
+[
+A;D E
+]2
+:
+[
+F#m;D
+]3
+:
+[
+C#m;A
+]7
+:
+[
+F#m
+]4
 
 Intro
 $1
@@ -51,7 +70,7 @@ Only hope can keep me together
 Love can mend your life but love can break your heart
 
 Refrain
-$2
+$3
 --
 I'll send an SOS to the world
 I'll send an SOS to the world
@@ -72,7 +91,7 @@ Seems I'm not alone in being alone
 A hundred billion castaways looking for a home
 
 Refrain
-$2
+$3
 --
 I'll send an SOS to the world
 I'll send an SOS to the world

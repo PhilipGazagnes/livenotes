@@ -70,13 +70,14 @@ Le mal est ma lueur
 Mon parfum son odeur
 Prend ton mal en douceur
 
-Pont
+Pont!der mes stop sur Bm
 [
 Bm;D;E;G
 ]2
 [
-Bm A
-]4
+Bm A Bm A
+]3
+Bm
 --
 Prend ton mal en douceur
 Prend ton mal en douceur
@@ -94,7 +95,7 @@ Je brûlerais avec lui
 Outro
 (
 G;%;A;%
-)8
+)2
 --
 Le mal est ma lueur
 Son ombre est ma couleur
@@ -104,14 +105,14 @@ Mon parfum son odeur
 Outro melo
 (
 G;%;A;%
-)8
+)2
 --
 ***Instru***
 
 Outro
 (
 G;%;A;%
-)8
+)2
 --
 Le mal est ma lueur
 Son ombre est ma couleur

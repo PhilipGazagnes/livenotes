@@ -62,7 +62,7 @@ Avant qu't'aies rien pu dire, il t'aime déjà au départ
 Il n'fait pas de bruit, il n'joue pas du tambour
 Mais la statue de marbre lui sourit dans la cour
 
-Refrain
+Refrain !+2T
 $2
 --
 Il est libre Max

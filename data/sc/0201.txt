@@ -1,6 +1,9 @@
 $1
 F;A;A#;C
 
+$2
+.F;A;A#;C
+
 Intro
 [
 F C;Dm
@@ -54,7 +57,7 @@ Qu'on a envie d'app'ler monsieur
 Et donner le sein à mon fils
 
 Refrain
-$1
+$2
 --
 Femme, être une femme
 
@@ -91,7 +94,7 @@ Femme général d'aviation
 Rouler des gamelles aux plantons
 
 Refrain
-$1
+$2
 --
 Femme, être une femme
 
@@ -128,7 +131,7 @@ S'installer à la Présidence
 Et de là faire bander la France
 
 Refrain
-$1
+$2
 --
 Femme, être une femme
 
@@ -149,7 +152,7 @@ Qu'on a envie d'appeler Georges
 Mais qu'on aime bien sans soutien-gorge
 
 Refrain
-$1
+$2
 --
 Femme, être une femme
 Femme, être une femme
