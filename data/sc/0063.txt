@@ -13,7 +13,7 @@ $2
 [
 A;E
 ]2
-A; E Bm; C#m
+A; E G#m; C#m
 F#;%;%;B
 :
 E D#m; C#m B
