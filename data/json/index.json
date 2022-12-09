@@ -249,5 +249,7 @@
   {"name":"Besoin de personne","artist":"Véronique Sanson","id":"0274","lang":"FR","scope": ["phil"]},
   {"name":"Balance ton quoi","artist":"Angèle","id":"0275","lang":"FR","scope": ["phil"]},
   {"name":"What a wonderful world","artist":"Louis Armstrong","id":"0276","lang":"EN","scope": ["phil"]},
-  {"name":"I'm outa love","artist":"Anastacia","id":"0277","lang":"EN","scope": ["phil"]}
+  {"name":"I'm outa love","artist":"Anastacia","id":"0277","lang":"EN","scope": ["phil"]},
+  {"name":"Eteins la lumière","artist":"Axel Bauer","id":"0278","lang":"EN","scope": ["funlive"]},
+  {"name":"Ma Philosophie","artist":"Amel Bent","id":"0279","lang":"EN","scope": ["funlive"]}
 ]

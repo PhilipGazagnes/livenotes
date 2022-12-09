@@ -1,0 +1,118 @@
+$1
+Am;%;D;%
+
+$2
+[
+F;Am
+]3
+B7;F
+
+$3
+[
+Am;F
+]2
+Am;B7;%;F;%
+
+$4
+[
+A
+]4
+[
+D;C
+]3
+:
+[
+A
+]6
+D;%
+
+Intro
+$1
+--
+***Intro***
+
+Couplet
+$1
+--
+À force de se voir, on ne se voyait plus
+À tant vouloir y croire, on n'y croyait plus
+Et me laisse pas, si tu n'es pas sûre
+Loin, loin de toi, tu me dis tout bas
+
+Pré-ref
+$2
+--
+Cette petite aventure
+Va tourner en déconfiture
+Éclaire-moi
+
+Refrain
+$3
+--
+Éteins la lumière
+Montre-moi ton coté sombre
+Regarde les ombres
+Qui errent
+Cherche un peu de lumière
+Tout s'éclaire
+
+Inter
+$1
+--
+***Instru***
+
+Couplet
+$1
+--
+Maintenant que le ciel n'a plus de mur
+Laissons nous glisser dans l'ouverture
+Le cœur est si léger, là où je t'emmènes
+D'autres sont allées dans ce domaine
+
+Pré-ref
+$2
+--
+Éteins la lumière
+Nettoie ce qui n'est pas toi
+Souffle la poussière sur toi
+
+Refrain
+$3
+--
+Éteins la lumière
+Montre-moi ton coté sombre
+Regarde les ombres
+Qui errent
+Cherche un peu de lumière
+Tout s'éclaire
+
+Pont
+$4
+--
+***Solo***
+
+Couplet
+$1
+--
+À force de se voir, on ne se voyait plus
+À tant vouloir y croire, on n'y croyait plus
+
+Pré-ref
+$2
+--
+Cette petite aventure
+Va tourner en déconfiture
+
+Refrain
+$3
+--
+Éteins la lumière
+Montre-moi ton coté sombre
+Regarde les ombres
+Qui errent
+Cherche un peu de lumière
+
+Outro
+$1
+--
+Tout s'éclaire
