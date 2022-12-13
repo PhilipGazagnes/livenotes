@@ -250,6 +250,10 @@
   {"name":"Balance ton quoi","artist":"Angèle","id":"0275","lang":"FR","scope": ["phil"]},
   {"name":"What a wonderful world","artist":"Louis Armstrong","id":"0276","lang":"EN","scope": ["phil"]},
   {"name":"I'm outa love","artist":"Anastacia","id":"0277","lang":"EN","scope": ["phil"]},
-  {"name":"Eteins la lumière","artist":"Axel Bauer","id":"0278","lang":"EN","scope": ["funlive"]},
-  {"name":"Ma Philosophie","artist":"Amel Bent","id":"0279","lang":"EN","scope": ["funlive"]}
+  {"name":"Eteins la lumière","artist":"Axel Bauer","id":"0278","lang":"FR","scope": ["funlive"]},
+  {"name":"Ma Philosophie","artist":"Amel Bent","id":"0279","lang":"FR","scope": ["funlive"]},
+  {"name":"En Apesanteur","artist":"Calogero","id":"0280","lang":"FR","scope": ["funlive"]},
+  {"name":"Amsterdam","artist":"Jacques Brel","id":"0281","lang":"FR","scope": ["funlive"]},
+  {"name":"L'Envie","artist":"Johnny Halliday","id":"0282","lang":"FR","scope": ["funlive"]},
+  {"name":"Tu m'oublieras","artist":"Larusso","id":"0283","lang":"FR","scope": ["funlive"]}
 ]
