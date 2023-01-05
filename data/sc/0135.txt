@@ -10,7 +10,7 @@ F#;B
 
 $2
 [
-Em C;Am D
+Em C;Am B
 ]3
 :
 A;B
