@@ -4,7 +4,7 @@ Em;C;Am7;B7
 Intro
 $1
 
-Couplet
+Couplet!début cut
 $1
 --
 Je n'ai qu'une philosophie
@@ -36,7 +36,7 @@ S'il le faut j'en ferai
 J'en ai déjà fait
 Mais toujours le poing levé
 
-Couplet
+Couplet!début cut
 $1
 --
 Je ne suis pas comme toutes ces filles

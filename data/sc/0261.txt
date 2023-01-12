@@ -81,5 +81,4 @@ Tu lu, ti, luti
 Tu lu, ti, luti
 On s'aime comme ça, la Seine et moi
 
-Gimmick
-$2
+@2x gimmick cut en l'air

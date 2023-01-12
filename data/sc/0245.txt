@@ -114,3 +114,5 @@ Pris dans leur vaisseau de verre
 Les messages luttent
 Mais les vagues les ramènent
 En pierres d'étoiles sur les rochers
+
+@laisser sonner le F
