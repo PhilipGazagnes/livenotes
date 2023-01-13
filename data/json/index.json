@@ -255,5 +255,6 @@
   {"name":"En Apesanteur","artist":"Calogero","id":"0280","lang":"FR","scope": ["funlive"]},
   {"name":"Amsterdam","artist":"Jacques Brel","id":"0281","lang":"FR","scope": ["funlive"]},
   {"name":"L'Envie","artist":"Johnny Halliday","id":"0282","lang":"FR","scope": ["funlive"]},
-  {"name":"Tu m'oublieras","artist":"Larusso","id":"0283","lang":"FR","scope": ["funlive"]}
+  {"name":"Tu m'oublieras","artist":"Larusso","id":"0283","lang":"FR","scope": ["funlive"]},
+  {"name":"We will rock you","artist":"Queen","id":"0284","lang":"EN","scope": ["funlive"]}
 ]
