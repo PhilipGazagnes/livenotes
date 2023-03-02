@@ -17,7 +17,7 @@ Two for the show
 Three to get ready
 Now go, cat, go
 
-Refrain !from5
+Refrain!from5
 $1
 --
 But don't you
@@ -36,7 +36,7 @@ Slander my name all over the place
 Well do anything that you want to do
 But uh-uh, honey lay off of them shoes
 
-Refrain !from5
+Refrain!from5
 $1
 --
 And don't you step on my blue suede shoes
@@ -60,7 +60,7 @@ From an old fruit jar
 Well do anything that you want to do
 But uh-uh, honey lay off of my shoes
 
-Refrain !from5
+Refrain!from5
 $1
 --
 And don't you
@@ -83,7 +83,7 @@ Two for the show
 Three to get ready
 Now go, cat, go
 
-Refrain !from5
+Refrain!from5
 $1
 --
 But don't you

@@ -35,7 +35,7 @@ $1
 --
 ***Solo***
 
-Couplet !TON+0.5
+Couplet!TON+0.5
 $1
 --
 Sunny, thank you for the truth you let me see

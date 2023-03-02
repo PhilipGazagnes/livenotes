@@ -13,7 +13,7 @@ B;D;E;G
 :
 E;G;A;%
 
-Thème
+Theme
 (
 $1
 )2
@@ -34,7 +34,7 @@ Battre le sang dans nos veines
 Monter le son des guitares
 Et le bruit des motos qui démarrent
 
-Pré Refrain
+Pré refrain
 $2
 --
 Il suffira d'une étincelle
@@ -52,7 +52,7 @@ Et faire danser les diables et les dieux
 Allumer le feu, allumer le feu
 Et voir grandir la flamme dans vos yeux
 
-Thème
+Theme
 $1
 --
 ***Instru***
@@ -71,7 +71,7 @@ L'odeur de poudre, le tonnerre
 Je veux la fête et les rires
 Je veux la foule en délire
 
-Pré Refrain
+Pré refrain
 $2
 --
 Il suffira d'une étincelle
@@ -94,7 +94,7 @@ $1
 --
 ***Solo***
 
-Pré Refrain!Calme
+Pré refrain!Calme
 $2
 --
 Il suffira d'une étincelle

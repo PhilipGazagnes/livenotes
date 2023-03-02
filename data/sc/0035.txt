@@ -4,7 +4,7 @@ E D;C B
 $2
 E;D
 
-Thème
+Theme
 (
 $2
 )4
@@ -29,7 +29,7 @@ $1
 She don't lie, she don't lie, she don't lie,
 Cocaine...
 
-Thème
+Theme
 (
 $2
 )2
@@ -54,7 +54,7 @@ $1
 She don't lie, she don't lie, she don't lie,
 Cocaine...
 
-Thème
+Theme
 (
 $2
 )2
@@ -84,7 +84,7 @@ $1
 She don't lie, she don't lie, she don't lie,
 Cocaine...
 
-Thème
+Theme
 (
 $2
 )2

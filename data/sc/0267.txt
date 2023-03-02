@@ -13,7 +13,10 @@ Intro
 $1
 
 Couplet
+[
 $1
+]7
+$3
 --
 Via via
 Vieni via di qui
@@ -24,9 +27,6 @@ Neanche questo tempo grigio
 Pieno di musiche
 E di uomini che ti son piaciuti
 
-Transi
-$3
-
 Refrain
 $2
 --
@@ -48,7 +48,10 @@ Doo doo doo doo doo (ci-boom, ci-boom, boom)
 Doo doo doo doo doo
 
 Couplet
+[
 $1
+]7
+$3
 --
 Via via
 Vieni via con me
@@ -59,9 +62,6 @@ Non perderti per niente al mondo
 Lo spettacolo d'arte varia
 Di uno innamorato di te
 
-Transi
-$3
-
 Refrain
 $2
 --
@@ -83,7 +83,10 @@ Doo doo doo doo doo (ci-boom, ci-boom, boom)
 Doo doo doo doo doo
 
 Couplet
+[
 $1
+]7
+$3
 --
 Via via
 Vieni via con me
@@ -93,9 +96,6 @@ Via
 Entra e fatti un bagno caldo
 C'è un accappatoio azzurro
 Fuori piove, è un mondo freddo
-
-Transi
-$3
 
 Refrain
 $2

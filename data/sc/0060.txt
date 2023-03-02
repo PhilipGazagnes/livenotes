@@ -19,7 +19,7 @@ Poussée par le vent, je brûle et je m'enrhume
 Entre mes dunes reposent mes infortunes
 C'est nue, que j'apprends la vertu
 
-❥ Refrain
+Refrain
 $1
 --
 Je, je suis libertine
@@ -35,7 +35,7 @@ Bercée par un petit vent, je déambule
 La vie est triste comme un verre de grenadine
 Aimer c'est pleurer quand on s'incline
 
-❥ Refrain
+Refrain
 $1
 --
 Je, je suis libertine
@@ -43,7 +43,7 @@ Je suis une catin
 Je, je suis si fragile
 Qu'on me tienne la main
 
-Break
+Pont
 [
 D;%;C;%
 :
@@ -65,7 +65,7 @@ Perdue dans le vent, je brûle et je m'enrhume
 Mon corps a peur, la peau mouillée, j'ai plus d'âme
 Papa, ils ont violé mon cœur
 
-❥ Refrain
+Refrain
 $1
 --
 Je, je suis libertine
@@ -83,7 +83,7 @@ $1
 --
 ***Solo***
 
-❥ Refrain
+Refrain
 $1
 --
 Je, je suis libertine
@@ -91,7 +91,7 @@ Je suis une catin
 Je, je suis si fragile
 Qu'on me tienne la main
 
-❥ Refrain
+Refrain
 $1
 --
 Je, je suis libertine
@@ -99,7 +99,7 @@ Je suis une catin
 Je, je suis si fragile
 Qu'on me tienne la main
 
-❥ Refrain
+Refrain
 $1
 --
 Je, je suis libertine

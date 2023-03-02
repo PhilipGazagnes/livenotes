@@ -22,7 +22,7 @@ J'aurais dû m'arrêter faire une pause
 Mais j'étais trop pressé
 N'aurait-on pas pu attendre un été
 
-Pré Ref
+Pré refrain
 $2
 --
 Erreur fatale
@@ -56,7 +56,7 @@ Le sentiment profond de solitude
 Je ne m'apercevais pas
 Que tu étais derrière chacun de mes pas
 
-Pré Ref
+Pré refrain
 $2
 --
 Erreur fatale
@@ -80,7 +80,7 @@ Toute la sainte journée
 Si seulement j'avais pu lire
 Dans tes pensées
 
-Break
+Pont
 [
 F#;%;E;%
 ]3
@@ -89,7 +89,7 @@ J'ai fait mon malheur
 Ouh, ouh, ouh, ouh-ouh-ouh
 ***Solo***
 
-Refrain (fin ralentie)
+Refrain!fin ralentie
 [
 B A;E
 ]3

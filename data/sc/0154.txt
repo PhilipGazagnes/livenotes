@@ -30,7 +30,7 @@ Le rock'n'roll venait d'ouvrir ses ailes
 Et dans mon coin je chantais belle, belle, belle
 Et le public aimait ça
 
-Pont
+Pont!style 1
 $2
 --
 Déjà les Beatles étaient quatre garçons dans le vent
@@ -44,10 +44,9 @@ Quelle joie d'être l'idole des jeunes
 Pour des fans qui cassaient les fauteuils
 Plus j'y pense et moins j'oublie
 
-Break & Pont
+Pont!style 2
 $3
 --
-***Instru***
 J'ai découvert mon premier mon dernier amour
 Le seul le grand l'unique et pour toujours le public
 
@@ -59,7 +58,7 @@ Dans le ciel passait une musique
 Un oiseau qu'on appelait Spoutnik
 Quelle année cette année-là
 
-Pont
+Pont!style 1
 $2
 --
 C'est là qu'on a dit adieu à Marilyn au cœur d'or
@@ -73,10 +72,9 @@ Les guitares tiraient sur les violons
 On croyait qu'une révolution arrivait
 Cette année-là
 
-Break & Pont
+Pont!style 2
 $3
 --
-***Instru***
 C'était hier, mais aujourd'hui rien n'a changé
 C'est le même métier qui ce soir recommence encore
 

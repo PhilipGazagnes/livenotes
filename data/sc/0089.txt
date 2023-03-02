@@ -56,7 +56,7 @@ Qui resterait un mystère
 Une Terre moins terre à terre
 Oui, je voulais tout foutre en l'air
 
-Ref !LONG
+Refrain!LONG
 (
 $3
 )4
@@ -81,7 +81,7 @@ Et la Terre est bien ronde
 Et la lune est si blonde
 Ce soir dansent les ombres du monde
 
-Ref !LONG
+Refrain!LONG
 (
 $3
 )4

@@ -9,7 +9,9 @@
             :class="[
               sectionClass(s.measures, index3, s.name),
               isSeparator(s.name),
+              typeof s.comments === 'object' ? 'sectionclickable' : '',
             ]"
+            @click="modalContent = s.comments"
           >
             <span v-html="sectionName(s.name)" />
             <span
@@ -95,6 +97,12 @@
       <button class="toolsButton" @click="fontSize(true)">+</button>
       <button class="toolsButton" @click="fontSize(false)">-</button>
     </div>
+    <div v-if="modalContent" class="modal">
+      <button class="modalClose" @click="modalContent = null">x</button>
+      <div v-for="(c, index) in modalContent" :key="index" class="modalContent">
+        {{ c }}
+      </div>
+    </div>
   </div>
 </template>
 
@@ -126,6 +134,7 @@ export default {
       warning: false,
       urlParams: {},
       urlParamsProcessed: false,
+      modalContent: null,
     };
   },
   computed: {
@@ -344,7 +353,6 @@ export default {
     },
     changeMode() {
       this.mode = this.mode === 3 ? 1 : this.mode + 1;
-      console.log(this.mode);
     },
   },
 };
@@ -614,6 +622,21 @@ body {
     .sectionStyleHidden {
       display: none;
     }
+    .sectionclickable {
+      position: relative;
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        top: 0px;
+        left: 0px;
+        border: 2px dotted black;
+      }
+      border: 3px red solid;
+      cursor: pointer;
+    }
   }
 }
 .lyrics {
@@ -701,6 +724,28 @@ body {
     width: 100%;
     height: 40px;
     margin-top: 10px;
+  }
+}
+.modal {
+  width: 90%;
+  max-width: 400px;
+  height: 90%;
+  max-height: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: white;
+  z-index: 100;
+  box-shadow: 0 0 200px #666;
+  padding: 40px 20px;
+  overflow-y: scroll;
+  &Close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
   }
 }
 </style>

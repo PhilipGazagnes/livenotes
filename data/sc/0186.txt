@@ -27,7 +27,7 @@ D;G;D;G
 Intro
 $1
 
-Couplet 1
+Couplet
 $2
 --
 À dix-huit ans j'ai quitté ma province
@@ -39,7 +39,7 @@ Ce complet bleu qu'était du dernier cri
 Les photos, les chansons et les orchestrations
 Ont eu raison de mes économies
 
-Couplet 2
+Couplet
 $3
 --
 Je m'voyais déjà en haut de l'affiche
@@ -51,7 +51,7 @@ Faisant un succès si fort que les gens m'acclamaient debout
 Je m'voyais déjà cherchant dans ma liste
 Celle qui le soir pourrait par faveur se pendre à mon cou
 
-Couplet 3
+Couplet
 $4
 --
 Mes traits ont vieilli, bien sûr, sous mon maquillage
@@ -59,7 +59,7 @@ Mais la voix est là, le geste est précis et j'ai du ressort
 Mon cœur s'est aigri un peu en prenant de l'âge
 Mais j'ai des idées, j'connais mon métier et j'y crois encore
 
-Couplet 4
+Couplet
 $3
 --
 Rien que sous mes pieds de sentir la scène
@@ -72,7 +72,7 @@ $1
 --
 ***Instru***
 
-Couplet 5
+Couplet
 $2
 --
 Mon complet bleu, y a trente ans que j'le porte
@@ -84,7 +84,7 @@ Des trains de nuit et des filles à soldats
 Les minables cachets, les valises à porter
 Les p'tits meublés et les maigres repas
 
-Couplet 6
+Couplet
 $3
 --
 Je m'voyais déjà en photographie
@@ -96,7 +96,7 @@ Mille télégrammes de ce Tout-Paris qui nous fait si peur
 Et mourant de trac devant ce parterre
 Entré sur la scène sous les ovations et les projecteurs
 
-Couplet 7
+Couplet
 $4
 --
 J'ai tout essayé pourtant pour sortir du nombre
@@ -104,7 +104,7 @@ J'ai chanté l'amour, j'ai fait du comique et de la fantaisie
 Si tout a raté pour moi, si je suis dans l'ombre
 Ce n'est pas ma faute mais celle du public qui n'a rien compris
 
-Couplet 8
+Couplet
 $3
 --
 On ne m'a jamais accordé ma chance

@@ -69,7 +69,7 @@ E;A;B
 --
 ***Solo***
 
-Bout de Couplet
+Pont
 A;%;C#m;B
 --
 Guess I rather hurt than feel nothing at all
@@ -84,7 +84,7 @@ But I'm a little drunk and I need you now
 And I don't know how I can do without
 I just need you now
 
-Outro / Solo
+Outro
 [
 E;%;G#m;%
 ]4
@@ -92,4 +92,4 @@ E;%;G#m;%
 I just need you now
 Oh, baby, I need you now
 
-@ E
+@Theme intro + E

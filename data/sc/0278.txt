@@ -39,7 +39,7 @@ $1
 Et me laisse pas, si tu n'es pas sûre
 Loin, loin de toi, tu me dis tout bas
 
-Pré-ref
+Pré refrain
 $2
 --
 Cette petite aventure
@@ -69,7 +69,7 @@ Laissons nous glisser dans l'ouverture
 Le cœur est si léger, là où je t'emmènes
 D'autres sont allées dans ce domaine
 
-Pré-ref
+Pré refrain
 $2
 --
 Éteins la lumière
@@ -97,7 +97,7 @@ $1
 À force de se voir, on ne se voyait plus
 À tant vouloir y croire, on n'y croyait plus
 
-Pré-ref
+Pré refrain
 $2
 --
 Cette petite aventure

@@ -16,7 +16,7 @@ Refrain
 $1
 )8
 
-Gimmick
+Theme
 $1
 
 Couplet
@@ -29,5 +29,5 @@ Refrain
 $1
 )12
 
-Gimmick
+Theme
 $1

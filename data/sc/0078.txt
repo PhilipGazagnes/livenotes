@@ -8,14 +8,14 @@ $2
 D D#
 ]4
 
-Pêches
+Instru!Pêches
 (
 $1
 )4
 --
 ***Intro***
 
-Bass
+Instru!Bass
 $2
 --
 Killing in the name of
@@ -118,7 +118,7 @@ $1
 --
 ***Solo***
 
-Break
+Montée
 D;E;F;G
 :
 A;A#;C;D

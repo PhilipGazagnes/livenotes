@@ -9,7 +9,7 @@ D;G A;A# C;D
 :
 D;G A;A#;%;%
 
-Gimmick
+Instru!Gimmick
 $2
 
 Couplet
@@ -32,7 +32,7 @@ On s'aime comme ça, la Seine et moi
 Je ne sais, ne sais, ne sais pas pourquoi
 On s'aime comme ça, la Seine et moi
 
-Gimmick
+Instru!Gimmick
 $2
 
 Couplet
@@ -51,7 +51,7 @@ On s'aime comme ça, la Seine et moi
 Je ne sais, ne sais, ne sais pas pourquoi
 On s'aime comme ça, la Seine et moi
 
-Gimmick
+Instru!Gimmick
 $2
 
 Pont

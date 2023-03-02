@@ -27,7 +27,7 @@ $3
 --
 ***Intro***
 
-Thème!1 cycle
+Theme!1 cycle
 $1
 
 Couplet
@@ -56,7 +56,7 @@ Go on, go on
 Yeah, come on
 Yeah
 
-Thème!1 cycle
+Theme!1 cycle
 $1
 --
 ***Instru***
@@ -106,7 +106,7 @@ And I've lost my will to try
 Can't hide it (can't hide it)
 Can't fight it (can't fight it)
 
-Refrain Outro!mises en place
+Refrain!outro mises en place
 (
 $2
 )2

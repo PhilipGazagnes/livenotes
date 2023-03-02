@@ -256,5 +256,16 @@
   {"name":"Amsterdam","artist":"Jacques Brel","id":"0281","lang":"FR","scope": ["funlive"]},
   {"name":"L'Envie","artist":"Johnny Halliday","id":"0282","lang":"FR","scope": ["funlive"]},
   {"name":"Tu m'oublieras","artist":"Larusso","id":"0283","lang":"FR","scope": ["funlive"]},
-  {"name":"We will rock you","artist":"Queen","id":"0284","lang":"EN","scope": ["funlive"]}
+  {"name":"We will rock you","artist":"Queen","id":"0284","lang":"EN","scope": ["funlive"]},
+  {"name":"Steal my kisses","artist":"Ben harper","id":"0285","lang":"EN","scope": ["syl"]},
+  {"name":"Save tonight","artist":"Eagle Eye Cherry","id":"0286","lang":"EN","scope": ["syl", "phil"]},
+  {"name":"Johnny be good","artist":"Chuck berry","id":"0287","lang":"EN","scope": ["syl"]},
+  {"name":"Born to be alive","artist":"Hernandez","id":"0288","lang":"FR","scope": ["syl"]},
+  {"name":"Do ya think I'm sexy","artist":"Rod Stewart","id":"0289","lang":"EN","scope": ["syl"]},
+  {"name":"Locked out of heaven","artist":"Bruno Mars","id":"0290","lang":"EN","scope": ["syl"]},
+  {"name":"Femme like you","artist":"K. Maro","id":"0291","lang":"FR","scope": ["syl"]},
+  {"name":"Sex bomb","artist":"Tom Jones","id":"0292","lang":"EN","scope": ["syl"]},
+  {"name":"Be mine","artist":"Offenbach","id":"0293","lang":"EN","scope": ["syl"]},
+  {"name":"Sugar","artist":"Maroon 5","id":"0294","lang":"EN","scope": ["syl"]},
+  {"name":"Blinding lights","artist":"The Weeknd","id":"0295","lang":"EN","scope": ["syl"]}
 ]

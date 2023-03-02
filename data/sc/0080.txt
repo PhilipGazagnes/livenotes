@@ -11,7 +11,7 @@ $1
 ***Intro***
 +++C'est comme ça, ah, la la la la la+++
 
-Couplet !4*1
+Couplet!4*1
 $1
 --
 Ouais, le secret ça coupe et ça donne
@@ -22,7 +22,7 @@ Oh, oh, faut que j'move
 L'ami Sadi s'enlise et là ça fait peur
 Si c'est ça, ah, la la la la la
 
-Couplet !4*1
+Couplet!4*1
 $1
 --
 Ça le susurre à mes entournures
@@ -41,7 +41,7 @@ La lala lala lala la
 La lala lala lala lalala lala lalala
 Ah, ah, ah, ah, lalala lala
 
-Couplet !2*2
+Couplet!2*2
 $1
 --
 Je veux pas t'abandonner, mon bébé

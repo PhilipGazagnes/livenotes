@@ -76,7 +76,7 @@ Pourrit sur les trottoirs
 Notre mère la terre
 Étonne moi
 
-Refrain !LONG
+Refrain!LONG
 $2
 --
 Para la queja mexica
@@ -106,7 +106,7 @@ $1
 --
 ***Instru***
 
-Couplet !OUTRO
+Couplet!OUTRO
 $1
 --
 Bien reçu

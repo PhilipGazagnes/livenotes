@@ -50,7 +50,7 @@ Gm;%;%;%
 --
 ***BREAK***
 
-Couplet prog
+Couplet!prog
 $1
 --
 Dans le mouvement d'approche

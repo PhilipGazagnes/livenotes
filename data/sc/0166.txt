@@ -9,7 +9,7 @@ Am;D;G D;Em
 Intro
 $1
 
-Couplet homme
+Couplet!homme
 (
 $1
 )4
@@ -28,7 +28,7 @@ $1
 --
 ***Instru***
 
-Couplet femme
+Couplet!femme
 (
 $1
 )4

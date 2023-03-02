@@ -141,7 +141,7 @@ Je repartira
 Dès que les vents tourneront
 Nous nous en allerons
 
-Couplet (calme)
+Couplet!calme
 $1
 --
 C'est pas l'homme qui prend la mer

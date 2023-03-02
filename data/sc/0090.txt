@@ -19,7 +19,7 @@ $1
 --
 ***Intro***
 
-Couplet !odd _
+Couplet!odd _
 (
 $1
 )8
@@ -33,7 +33,7 @@ Ne tourne pas rond
 Mais autour de moi
 Tout tourne si rond
 
-Pré Refrain
+Pré refrain
 $2
 --
 Des balles doum doum
@@ -70,7 +70,7 @@ $1
 --
 ***Solo***
 
-Couplet !odd _
+Couplet!odd _
 (
 $1
 )8
@@ -84,7 +84,7 @@ Ne tourne pas rond
 Mais autour de moi
 Toi tu fais un rond
 
-Pré Refrain
+Pré refrain
 $2
 --
 Et les balles doum doum
@@ -105,14 +105,14 @@ Oui je préfère ça
 Oh j'aime encore mieux ça
 Oui j'aime encore mieux ça
 
-Break
+Pont
 (
 E;A
 )4
 --
-***Break***
+***Instru***
 
-Break
+Pont
 (
 E;A
 )4
@@ -120,7 +120,7 @@ E;A
 Car ça, c'est vraiment toi
 Ça, c'est vraiment toi
 
-Break!drum
+Pont!drum
 (
 E;A
 )8

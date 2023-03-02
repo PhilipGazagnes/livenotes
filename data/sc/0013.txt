@@ -41,7 +41,7 @@ Baby dont you wanna go
 Back to that same old place
 Oh sweet home Chicago
 
-Couplet break
+Couplet!break
 $2
 --
 Well, one and one is two
@@ -67,7 +67,7 @@ $1
 --
 ***Solo***
 
-Couplet break
+Couplet!break
 $2
 --
 Six and three is nine

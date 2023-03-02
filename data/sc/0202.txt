@@ -26,7 +26,7 @@ La ville endormie les laisse tout seuls
 Et sous la chaleur et sans un bruit
 Ils rattraperont toute la nuit
 
-Pré ref
+Pré refrain
 $2
 --
 La nuit
@@ -55,7 +55,7 @@ Car elle avait un peu froid
 À cet instant et à chaque fois
 Elle voudra le revoir au moins trois nuits
 
-Pré-ref
+Pré refrain
 $2
 --
 Trois nuits
@@ -86,7 +86,7 @@ Elle voudra le revoir au moins trois nuits
 À cet instant et à chaque fois
 Ils se donnèrent rendez-vous
 
-Pré-ref
+Pré refrain
 $2
 --
 Trois nuits

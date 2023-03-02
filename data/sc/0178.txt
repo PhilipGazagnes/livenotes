@@ -12,7 +12,7 @@ Couplet
 $1
 )4
 
-Transi
+Instru
 $2
 
 Couplet
@@ -20,7 +20,7 @@ Couplet
 $1
 )4
 
-Transi
+Instru
 $2
 
 Instru
@@ -33,7 +33,7 @@ Couplet
 $1
 )4
 
-Transi
+Instru
 $2
 
 Solo

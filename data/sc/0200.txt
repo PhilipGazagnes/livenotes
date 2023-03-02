@@ -23,7 +23,7 @@ Je t'emmène faire le tour
 De ma drôle de vie
 Je te verrai tous les jours
 
-Pré-ref
+Pré refrain
 $2
 --
 Et si je te pose des questions (qu'est-ce que tu diras?)
@@ -53,7 +53,7 @@ Tu as sûrement fait le tour
 De ma drôle de vie
 Je te demanderai toujours
 
-Pré-ref
+Pré refrain
 $2
 --
 Et si je te pose des questions (qu'est-ce que tu diras?)

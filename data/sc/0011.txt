@@ -55,7 +55,7 @@ I'm gonna meet ya, meet ya, meet ya, meet ya
 One day, maybe next week, I'm gonna meet ya
 I'll meet ya, ah
 
-Refrain !+2
+Refrain!+2
 $2
 --
 And if the lights are all out

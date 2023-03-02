@@ -39,7 +39,7 @@ Me conseille malgré moi
 De sauver les apparences
 Et me dicte la prudence
 
-Pré-Ref
+Pré refrain
 $2
 --
 Alors lequel des deux choisir?
@@ -70,7 +70,7 @@ Et regarder la télé
 C'est sûr c'est moins dangereux
 Mais ça fait vivre plus vieux
 
-Pré-Ref
+Pré refrain
 $2
 --
 Alors que faire de ma vie?
@@ -94,7 +94,7 @@ $1
 --
 ***Solo***
 
-Pré-Ref
+Pré refrain
 $2
 --
 Alors que faire de ma vie?

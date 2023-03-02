@@ -34,7 +34,7 @@ Ma place est là, pour toujours
 Le vent qui hurle en moi ne pense plus à demain
 Il est bien trop fort, j'ai lutté en vain
 
-Pré ref!+2M
+Pré refrain!+2M
 [
 $2
 ]2
@@ -68,7 +68,7 @@ Tout semble insignifiant
 La tristesse, l'angoisse et la peur
 M'ont quittée depuis longtemps
 
-Pré ref!+1M
+Pré refrain!+1M
 [
 $2
 ]2

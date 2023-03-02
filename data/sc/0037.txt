@@ -79,7 +79,7 @@ C'est toujours le même film qui passe
 T'es toute seule au fond de l'espace
 T'as personne devant
 
-Break
+Pont
 G ; D ; Em ; C
 G ; D ; Em ; %
 G ; D ; Em ; C
@@ -99,7 +99,7 @@ Les oiseaux qui s'envolent
 Les oiseaux qui s'envolent
 +++...+++
 
-Break 2!6 last x2
+Pont!6 last x2
 $1
 --
 Tu comptes les chances qu'il te reste

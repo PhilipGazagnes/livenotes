@@ -33,7 +33,7 @@ She lost her home and her family and she won't be coming back
 Without love, where would you be right now
 Without lo-o-o-ove
 
-Couplet break
+Couplet!break
 $2
 --
 Well the Illinois Central
@@ -48,7 +48,7 @@ $2
 --
 ***Solo***
 
-Couplet break
+Couplet!break
 $2
 --
 Well the Illinois Central
@@ -58,7 +58,7 @@ You know they're running late
 Without love, where would you be now
 Without lo-o-o-ve
 
-Couplet break fin ralentie Cm7
+Couplet!break fin ralentie Cm7
 $2
 --
 Well the pistons keep on turning

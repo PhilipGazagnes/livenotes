@@ -27,7 +27,7 @@ Viens, mais ne viens pas quand je serai seule
 Moi qui ai tout choisi dans ma vie
 Je veux choisir ma mort aussi
 
-Pré-ref
+Pré refrain
 $3
 --
 Il y a ceux qui veulent mourir un jour de pluie
@@ -62,7 +62,7 @@ Viens, mais ne viens pas quand je serai seule
 Choisis plutôt un soir de gala
 Si tu veux danser avec moi
 
-Pré-ref
+Pré refrain
 $3
 --
 Ma vie a brûlé sous trop de lumières

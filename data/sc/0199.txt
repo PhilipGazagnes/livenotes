@@ -19,9 +19,10 @@ De l'huile petit homme, écoute, écoute
 Mets de l'huile petit homme, dans la vie, il faut que ça glisse
 De l'huile petit homme, écoute, écoute plutôt Regg'lyss
 
-Gimmick
+Instru!Gimmick
 $1
 --
+***Instru***
 
 Theme x 1 + peches
 
@@ -41,7 +42,9 @@ De l'huile petit homme, écoute, écoute
 Mets de l'huile petit homme dans la vie, il faut que ça glisse
 De l'huile petit homme, écoute, écoute plutôt Regg'lyss
 
-Solo + gimmick
+Instru!Gimmick
 $1
+--
+***Instru***
 
-Theme x 2 + peches
+@Theme x 2 + peches

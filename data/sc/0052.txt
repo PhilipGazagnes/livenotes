@@ -9,7 +9,7 @@ _
 --
 ***Intro***
 
-Couplet calme
+Couplet!calme
 (
 $1
 )4
@@ -59,7 +59,7 @@ $1
 --
 ***Solo***
 
-Couplet calme
+Couplet!calme
 (
 $1
 )4

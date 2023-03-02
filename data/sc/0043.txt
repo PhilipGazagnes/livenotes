@@ -103,7 +103,7 @@ Ooh, ooh, ooh, ooh, a-ah
 Ooh, ooh, ooh, ooh, a-ah
 Ooh, ooh, ooh, ooh, a-ah
 
-Refrain !+pause 1T
+Refrain!+pause 1T
 $1
 --
 COULD IT BE THAT / it's just an illusion

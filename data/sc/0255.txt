@@ -35,7 +35,7 @@ E;%
 C#m B;A E
 ]2
 
-Gimmick
+Instru!Gimmick
 $2
 
 Couplet
@@ -52,7 +52,7 @@ Je prie la terre de toute ma voix
 Mais pas le ciel, il m'entend pas
 Mais pas le ciel, trop haut pour moi
 
-Gimmick
+Instru!Gimmick
 $2
 
 Couplet

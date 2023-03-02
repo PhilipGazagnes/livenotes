@@ -70,7 +70,7 @@ E
 --
 +++...+++
 
-Couplet calme / break
+Couplet!calme / break
 $1
 --
 Et dans la bouche de Daniela

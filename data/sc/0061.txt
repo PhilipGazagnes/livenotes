@@ -8,7 +8,7 @@ $1
 --
 ***Intro***
 
->>>Refrain
+Refrain
 (
 $1
 )2
@@ -28,7 +28,7 @@ Tout seul dans mon placard, les yeux cernés de noir
 Dans ce monde qui n'a ni queue ni tête, je n'en fais qu'à ma tête
 Un mouchoir au creux du pantalon, je suis chevalier d'Éon
 
->>>Refrain
+Refrain
 (
 $1
 )2
@@ -55,7 +55,7 @@ Je n'admets qu'on menace mes résolutions
 Je me fous bien des qu'en-dira-t-on, je suis caméléon
 Prenez garde à mes soldats de plomb, c'est eux qui vous tueront
 
->>>Refrain
+Refrain
 (
 $1
 )2
@@ -65,7 +65,7 @@ Sans contrefaçon je suis un garçon
 Et pour un empire, je ne veux me dévêtir
 Puisque sans contrefaçon je suis un garçon
 
->>>Refrain
+Refrain
 (
 $1
 )2
@@ -75,7 +75,9 @@ Sans contrefaçon je suis un garçon
 Et pour un empire, je ne veux me dévêtir
 Puisque sans contrefaçon je suis un garçon
 
-Outro fin apel drum
+Outro
 $1
 --
 ***Instru***
+
+@apel drum

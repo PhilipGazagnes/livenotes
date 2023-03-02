@@ -34,7 +34,7 @@ So if you want me off your back
 Well, come on and let me know
 Should I stay or should I go?
 
-Refrain !-1 tx2
+Refrain!-1 tx2
 $1
 --
 Should I stay or should I go now?
@@ -58,7 +58,7 @@ $1
 --
 ***Instru***
 
-Refrain !tx2
+Refrain!tx2
 $1
 --
 Should I stay or should I go now?
@@ -68,7 +68,7 @@ And if I stay it will be double
 So ya gotta let me know
 Should I cool it or should I blow?
 
-Refrain !tx2
+Refrain!tx2
 $1
 --
 Should I stay or should I go now?

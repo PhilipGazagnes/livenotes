@@ -66,13 +66,17 @@ I do, with an ear to lend
 I do think you fit this shoe
 I do, but you have a clue
 
-Refrain/Outro
+Refrain
 $2
 --
 I'll take advantage while
 You hang me out to dry
 But I can't see you every night
 No, I can't see you every night
+
+Outro
+$1
+--
 Free
 I do
 I do
