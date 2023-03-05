@@ -15,7 +15,7 @@ Fm;G;%
 $3
 Cm;%
 
-Intro (notes puis chords)
+Intro!(notes puis chords)
 $3
 --
 ***Intro***

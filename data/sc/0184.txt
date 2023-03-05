@@ -75,7 +75,7 @@ Je sais qu'elle m'adore
 Non, non, non y a pas d'error
 Machistador
 
-Outro "j'adore"
+Outro!"j'adore"
 $1
 --
 Matcho matcho matchistador

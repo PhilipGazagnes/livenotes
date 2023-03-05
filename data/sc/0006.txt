@@ -16,7 +16,7 @@ ENTONNEZ LE TAMBOUR
 MOI, J'ACCORDE MA BASSE
 UN, DEUX, TROIS, QUATRE!
 
-Powerfunk
+Instru
 $1
 --
 ***Instru***
@@ -33,7 +33,7 @@ JE M'EN FICHE
 JE PREFERE LE ROCK
 A LA MUSIQUE CLASSIQUE!
 
-Powerfunk
+Instru
 $1
 --
 ***Instru***
@@ -50,7 +50,7 @@ AU JAZZ
 PASSEZ LE DISQUE S'IL VOUS PLAIT
 SUR LE JUKE-BOX!
 
-Powerfunk
+Instru
 $1
 --
 ***Instru***
@@ -79,7 +79,7 @@ JE PREFERE LE ROCK
 ALLONS ENFANTS
 JOUEZ!
 
-Powerfunk
+Instru
 $1
 --
 ***Instru***

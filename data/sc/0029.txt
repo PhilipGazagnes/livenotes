@@ -17,7 +17,7 @@ A#;D;D#;E
 :
 A#;F;A#;%
 
-Intro hors tempo !-8
+Intro!hors tempo, -8
 $1
 --
 Le pape a dit que l'acte d'amour
@@ -25,7 +25,7 @@ Sans être marié, est un péché
 Cette nouvelle il me faut l'annoncer
 À ma paroisse, je suis curé
 
-Intro suite
+Intro!suite
 $1
 --
 J'ai pris une dose de whisky
@@ -37,7 +37,7 @@ Et il m'a donné la solution
 Aussitôt, vers l'église, j'ai couru
 Parler à mes fidèles sur ce ton
 
-Break
+Pré refrain
 [
 F
 ]4
@@ -65,7 +65,7 @@ Quant aux autres, visiblement obtus
 Sachant qu'ils n'avaient rien compris
 Ils me demandèrent de faire à nouveau le sermon du boogie woogie
 
-Break
+Pré refrain
 [
 F
 ]4
@@ -97,7 +97,7 @@ Si ton pape m'a fait perdre l'affaire
 J'irais tout droit, tout droit en enfer
 Mais j'essaierai encore à la messe de midi le sermon du boogie woogie
 
-Break
+Pré refrain
 [
 F
 ]4

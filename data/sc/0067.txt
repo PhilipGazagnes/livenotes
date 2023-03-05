@@ -60,7 +60,7 @@ $1
 --
 ***Solo***
 
-Lazy la la lazy
+Outro
 (
 $1
 )6

@@ -10,7 +10,7 @@ F#m; E
 :
 D; C#m
 
-Guitar gimmick
+Intro!Guitar gimmick
 [
 F#m; E
 ]4
@@ -31,7 +31,7 @@ Touching many hearts along the way
 Hoping that I'll never have to say
 It's just an illusion 
 
-Ooh ooh
+Pré refrain
 $2
 --
 Ooh, ooh, ooh, ooh, a-ah
@@ -49,7 +49,7 @@ Never let your feelings get you down
 Open up your eyes and look around
 It's just an illusion
 
-Ooh ooh
+Pré refrain
 $2
 --
 Ooh, ooh, ooh, ooh, a-ah
@@ -81,7 +81,7 @@ Only in my dreams I turn you on
 Here for just a moment then you're gone
 It's just an illusion
 
-Ooh ooh
+Pré refrain
 $2
 --
 Ooh, ooh, ooh, ooh, a-ah
@@ -93,7 +93,7 @@ $1
 --
 ***Solo***
 
-Ooh ooh
+Pré refrain
 (
 $2
 )2
@@ -111,5 +111,5 @@ PUTTING ME BACK / in all this confusion?
 COULD IT BE THAT / it's just an illusion
 Nooooow?
 
-Intstru
+Instru
 $1

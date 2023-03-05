@@ -19,7 +19,7 @@ $1
 --
 ***Intro***
 
-Mélodie
+Instru!thème
 (
 $1
 )2
@@ -46,7 +46,7 @@ I need hot stuff
 I want some hot stuff
 I need hot stuff
 
-Mélodie
+Instru!thème
 (
 $1
 )2
@@ -112,7 +112,7 @@ I need hot love
 Lookin' for hot love
 Wanna have hot love
 
-Mélodie
+Instru!thème
 (
 $1
 )2

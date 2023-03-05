@@ -109,15 +109,15 @@ Salsa du démon
 Salsa du démon
 Salsa du démon
 
-Solos Drum
+Solo!DRUM
 --
 ***Instru***
 
-Solos Basse
+Solo!Basse
 --
 ***Instru***
 
-Solos Guitare
+Solo!Guitare
 --
 ***Instru***
 

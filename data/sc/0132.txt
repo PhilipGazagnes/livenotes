@@ -58,7 +58,7 @@ Poseur de girouettes
 Du haut du clocher, donne à ma voix
 La direction par où le vent fredonne ma chanson
 
-Reprise
+Pont
 $3
 --
 Tombé sur un jour de chance
@@ -91,7 +91,7 @@ Poseur de girouettes
 Du haut du clocher donne à ma voix
 La direction par où le vent fredonne ma chanson
 
-Reprise
+Pont
 $3
 --
 Tombé sur un jour de chance

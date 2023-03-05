@@ -14,7 +14,7 @@ A;%;E;%
 :
 B;A;E;B
 
-Intro guitare
+Intro!guitare
 [
 E
 ]4

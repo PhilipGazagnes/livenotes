@@ -29,6 +29,21 @@ fs.readdir(scDir, (err, files) => {
   // decodeSongs(['0001.txt']).then((val) => {
   decodeSongs(files).then((val) => {
     const json = JSON.stringify(val);
+
+    // console.log(val);
+    const names = {};
+    Object.keys(val).forEach((id) => {
+      val[id].sections.forEach((s) => {
+        const nameRaw = s.name.split('!')[0];
+        if (names[nameRaw]) names[nameRaw] += 1;
+        else names[nameRaw] = 1;
+      });
+    });
+
+    Object.entries(names).forEach((n) => {
+      console.log(`${n[0]};${n[1]}`);
+    });
+
     fs.writeFile(`${outputDir}data.json`, json, 'utf8', function (err) {
       if (err) {
         console.log('Error.');

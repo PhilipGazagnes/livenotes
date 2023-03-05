@@ -13,7 +13,7 @@ A;B
 E
 ]4
 
-Intro (Drm...+Gtr)
+Intro!(Drm...+Gtr)
 [
 _
 ]4

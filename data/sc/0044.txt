@@ -70,7 +70,7 @@ L'aventurier contre tout guerrier
 Bob Morane contre tout chacal
 L'aventurier contre tout guerrier
 
-Break
+Instru!break
 [
 _
 ]4

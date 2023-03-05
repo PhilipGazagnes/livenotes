@@ -4,12 +4,12 @@ Em;C;G;D
 $2
 Em;C
 
-Gtr alone
+Intro!Guitare seule
 $1
 --
 ***Intro***
 
-Intro (2+1)
+Intro!(2+1)
 (
 $1
 )3

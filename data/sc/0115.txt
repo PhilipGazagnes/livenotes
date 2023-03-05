@@ -4,7 +4,7 @@ A C
 $2
 A;C;G;A
 
-Intro (appel drum)
+Intro!appel drum
 (
 $1
 )4

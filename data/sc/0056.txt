@@ -60,7 +60,7 @@ $2
 --
 ***Instru + Solo***
 
-Post Break !silence fin
+Post Break!silence fin
 (
 Cm;G#
 )4
@@ -85,7 +85,7 @@ Some of them want to get used by you
 Some of them want to abuse you
 Some of them want to be abused
 
-Break !répé 2 last + Cm;G# G;Cm
+Break!répé 2 last + Cm;G# G;Cm
 $2
 --
 ***Instru***

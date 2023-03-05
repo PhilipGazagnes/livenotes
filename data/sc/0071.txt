@@ -6,7 +6,7 @@ G;E;G;E
 :
 G;A;G;E
 
-Intro basse
+Intro!basse
 [
 G
 ]4
@@ -79,7 +79,7 @@ Watchin' the tide, roll away
 I'm sittin' on the dock of the bay
 Wastin' time
 
-Outro sifflée
+Outro!sifflée
 [
 G;%;%;E
 ]4

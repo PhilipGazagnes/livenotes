@@ -87,7 +87,7 @@ I'm gonna trick ya, trick ya, trick ya, trick ya
 One way or another, I'm gonna lose ya
 I'm gonna give you the slip
 
-Break
+Instru!break
 (
 $1
 )4

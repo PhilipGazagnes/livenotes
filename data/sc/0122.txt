@@ -38,7 +38,7 @@ Grab on my waist and put that body on me
 Come on now, follow my lead
 Come, come on now, follow my lead
 
-Ref
+Refrain
 (
 $1
 )4
@@ -52,7 +52,7 @@ And now my bedsheets smell like you
 Every day discovering something brand new
 I'm in love with your body
 
-Post Ref
+Post refrain
 (
 $1
 )4
@@ -94,7 +94,7 @@ Grab on my waist and put that body on me
 Come on now, follow my lead
 Come, come on now, follow my lead
 
-Ref
+Refrain
 (
 $1
 )4
@@ -108,7 +108,7 @@ And now my bedsheets smell like you
 Every day discovering something brand new
 I'm in love with your body
 
-Post Ref
+Post refrain
 (
 $1
 )4
@@ -136,7 +136,7 @@ Come on, be my baby, come on
 Come on, be my baby, come on
 Come on, be my baby, come on
 
-Ref
+Refrain
 (
 $1
 )4

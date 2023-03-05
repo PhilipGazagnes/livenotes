@@ -15,9 +15,9 @@ C;%;B;%
 $3
 C;D;Em;%
 
-Intro drum
+Intro!drum
 
-Intro suite
+Intro!suite
 (
 $3
 )2

@@ -20,7 +20,7 @@ B;%;%;E A
 $4
 B A;B A;B E;E A
 
-Riff
+Instru
 (
 $4
 )2
@@ -60,7 +60,7 @@ Trop grand
 La vie n'a pas de prix
 pas de prix !
 
-Riff
+Instru
 (
 $4
 )2
@@ -155,7 +155,7 @@ Argent, trop cher
 Trop grand
 La vie n'as pas de prix
 
-Riff
+Instru
 (
 $4
 )4

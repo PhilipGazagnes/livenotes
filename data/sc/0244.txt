@@ -119,7 +119,7 @@ $1
 --
 ***Instru***
 
-Final
+Outro
 A
 --
 Hello, hello...?

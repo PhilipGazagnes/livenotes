@@ -2,7 +2,7 @@ $1
 C# C7;Fm G#
 C# C7;Fm
 
-Intro basse
+Intro!basse
 $1
 --
 ***Intro***
@@ -63,7 +63,7 @@ Pont
 --
 ***Instru***
 
-Intro basse
+Intro!basse
 $1
 
 Couplet
@@ -106,6 +106,6 @@ Building big castles way up high
 Just the two of us
 You and I
 
-Pont (juste 1x) / doubler 3 notes fin
+Pont!(juste 1x) / doubler 3 notes fin
 --
 ***Instru***

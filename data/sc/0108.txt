@@ -41,7 +41,7 @@ Proud Mary keep on burnin'
 Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 
-Break !tx2
+Break!tx2
 $1
 --
 ***Instru***
@@ -99,7 +99,7 @@ Rollin', rollin', rollin' on the river
 Rollin', rollin', rollin' on the river
 Live up ! too too too too too...
 
-Outro 4 rolling + descente
+Outro!4 rolling + descente
 $1
 --
 Rollin', rollin', rollin' on the river

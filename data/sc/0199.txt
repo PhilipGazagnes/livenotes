@@ -1,7 +1,7 @@
 $1
 Gm Dm;Cm Dm7sus4/F
 
-Theme x 2 + peches
+Instru!Theme x 2 + peches
 
 Couplet
 $1
@@ -24,7 +24,7 @@ $1
 --
 ***Instru***
 
-Theme x 1 + peches
+Instru!Theme x 1 + peches
 
 Couplet
 $1

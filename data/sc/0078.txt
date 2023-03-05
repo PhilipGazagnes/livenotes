@@ -27,7 +27,7 @@ $1
 --
 ***Instru***
 
-Pêches
+Instru!pêches
 $2
 
 Instru
@@ -54,7 +54,7 @@ C
 Killing in the name of
 Killing in the name of
 
-Pêches
+Pré refrain!pêches
 (
 $1
 )12
@@ -91,7 +91,7 @@ C
 Killing in the name of
 Killing in the name of
 
-Pêches
+Pré refrain!pêches
 (
 $1
 )12

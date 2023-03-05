@@ -25,7 +25,7 @@ d'en avoir vraiment rêvé
 Est-ce une envie ? Parfois, j'me sens
 obligée
 
-Spleen
+Pont
 $2
 --
 Le spleen n'est plus à la mode,
@@ -67,7 +67,7 @@ Pour y croire, il faudrait tout oublier
 On joue, mais là, j'ai trop joué
 Ce bonheur, si je le veux, je l'aurai
 
-Spleen
+Pont
 (
 $2
 )2
@@ -107,7 +107,7 @@ Pour y croire, il faudrait tout oublier
 On joue, mais là, j'ai trop joué
 Ce bonheur, si je le veux, je l'aurai
 
-Spleen
+Pont
 (
 $2
 )2

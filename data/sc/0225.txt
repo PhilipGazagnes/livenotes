@@ -1,36 +1,45 @@
 $1
 C F;G F
 
-Chanson
+Couplet
 $1
 --
 Para bailar la bamba
 Para bailar, bailar la bamba
 Se necesita una poca de gracia
-...
 Una poca de gracia pa mi pa ti
 Y arriba y arriba
 Ay arriba y arriba
 Por ti sere, por ti sere, por ti sere
-...
 Yo no soy marinero
 Yo no soy marinero, soy capitan
 Soy capitan, soy capitan
-...
+
+Refrain
+$1
+--
 Bamba, bamba
 Bamba, bamba
 Bamba, bamba
 Bamba
-...
+
+Couplet
+$1
+--
 Para bailar la bamba
 Para bailar la bamba
 Se necesita una poca de gracia
-...
 Una poca de gracia pa mi pa ti
 Ay y arriba y arriba
-...
+
+Solo
+$1
+--
 ***Solo***
-...
+
+Couplet
+$1
+--
 Para bailar la bamba
 Para bailar la bamba
 Se necesita una poca de gracia
@@ -38,7 +47,10 @@ Una poca de gracia pa mi pa ti
 Y arriba y arriba
 Ay arriba y arriba
 Por ti sere, por ti sere, por ti sere
-...
+
+Refrain
+$1
+--
 Bamba, bamba
 Bamba, bamba
 Bamba, bamba

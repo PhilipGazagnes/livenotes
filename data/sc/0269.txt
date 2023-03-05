@@ -89,7 +89,7 @@ Don't stop me, don't stop me, ooh, I like it
 Don't stop me, don't stop me, Have a good time, good time
 Don't stop me, don't stop me, Woah
 
-Solo+Couplet
+Couplet!commence par solo
 $2
 --
 ***Solo***
