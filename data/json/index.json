@@ -224,7 +224,7 @@
   {"name":"Quatre vingt quinze fois sur cent","artist":"Georges Brassens","id":"0251","lang":"FR","scope": ["phil"]},
   {"name":"Place des grands hommes","artist":"Patrick Bruel","id":"0252","lang":"FR","scope": ["phil"]},
   {"name":"La cabane du pêcheur","artist":"Francis Cabrel","id":"0253","lang":"FR","scope": ["phil"]},
-  {"name":"Pour que tu m'aimes encore","artist":"Céline Dion","id":"0254","lang":"FR","scope": ["phil"]},
+  {"name":"Pour que tu m'aimes encore","artist":"Céline Dion","id":"0254","lang":"FR","scope": ["phil", "funlive"]},
   {"name":"Prière Païenne","artist":"Céline Dion","id":"0255","lang":"FR","scope": ["phil"]},
   {"name":"Comme d'habitude","artist":"Claude François","id":"0256","lang":"FR","scope": ["phil"]},
   {"name":"Allo Allo Mr. l'Ordinateur","artist":"Dorothée","id":"0257","lang":"FR","scope": ["phil"]},
