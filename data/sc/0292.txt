@@ -1,5 +1,8 @@
 $1
-B Baug5;C#m C#7M
+[
+xx444x xx544x;xx644x xx544x
+]3
+xx444x xx544x;xx644x D#
 
 $2
 G#m;C#m;G#m;D#
@@ -11,10 +14,10 @@ $3
 G#m _;_ F#
 ]3
 :
-G#m D# G# %
+G#m D# G#m %
 
 $4
-G#m D#;G#m
+Cm G;Cm
 
 Instru
 $1
@@ -22,7 +25,9 @@ $1
 ***Instru***
 
 Couplet
+(
 $2
+)2
 --
 Spy on me baby use satellite
 Infrared to see me move through the night
@@ -41,13 +46,15 @@ You can give it to me, when I need to come along
 Sexbomb sexbomb you're my sexbomb
 And baby you can turn me on
 
-Instru
+Instru!juste 1 reprise pas 3
 $1
 --
 ***Instru***
 
 Couplet
+(
 $2
+)2
 --
 No don't get me wrong ain't gonna do you no harm (no)
 This bomb's for lovin' and you can shoot it far
@@ -59,7 +66,9 @@ And yes, I must react to claims of those
 Who say that you are not all that.
 
 Refrain
+(
 $2
+)2
 --
 Sexbomb Sexbomb you're a Sexbomb
 You can give it to me, when I need to come along

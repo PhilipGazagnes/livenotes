@@ -265,5 +265,12 @@
   {"name":"Sex bomb","artist":"Tom Jones","id":"0292","lang":"EN","scope": ["syl"]},
   {"name":"Be mine","artist":"Offenbach","id":"0293","lang":"EN","scope": ["syl"]},
   {"name":"Sugar","artist":"Maroon 5","id":"0294","lang":"EN","scope": ["syl"]},
-  {"name":"Blinding lights","artist":"The Weeknd","id":"0295","lang":"EN","scope": ["syl"]}
+  {"name":"Blinding lights","artist":"The Weeknd","id":"0295","lang":"EN","scope": ["syl"]},
+  {"name":"Happy","artist":"Pharell Williams","id":"0296","lang":"EN","scope": ["funlive"]},
+  {"name":"Y'a du soleil","artist":"Christophe Maé","id":"0297","lang":"FR","scope": ["funlive"]},
+  {"name":"Flowers","artist":"Miley Cirus","id":"0298","lang":"EN","scope": ["funlive"]},
+  {"name":"Jeune et con","artist":"Saez","id":"0299","lang":"FR","scope": ["funlive"]},
+  {"name":"Hit the road Jack","artist":"Ray Charles","id":"0300","lang":"EN","scope": ["funlive"]},
+  {"name":"99 luftballons","artist":"Nena","id":"0301","lang":"DE","scope": ["funlive"]},
+  {"name":"The best","artist":"Tina Turner","id":"0302","lang":"EN","scope": ["funlive"]}
 ]
