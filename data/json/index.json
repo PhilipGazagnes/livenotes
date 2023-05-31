@@ -272,5 +272,11 @@
   {"name":"Jeune et con","artist":"Saez","id":"0299","lang":"FR","scope": ["funlive"]},
   {"name":"Hit the road Jack","artist":"Ray Charles","id":"0300","lang":"EN","scope": ["funlive"]},
   {"name":"99 luftballons","artist":"Nena","id":"0301","lang":"DE","scope": ["funlive"]},
-  {"name":"The best","artist":"Tina Turner","id":"0302","lang":"EN","scope": ["funlive"]}
+  {"name":"The best","artist":"Tina Turner","id":"0302","lang":"EN","scope": ["funlive"]},
+  {"name":"Bye bye","artist":"Menelik","id":"0303","lang":"FR","scope": ["phil"]},
+  {"name":"Aux champs élysées","artist":"Joe Dassin","id":"0304","lang":"FR","scope": ["phil"]},
+  {"name":"Armstrong","artist":"Claude Nougaro","id":"0305","lang":"FR","scope": ["phil"]},
+  {"name":"Quelque chose de Tenessee","artist":"Johnny Hallyday","id":"0306","lang":"FR","scope": ["phil"]},
+  {"name":"Le bilan","artist":"Neg Marrons","id":"0307","lang":"FR","scope": ["phil"]},
+  {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"]}
 ]
