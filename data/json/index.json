@@ -278,5 +278,6 @@
   {"name":"Armstrong","artist":"Claude Nougaro","id":"0305","lang":"FR","scope": ["phil"]},
   {"name":"Quelque chose de Tenessee","artist":"Johnny Hallyday","id":"0306","lang":"FR","scope": ["phil"]},
   {"name":"Le bilan","artist":"Neg Marrons","id":"0307","lang":"FR","scope": ["phil"]},
-  {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"]}
+  {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"]},
+  {"name":"Bella ciao (ES)","artist":"Traditionnel italien","id":"0309","lang":"ES","scope": ["phil"]}
 ]
