@@ -157,10 +157,10 @@ export default {
           url: 'https://star.fun-live.fr/repertoire/',
         };
       }
-      if (this.urlParams.directory === 'acoustic') {
+      if (this.urlParams.directory === 'fifi') {
         return {
-          name: 'Retour au répertoire Fun Live Acoustic',
-          url: 'https://acoustic.fun-live.fr/repertoire/',
+          name: 'Retour au répertoire de Fifi',
+          url: 'https://fifi.fun-live.fr/',
         };
       }
       return null;
