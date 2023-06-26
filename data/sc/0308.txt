@@ -1,4 +1,20 @@
+$1
+[
+Bm;%;G A;Bm
+]3
+Bm;%;G A
+:
+B;A;Em;B7
+
+$2
+[
+Em;C;Am;C D
+]2
+:
+Am;Em;B
+
 Couplet
+$1
 --
 Minuit se lève en haut des tours
 Les voix se taisent et tout devient aveugle et sourd
@@ -10,6 +26,7 @@ J'm'en sortirai, j'me le promets
 Et s'il le faut, j'emploierai des moyens légaux
 
 Refrain
+$2
 --
 Envole-moi, envole-moi, envole-moi
 Loin de cette fatalité qui colle à ma peau
@@ -18,6 +35,7 @@ Remplis ma tête d'autres horizons, d'autres mots
 Envole-moi
 
 Couplet
+$1
 --
 Pas de question ni rébellion
 Règles du jeu fixées mais les dés sont pipés
@@ -29,17 +47,26 @@ J'm'en sortirai, je te le jure
 À coup de livres, je franchirai tous ces murs
 
 Refrain
+$2
 --
 Envole-moi, envole-moi, envole-moi
 Loin de cette fatalité qui colle à ma peau
 Envole-moi, envole-moi
 Remplis ma tête d'autres horizons, d'autres mots
 Envole-moi
+
+Refrain
+$2
+--
 Me laisse pas là, emmène-moi, envole-moi
 Croiser d'autres yeux qui ne se résignent pas
 Envole-moi, tire-moi de là
 Montre-moi ces autres vies que je ne sais pas
 Envole-moi
+
+Refrain
+$2
+--
 Envole-moi, envole-moi, envole-moi
 Regarde-moi bien, je ne leur ressemble pas
 Me laisse pas là, envole-moi

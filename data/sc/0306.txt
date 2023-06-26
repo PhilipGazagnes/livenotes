@@ -1,4 +1,10 @@
+$1
+E F#m;G#m A
+:
+C#m G#m;F#m B
+
 Couplet
+$1
 --
 On a tous quelque chose en nous de Tennessee
 Cette volonté de prolonger la nuit
@@ -11,10 +17,12 @@ Si peu d'amour avec tellement de bruit
 Quelque chose en nous de Tennessee
 
 Instru
+$1
 --
 ***Instru***
 
 Couplet
+$1
 --
 Ainsi vivait Tennessee
 Le cœur en fièvre et le corps démoli
@@ -23,10 +31,12 @@ Ce rêve en nous c'était son cri à lui
 Quelque chose de Tennessee
 
 Instru
+$1
 --
 ***Instru***
 
 Couplet
+$1
 --
 Comme une étoile qui s'éteint dans la nuit
 À l'heure où d'autres s'aiment à la folie
@@ -35,10 +45,12 @@ Sans un seul amour, sans un seul ami
 Ainsi disparut Tennessee
 
 Instru
+$1
 --
 ***Instru***
 
 Couplet
+$1
 --
 À certaines heures de la nuit
 Quand le cœur de la ville s'est endormi
@@ -47,10 +59,12 @@ Ce rêve en nous, avec ses mots à lui
 Quelque chose de Tennessee
 
 Instru
+$1
 --
 ***Instru***
 
 Outro
+$1
 --
 Quelque chose de Tennessee
 Y'a quelque chose en nous de Tennessee
