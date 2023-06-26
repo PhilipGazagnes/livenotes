@@ -1,4 +1,21 @@
+!notation relative. Originale en Gm (capo 3)
+
+$1
+[
+Em B7;Em Am//A
+]4
+:
+Em;Am;Em Em/D C7M Am
+:
+Em;A7;E B7
+
+$2
+[
+Em Gm7;C B7
+]2
+
 Couplet
+$1
 --
 Armstrong, je ne suis pas noir
 Je suis blanc de peau
@@ -10,10 +27,12 @@ Les anges zéro
 Je suis blanc de peau
 
 Instru
+$2
 --
 ***Instru***
 
 Couplet
+$1
 --
 Armstrong, tu te fends la poire
 On voit toutes tes dents
@@ -25,10 +44,12 @@ J'ai froid, oh moi
 Qui suis blanc de peau
 
 Instru
+$2
 --
 ***Instru***
 
 Couplet
+$1
 --
 Armstrong, la vie, quelle histoire?
 C'est pas très marrant
@@ -40,10 +61,12 @@ Qu'on soit, ma foi
 Noir ou blanc de peau
 
 Instru
+$2
 --
 ***Instru***
 
 Couplet
+$1
 --
 Armstrong, un jour, tôt ou tard
 On n'est que des os
