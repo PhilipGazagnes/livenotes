@@ -54,6 +54,11 @@
       </div>
     </div>
     <div ref="lyrics" class="lyrics" :style="{ fontSize: `${fontSizeUser}em` }">
+      <div v-if="mode === 4" class="lyricsFlags">
+        <div v-for="number in 20" :key="number">
+          {{ number }}
+        </div>
+      </div>
       <div class="lyricsDirectory">
         <a v-if="urlParams.directory" :href="directoryParams.url">
           {{ directoryParams.name }}
@@ -62,7 +67,7 @@
       </div>
       <div class="lyricsTitle">{{ meta.name }} - {{ meta.artist }}</div>
       <div
-        v-if="mode === 3 && songData.warning"
+        v-if="mode >= 3 && songData.warning"
         class="lyricsWarning"
         v-html="songData.warning"
       />
@@ -366,7 +371,7 @@ export default {
       this.fontSizeUser += 0.1 * (increase ? 1 : -1);
     },
     changeMode() {
-      this.mode = this.mode === 3 ? 1 : this.mode + 1;
+      this.mode = this.mode === 4 ? 1 : this.mode + 1;
     },
     changeScrollAmount() {
       this.scrollAmount =
@@ -404,7 +409,8 @@ body {
       flex: 1 1 100%;
     }
   }
-  &[data-mode='3'] {
+  &[data-mode='3'],
+  &[data-mode='4'] {
     @media screen and (max-width: 768px) {
       font-size: 0.5em;
     }
@@ -661,6 +667,7 @@ body {
   background: white;
   padding: 10px 0;
   overflow-y: scroll;
+  position: relative;
   em {
     font-size: 1.5em;
     font-weight: bold;
@@ -695,7 +702,8 @@ body {
     border: none;
     min-height: 20px;
     font-weight: bold;
-    &[data-mode='3'] {
+    &[data-mode='3'],
+    &[data-mode='4'] {
       font-weight: normal;
       border-left: 10px solid;
       padding: 0 20px 0 10px;
@@ -726,6 +734,20 @@ body {
     }
     &.sectionStyle6 {
       border-color: lightgreen;
+    }
+  }
+  &Flags {
+    position: absolute;
+    top: 0;
+    left: -5px;
+    & > div {
+      background: yellow;
+      border: black 2px solid;
+      width: 25px;
+      height: 25px;
+      margin-top: 300px;
+      text-align: center;
+      font-weight: bold;
     }
   }
 }
