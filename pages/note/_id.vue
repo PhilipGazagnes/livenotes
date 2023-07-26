@@ -88,6 +88,13 @@
     </div>
     <div class="tools">
       <button
+        class="toolsButton"
+        style="font-size: 10px"
+        @click="changeScrollAmount"
+      >
+        {{ scrollAmount }}
+      </button>
+      <button
         v-if="!this.urlParams.directory"
         class="toolsButton"
         @click="changeMode"
@@ -135,6 +142,7 @@ export default {
       urlParams: {},
       urlParamsProcessed: false,
       modalContent: null,
+      scrollAmount: 200,
     };
   },
   computed: {
@@ -279,10 +287,16 @@ export default {
       return show;
     },
     scrollDown() {
-      this.$refs.lyrics.scrollTo(0, this.$refs.lyrics.scrollTop + 200);
+      this.$refs.lyrics.scrollTo(
+        0,
+        this.$refs.lyrics.scrollTop + this.scrollAmount,
+      );
     },
     scrollUp() {
-      this.$refs.lyrics.scrollTo(0, this.$refs.lyrics.scrollTop - 200);
+      this.$refs.lyrics.scrollTo(
+        0,
+        this.$refs.lyrics.scrollTop - this.scrollAmount,
+      );
     },
     sectionClass(arr, index, name) {
       if (index === 0) {
@@ -353,6 +367,10 @@ export default {
     },
     changeMode() {
       this.mode = this.mode === 3 ? 1 : this.mode + 1;
+    },
+    changeScrollAmount() {
+      this.scrollAmount =
+        this.scrollAmount === 250 ? 50 : this.scrollAmount + 50;
     },
   },
 };
