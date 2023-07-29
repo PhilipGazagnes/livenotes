@@ -3,10 +3,10 @@ B D#m;E F#
 
 $2
 [
-B D#m;E F#
+B;E F#
 ]3
 :
-G#m F#;D#m E
+G#m;D#m E
 
 $3
 [
@@ -88,16 +88,15 @@ Là, caché derrière
 Y a du soleil qui brûle en toi
 J'ai vu ta lumière
 
-Pont
+Instru solo
 $1
 --
-N'éteins pas ta lumière
-Non, n'éteins pas ta lumière
-Protège-la, ta lumière
+***Instru***
 
-Solo
-(
+Refrain
 $2
-)2
 --
-***Solo***
+Y a du soleil qui brille en toi
+Là, caché derrière
+Y a du soleil qui brûle en toi
+J'ai vu ta lumière
