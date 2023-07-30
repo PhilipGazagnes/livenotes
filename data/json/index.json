@@ -306,5 +306,6 @@
   {"name":"Scars to your beautiful","artist":"Alessia Cara","id":"0333","lang":"EN","scope": ["phil"]},
   {"name":"Que l'amour est violent","artist":"Garou","id":"0334","lang":"FR","scope": ["phil"]},
   {"name":"Freed from desire","artist":"Gala","id":"0335","lang":"EN","scope": ["phil"]},
-  {"name":"Call me when you're sober","artist":"Evanescence","id":"0336","lang":"EN","scope": ["phil"]}
+  {"name":"Call me when you're sober","artist":"Evanescence","id":"0336","lang":"EN","scope": ["phil"]},
+  {"name":"Alors regarde","artist":"Patrick Bruel","id":"0337","lang":"FR","scope": ["funlive", "phil"]}
 ]
