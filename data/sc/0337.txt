@@ -23,6 +23,7 @@ Tu dis que c'est trop facile, tu dis que ça sert rien
 Mais c'est encore plus facile de ne parler de rien
 
 Refrain!+1MES A
+$2
 --
 Alors regarde, regarde un peu
 Je vais pas me taire parce que t'as mal aux yeux
@@ -45,7 +46,7 @@ Je vais pas me taire parce que t'as mal aux yeux
 Alors regarde, regarde un peu
 Tu verras tout ce qu'on peut faire si on est deux
 
-Couplet pont!plus sec
+Couplet!plus sec
 $1
 --
 Dans ma tête une musique vient plaquer ses images
