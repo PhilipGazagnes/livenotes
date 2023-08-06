@@ -54,7 +54,7 @@ Oui je préfère ça
 Oh j'aime encore mieux ça
 Car c'est vraiment toi
 
-Post Refrain
+Post refrain
 (
 $3
 )2
@@ -140,7 +140,7 @@ $1
 Ça se sent que c'est toi, ça se sent
 Ça se sent que c'est toi, ça se sent
 
-Post Refrain
+Post refrain
 (
 $3
 )3

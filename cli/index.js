@@ -22,6 +22,20 @@ function decodeSongs(files) {
   });
 }
 
+function compare(a, b) {
+  // Use toUpperCase() to ignore character casing
+  const strA = a[0].toUpperCase();
+  const strB = b[0].toUpperCase();
+
+  let comparison = 0;
+  if (strA > strB) {
+    comparison = 1;
+  } else if (strA < strB) {
+    comparison = -1;
+  }
+  return comparison;
+}
+
 fs.readdir(scDir, (err, files) => {
   if (err) {
     console.log(err);
@@ -40,9 +54,11 @@ fs.readdir(scDir, (err, files) => {
       });
     });
 
-    Object.entries(names).forEach((n) => {
-      console.log(`${n[0]};${n[1]}`);
-    });
+    Object.entries(names)
+      .sort(compare)
+      .forEach((n) => {
+        console.log(`${n[0]};${n[1]}`);
+      });
 
     fs.writeFile(`${outputDir}data.json`, json, 'utf8', function (err) {
       if (err) {
