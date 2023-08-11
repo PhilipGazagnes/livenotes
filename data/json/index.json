@@ -314,5 +314,7 @@
   {"name":"La semaine prochaine","artist":"Marc Lavoine","id":"0342","lang":"FR","scope": []},
   {"name":"Imaginer l'amour","artist":"Juliette Armanet","id":"0343","lang":"FR","scope": []},
   {"name":"Bravo tu as gagné","artist":"Mireille Mathieu","id":"0344","lang":"FR","scope": []},
-  {"name":"Toi et moi","artist":"Guillaume Grand","id":"0345","lang":"FR","scope": []}
+  {"name":"Toi et moi","artist":"Guillaume Grand","id":"0345","lang":"FR","scope": []},
+  {"name":"Does your mother know","artist":"Abba","id":"0346","lang":"EN","scope": []},
+  {"name":"Save your tears","artist":"The Weeknd","id":"0347","lang":"EN","scope": []}
 ]
