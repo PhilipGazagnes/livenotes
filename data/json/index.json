@@ -316,5 +316,6 @@
   {"name":"Bravo tu as gagné","artist":"Mireille Mathieu","id":"0344","lang":"FR","scope": []},
   {"name":"Toi et moi","artist":"Guillaume Grand","id":"0345","lang":"FR","scope": []},
   {"name":"Does your mother know","artist":"Abba","id":"0346","lang":"EN","scope": []},
-  {"name":"Save your tears","artist":"The Weeknd","id":"0347","lang":"EN","scope": []}
+  {"name":"Save your tears","artist":"The Weeknd","id":"0347","lang":"EN","scope": []},
+  {"name":"Dancing queen","artist":"Abba","id":"0348","lang":"EN","scope": ["funlive"]}
 ]
