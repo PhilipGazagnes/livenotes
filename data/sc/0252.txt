@@ -66,17 +66,13 @@ Tu t'es mariée, t'as trois gamins
 T'as réussi, tu fais médecin?
 Et toi Pascale, tu t' marres toujours pour rien?"
 
-Refrain
+Couplet
 $2
 --
 On s'était dit rendez-vous dans 10 ans
 Même jour, même heure, même pommes
 On verra quand on aura 30 ans
 Sur les marches de la place des grands hommes
-
-Couplet
-$2
---
 J'ai connu des marées hautes et des marées basses
 Comme vous, comme vous, comme vous
 J'ai rencontré des tempêtes et des bourrasques
