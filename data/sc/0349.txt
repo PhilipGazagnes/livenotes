@@ -1,14 +1,14 @@
 $1
-D# A#;C7m;F7m;A#7
+D# G7m;C7m;F7m;A#7
 
 $2
-G#;A#;D#;Cm
+G#;A#;G7m;Cm7
 :
-F7m;Gm;G#;A#
+F7m;D#;G#;A#
 :
-G#;A#;D#;Cm
+G#;A#;G7m;Cm7
 :
-F7m;Gm;G#;C#;A#
+F7m;D#;G#;C#;A#
 
 $3
 Fm7;A#;Gm;Cm
