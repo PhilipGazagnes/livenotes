@@ -318,5 +318,10 @@
   {"name":"Does your mother know","artist":"Abba","id":"0346","lang":"EN","scope": []},
   {"name":"Save your tears","artist":"The Weeknd","id":"0347","lang":"EN","scope": []},
   {"name":"Dancing queen","artist":"Abba","id":"0348","lang":"EN","scope": ["funlive"]},
-  {"name":"Est-ce que tu viens pour les vacances","artist":"David et Jonathan","id":"0349","lang":"FR","scope": ["funlive"]}
+  {"name":"Est-ce que tu viens pour les vacances","artist":"David et Jonathan","id":"0349","lang":"FR","scope": ["funlive"]},
+  {"name":"A nos souvenirs","artist":"Trois cafés gourmands","id":"0350","lang":"FR","scope": ["funlive"]},
+  {"name":"La goffa lolita","artist":"La petite culotte","id":"0351","lang":"FR","scope": ["funlive"]},
+  {"name":"Fruits de la passion","artist":"Francky Vincent","id":"0352","lang":"FR","scope": ["funlive"]},
+  {"name":"Manhattan Kaboul","artist":"Renaud, Axelle Red","id":"0353","lang":"FR","scope": ["funlive"]},
+  {"name":"Quand il pète il troue son slip","artist":"Sébastien Patoche","id":"0354","lang":"FR","scope": ["funlive"]}
 ]
