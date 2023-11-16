@@ -15,13 +15,18 @@ D;A;E;%
 :
 F#m;B;A;%
 :
-C#m;%;A;%
+C#m;%
+[
+A
+]4
 
 $4
 A;%;C#m;%
 
 Intro
+(
 $3
+)4
 
 Couplet
 $1
@@ -35,7 +40,9 @@ La tête ailleurs dans ses prières
 Il m'a semblé voir trop briller ses yeux
 
 Inter
+(
 $3
+)2
 --
 Mmmmh, Je lui ai dit
 
@@ -50,7 +57,9 @@ Après, je te parlerai de l'amour
 Si je me souviens un peu
 
 Inter
+(
 $3
+)2
 --
 Mmmmh, Elle m'a dit
 
@@ -66,7 +75,9 @@ Sur les murs de la cabane du pêcheur
 Viens t'asseoir
 
 Inter
+(
 $3
+)4
 --
 Mmmmh, Je lui ai dit
 
@@ -82,7 +93,9 @@ Là-haut dans l'univers
 Peut-être tu demandes plus qu'il ne peut?
 
 Inter
+(
 $3
+)2
 --
 Mmmmh, Elle m'a dit
 
@@ -98,9 +111,12 @@ Sur les murs de la cabane du pêcheur
 Viens t'asseoir
 
 Inter
+(
 $3
---
-Mmmmh, Elle m'a dit
+)2
+
+Solo!inversé
+$1
 
 Refrain
 $2

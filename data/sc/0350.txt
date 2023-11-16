@@ -19,14 +19,14 @@ Ce n'était pas ma faute
 On joue des fausses notes
 On se trompe de chemin
 Et on a du chagrin
-
-Couplet
-$1
---
 On se joue tout un drame
 On a des vagues à l'âme
 Tu as du mal au cœur
 Tu as peur du bonheur
+
+Couplet
+$1
+--
 Acheter des tableaux
 Et des vaches en photo
 C'est tout ce que t'as trouvé
@@ -39,10 +39,6 @@ Le fruit de ma réflexion
 Ne touchera personne
 Si vos pas ne résonnent
 Jamais dans ma région
-
-Couplet
-$1
---
 C'est pire qu'une religion
 Au-delà d'une confession
 Je l'aime à en mourir

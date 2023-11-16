@@ -362,7 +362,12 @@ export default {
           return `<i>${spl[1]}</i>`;
         }
       }
-      return str;
+      console.log(str);
+      let newstr = str.replace('{m{', '<span class="duo_man">');
+      newstr = newstr.replace('{l{', '<span class="duo_lady">');
+      newstr = newstr.replace('}}', '</span>');
+
+      return newstr;
     },
     fontSize(increase) {
       this.fontSizeUser += 0.1 * (increase ? 1 : -1);
@@ -686,6 +691,12 @@ body {
   i {
     color: blue;
     background: #ddd;
+  }
+  .duo_man {
+    color: blue;
+  }
+  .duo_lady {
+    color: red;
   }
   &Directory {
     padding: 20px 20px 0;

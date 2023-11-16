@@ -29,7 +29,7 @@ Et quand il pète il troue son slip
 Et quand il pète il troue son slip
 Et quand il pète il troue son slip
 
-Couplet
+Inter
 $1
 --
 Allez ça continue
@@ -37,6 +37,10 @@ C'est parti Maestro
 On y va
 Allez qui roule bamboul
 C'est parti
+
+Couplet
+$1
+--
 La barre plus coupante que du verre
 Je te jure sur la tête de ma mère
 Qu'il faut rappeler le paysagiste

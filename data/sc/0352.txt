@@ -112,12 +112,3 @@ Vas-y Francky, c'est bon
 Vas-y Francky, c'est bon, bon, bon
 Vas-y Francky, c'est bon
 Vas-y Francky, c'est bon, bon, bon
-
-Pont
-$1
---
-Fruit de la passion (j'aime quand tu touches)
-Fruit de la passion (oh, c'est super)
-Fruit de la passion (oh Francky, c'est génial)
-Fruit de la passion (bon dessert, mon amour)
-Fruit de la passion

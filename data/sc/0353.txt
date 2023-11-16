@@ -35,40 +35,40 @@ Couplet
 $1
 )2
 --
-Petit portoricain, bien intégré quasiment new-yorkais
-Dans mon building tout de verre et d'acier
-Je prends mon job, un rail de coke, un café
-Petite fille afghane, de l'autre côté de la Terre
-Jamais entendu parler de Manhattan
-Mon quotidien c'est la misère et la guerre
+{m{Petit portoricain, bien intégré quasiment new-yorkais}}
+{m{Dans mon building tout de verre et d'acier}}
+{m{Je prends mon job, un rail de coke, un café}}
+{l{Petite fille afghane, de l'autre côté de la Terre}}
+{l{Jamais entendu parler de Manhattan}}
+{l{Mon quotidien c'est la misère et la guerre}}
 
 Refrain!fin 1 seul E
 $2
 --
-Deux étrangers au bout du monde, si différents
-Deux inconnus, deux anonymes, mais pourtant
+{l{Deux étrangers au bout du monde, si différents}}
+{m{Deux inconnus, deux anonymes, mais pourtant}}
 Pulvérisés, sur l'autel, d'la violence éternelle
 
 Couplet
 $1
 --
-Un 747, s'est explosé dans mes fenêtres
-Mon ciel si bleu est devenu orage
-Lorsque les bombes ont rasé mon village
+{m{Un 747, s'est explosé dans mes fenêtres}}
+{l{Mon ciel si bleu est devenu orage}}
+{l{Lorsque les bombes ont rasé mon village}}
 
 Refrain!fin 1 seul E
 $2
 --
-Deux étrangers au bout du monde, si différents
-Deux inconnus, deux anonymes, mais pourtant
+{l{Deux étrangers au bout du monde, si différents}}
+{m{Deux inconnus, deux anonymes, mais pourtant}}
 Pulvérisés, sur l'autel, d'la violence éternelle
 
 Pont
 $3
 --
-So long, adieu mon rêve américain
-Moi, plus jamais esclave des chiens
-Ils t'imposaient l'Islam des tyrans
+{m{So long, adieu mon rêve américain}}
+{l{Moi, plus jamais esclave des chiens}}
+{m{Ils t'imposaient l'Islam des tyrans}}
 Ceux-là n'ont-ils jamais lu le Coran
 
 Solo!fin pas de E
@@ -79,26 +79,28 @@ $2
 Couplet
 $1
 --
-J'suis redevenu poussière
-Je serai pas maître de l'univers
-Ce pays que j'aimais tellement serait-il
-Finalement colosse aux pieds d'argile
-Les dieux, les religions
-Les guerres de civilisation
+{m{J'suis redevenu poussière}}
+{m{Je serai pas maître de l'univers}}
+{m{Ce pays que j'aimais tellement serait-il}}
+{m{Finalement colosse aux pieds d'argile}}
+{l{Les dieux, les religions}}
+{l{Les guerres de civilisation}}
 Les armes, les drapeaux, les patries, les nations
-Font toujours de nous de la chair à canon
+{l{Font toujours de nous de la chair à canon}}
 
 Refrain
 $2
 --
-Deux étrangers au bout du monde, si différents
-Deux inconnus, deux anonymes, mais pourtant
+{l{Deux étrangers au bout du monde, si différents}}
+{m{Deux inconnus, deux anonymes, mais pourtant}}
 Pulvérisés, sur l'autel, d'la violence éternelle
-Deux étrangers au bout du monde, si différents
-Deux inconnus, deux anonymes, mais pourtant
+{l{Deux étrangers au bout du monde, si différents}}
+{m{Deux inconnus, deux anonymes, mais pourtant}}
 Pulvérisés, sur l'autel, d'la violence éternelle
 
 Solo
 $2
 --
 ***Solo***
+
+@Am
