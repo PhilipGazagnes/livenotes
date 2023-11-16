@@ -362,7 +362,7 @@ export default {
           return `<i>${spl[1]}</i>`;
         }
       }
-      console.log(str);
+
       let newstr = str.replace('{m{', '<span class="duo_man">');
       newstr = newstr.replace('{l{', '<span class="duo_lady">');
       newstr = newstr.replace('}}', '</span>');
