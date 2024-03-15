@@ -15,18 +15,18 @@ D#;A#;%;D#
 Couplet
 $1
 --
-Dis-moi pourquoi tu es mon seul problème
-Dis-moi pourquoi tu es mon seul souci
-On récolte la vie que l'on sème
-Mais quand vient l'amour on est un peu surpris
+{l{Dis-moi pourquoi tu es mon seul problème}}
+{m{Dis-moi pourquoi tu es mon seul souci}}
+{m{On récolte la vie que l'on sème}}
+{l{Mais quand vient l'amour on est un peu surpris}}
 
 Couplet!2 last: F A# | D#
 $1
 --
-À cause de toi je ne suis plus la même
-Oh, moi par ta faute j'ai changé aussi
-Je ne sais pas où ça nous entraîne
-C'est la chance ou bien c'est de la folie
+{l{À cause de toi je ne suis plus la même}}
+{m{Oh, moi par ta faute j'ai changé aussi}}
+{m{Je ne sais pas où ça nous entraîne}}
+{l{C'est la chance ou bien c'est de la folie}}
 
 Refrain
 $2
@@ -39,18 +39,18 @@ Si ça n'est pas vraiment l'amour de vivre ensemble
 Couplet
 $1
 --
-J'ai un problème, je sens bien que je t'aime
-Oh, j'ai un problème c'est que je t'aime aussi
-Ces mots-là restent toujours les mêmes
-C'est nous qui changeons le jour où on les dit
+{l{J'ai un problème, je sens bien que je t'aime}}
+{m{Oh, j'ai un problème c'est que je t'aime aussi}}
+{m{Ces mots-là restent toujours les mêmes}}
+{l{C'est nous qui changeons le jour où on les dit}}
 
 Couplet!2 last: F A# | D#
 $1
 --
-J'ai un problème, j'ai bien peur que je t'aime
-J'ai un problème, j'en ai bien peur aussi
-En perdant on y gagne quand même
-Et puis après tout, on a pas choisi
+{l{J'ai un problème, j'ai bien peur que je t'aime}}
+{m{J'ai un problème, j'en ai bien peur aussi}}
+{m{En perdant on y gagne quand même}}
+{l{Et puis après tout, on a pas choisi}}
 
 Refrain
 $2
