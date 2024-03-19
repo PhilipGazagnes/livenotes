@@ -1,5 +1,6 @@
 const fs = require('fs');
 const scToObj = require('./scToObj');
+const looperJson = require('../data/json/looper.json');
 
 const scDir = '../data/sc/';
 const outputDir = '../data/json/';
@@ -11,7 +12,8 @@ function decodeSongs(files) {
       const id = files[i].split('.')[0];
       fs.readFile(`${scDir}${id}.txt`, 'utf8', (err, sc) => {
         if (err) throw err;
-        output[id] = scToObj.scToObj(sc);
+        const looperData = looperJson.filter((item) => item.id === id)[0];
+        output[id] = { ...looperData, ...scToObj.scToObj(sc) };
       });
       if (i === len - 1) {
         setTimeout(() => {

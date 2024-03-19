@@ -53,36 +53,57 @@
         </div>
       </div>
     </div>
-    <div ref="lyrics" class="lyrics" :style="{ fontSize: `${fontSizeUser}em` }">
-      <div class="lyricsDirectory">
-        <a v-if="urlParams.directory" :href="directoryParams.url">
-          {{ directoryParams.name }}
-        </a>
-        <nuxt-link v-else to="/">Retour au répertoire</nuxt-link>
+    <div class="rightCol">
+      <div class="looper">
+        <div class="tempo">{{ songData.tempo }}<br />BPM</div>
+        <div class="pattern1">
+          {{ songData.pattern1 }}<br />{{ songData.pattern1vars }}
+        </div>
+        <div class="pattern2">
+          {{ songData.pattern2 }}<br />{{ songData.pattern2vars }}
+        </div>
+        <div class="patternComment">
+          <div>{{ songData.patternsComment }}</div>
+        </div>
+        <div class="loopComment">
+          <div>{{ songData.loopComment }}</div>
+        </div>
       </div>
-      <div class="lyricsTitle">{{ meta.name }} - {{ meta.artist }}</div>
       <div
-        v-if="mode === 3 && songData.warning"
-        class="lyricsWarning"
-        v-html="songData.warning"
-      />
-      <div
-        v-for="(s, index3) in songData.sections"
-        v-show="!(mode === 1 && !s.lyrics)"
-        :key="index3"
-        :class="[
-          'lyricsBloc',
-          sectionClass(s.measures, index3, s.name),
-          isSeparator(s.name),
-        ]"
-        :data-mode="mode"
+        ref="lyrics"
+        class="lyrics"
+        :style="{ fontSize: `${fontSizeUser}em` }"
       >
-        <div>
-          <div
-            v-for="(p, index2) in s.lyrics"
-            :key="index2"
-            v-html="lyric(p)"
-          />
+        <div class="lyricsDirectory">
+          <a v-if="urlParams.directory" :href="directoryParams.url">
+            {{ directoryParams.name }}
+          </a>
+          <nuxt-link v-else to="/">Retour au répertoire</nuxt-link>
+        </div>
+        <div class="lyricsTitle">{{ meta.name }} - {{ meta.artist }}</div>
+        <div
+          v-if="mode === 3 && songData.warning"
+          class="lyricsWarning"
+          v-html="songData.warning"
+        />
+        <div
+          v-for="(s, index3) in songData.sections"
+          v-show="!(mode === 1 && !s.lyrics)"
+          :key="index3"
+          :class="[
+            'lyricsBloc',
+            sectionClass(s.measures, index3, s.name),
+            isSeparator(s.name),
+          ]"
+          :data-mode="mode"
+        >
+          <div>
+            <div
+              v-for="(p, index2) in s.lyrics"
+              :key="index2"
+              v-html="lyric(p)"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -426,10 +447,6 @@ body {
     @media screen and (max-width: 768px) {
       font-size: 0.5em;
     }
-    .lyrics {
-      display: block;
-      flex: 0 0 50%;
-    }
     .structure {
       display: flex;
       flex: 0 0 50%;
@@ -673,6 +690,54 @@ body {
       border: 3px red solid;
       cursor: pointer;
     }
+  }
+}
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.looper {
+  flex: 0 0 100px;
+  background: #222;
+  color: white;
+  display: flex;
+  & > div {
+    border-right: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    &:last {
+      border: none;
+    }
+    & > div {
+      padding: 0 10px;
+    }
+  }
+  .tempo {
+    flex: 0 0 15%;
+    color: yellow;
+    font-size: 1.8em;
+  }
+  .pattern1 {
+    flex: 0 0 10%;
+    color: red;
+    font-size: 1.8em;
+  }
+  .pattern2 {
+    flex: 0 0 10%;
+    color: #ff00ff;
+    font-size: 1.8em;
+  }
+  .patternComment {
+    flex: 0 0 33%;
+    line-height: 1.5em;
+  }
+  .loopComment {
+    flex: 0 0 32%;
   }
 }
 .lyrics {
