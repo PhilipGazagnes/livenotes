@@ -697,6 +697,7 @@ body {
   flex-direction: column;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 .looper {
   flex: 0 0 100px;
