@@ -79,7 +79,7 @@
     {"id":"0104","tempo":"115+","pattern1":"E1","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"VAR A couplet VAR B Refrain","loopComment":""},
     {"id":"0012","tempo":"190","pattern1":"C6","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"VAR A couplet VAR B refrain","loopComment":"loop couplet pour solo"},
     {"id":"0233","tempo":"110","pattern1":"A1","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"VAR A couplet VAR B Refrain","loopComment":""},
-    {"id":"0129","tempo":"130","pattern1":"C6","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"VAR A couplet VAR B Refrain","loopComment":"loop grille pour solo"},
+    {"id":"0129","tempo":"130","pattern1":"C5","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"VAR A couplet VAR B Refrain","loopComment":"loop grille pour solo"},
     {"id":"0291","tempo":"110","pattern1":"C3","pattern1vars":"A","pattern2":"","pattern2vars":"","patternsComment":"cut kick su couplets","loopComment":"loop pour chanter"},
     {"id":"0119","tempo":"120","pattern1":"B3","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"VAR B couplet VAR A Refrain","loopComment":""},
     {"id":"0298","tempo":"125","pattern1":"B3","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"Intro couplets VAR A sans snare. Ref VAR A avec snare. Passer var b sur post refrain","loopComment":""},
@@ -239,5 +239,7 @@
     {"id":"0332","tempo":"80","pattern1":"E1","pattern1vars":"","pattern2":"","pattern2vars":"","patternsComment":"","loopComment":""},
     {"id":"0070","tempo":"85+","pattern1":"A2","pattern1vars":"","pattern2":"","pattern2vars":"","patternsComment":"couple VAR A refrain VAR B","loopComment":""},
     {"id":"0297","tempo":"125","pattern1":"E7","pattern1vars":"AB","pattern2":"F2","pattern2vars":"B","patternsComment":"E7 VAR A couplet VAR B pré ref F2 Ref","loopComment":""},
-    {"id":"0021","tempo":"85","pattern1":"A2","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"couple VAR A refrain VAR B","loopComment":"loop ligne basse pour gimmick"}
+    {"id":"0021","tempo":"85","pattern1":"A2","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"couple VAR A refrain VAR B","loopComment":"loop ligne basse pour gimmick"},
+    {"id":"0356","tempo":"150","pattern1":"A2","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"Couplet VAR B refrain VAR A","loopComment":"pas de loop, trop compliqué, solo vocal"},
+    {"id":"0357","tempo":"115","pattern1":"D1","pattern1vars":"A","pattern2":"","pattern2vars":"","patternsComment":"","loopComment":""}
 ]
