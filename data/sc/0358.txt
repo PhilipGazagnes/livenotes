@@ -8,6 +8,11 @@ F C;Dm C
 :
 F G;G =
 
+$3
+F G;C F
+:
+Dm Em;F G;F G
+
 Couplet
 (
 $1
@@ -61,8 +66,8 @@ On fait bien des grands feu en frottant des cailloux
 Peut-être avec le temps à la force d'y croire
 On peut juste essayer pour voir
 
-Refrain!G fin 6 temps
-$2
+Pont
+$3
 --
 Et même si c'est pas vrai, même si je mens
 Si les mots sont usés, légers comme du vent
@@ -71,7 +76,7 @@ J'te promets un moment de fièvre et de douceur
 Pas toute la nuit mais quelques heures
 
 Outro!calme hors tempo
-$2
+$1
 --
 Je te promets le sel au baiser de ma bouche
 Je te promets le miel à ma main qui te touche
