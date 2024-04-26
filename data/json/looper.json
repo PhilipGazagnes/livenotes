@@ -241,5 +241,7 @@
     {"id":"0297","tempo":"125","pattern1":"E7","pattern1vars":"AB","pattern2":"F2","pattern2vars":"B","patternsComment":"E7 VAR A couplet VAR B pré ref F2 Ref","loopComment":""},
     {"id":"0021","tempo":"85","pattern1":"A2","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"couple VAR A refrain VAR B","loopComment":"loop ligne basse pour gimmick"},
     {"id":"0356","tempo":"150","pattern1":"A2","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"Couplet VAR B refrain VAR A","loopComment":"pas de loop, trop compliqué, solo vocal"},
-    {"id":"0357","tempo":"115","pattern1":"D1","pattern1vars":"A","pattern2":"","pattern2vars":"","patternsComment":"","loopComment":""}
+    {"id":"0357","tempo":"115","pattern1":"D1","pattern1vars":"A","pattern2":"","pattern2vars":"","patternsComment":"","loopComment":""},
+    {"id":"0358","tempo":"","pattern1":"","pattern1vars":"","pattern2":"","pattern2vars":"","patternsComment":"","loopComment":""},
+    {"id":"0359","tempo":"","pattern1":"","pattern1vars":"","pattern2":"","pattern2vars":"","patternsComment":"","loopComment":""}
 ]
