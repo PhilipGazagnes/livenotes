@@ -63,7 +63,7 @@
           {{ songData.pattern2 }}<br />{{ songData.pattern2vars }}
         </div>
         <div class="patternComment">
-          <div>{{ songData.patternsComment }}</div>
+          <div v-html="songData.patternsComment" />
         </div>
         <div class="loopComment">
           <div>{{ songData.loopComment }}</div>
@@ -735,7 +735,43 @@ body {
   }
   .patternComment {
     flex: 0 0 33%;
+    font-size: 1.2em;
     line-height: 1.5em;
+    .pattern1,
+    .pattern2 {
+      font-size: inherit;
+    }
+    .patternParts {
+      color: yellow;
+      border: 1px solid yellow;
+      padding: 1px 2px;
+      border-radius: 3px;
+    }
+    .patternVar {
+      border: 1px solid white;
+      border-radius: 3px;
+      padding: 1px 4px;
+    }
+    .pattern3Dots {
+      opacity: 0.5;
+    }
+    .patternNobeat {
+      font-size: 0.8em;
+      color: grey;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: grey;
+      }
+    }
+    .patternSection {
+      text-decoration: underline;
+    }
   }
   .loopComment {
     flex: 0 0 32%;

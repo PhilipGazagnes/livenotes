@@ -13,7 +13,10 @@ function decodeSongs(files) {
       fs.readFile(`${scDir}${id}.txt`, 'utf8', (err, sc) => {
         if (err) throw err;
         const looperData = looperJson.filter((item) => item.id === id)[0];
-        output[id] = { ...looperData, ...scToObj.scToObj(sc) };
+        output[id] = {
+          ...scToObj.looperCodeDecorate(looperData),
+          ...scToObj.scToObj(sc),
+        };
       });
       if (i === len - 1) {
         setTimeout(() => {
