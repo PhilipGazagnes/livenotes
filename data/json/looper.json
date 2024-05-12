@@ -242,6 +242,6 @@
     {"id":"0021","tempo":"85","pattern1":"A2","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"*couplet* v.A<br />*refrain* v.B","loopComment":"loop ligne basse pour gimmick"},
     {"id":"0356","tempo":"150","pattern1":"A2","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"*Couplet* v.B<br />*refrain* v.A","loopComment":"pas de loop, trop compliqué, solo vocal"},
     {"id":"0357","tempo":"115","pattern1":"D1","pattern1vars":"A","pattern2":"","pattern2vars":"","patternsComment":"","loopComment":""},
-    {"id":"0358","tempo":"","pattern1":"","pattern1vars":"","pattern2":"","pattern2vars":"","patternsComment":"","loopComment":""},
-    {"id":"0359","tempo":"","pattern1":"","pattern1vars":"","pattern2":"","pattern2vars":"","patternsComment":"","loopComment":""}
+    {"id":"0358","tempo":"60+","pattern1":"A2","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"*intro* v.A [X _ X]<br />... [X X X] ... v.B","loopComment":""},
+    {"id":"0359","tempo":"100+","pattern1":"B2","pattern1vars":"AB","pattern2":"","pattern2vars":"","patternsComment":"*intro refrains* v.B *couplets* v.A","loopComment":""}
 ]
