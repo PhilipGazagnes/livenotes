@@ -328,5 +328,6 @@
   {"name":"Poupée de cire, poupée de son","artist":"Franc Gall","id":"0356","lang":"FR","scope": ["phil"]},
   {"name":"Nougayork","artist":"Claude Nougaro","id":"0357","lang":"FR","scope": ["phil"]},
   {"name":"Je te promets","artist":"Johnny Hallyday","id":"0358","lang":"FR","scope": ["phil"]},
-  {"name":"Demain sera parfait","artist":"Jean-Louis Aubert","id":"0359","lang":"FR","scope": ["phil"]}
+  {"name":"Demain sera parfait","artist":"Jean-Louis Aubert","id":"0359","lang":"FR","scope": ["phil"]},
+  {"name":"Basket case","artist":"Green day","id":"0360","lang":"EN","scope": ["phil"]}
 ]
