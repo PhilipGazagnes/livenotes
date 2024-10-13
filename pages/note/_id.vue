@@ -54,7 +54,7 @@
       </div>
     </div>
     <div class="rightCol">
-      <div class="looper">
+      <div v-if="false" class="looper">
         <div class="tempo">{{ songData.tempo }}<br />BPM</div>
         <div class="pattern1">
           {{ songData.pattern1 }}<br />{{ songData.pattern1vars }}
