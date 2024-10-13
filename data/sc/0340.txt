@@ -1,7 +1,10 @@
 $1
 Cm D#;A# =
 :
-Cm;%
+Cm;A#;Cm;%
+
+$2
+Cm D#;A# Cm
 :
 A#;Cm;%
 
@@ -17,7 +20,7 @@ Jolene, Jolene, Jolene, Jolene
 Please don't take him even though you can
 
 Couplet
-$1
+$2
 --
 Your beauty is beyond compare
 With flaming locks of auburn hair
@@ -41,7 +44,7 @@ Jolene, Jolene, Jolene, Jolene
 Please don't take him even though you can
 
 Couplet
-$1
+$2
 --
 I had to have this talk with you
 My happiness depends on you

@@ -4,107 +4,110 @@ C#m;A G#
 Refrain
 $1
 --
-Tu es la seule qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye".
-Tu es le seul qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
+{m{Tu es la seule qui m'aille, je te le dis sans faille}}
+{m{Reste cool bébé, sinon j'te dirai "Bye bye".}}
+{l{Tu es le seul qui m'aille, je te le dis sans faille}}
+{l{Reste cool bébé, sinon j'te dirai "Bye bye"}}
 
 Couplet
 $1
 --
-Où t'étais
-Invité par des potes à une te-fê
-On s'amusait bien, j'n'ai pas vu l'heure qu'il était
-Ah ouais, C'est vrai, j'te connais par cœur
-J'aimerais savoir pourquoi tu agis comme un voleur
-Tu t'fais des films, je ne voulais pas te réveiller c'est tout
-Arrête avec tes questions, dis-moi plutôt à quoi tu joues
-Je joue à la fille qui en a marre de te voir rentrer tard
-Tout ça parc'que tu préfères traîner avec tes lascars
-Il est tard chérie, écoute, baisse le ton tu fais trop de bruit
-Ce n'sont pas des lascars, ce sont mes amis
-Amis et pourquoi m'appellent-ils quand tu n'es pas là
-Sans doute par respect et déférence envers toi
-Les bâtards !
-Ah bon, tu n'le savais pas
-Tes potes ne se gênent pas pour me narrer tes exploits
-Aussitôt le dos tourné, au téléphone ils me draguent
-Ne fais pas l'innocent, tu as surpris le gars en flag
+{l{Où t'étais ?}}
+{m{Invité par des potes à une te-fê}}
+{m{On s'amusait bien, j'n'ai pas vu l'heure qu'il était}}
+{l{Ah ouais ?}}
+{m{C'est vrai !}}
+{l{j'te connais par cœur}}
+{l{J'aimerais savoir pourquoi tu agis comme un voleur}}
+{m{Tu t'fais des films, je ne voulais pas te réveiller c'est tout}}
+{m{Arrête avec tes questions, dis-moi plutôt à quoi tu joues}}
+{l{Je joue à la fille qui en a marre de te voir rentrer tard}}
+{l{Tout ça parc'que tu préfères traîner avec tes lascars}}
+{m{Il est tard chérie, écoute, baisse le ton tu fais trop de bruit}}
+{m{Ce n'sont pas des lascars, ce sont mes amis}}
+{l{Amis et pourquoi m'appellent-ils quand tu n'es pas là}}
+{l{Sans doute par respect et déférence envers toi}}
+{m{Les bâtards !}}
+{l{Ah bon, tu n'le savais pas}}
+{l{Tes potes ne se gênent pas pour me narrer tes exploits}}
+{l{Aussitôt le dos tourné, au téléphone ils me draguent}}
+{l{Ne fais pas l'innocent, tu as surpris le gars en flag}}
 
 Refrain
 $1
 --
-Tu es la seule qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
-Tu es le seul qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
-Tu es la seule qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
-Tu es le seul qui m'aille, je te le dis sans faille
-Reste cool guy, sinon j'te dirai "Bye bye"
+{m{Tu es la seule qui m'aille, je te le dis sans faille}}
+{m{Reste cool bébé, sinon j'te dirai "Bye bye"}}
+{l{Tu es le seul qui m'aille, je te le dis sans faille}}
+{l{Reste cool bébé, sinon j'te dirai "Bye bye"}}
+{m{Tu es la seule qui m'aille, je te le dis sans faille}}
+{m{Reste cool bébé, sinon j'te dirai "Bye bye"}}
+{l{Tu es le seul qui m'aille, je te le dis sans faille}}
+{l{Reste cool guy, sinon j'te dirai "Bye bye"}}
 
 Couplet
 $1
 --
-C'est bon, c'est bon, tu peux prendre toutes tes affaires
-Ah ouais et tu crois qu'j'tai attendu pour le faire
-Toi et ta horde de serpents, je vous souhaite bien du bon temps
-J'suis parti à présent, ce sera l'orgie à plein temps
-Tu souris encore, même pas l'once d'un remord
-Change d'attitude ou je sculpte un nouveau décor
-Allez, bye bye, tu prends tes cliques, tes claques et tu te tailles
-Ta mère avait raison, laisse-moi donc et ma pagaille, tiens, parlons d'elle
-As-tu trouvé sa muselière
-Qu'a-t-elle à voir dans cette affaire ?
-Ne touche pas à ma mère
-Qui le voudrait, c'est vrai, c'est un vrai supplice de la voir
-D'autant plus qu'elle s'invite ici à dîner tous les soirs.
-J'n'ai jamais compris pourquoi tu affiches tant de mépris
-Envers ma famille, spécialement ceux qui t'apprécient
-Elle m'apprécie moi, ou mon porte-monnaie
-Peut-être les deux qui sait, arrête s'te plaît
+{m{C'est bon, c'est bon, tu peux prendre toutes tes affaires}}
+{l{Ah ouais et tu crois qu'j'tai attendu pour le faire}}
+{l{Toi et ta horde de serpents, je vous souhaite bien du bon temps}}
+{l{J'suis parti à présent, ce sera l'orgie à plein temps}}
+{l{Tu souris encore, même pas l'once d'un remord}}
+{l{Change d'attitude ou je sculpte un nouveau décor}}
+{m{Allez, bye bye, tu prends tes cliques, tes claques et tu te tailles}}
+{m{Ta mère avait raison, laisse-moi donc et ma pagaille, tiens, parlons d'elle}}
+{m{As-tu trouvé sa muselière}}
+{l{Qu'a-t-elle à voir dans cette affaire ?}}
+{l{Ne touche pas à ma mère}}
+{m{Qui le voudrait, c'est vrai, c'est un vrai supplice de la voir}}
+{m{D'autant plus qu'elle s'invite ici à dîner tous les soirs.}}
+{l{J'n'ai jamais compris pourquoi tu affiches tant de mépris}}
+{l{Envers ma famille, spécialement ceux qui t'apprécient}}
+{m{Elle m'apprécie moi, ou mon porte-monnaie}}
+{m{Peut-être les deux qui sait, arrête s'te plaît}}
 
 Refrain
 $1
 --
-Tu es la seule qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
-Tu es le seul qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
-Tu es la seule qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
-Tu es le seul qui m'aille, je te le dis sans faille
-Reste cool guy, sinon j'te dirai "Bye bye"
+{m{Tu es la seule qui m'aille, je te le dis sans faille}}
+{m{Reste cool bébé, sinon j'te dirai "Bye bye"}}
+{l{Tu es le seul qui m'aille, je te le dis sans faille}}
+{l{Reste cool bébé, sinon j'te dirai "Bye bye"}}
+{m{Tu es la seule qui m'aille, je te le dis sans faille}}
+{m{Reste cool bébé, sinon j'te dirai "Bye bye"}}
+{l{Tu es le seul qui m'aille, je te le dis sans faille}}
+{l{Reste cool guy, sinon j'te dirai "Bye bye"}}
 
 Couplet
 $1
 --
-Franchement, est-ce vraiment une heure pour rentrer chez soi
-Tu t'inquiètes du bruit, occupe-toi de ce qui s'passe chez toi
-Chez moi, ça allait jusqu'à une certaine prise de tête
-Ce qui me contrarie c'est d'avoir trouvé la femme parfaite
-Pas d'amis, pas de sorties
-Pas de fille au lit, pas d'envie
-Et accessoirement pas de sexe aussi
-Le bonheur mais j'rajouterais sur la notice
-Il faudrait pouvoir dégonfler après service
-C'est un coup bas
-Ok, excuse-moi
-Mais je t'en prie, prends-moi donc dans tes bras
-C'est trop facile !
-Excuse-moi
-Arrêtons on va y passer le reste de la nuit
-Je me suis lassée, je suis cassée, j'en ai plus qu'assez
-L'ardoise est chargée, fissa, tu ferais bien de l'effacer
+{l{Franchement, est-ce vraiment une heure pour rentrer chez soi}}
+{l{Tu t'inquiètes du bruit, occupe-toi de ce qui s'passe chez toi}}
+{m{Chez moi, ça allait jusqu'à une certaine prise de tête}}
+{m{Ce qui me contrarie c'est d'avoir trouvé la femme parfaite}}
+{m{Pas d'amis, pas de sorties}}
+{m{Pas de fille au lit, pas d'envie}}
+{m{Et accessoirement pas de sexe aussi}}
+{m{Le bonheur mais j'rajouterais sur la notice}}
+{m{Il faudrait pouvoir dégonfler après service}}
+{l{C'est un coup bas}}
+{m{Ok, excuse-moi}}
+{m{Mais je t'en prie, prends-moi donc dans tes bras}}
+{l{C'est trop facile !}}
+{m{Excuse-moi}}
+{l{Je n'ai pas fini !}}
+{m{Arrêtons on va y passer le reste de la nuit}}
+{l{Je me suis lassée, je suis cassée, j'en ai plus qu'assez}}
+{l{L'ardoise est chargée, fissa, tu ferais bien de l'effacer}}
 
 Refrain
 $1
 --
-Tu es la seule qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
-Tu es le seul qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
-Tu es la seule qui m'aille, je te le dis sans faille
-Reste cool bébé, sinon j'te dirai "Bye bye"
-Tu es le seul qui m'aille, je te le dis sans faille
-Reste cool guy, sinon j'te dirai "Bye bye"
+{m{Tu es la seule qui m'aille, je te le dis sans faille}}
+{m{Reste cool bébé, sinon j'te dirai "Bye bye"}}
+{l{Tu es le seul qui m'aille, je te le dis sans faille}}
+{l{Reste cool bébé, sinon j'te dirai "Bye bye"}}
+{m{Tu es la seule qui m'aille, je te le dis sans faille}}
+{m{Reste cool bébé, sinon j'te dirai "Bye bye"}}
+{l{Tu es le seul qui m'aille, je te le dis sans faille}}
+{l{Reste cool guy, sinon j'te dirai "Bye bye"}}
