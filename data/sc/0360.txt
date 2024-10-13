@@ -4,7 +4,7 @@ Dm;Bb A
 Intro
 --
 Si tu es né dans une cité HLM
-Je te dédicace ce poème
+Je te dédicace ce poême
 En espérant qu'au fond de tes yeux ternes
 Tu puisses y voir un petit brin d'herbe
 
@@ -40,7 +40,7 @@ Couplet
 $1
 --
 Assieds-toi près d'une rivière
-Écoute le coulis de l'eau sur la terre
+Ecoute le coulis de l'eau sur la terre
 Dis-toi qu'au bout, hé, il y a la mer
 Et que ça, ça n'a rien d'éphémère
 Tu comprendras alors que tu n'es rien
@@ -52,14 +52,14 @@ Refrain
 $1
 --
 C'est l'hymne de nos campagnes
-De nos rivières, de nos montagnes
+De nos riviàres, de nos montagnes
 De la vie man, du monde animal
 Crie-le bien fort, use tes cordes vocales
 
 Couplet
 $1
 --
-Assieds-toi près d'un vieux chêne
+Assieds-toi près d'un vieux ch�ne
 Et compare-le à la race humaine
 L'oxygène et l'ombre qu'il t'amène
 Mérite-t-il les coups de hache qui le saigne?

@@ -1,5 +1,5 @@
 {
-  "name": "livenotes",
+  "name": "livenotes-fifi",
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate",

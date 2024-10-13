@@ -9,7 +9,7 @@ F#;Fm;G C;Fm
 
 $2
 [
-G#;C Fm;Fm C;Fm
+G#;C# Fm;Fm C;Fm
 ]2
 
 Couplet

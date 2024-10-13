@@ -330,5 +330,6 @@
   {"name":"Je te promets","artist":"Johnny Hallyday","id":"0358","lang":"FR","scope": ["phil"]},
   {"name":"Demain sera parfait","artist":"Jean-Louis Aubert","id":"0359","lang":"FR","scope": ["phil"]},
   {"name":"L'hymne de nos campagnes","artist":"Tryo","id":"0360","lang":"FR","scope": ["funlive", "phil"]},
-  {"name":"Sara perche ti amo","artist":"Ricchi e Poveri","id":"0361","lang":"FR","scope": ["funlive", "phil"]}
+  {"name":"Sara perche ti amo","artist":"Ricchi e Poveri","id":"0361","lang":"FR","scope": ["funlive", "phil"]},
+  {"name":"Basket case","artist":"Green day","id":"0362","lang":"EN","scope": ["phil"]}
 ]

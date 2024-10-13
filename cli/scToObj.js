@@ -8,6 +8,25 @@ const constants = {};
 const emptylinepattern = '\r\n\r\n';
 const linebreakpattern = '\r\n';
 
+function looperCodeDecorate(looperCode) {
+  const output = { ...looperCode };
+
+  if (output.patternsComment) {
+    output.patternsComment = output.patternsComment
+      .replaceAll('[', '<span class="patternParts">')
+      .replaceAll(']', '</span>')
+      .replaceAll('1{', '<span class="pattern1">')
+      .replaceAll('2{', '<span class="pattern2">')
+      .replaceAll('}', '</span>')
+      .replaceAll('v.A', '<span class="patternVar">A</span>')
+      .replaceAll('v.B', '<span class="patternVar">B</span>')
+      .replaceAll('...', '<span class="pattern3Dots">...</span>')
+      .replace(/\*([^*]+)\*/g, '<span class="patternSection">$1</span>')
+      .replaceAll('NOBEAT', '<span class="patternNobeat">BEAT</span>');
+  }
+  return output;
+}
+
 function chordsScToArr(arr) {
   const spl = arr.split(' ').filter((val) => val !== '');
   const measure = [1, '%', '%', '%', '%'];
@@ -121,3 +140,4 @@ function scToObj(sc) {
   return scToSectionsArr(songSectionsSc, end, warning);
 }
 exports.scToObj = scToObj;
+exports.looperCodeDecorate = looperCodeDecorate;
