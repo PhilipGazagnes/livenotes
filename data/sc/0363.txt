@@ -5,7 +5,7 @@ $2
 C;%;Em;%;C;%
 
 $3
-G D;Am
+G;D;Am;%
 
 Couplet
 $1
