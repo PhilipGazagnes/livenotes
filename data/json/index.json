@@ -334,5 +334,7 @@
   {"name":"Basket case","artist":"Green day","id":"0362","lang":"EN","scope": ["phil"]},
   {"name":"Snow (hey oh)","artist":"Red hot chili peppers","id":"0363","lang":"EN","scope": ["phil"]},
   {"name":"Belinda","artist":"Claude François","id":"0364","lang":"FR","scope": ["phil"]},
-  {"name":"Por que te vas","artist":"Jeanette","id":"0365","lang":"ES","scope": ["phil"]}
+  {"name":"Por que te vas","artist":"Jeanette","id":"0365","lang":"ES","scope": ["phil"]},
+  {"name":"Dernière danse","artist":"Kyo","id":"0366","lang":"FR","scope": ["funlive"]},
+  {"name":"On va s'aimer","artist":"Gilbert Montagné","id":"0367","lang":"FR","scope": ["funlive"]}
 ]
