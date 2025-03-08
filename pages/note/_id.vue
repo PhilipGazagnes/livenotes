@@ -54,26 +54,29 @@
       </div>
     </div>
     <div class="rightCol">
-      <div v-if="false" class="looper">
-        <div class="tempo">{{ songData.tempo }}<br />BPM</div>
-        <div class="pattern1">
-          {{ songData.pattern1 }}<br />{{ songData.pattern1vars }}
-        </div>
-        <div class="pattern2">
-          {{ songData.pattern2 }}<br />{{ songData.pattern2vars }}
-        </div>
-        <div class="patternComment">
-          <div v-html="songData.patternsComment" />
-        </div>
-        <div class="loopComment">
-          <div>{{ songData.loopComment }}</div>
-        </div>
-      </div>
       <div
         ref="lyrics"
         class="lyrics"
         :style="{ fontSize: `${fontSizeUser}em` }"
       >
+        <div class="looper">
+          {{ songData.tempo }} BPM - {{ songData.pattern1 }}
+          {{ songData.pattern1vars }} - {{ songData.pattern2 }}
+          {{ songData.pattern2vars }}
+          <!-- <div class="tempo">{{ songData.tempo }}<br />BPM</div>
+          <div class="pattern1">
+            {{ songData.pattern1 }}<br />{{ songData.pattern1vars }}
+          </div>
+          <div class="pattern2">
+            {{ songData.pattern2 }}<br />{{ songData.pattern2vars }}
+          </div>
+          <div class="patternComment">
+            <div v-html="songData.patternsComment" />
+          </div>
+          <div class="loopComment">
+            <div>{{ songData.loopComment }}</div>
+          </div> -->
+        </div>
         <div class="lyricsDirectory">
           <a v-if="urlParams.directory" :href="directoryParams.url">
             {{ directoryParams.name }}
@@ -435,7 +438,7 @@ body {
     }
   }
   &[data-mode='2'] {
-    .lyrics {
+    .rightCol {
       display: none;
     }
     .structure {
@@ -700,10 +703,15 @@ body {
   overflow: hidden;
 }
 .looper {
-  flex: 0 0 100px;
-  background: #222;
+  font-weight: bold;
+  background: lightgray;
+  display: inline;
+  margin-left: 20px;
+  /*background: #222;
   color: white;
   display: flex;
+  height: 100px;
+  font-size: 16px;
   & > div {
     border-right: 1px solid yellow;
     display: flex;
@@ -734,7 +742,7 @@ body {
     font-size: 1.8em;
   }
   .patternComment {
-    flex: 0 0 33%;
+    flex: 0 0 30%;
     font-size: 1.2em;
     line-height: 1.5em;
     .pattern1,
@@ -775,7 +783,7 @@ body {
   }
   .loopComment {
     flex: 0 0 32%;
-  }
+  }*/
 }
 .lyrics {
   background: white;

@@ -27,6 +27,7 @@
       <button class="switchscope" @click="switchscope">
         {{ scope.name }} ({{ scope.arr.length }})
       </button>
+      <button class="random" @click="handleRandom">R-a-N-d-O-m</button>
     </div>
   </div>
 </template>
@@ -133,6 +134,25 @@ export default {
         const offsetTopFirstMatch = matches[0].offsetTop;
         window.scrollTo(0, offsetTopFirstMatch);
       }
+    },
+    handleRandom() {
+      const len = this.songs.length;
+      const random = Math.random();
+      const randomPosStr = Math.floor(len * random).toString();
+      let outputStr = '';
+      switch (randomPosStr.length) {
+        case 1:
+          outputStr = `000${randomPosStr}`;
+          break;
+        case 2:
+          outputStr = `00${randomPosStr}`;
+          break;
+        default:
+          outputStr = `0${randomPosStr}`;
+          break;
+      }
+
+      window.location.href = `/note/${outputStr}`;
     },
   },
 };
