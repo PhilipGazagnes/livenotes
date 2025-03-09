@@ -193,6 +193,12 @@ export default {
           url: 'https://fifi.fun-live.fr/',
         };
       }
+      if (this.urlParams.directory === 'marion') {
+        return {
+          name: 'Retour liste',
+          url: 'https://50ansmarion.netlify.app/',
+        };
+      }
       return null;
     },
   },
