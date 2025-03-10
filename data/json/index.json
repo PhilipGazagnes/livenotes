@@ -338,5 +338,6 @@
   {"name":"Dernière danse","artist":"Kyo","id":"0366","lang":"FR","scope": ["funlive"], "fifi": true},
   {"name":"On va s'aimer","artist":"Gilbert Montagné","id":"0367","lang":"FR","scope": ["funlive"]},
   {"name":"Voilà","artist":"Barbara Pravi","id":"0368","lang":"FR","scope": ["funlive"]},
-  {"name":"L'amour à la plage","artist":"Niagara","id":"0369","lang":"FR","scope": ["phil"]}
+  {"name":"L'amour à la plage","artist":"Niagara","id":"0369","lang":"FR","scope": ["phil"]},
+  {"name":"Un jour en France","artist":"Noir Désir","id":"0370","lang":"FR","scope": ["phil"]}
 ]
