@@ -59,7 +59,7 @@
         class="lyrics"
         :style="{ fontSize: `${fontSizeUser}em` }"
       >
-        <div class="looper">
+        <div v-if="urlParams.directory" class="looper">
           {{ songData.tempo }} BPM - {{ songData.pattern1 }}
           {{ songData.pattern1vars }} - {{ songData.pattern2 }}
           {{ songData.pattern2vars }}
