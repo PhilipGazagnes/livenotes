@@ -339,5 +339,11 @@
   {"name":"On va s'aimer","artist":"Gilbert Montagné","id":"0367","lang":"FR","scope": ["funlive"]},
   {"name":"Voilà","artist":"Barbara Pravi","id":"0368","lang":"FR","scope": ["funlive"]},
   {"name":"L'amour à la plage","artist":"Niagara","id":"0369","lang":"FR","scope": ["phil"]},
-  {"name":"Un jour en France","artist":"Noir Désir","id":"0370","lang":"FR","scope": ["phil"]}
+  {"name":"Un jour en France","artist":"Noir Désir","id":"0370","lang":"FR","scope": ["phil"]},
+  {"name":"Wicked Game","artist":"Chris Isaak","id":"0371","lang":"EN","scope": ["funlive"]},
+  {"name":"Au soleil","artist":"Jennifer","id":"0372","lang":"FR","scope": ["funlive"]},
+  {"name":"English man in New York","artist":"Sting","id":"0373","lang":"EN","scope": ["funlive"]},
+  {"name":"Isn't she lovely","artist":"Steevie Wonder","id":"0374","lang":"EN","scope": ["funlive"]},
+  {"name":"Sapés comme jamais","artist":"Gims","id":"0375","lang":"FR","scope": ["funlive"]},
+  {"name":"Lola","artist":"Superbus","id":"0376","lang":"FR","scope": ["funlive"]}
 ]
