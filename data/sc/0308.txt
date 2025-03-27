@@ -1,10 +1,12 @@
+@bpm 113
+
 $1
 [
 Bm;%;G A;Bm
 ]3
 Bm;%;G A
 :
-B;A;Em;B7
+B;A;G;F#
 
 $2
 [

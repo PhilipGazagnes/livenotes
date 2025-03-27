@@ -1,6 +1,6 @@
 $1
 [
-Bm;G;A;D F#
+Bm;Em7;A;D F#
 ]2
 
 $2
@@ -9,7 +9,9 @@ Bm;G;D;A
 ]2
 
 $3
-G A;Bm F#m
+G % Em A
+:
+D C#m Bm A
 :
 G A;D
 

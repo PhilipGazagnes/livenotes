@@ -1,3 +1,5 @@
+@bpm 106
+
 $1
 C Am;Em F
 :
@@ -9,7 +11,7 @@ $2
 F G;C Am;Dm F;Asus4 E
 
 Intro
-Am G;F G
+Am Em;F G
 
 Couplet
 $1

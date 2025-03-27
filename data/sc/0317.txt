@@ -1,10 +1,12 @@
+@bpm 80
+
 $1
 [
 F#m E;D
 ]4
 :
 [
-F#m E;A E;D
+F#m E;A C#m;D
 ]2
 
 $2
