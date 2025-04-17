@@ -346,5 +346,8 @@
   {"name":"Isn't she lovely","artist":"Steevie Wonder","id":"0374","lang":"EN","scope": ["funlive"]},
   {"name":"Sapés comme jamais","artist":"Gims","id":"0375","lang":"FR","scope": ["funlive"]},
   {"name":"Lola","artist":"Superbus","id":"0376","lang":"FR","scope": ["funlive"]},
-  {"name":"Recommence-moi","artist":"Santa","id":"0377","lang":"FR","scope": ["funlive"]}
+  {"name":"Recommence-moi","artist":"Santa","id":"0377","lang":"FR","scope": ["funlive"]},
+  {"name":"On s'attache","artist":"Christophe Maé","id":"0378","lang":"FR","scope": ["funlive"]},
+  {"name":"A ma place","artist":"Zazie & Axel Bauer","id":"0379","lang":"FR","scope": ["funlive"]},
+  {"name":"Boa sorte","artist":"Vanessa da Mata & Ben Harper","id":"0380","lang":"PT","scope": ["funlive"]}
 ]
