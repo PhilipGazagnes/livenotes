@@ -4,9 +4,8 @@ $1
 [
 Bm;%;G A;Bm
 ]3
-Bm;%;G A
 :
-B;A;G;F#
+Bm;%;G A
 
 $2
 [
@@ -14,6 +13,12 @@ Em;C;Am;C D
 ]2
 :
 Am;Em;B
+
+$3
+B;A;G;F#
+
+Intro
+$3
 
 Couplet
 $1
@@ -26,6 +31,9 @@ J'ai pas choisi de naître ici
 Entre l'ignorance et la violence et l'ennui
 J'm'en sortirai, j'me le promets
 Et s'il le faut, j'emploierai des moyens légaux
+
+Inter
+$3
 
 Refrain
 $2
@@ -47,6 +55,9 @@ J'ai pas choisi de vivre ici
 Entre la soumission, la peur ou l'abandon
 J'm'en sortirai, je te le jure
 À coup de livres, je franchirai tous ces murs
+
+Inter
+$3
 
 Refrain
 $2

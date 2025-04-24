@@ -681,6 +681,9 @@ body {
     .sectionStyle6 {
       background: lightgreen;
     }
+    .sectionStyle7 {
+      background: orange;
+    }
     .sectionStyleHidden {
       display: none;
     }
@@ -867,6 +870,9 @@ body {
     }
     &.sectionStyle6 {
       border-color: lightgreen;
+    }
+    &.sectionStyle7 {
+      border-color: orange;
     }
   }
 }

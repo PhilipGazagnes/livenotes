@@ -6,6 +6,13 @@ Dm;Am;F;C
 :
 Gm;Dm;C;%
 
+$3
+[
+Dm Bb;F C
+]3
+:
+Bb;C
+
 Intro
 (
 $1
@@ -58,9 +65,7 @@ $2
 ***Solo***
 
 Couplet
-(
-$1
-)4
+$3
 --
 Je peux mourir demain, ça ne change rien
 J'ai reçu de ses mains

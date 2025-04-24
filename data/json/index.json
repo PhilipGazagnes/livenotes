@@ -349,5 +349,9 @@
   {"name":"Recommence-moi","artist":"Santa","id":"0377","lang":"FR","scope": ["funlive"]},
   {"name":"On s'attache","artist":"Christophe Maé","id":"0378","lang":"FR","scope": ["funlive"]},
   {"name":"A ma place","artist":"Zazie & Axel Bauer","id":"0379","lang":"FR","scope": ["funlive"]},
-  {"name":"Boa sorte","artist":"Vanessa da Mata & Ben Harper","id":"0380","lang":"PT","scope": ["funlive"]}
+  {"name":"Boa sorte","artist":"Vanessa da Mata & Ben Harper","id":"0380","lang":"PT","scope": ["funlive"]},
+  {"name":"Poker face","artist":"Lady Gaga","id":"0381","lang":"EN","scope": ["funlive"]},
+  {"name":"L'Autre Finistère","artist":"Les innocents","id":"0382","lang":"FR","scope": ["funlive"]},
+  {"name":"Ça va ça vient","artist":"Vitaa & Slimane","id":"0383","lang":"FR","scope": ["funlive"]},
+  {"name":"Like a prayer","artist":"Madonna","id":"0384","lang":"FR","scope": ["funlive"]}
 ]
