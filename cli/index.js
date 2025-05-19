@@ -10,13 +10,26 @@ function decodeSongs(files) {
   return new Promise((res) => {
     for (let i = 0, len = files.length; i < len; i += 1) {
       const id = files[i].split('.')[0];
+      let songData = null;
       fs.readFile(`${scDir}${id}.txt`, 'utf8', (err, sc) => {
         if (err) throw err;
         const looperData = looperJson.filter((item) => item.id === id)[0];
+        songData = scToObj.scToObj(sc);
         output[id] = {
           ...scToObj.looperCodeDecorate(looperData),
-          ...scToObj.scToObj(sc),
+          ...songData,
         };
+        fs.writeFile(
+          `${outputDir}/songs/${id}.json`,
+          JSON.stringify(songData),
+          'utf8',
+          function (err) {
+            if (err) {
+              console.log('Error.');
+              return console.log(err);
+            }
+          },
+        );
       });
       if (i === len - 1) {
         setTimeout(() => {
