@@ -352,5 +352,8 @@
   {"name":"Boa sorte","artist":"Vanessa da Mata & Ben Harper","id":"0380","lang":"PT","scope": ["funlive"]},
   {"name":"Poker face","artist":"Lady Gaga","id":"0381","lang":"EN","scope": ["funlive"]},
   {"name":"L'Autre Finistère","artist":"Les innocents","id":"0382","lang":"FR","scope": ["funlive"]},
-  {"name":"Ça va ça vient","artist":"Vitaa & Slimane","id":"0383","lang":"FR","scope": ["funlive"]}
+  {"name":"Ça va ça vient","artist":"Vitaa & Slimane","id":"0383","lang":"FR","scope": ["funlive"]},
+  {"name":"Le lion est mort ce soir","artist":"Henri Salvador","id":"0385","lang":"FR","scope": ["funlive"]},
+  {"name":"I can see clearly now","artist":"Jimmy Cliff","id":"0386","lang":"EN","scope": ["funlive"]},
+  {"name":"Why don't you get a job ?","artist":"The Offspring","id":"0387","lang":"EN","scope": ["funlive"]}
 ]

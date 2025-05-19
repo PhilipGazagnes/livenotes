@@ -31,6 +31,7 @@ Perdue dans sa mégalo
 Moi j'étais de trop
 
 Couplet
+$1
 --
 Elle marchait comme un chat
 Qui méprise sa proie
@@ -40,6 +41,7 @@ Tous les mots qu'elle mimait
 Semblait briser son coeur
 
 Refrain!-1M
+$2
 --
 Elle en faisait un peu trop
 La fille aux yeux menthe à l'eau
@@ -56,6 +58,7 @@ Am;%;C;%
 F;%;C
 
 Couplet!-1M
+$1
 --
 Mais un type est entré
 Et le charme est tombé
@@ -65,6 +68,7 @@ De l'agressivité
 Sur le pauvre juke-box
 
 Refrain
+$2
 --
 La fille aux yeux menthe à l'eau
 A rangé sa mégalo
