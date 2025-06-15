@@ -355,5 +355,8 @@
   {"name":"Ça va ça vient","artist":"Vitaa & Slimane","id":"0383","lang":"FR","scope": ["funlive"]},
   {"name":"Le lion est mort ce soir","artist":"Henri Salvador","id":"0385","lang":"FR","scope": ["funlive"]},
   {"name":"I can see clearly now","artist":"Jimmy Cliff","id":"0386","lang":"EN","scope": ["funlive"]},
-  {"name":"Why don't you get a job ?","artist":"The Offspring","id":"0387","lang":"EN","scope": ["funlive"]}
+  {"name":"Why don't you get a job ?","artist":"The Offspring","id":"0387","lang":"EN","scope": ["funlive"]},
+  {"name":"Dance the night","artist":"Dua Lipa","id":"0388","lang":"EN","scope": ["funlive"]},
+  {"name":"Levitating","artist":"Dua Lipa","id":"0389","lang":"EN","scope": ["funlive"]},
+  {"name":"Rehab","artist":"Amy Winehouse","id":"0390","lang":"EN","scope": ["funlive"]}
 ]
