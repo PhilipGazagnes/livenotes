@@ -358,5 +358,7 @@
   {"name":"Why don't you get a job ?","artist":"The Offspring","id":"0387","lang":"EN","scope": ["funlive"]},
   {"name":"Dance the night","artist":"Dua Lipa","id":"0388","lang":"EN","scope": ["funlive"]},
   {"name":"Levitating","artist":"Dua Lipa","id":"0389","lang":"EN","scope": ["funlive"]},
-  {"name":"Rehab","artist":"Amy Winehouse","id":"0390","lang":"EN","scope": ["funlive"]}
+  {"name":"Rehab","artist":"Amy Winehouse","id":"0390","lang":"EN","scope": ["funlive"]},
+  {"name":"Le dernier jour du disco","artist":"Juliette Armanet","id":"0391","lang":"FR","scope": ["funlive"]},
+  {"name":"Think","artist":"Aretha Franklin","id":"0392","lang":"EN","scope": ["funlive"]}
 ]
