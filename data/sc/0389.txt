@@ -1,5 +1,38 @@
 $1
 Bm7 F#m7;Em7 Bm7
 
-Toute la chanson
+Couplet
+$1
+
+Pré-refrain
+$1
+
+Refrain
+$1
+
+Couplet!début sans beat
+$1
+
+Pré-refrain
+$1
+
+Refrain
+$1
+
+Post refrain
+$1
+
+Pont
+$1
+
+Pré-refrain!calme
+$1
+
+Refrain!acapella
+$1
+
+Post-refrain
+$1
+
+Refrain
 $1
