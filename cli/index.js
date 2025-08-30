@@ -58,7 +58,7 @@ fs.readdir(scDir, (err, files) => {
   if (err) {
     console.log(err);
   }
-  // decodeSongs(['0001.txt']).then((val) => {
+  // decodeSongs(['0395.txt']).then((val) => {
   decodeSongs(files).then((val) => {
     const json = JSON.stringify(val);
 
