@@ -361,5 +361,12 @@
   {"name":"Rehab","artist":"Amy Winehouse","id":"0390","lang":"EN","scope": ["funlive"]},
   {"name":"Le dernier jour du disco","artist":"Juliette Armanet","id":"0391","lang":"FR","scope": ["funlive"]},
   {"name":"Think","artist":"Aretha Franklin","id":"0392","lang":"EN","scope": ["funlive"]},
-  {"name":"Ma Prière","artist":"Axelle Red","id":"0393","lang":"FR","scope": ["funlive"]}
+  {"name":"Ma Prière","artist":"Axelle Red","id":"0393","lang":"FR","scope": ["funlive"]},
+  {"name":"Come","artist":"Jain","id":"0394","lang":"EN","scope": ["phil"]},
+  {"name":"This Girl","artist":"Kungs","id":"0395","lang":"EN","scope": ["phil"]},
+  {"name":"Marcia Baila","artist":"Rita Mitsouko","id":"0396","lang":"FR","scope": ["phil"]},
+  {"name":"Mon coeur","artist":"Izia","id":"0397","lang":"FR","scope": ["phil"]},
+  {"name":"Gimme Gimme","artist":"Abba","id":"0398","lang":"EN","scope": ["phil"]},
+  {"name":"Jerusalema","artist":"Master G","id":"0399","lang":"XX","scope": ["phil"]},
+  {"name":"Flamme","artist":"Juliette Armanet","id":"0400","lang":"FR","scope": ["phil"]}
 ]
