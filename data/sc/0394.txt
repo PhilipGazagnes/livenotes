@@ -1,8 +1,8 @@
 $1
-Cm F;G#
+C#m F#;G#
 
 $2
-Fm;E;Eb;G#;%
+F#m;E;Eb;G#;%
 
 Intro
 $1

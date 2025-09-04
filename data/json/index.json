@@ -368,5 +368,7 @@
   {"name":"Mon coeur","artist":"Izia","id":"0397","lang":"FR","scope": ["phil"]},
   {"name":"Gimme Gimme","artist":"Abba","id":"0398","lang":"EN","scope": ["phil"]},
   {"name":"Jerusalema","artist":"Master G","id":"0399","lang":"XX","scope": ["phil"]},
-  {"name":"Flamme","artist":"Juliette Armanet","id":"0400","lang":"FR","scope": ["phil"]}
+  {"name":"Flamme","artist":"Juliette Armanet","id":"0400","lang":"FR","scope": ["phil"]},
+  {"name":"Waka waka","artist":"Shakira","id":"0401","lang":"EN","scope": ["phil"]},
+  {"name":"Lambé an dro","artist":"Matmatah","id":"0402","lang":"FR","scope": ["phil"]}
 ]
