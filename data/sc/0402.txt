@@ -1,4 +1,3 @@
-
 $1
 Em G;D Em
 
@@ -6,6 +5,11 @@ $2
 F#m A;E F#m
 
 Instru
+$1
+--
+***Solo***
+
+Couplet
 $1
 --
 Si tu cherches un peu de gaieté
@@ -24,6 +28,11 @@ Viens donc faire un tour à Lambé
 Instru
 $1
 --
+***Solo***
+
+Couplet
+$1
+--
 Si t'as rien trouvé pour squatter
 Viens donc faire un tour à Lambé
 ...
@@ -39,6 +48,8 @@ Viens donc faire un tour à Lambé
 
 Instru
 $2
+--
+***Solo***
 
 Couplet
 $2
