@@ -227,15 +227,10 @@ export default {
       }, 100);
     }
     window.addEventListener('keydown', (e) => {
-      if (e.keyCode === 40) {
+      if (e.key === 'Tab') {
         // KeyDown : Airturn right button
         e.preventDefault();
         this.scrollDown();
-      }
-      if (e.keyCode === 38) {
-        // KeyUp : Airturn left button
-        e.preventDefault();
-        this.scrollUp();
       }
     });
   },
@@ -418,6 +413,16 @@ export default {
         }, [50, 25, 15][this.autoScrollSpeed - 1]);
       } else {
         clearInterval(this.autoScrollTimer);
+      }
+    },
+    handleTabKey(event) {
+      if (event.key === 'Tab') {
+        event.preventDefault(); // Prevents default tab navigation
+
+        window.scrollBy({
+          top: 200,
+          behavior: 'smooth', // Optional: adds smooth scrolling animation
+        });
       }
     },
   },
