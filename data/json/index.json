@@ -370,5 +370,17 @@
   {"name":"Jerusalema","artist":"Master G","id":"0399","lang":"XX","scope": ["phil"]},
   {"name":"Flamme","artist":"Juliette Armanet","id":"0400","lang":"FR","scope": ["phil"]},
   {"name":"Waka waka","artist":"Shakira","id":"0401","lang":"EN","scope": ["phil"]},
-  {"name":"Lambé an dro","artist":"Matmatah","id":"0402","lang":"FR","scope": ["phil"]}
+  {"name":"Lambé an dro","artist":"Matmatah","id":"0402","lang":"FR","scope": ["phil"]},
+  {"name":"Pour un flirt","artist":"Michel Delpech","id":"0403","lang":"FR","scope": ["phil"]},
+  {"name":"Oncle Archibald","artist":"Georges Brassens","id":"0404","lang":"FR","scope": ["phil"]},
+  {"name":"Y'a d'la joie","artist":"Charles Trénet","id":"0405","lang":"FR","scope": ["phil"]},
+  {"name":"La tendresse","artist":"Bourvil","id":"0406","lang":"FR","scope": ["phil"]},
+  {"name":"Sur la route de Memphis","artist":"Eddy Mitchell","id":"0407","lang":"FR","scope": ["phil"]},
+  {"name":"L'amour à la machine","artist":"Alain Souchon","id":"0408","lang":"FR","scope": ["phil"]},
+  {"name":"La java de Broadway","artist":"Michel Sardou","id":"0409","lang":"FR","scope": ["phil"]},
+  {"name":"Le chant des Sirènes","artist":"Fréro Delavega","id":"0410","lang":"FR","scope": ["phil"]},
+  {"name":"Gabrielle","artist":"Johnny Hallyday","id":"0411","lang":"FR","scope": ["phil"]},
+  {"name":"Santiano","artist":"Hugues Aufray","id":"0412","lang":"FR","scope": ["phil"]},
+  {"name":"Aline","artist":"Christophe","id":"0413","lang":"FR","scope": ["phil"]},
+  {"name":"Si j'avais un marteau","artist":"Claude François","id":"0414","lang":"FR","scope": ["phil"]}
 ]
