@@ -4,11 +4,11 @@ D;%;G A7;D D7
 G;F#7 Bm7
 :
 [
-E7 A7 D
+E7 A7 D %
 ]2
 
-$1
 Couplet
+$1
 --
 O vous, les arracheurs de dents
 Tous les cafards, les charlatans
@@ -17,8 +17,8 @@ Comptez plus sur oncle Archibald
 Pour payer les violons du bal
 A vos fêtes
 
-$1
 Couplet
+$1
 --
 En courant sus à un voleur
 Qui venait de lui chiper l'heure
@@ -27,8 +27,8 @@ Oncle Archibald, coquin de sort!
 Fit, de Sa Majesté la Mort
 La rencontre
 
-$1
 Couplet
+$1
 --
 Telle une femme de petite vertu
 Elle arpentait le trottoir du
@@ -37,8 +37,8 @@ Aguichant les hommes en troussant
 Un peu plus haut qu'il n'est décent
 Son suaire
 
-$1
 Couplet
+$1
 --
 Oncle Archibald, d'un ton gouailleur
 Lui dit: " Va-t'en faire pendre ailleurs
@@ -47,8 +47,8 @@ Fi! Des femelles décharnees!
 Vive les belles un tantinet
 Rondelettes!"
 
-$1
 Couplet
+$1
 --
 Lors, montant sur ses grands chevaux
 La Mort brandit la longue faux
@@ -57,8 +57,8 @@ Qu'elle serrait dans son linceul
 Et faucha d'un seul coup, d'un seul
 Le bonhomme
 
-$1
 Couplet
+$1
 --
 Comme il n'avait pas l'air content
 Elle lui dit: " Ça fait longtemps
@@ -67,8 +67,8 @@ Et notre hymen à tous les deux
 Etait prévu depuis le jour de
 Ton baptême
 
-$1
 Couplet
+$1
 --
 "Si tu te couches dans mes bras
 Alors la vie te semblera
@@ -77,8 +77,8 @@ Tu y seras hors de portée
 Des chiens, des loups, des hommes et des
 Imbéciles
 
-$1
 Couplet
+$1
 --
 "Nul n'y contestera tes droits
 Tu pourras crier "Vive le roi!"
@@ -87,8 +87,8 @@ Si l'envi' te prend de changer
 Tu pourras crier sans danger
 "Vive la Ligue!"
 
-$1
 Couplet
+$1
 --
 "Ton temps de dupe est révolu
 Personne ne se paiera plus
@@ -97,8 +97,8 @@ Les "Plaît-il, maître?" auront plus cours
 Plus jamais tu n'auras à cour-
 Ber la tête"
 
-$1
 Couplet
+$1
 --
 Et mon oncle emboîta le pas
 De la belle, qui ne semblait pas
@@ -107,8 +107,8 @@ Et les voilà, bras d'ssus, bras d'ssous
 Les voilà partis je n' sais où
 Faire leurs noces
 
-$1
 Couplet
+$1
 --
 O vous, les arracheurs de dents
 Tous les cafards, les charlatans

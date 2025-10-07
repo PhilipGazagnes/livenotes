@@ -228,7 +228,6 @@ export default {
     }
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Tab') {
-        // KeyDown : Airturn right button
         e.preventDefault();
         this.scrollDown();
       }

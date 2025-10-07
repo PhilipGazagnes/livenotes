@@ -382,5 +382,6 @@
   {"name":"Gabrielle","artist":"Johnny Hallyday","id":"0411","lang":"FR","scope": ["phil"]},
   {"name":"Santiano","artist":"Hugues Aufray","id":"0412","lang":"FR","scope": ["phil"]},
   {"name":"Aline","artist":"Christophe","id":"0413","lang":"FR","scope": ["phil"]},
-  {"name":"Si j'avais un marteau","artist":"Claude François","id":"0414","lang":"FR","scope": ["phil"]}
+  {"name":"Si j'avais un marteau","artist":"Claude François","id":"0414","lang":"FR","scope": ["phil"]},
+  {"name":"La fleur aux dents","artist":"Joe Dassin","id":"0415","lang":"FR","scope": ["phil"]}
 ]
