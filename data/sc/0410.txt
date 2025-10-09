@@ -5,7 +5,7 @@ $2
 C Em;G D
 
 $3
-Am Em;D
+Am Em;G D
 
 Couplet
 $1
@@ -23,14 +23,14 @@ Je m'abandonne à ces lueurs d'autrefois
 Au gré des saisons, des décisions, je m'abandonne
 
 Refrain
-$1
+$3
 --
 Quand les souvenirs s'en mêlent, les larmes me viennent
 Et le chant des sirènes me replonge en hiver
 Oh, mélancolie cruelle, harmonie fluette, euphorie solitaire
 
 Pont
-$3
+$1
 --
 Ta-dada-dan, ta-dada-da
 Ta-dada-dan, ta-dada-da
@@ -48,7 +48,7 @@ Je m'abandonne à ces lueurs d'autrefois
 Au gré des saisons, des décisions, je m'abandonne
 
 Refrain
-$1
+$3
 --
 Quand les souvenirs s'en mêlent, les larmes me viennent
 Et le chant des sirènes me replonge en hiver
@@ -58,7 +58,7 @@ Et le chant des sirènes me replonge en hiver
 Oh, mélancolie cruelle, harmonie fluette, euphorie solitaire
 
 Outro
-$3
+$1
 -- 
 Ta-dada-dan, ta-dada-da
 Ta-dada-dan, ta-dada-da

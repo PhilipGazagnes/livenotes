@@ -7,9 +7,12 @@
   {"name":"La tendresse","artist":"Bourvil","id":"0406","lang":"FR","scope": ["phil"]},
   {"name":"Sur la route de Memphis","artist":"Eddy Mitchell","id":"0407","lang":"FR","scope": ["phil"]},
   {"name":"La poupée qui fait non","artist":"Polnareff","id":"0076","lang":"FR","scope": ["funlive"], "fifi": true},
+  {"name":"Aline","artist":"Christophe","id":"0413","lang":"FR","scope": ["phil"]},
   {"name":"Aux champs élysées","artist":"Joe Dassin","id":"0304","lang":"FR","scope": ["phil"], "fifi": true},
   {"name":"La java de Broadway","artist":"Michel Sardou","id":"0409","lang":"FR","scope": ["phil"]},
   {"name":"La fleur aux dents","artist":"Joe Dassin","id":"0415","lang":"FR","scope": ["phil"]},
+  {"name":"Santiano","artist":"Hugues Aufray","id":"0412","lang":"FR","scope": ["phil"]},
+  {"name":"Il est libre max","artist":"Hervé Cristiani","id":"0041","lang":"FR","scope": ["funlive"]},
   {"name":"A nos souvenirs","artist":"Trois cafés gourmands","id":"0350","lang":"FR","scope": ["funlive"], "fifi": true},
   {"name":"L'amour à la machine","artist":"Alain Souchon","id":"0408","lang":"FR","scope": ["phil"]},
   {"name":"Le chant des Sirènes","artist":"Fréro Delavega","id":"0410","lang":"FR","scope": ["phil"]},
@@ -19,9 +22,6 @@
   {"name":"On va s'aimer","artist":"Gilbert Montagné","id":"0367","lang":"FR","scope": ["funlive"]},
   {"name":"Cette année là","artist":"Claude François","id":"0154","lang":"FR","scope": ["funlive"], "fifi": true},
   {"name":"Coco Caline","artist":"Julien Doré","id":"0173","lang":"FR","scope": ["funlive"], "fifi": true},
-  {"name":"Il est libre max","artist":"Hervé Cristiani","id":"0041","lang":"FR","scope": ["funlive"]},
   {"name":"--------","artist":"-------","id":"","lang":"FR","scope": ["funlive"]},
-  {"name":"Santiano","artist":"Hugues Aufray","id":"0412","lang":"FR","scope": ["phil"]},
-  {"name":"Aline","artist":"Christophe","id":"0413","lang":"FR","scope": ["phil"]},
   {"name":"Quand la musique est bonne","artist":"Goldman","id":"0136","lang":"FR","scope": ["funlive"], "fifi": true}
 ]
