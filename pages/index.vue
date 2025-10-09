@@ -28,6 +28,7 @@
         {{ scope.name }} ({{ scope.arr.length }})
       </button>
       <button class="random" @click="handleRandom">R-a-N-d-O-m</button>
+      <a href="/setlist" class="setlistLink">Setlist</a>
     </div>
   </div>
 </template>
@@ -250,5 +251,13 @@ li {
       padding: 16px 0;
     }
   }
+}
+.setlistLink {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  color: green;
+  border: green 1px solid;
+  background: none;
 }
 </style>
