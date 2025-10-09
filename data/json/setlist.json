@@ -23,5 +23,5 @@
   {"name":"--------","artist":"-------","id":"","lang":"FR","scope": ["funlive"]},
   {"name":"Santiano","artist":"Hugues Aufray","id":"0412","lang":"FR","scope": ["phil"]},
   {"name":"Aline","artist":"Christophe","id":"0413","lang":"FR","scope": ["phil"]},
-  {"name":"Quand la musique est bonne","artist":"Goldman","id":"0136","lang":"FR","scope": ["funlive"], "fifi": true},
+  {"name":"Quand la musique est bonne","artist":"Goldman","id":"0136","lang":"FR","scope": ["funlive"], "fifi": true}
 ]
