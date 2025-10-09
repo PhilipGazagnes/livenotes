@@ -60,10 +60,7 @@
         :style="{ fontSize: `${fontSizeUser}em` }"
       >
         <div v-if="!urlParams.directory" class="looper">
-          {{ songData.tempo }} BPM - {{ songData.pattern1 }}
-          {{ songData.pattern1vars }} - {{ songData.pattern2 }}
-          {{ songData.pattern2vars }}
-          <!-- <div class="tempo">{{ songData.tempo }}<br />BPM</div>
+          <div class="tempo">{{ songData.tempo }}<br />BPM</div>
           <div class="pattern1">
             {{ songData.pattern1 }}<br />{{ songData.pattern1vars }}
           </div>
@@ -75,7 +72,7 @@
           </div>
           <div class="loopComment">
             <div>{{ songData.loopComment }}</div>
-          </div> -->
+          </div>
         </div>
         <div class="lyricsDirectory">
           <a v-if="urlParams.directory" :href="directoryParams.url">
@@ -720,7 +717,7 @@ body {
   background: lightgray;
   display: inline;
   margin-left: 20px;
-  /*background: #222;
+  background: #222;
   color: white;
   display: flex;
   height: 100px;
@@ -796,7 +793,7 @@ body {
   }
   .loopComment {
     flex: 0 0 32%;
-  }*/
+  }
 }
 .lyrics {
   background: white;

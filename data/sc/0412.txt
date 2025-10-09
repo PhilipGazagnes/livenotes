@@ -11,7 +11,7 @@ Hisse et ho, Santiano
 18 noeuds, 400 tonneaux
 Je suis fier d'y être matelot
 
-Couplet
+Refrain
 $1
 --
 Tiens bon la vague et tiens bon le vent
@@ -27,7 +27,7 @@ Hisse et ho, Santiano
 D'y penser, j'avais le cœur gros
 En doublant les feux de Saint Malo
 
-Couplet
+Refrain
 $1
 --
 Tiens bon la vague et tiens bon le vent
@@ -43,7 +43,7 @@ Hisse et ho, Santiano
 On trouve l'or au fond des ruisseaux
 J'en ramènerai plusieurs lingots
 
-Couplet
+Refrain
 $1
 --
 Tiens bon la vague et tiens bon le vent
@@ -59,7 +59,7 @@ Hisse et ho, Santiano
 Au pays, j'irai voir Margot
 À son doigt, je passerai l'anneau
 
-Couplet
+Refrain
 $1
 --
 Tiens bon le cap et tiens bon le flot
