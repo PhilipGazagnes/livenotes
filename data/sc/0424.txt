@@ -1,1 +1,62 @@
-Souvenirs souvenirs
+$1
+E;B;%;E
+:
+A;E;F#;B
+
+$2
+E;B;%;E
+:
+A;E;B
+:
+E;B;E;B
+
+Couplet
+$1
+--
+Souvenirs, souvenirs
+Je vous retrouve dans mon cœur
+Et vous faites refleurir
+Tous mes rêves de bonheur
+Je me souviens d'un soir de danse
+Joue contre joue
+Des rendez-vous de nos vacances
+Quand nous faisions les fous
+
+Couplet
+$2
+--
+Souvenirs, souvenirs
+De nos beaux jours de l'été
+Lorsque nous partions cueillir
+Mille fleurs, mille baisers
+Et pour mieux garder dans ma tête
+Les joies de la belle saison
+Souvenirs, souvenirs
+Il nous reste nos chansons
+
+Solo
+$1
+
+Couplet
+$1
+--
+Souvenirs, souvenirs
+Quelque part dans le matin
+Où le soleil semblait rire
+Tout le long de nos chemins
+Nous n'avions au fond de nos poches
+Qu'un peu d'espoir
+Mais nous partions comme Gavroche
+Le cœur assez bavard
+
+Couplet
+$2
+--
+Souvenirs, souvenirs
+Vous revenez dans ma vie
+Illuminant l'avenir
+Lorsque mon ciel est trop gris
+On dit que le temps vous emporte
+Et pourtant ça, j'en suis certain
+Souvenirs, souvenirs
+Vous resterez mes copains

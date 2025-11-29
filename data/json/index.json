@@ -401,5 +401,8 @@
   {"name":"Dans les yeux d'Emilie","artist":"Joe Dassin","id":"0430","lang":"FR","scope": ["phil"]},
   {"name":"La vie en rose","artist":"Edith Piaf","id":"0431","lang":"FR","scope": ["phil"]},
   {"name":"Toutes les femme de ta vie","artist":"L5","id":"0432","lang":"FR","scope": ["phil"]},
-  {"name":"Dieu m'a donné la foi","artist":"Ophélie Winter","id":"0433","lang":"FR","scope": ["phil"]}
+  {"name":"Dieu m'a donné la foi","artist":"Ophélie Winter","id":"0433","lang":"FR","scope": ["phil"]},
+  {"name":"Diego","artist":"Johnny Hallyday","id":"0434","lang":"FR","scope": ["funlive"]},
+  {"name":"Les lacs du Connemara","artist":"Michel Sardou","id":"0435","lang":"FR","scope": ["funlive"]},
+  {"name":"Sous le vent","artist":"Garou & Céline Dion","id":"0436","lang":"FR","scope": ["funlive"]}
 ]
