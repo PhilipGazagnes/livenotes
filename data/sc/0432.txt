@@ -9,7 +9,7 @@ Am
 
 $4
 [
-F Am;Dm C;E;E7
+F E;Dm C;B;E7
 ]2
 
 Couplet

@@ -404,5 +404,6 @@
   {"name":"Dieu m'a donné la foi","artist":"Ophélie Winter","id":"0433","lang":"FR","scope": ["phil"]},
   {"name":"Diego","artist":"Johnny Hallyday","id":"0434","lang":"FR","scope": ["funlive"]},
   {"name":"Les lacs du Connemara","artist":"Michel Sardou","id":"0435","lang":"FR","scope": ["funlive"]},
-  {"name":"Sous le vent","artist":"Garou & Céline Dion","id":"0436","lang":"FR","scope": ["funlive"]}
+  {"name":"Sous le vent","artist":"Garou & Céline Dion","id":"0436","lang":"FR","scope": ["funlive"]},
+  {"name":"Les mystérieuses cités d'or","artist":"Dessin animé","id":"0437","lang":"FR","scope": ["funlive"]}
 ]
