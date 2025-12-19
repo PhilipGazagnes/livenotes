@@ -1,5 +1,5 @@
 $1
-Cm7;F7;G#7;G7
+Cm7;F7;G#/Bb;G7
 
 $2
 Bb;F;Am7;Em

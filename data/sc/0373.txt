@@ -57,10 +57,13 @@ You could end up as the only one
 Gentleness, sobriety are rare in this society
 At night a candle's brighter than the sun
 
-Solo
+Solo walking
 $1
 --
 ***Solo***
+
+Break drum!juste drum
+$1
 
 Couplet
 $1

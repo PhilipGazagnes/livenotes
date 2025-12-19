@@ -10,6 +10,9 @@ F;FM7;F6;Bb
 :
 Bbm;F;Gm7;C7
 
+$3
+F;Am;Gm7 C7;F
+
 Couplet
 $1
 --
@@ -33,8 +36,8 @@ Dont je connais la cause
 C'est lui pour moi, moi pour lui dans la vie
 Il me l'a dit, l'a juré pour la vie
 
-Refrain!début
-$2
+Refrain fin
+$3
 --
 Et dès que je l'aperçois
 Alors je sens en moi
@@ -63,8 +66,8 @@ Dont je connais la cause
 C'est toi pour moi, moi pour toi dans la vie
 Il me l'a dit, l'a juré pour la vie oh
 
-Refrain!début
-$2
+Refrain fin
+$3
 --
 Et dès que je t'aperçois
 Alors je sens en moi

@@ -10,7 +10,7 @@ Abm;%;%;C# A
 $3
 D;%;Em;A
 :
-Bm F#7;G F#;Em A
+Bm F#7;G F#;Bm Em A %
 
 $2
 C;%;Am;G
