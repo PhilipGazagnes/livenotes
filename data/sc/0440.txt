@@ -1,0 +1,94 @@
+$1
+Em C;G;Em C;G D
+
+$2
+Am;C;G;D
+
+$3
+F#m D;A;F#m D;A E
+
+$4
+Bm;D;A;E
+
+$5
+G#m E;B;G#m E;B F#
+
+$6
+C#m;E;B;F#
+
+Couplet
+$1
+--
+{m{Et si tu crois que j'ai eu peur}}
+{m{C'est faux}}
+{m{Je donne des vacances à  mon cœur}}
+{m{Un peu de repos}}
+{m{Et si tu crois que j'ai eu tort}}
+{m{Attends}}
+{m{Respire un peu le souffle d'or}}
+{m{Qui me pousse en avant et...}}
+
+Refrain
+$2
+--
+{m{Fais comme si j'avais pris la mer
+{m{J'ai sorti la grand'voile
+{m{Et j'ai glissé sous le vent
+{m{Fais comme si je quittais la terre
+{m{J'ai trouvé mon étoile
+{m{Je l'ai suivie un instant
+Sous le vent
+
+Couplet
+$3
+--
+{l{Et si tu crois que c'est fini}}
+{l{Jamais}}
+{l{C'est juste une pause, un répit}}
+{l{Après les dangers}}
+{l{Et si tu crois que je t'oublie}}
+{l{Écoute}}
+{l{Ouvre ton corps aux vents de la nuit}}
+{l{Ferme les yeux et...}}
+
+Refrain
+$4
+--
+{l{Fais comme si j'avais pris la mer}}
+{l{J'ai sorti la grand'voile}}
+{l{Et j'ai glissé sous le vent}}
+{l{Fais comme si je quittais la terre}}
+{l{J'ai trouvé mon étoile}}
+{l{Je l'ai suivie un instant}}
+{l{Sous le vent}}
+
+Couplet
+$5
+--
+{m{Et si tu crois que c'est fini}}
+{m{Jamais}}
+{m{C'est juste une pause, un répit}}
+{m{Après les dangers}}
+
+Refrain
+$6
+--
+Fais comme si j'avais pris la mer,
+J'ai sorti la grand'voile,
+Et j'ai glissé sous le vent
+Fais comme si je quittais la terre,
+J'ai trouvé mon étoile,
+Je l'ai suivie un instant,
+
+Refrain
+$6
+--
+Fais comme si j'avais pris la mer,
+J'ai sorti la grand'voile,
+Et j'ai glissé sous le vent
+Fais comme si je quittais la terre,
+J'ai trouvé mon étoile,
+Je l'ai suivie un instant, sous le vent
+Sous le vent... sous le vent.....
+
+@G#m

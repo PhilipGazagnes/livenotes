@@ -407,5 +407,6 @@
   {"name":"Sous le vent","artist":"Garou & Céline Dion","id":"0436","lang":"FR","scope": ["funlive"]},
   {"name":"Les mystérieuses cités d'or","artist":"Dessin animé","id":"0437","lang":"FR","scope": ["funlive"]},
   {"name":"Belles belles belles","artist":"Claude François","id":"0438","lang":"FR","scope": ["phil"]},
-  {"name":"Une belle histoire","artist":"Michel Fuguain","id":"0439","lang":"FR","scope": ["phil"]}
+  {"name":"Une belle histoire","artist":"Michel Fuguain","id":"0439","lang":"FR","scope": ["phil"]},
+  {"name":"Sous le vent (notation relative)","artist":"Garou & Céline Dion","id":"0440","lang":"FR","scope": ["funlive"]}
 ]
