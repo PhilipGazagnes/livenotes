@@ -1,12 +1,14 @@
+!notation relative. Originale en A (capo 5) - pref phil en F# (capo 2)
+
 $1
-Am;%;C;F;E;F;Am;E
+Em;%;G;C;B7;C;Em;B7
 :
-Am;%;C;F;E;F;Am;G;E7;%
+Em;%;G;C;B7;C;Em;B;B7;%
 
 $2
-A;%;Dm;G;C
+E;%;Am;D;G
 :
-F;E7
+C;B7
 
 Refrain!début acapella
 $2

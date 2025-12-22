@@ -1,18 +1,20 @@
+!notation relative. Originale en F (capo 1). Pref phil en E (pas de capo)
+
 $1
-F;FM7;F7;D7
+E;EM7;E7;C#7
 :
-Gm;Gm7;C;F
+F#m;F#m7;B;E
 :
-F;F7;A#;A#m
+E;E7;A;Am
 :
-F;C;F;%
+E;B;E;%
 
 $2
-F;F7;A#;%
+E;E7;A;%
 :
-Gm;C;Am;Dm
+F#m;B;G#m;C#m
 :
-Gm;C;F;%
+F#m;B;E;%
 
 Couplet
 $1
