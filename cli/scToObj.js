@@ -3,10 +3,11 @@
      THIS FILS NEEDS A SERIOUS REFACTOR !
 
  * * * * * * * * * * * * * * * * * * * * * * */
+const isLinux = true;
 
 const constants = {};
-const emptylinepattern = '\r\n\r\n';
-const linebreakpattern = '\r\n';
+const emptylinepattern = isLinux ? '\n\n' : '\r\n\r\n';
+const linebreakpattern = isLinux ? '\n' : '\r\n';
 
 function looperCodeDecorate(looperCode) {
   const output = { ...looperCode };
