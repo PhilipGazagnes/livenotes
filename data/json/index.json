@@ -409,5 +409,9 @@
   {"name":"Belles belles belles","artist":"Claude François","id":"0438","lang":"FR","scope": ["phil"]},
   {"name":"Une belle histoire","artist":"Michel Fuguain","id":"0439","lang":"FR","scope": ["phil"]},
   {"name":"Sous le vent (notation relative)","artist":"Garou & Céline Dion","id":"0440","lang":"FR","scope": ["funlive"]},
-  {"name":"Etoile des neiges","artist":"Line Renaud / Les bronzés","id":"0441","lang":"FR","scope": ["funlive"]}
+  {"name":"Etoile des neiges","artist":"Line Renaud / Les bronzés","id":"0441","lang":"FR","scope": ["funlive"]},
+  {"name":"Lolita","artist":"Alizée","id":"0442","lang":"FR","scope": ["funlive"]},
+  {"name":"Briller","artist":"Kpop Demon Hunters","id":"0443","lang":"FR","scope": ["funlive"]},
+  {"name":"Confession nocturne","artist":"Diams & Vitaa","id":"0444","lang":"FR","scope": ["funlive"]},
+  {"name":"Whenever Wherever","artist":"Shakira","id":"0445","lang":"FR","scope": ["funlive"]}
 ]
