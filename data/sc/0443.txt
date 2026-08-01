@@ -4,7 +4,7 @@ $1
 C;G;D;Em
 
 $3
-C;G;D D/F#;Em
+C;D;G D/F#;Em
 
 $4
 [
